@@ -17,3 +17,20 @@ shadowsocks=phahw1un.nodeinfo.icu:6001, method=rc4-md5, password=di15PV, ssr-pro
 shadowsocks=csdynhkt.proconcn.xyz:560, method=chacha20-ietf, password=mblank1port, ssr-protocol=auth_aes128_md5, ssr-protocol-param=52794:123456, fast-open=false, udp-relay=false, tag=🇭🇰
 
 shadowsocks=98.126.215.55:60012, method=none, password=sealnet+305, ssr-protocol=auth_chain_a, fast-open=false, udp-relay=false, tag=🇺🇸CN2GIA3
+
+shadowsocks=ieplszhk-sz.qqgg.work:50804, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=32381:C2pHyiQfgm, obfs=tls1.2_ticket_auth, obfs-host=ajax.microsoft.com, fast-open=false, udp-relay=false, tag=香港
+√
+shadowsocks=k1.2yy7.top:41322, method=rc4-md5, password=521589054a98, obfs=http_simple, obfs-host=6673787d62746f7624607874.sina.cn, fast-open=false, udp-relay=false, tag=🇭🇰 v2|香港01|原生|★★★
+√
+shadowsocks=quo7chie.nodeinfo.icu:3211, method=rc4-md5, password=di15PV, ssr-protocol=auth_aes128_md5, ssr-protocol-param=226157:OcaMxu, obfs=tls1.2_ticket_auth, obfs-host=eb8f4226157.www.gov.hk, fast-open=false, udp-relay=false, tag=sgp
+
+shadowsocks=usastandard.proconcn.xyz:560, method=chacha20-ietf, password=mblank1port, ssr-protocol=auth_aes128_md5, ssr-protocol-param=53478:Kkhug679gg, fast-open=false, udp-relay=false, tag=美国
+
+shadowsocks=cusouthcmhk.procncon.xyz:562, method=chacha20-ietf, password=mblank1port, ssr-protocol=auth_aes128_md5, ssr-protocol-param=53475:LLLL90oi89, fast-open=false, udp-relay=false, tag=HKT
+
+shadowsocks=cncusouth.procncon.xyz:560, method=chacha20-ietf, password=mblank1port, ssr-protocol=auth_aes128_md5, ssr-protocol-param=52794:123456, fast-open=false, udp-relay=false, tag=HKT
+
+shadowsocks=tw-c.666687.xyz:25543, method=chacha20-ietf, password=2b864k, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=14709:t27j2fhwjqf, obfs=tls1.2_ticket_auth, obfs-host=7636714709.microsoft.com, fast-open=false, udp-relay=false, tag=tw
+
+shadowsocks=yidong.latiao.cyou:26806, method=chacha20-ietf-poly1305, password=f6158799-a8e1-4eea-a997-0a9b8fd9346f, fast-open=false, udp-relay=true, tag=香港
+

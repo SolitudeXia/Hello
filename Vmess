@@ -2,3 +2,5 @@ vmess=cdn-cn.nekocloud.cn:19040, method=aes-128-gcm, password=c1e94a4a-ba05-3ef9
 
 vmess=iplc01.2333dns.com:3071, method=aes-128-gcm, password=8cc8320f-f880-31c8-bb6a-1ecfc503a2ce, fast-open=false, udp-relay=false, aead=true, tag=IEPL专线 台湾03 Hinet | 3x 原生IPtr
 
+vmess=sz6toh2k.26df6s89b.d5e31cv83.soabgo.com:11591, method=aes-128-gcm, password=1AD7CB74-F19E-22E0-F5A6-C227CE5EE440, fast-open=false, udp-relay=false, aead=true, tag=H.K
+

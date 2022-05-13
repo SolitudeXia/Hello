@@ -1,0 +1,2 @@
+vmess=cdn-cn.nekocloud.cn:19040, method=aes-128-gcm, password=c1e94a4a-ba05-3ef9-ab0e-1148539af86b, obfs=ws, obfs-uri=/dahjwuh, fast-open=false, udp-relay=false, aead=true, tag=AA-V2ray-HK-HKT.02
+

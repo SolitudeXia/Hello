@@ -1,2 +1,4 @@
 shadowsocks=jx-002.yyuuii.cyou:10019, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=32381:C2pHyiQfgm, obfs=tls1.2_ticket_auth, obfs-host=ajax.microsoft.com, fast-open=false, udp-relay=false, tag=日本_R_22
 
+shadowsocks=eim1kae9.nodeinfo.icu:3203, method=rc4-md5, password=di15PV, ssr-protocol=auth_aes128_md5, ssr-protocol-param=213256:851205623, obfs=tls1.2_ticket_auth, obfs-host=67abe213256.www.gov.hk, fast-open=false, udp-relay=false, tag=sgp
+

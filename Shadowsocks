@@ -4,3 +4,7 @@ shadowsocks=eim1kae9.nodeinfo.icu:3203, method=rc4-md5, password=di15PV, ssr-pro
 
 shadowsocks=154.9.204.22:60000, method=none, password=pofast_openrt, ssr-protocol=auth_chain_a, fast-open=false, udp-relay=false, tag=🇺🇸
 √
+shadowsocks=rr002.zhuan666.top:11202, method=chacha20-ietf-poly1305, password=5527dbd6-5ee2-431d-9c2f-2b818624f4ef, fast-open=false, udp-relay=false, tag=sg
+
+shadowsocks=rr001.zhuan666.top:11201, method=chacha20-ietf-poly1305, password=ba4b3751-f74a-420e-9b52-dc7d4f65d833, fast-open=false, udp-relay=false, tag=新加坡
+

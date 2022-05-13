@@ -8,3 +8,5 @@ shadowsocks=rr002.zhuan666.top:11202, method=chacha20-ietf-poly1305, password=55
 
 shadowsocks=rr001.zhuan666.top:11201, method=chacha20-ietf-poly1305, password=ba4b3751-f74a-420e-9b52-dc7d4f65d833, fast-open=false, udp-relay=false, tag=新加坡
 
+shadowsocks=154.9.204.22:60000, method=none, password=pofast_openrt, ssr-protocol=auth_chain_a, fast-open=false, udp-relay=false, tag=🇺🇸
+√

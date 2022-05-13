@@ -38,3 +38,7 @@ shadowsocks=cn-4.crhnode.top:573, method=rc4-md5, password=AAEXNETWORKTECHNOLOGY
 
 shadowsocks=cn-6.crhnode.top:560, method=rc4-md5, password=AAEXNETWORKTECHNOLOGYLTD20170715, obfs=http_simple, obfs-host=20148-818nw7mYgF.download.microsoft.com, fast-open=false, udp-relay=false, tag=香港
 
+shadowsocks=cn-6.crhnode.top:560, method=rc4-md5, password=AAEXNETWORKTECHNOLOGYLTD20170715, obfs=http_simple, obfs-host=20148-818nw7mYgF.download.microsoft.com, fast-open=false, udp-relay=false, tag=香港500M
+
+shadowsocks=shusacu.proconcn.xyz:561, method=chacha20-ietf, password=mblank1port, ssr-protocol=auth_aes128_md5, ssr-protocol-param=19531:781150, fast-open=false, udp-relay=true, tag=香港-瞬时200M-稳定500M
+

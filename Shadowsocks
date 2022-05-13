@@ -34,3 +34,7 @@ shadowsocks=tw-c.666687.xyz:25543, method=chacha20-ietf, password=2b864k, ssr-pr
 
 shadowsocks=yidong.latiao.cyou:26806, method=chacha20-ietf-poly1305, password=f6158799-a8e1-4eea-a997-0a9b8fd9346f, fast-open=false, udp-relay=true, tag=香港
 
+shadowsocks=cn-4.crhnode.top:573, method=rc4-md5, password=AAEXNETWORKTECHNOLOGYLTD20170715, obfs=http_simple, obfs-host=20148-818nw7mYgF.download.microsoft.com, fast-open=false, udp-relay=false, tag=美国
+
+shadowsocks=cn-6.crhnode.top:560, method=rc4-md5, password=AAEXNETWORKTECHNOLOGYLTD20170715, obfs=http_simple, obfs-host=20148-818nw7mYgF.download.microsoft.com, fast-open=false, udp-relay=false, tag=香港
+

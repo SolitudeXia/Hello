@@ -4,3 +4,5 @@ vmess=iplc01.2333dns.com:3071, method=aes-128-gcm, password=8cc8320f-f880-31c8-b
 
 vmess=sz6toh2k.26df6s89b.d5e31cv83.soabgo.com:11591, method=aes-128-gcm, password=1AD7CB74-F19E-22E0-F5A6-C227CE5EE440, fast-open=false, udp-relay=false, aead=true, tag=H.K
 
+vmess=gkdcm1.gkdcn.top:25892, method=aes-128-gcm, password=eea609e9-1930-49fd-890b-7e24b6a3a509, obfs=ws, obfs-uri=/, fast-open=false, udp-relay=false, aead=true, tag=香港
+√

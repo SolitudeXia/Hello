@@ -8,8 +8,6 @@ shadowsocks=rr002.zhuan666.top:11202, method=chacha20-ietf-poly1305, password=55
 
 shadowsocks=rr001.zhuan666.top:11201, method=chacha20-ietf-poly1305, password=ba4b3751-f74a-420e-9b52-dc7d4f65d833, fast-open=false, udp-relay=false, tag=新加坡
 
-shadowsocks=154.9.204.22:60000, method=none, password=pofast_openrt, ssr-protocol=auth_chain_a, fast-open=false, udp-relay=false, tag=🇺🇸
-√
 shadowsocks=phahw1un.nodeinfo.icu:6001, method=rc4-md5, password=di15PV, ssr-protocol=auth_aes128_md5, ssr-protocol-param=159729:5202522, obfs=tls1.2_ticket_auth, obfs-host=365d2159729.www.gov.hk, fast-open=false, udp-relay=false, tag=香港01
 
 shadowsocks=phahw1un.nodeinfo.icu:6001, method=rc4-md5, password=di15PV, ssr-protocol=auth_aes128_md5, ssr-protocol-param=161030:8956210, obfs=tls1.2_ticket_auth, obfs-host=a0095161030.www.gov.hk, fast-open=false, udp-relay=false, tag=香港

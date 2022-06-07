@@ -1,1 +1,4 @@
-shadowsocks=34.222.1.30:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=false, tag=美国03
+shadowsocks=34.222.1.30:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=false, tag=美国01
+shadowsocks=120.233.151.134:64112, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=67010:culGJ4dSkn, obfs=tls1.2_ticket_auth, obfs-host=ajax.microsoft.com, fast-open=false, udp-relay=false, tag=香港01
+shadowsocks=ieplszhk-sz.qqgg.work:50804, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=32381:C2pHyiQfgm, obfs=tls1.2_ticket_auth, obfs-host=ajax.microsoft.com, fast-open=false, udp-relay=false, tag=香港02
+shadowsocks=jx-002.yyuuii.cyou:10019, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=32381:C2pHyiQfgm, obfs=tls1.2_ticket_auth, obfs-host=ajax.microsoft.com, fast-open=false, udp-relay=false, tag=日本01

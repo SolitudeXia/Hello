@@ -1,1 +1,2 @@
 trojan=212.81.47.12:443, password=3yFq7NCP53mVfpXJz3, over-tls=true, tls-verification=false, tls-host=t.me.vpnhat, fast-open=false, udp-relay=false, tag=澳大利亚01
+trojan=45.142.167.21:443, password=Aymde8JN7M25qaTPRg, over-tls=true, tls-verification=false, tls-host=%40vpnhat, fast-open=false, udp-relay=false, tag=日本01

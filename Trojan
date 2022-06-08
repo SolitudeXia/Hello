@@ -1,4 +1,13 @@
-trojan://Aymde8JN7M25qaTPRg@45.142.167.21:443?allowInsecure=1&sni=%40vpnhat#Tokyo-xTom
-trojan://Aymde8JN7M25qaTPRg@45.142.167.22:443?allowInsecure=1&sni=%40vpnhat#Tokyo-xTom
-trojan://Aymde8JN7M25qaTPRg@45.142.167.24:443?allowInsecure=1&sni=%40vpnhat#Tokyo-xTom
-trojan://Aymde8JN7M25qaTPRg@45.142.167.25:443?allowInsecure=1&sni=%40vpnhat#Tokyo-xTom
+trojan://Aymde8JN7M25qaTPRg@45.142.167.21:443?allowInsecure=1#%e6%97%a5%e6%9c%ac01
+trojan://Aymde8JN7M25qaTPRg@45.142.167.22:443?allowInsecure=1#%e6%97%a5%e6%9c%ac02
+trojan://Aymde8JN7M25qaTPRg@45.142.167.24:443?allowInsecure=1#%e6%97%a5%e6%9c%ac03
+trojan://Aymde8JN7M25qaTPRg@45.142.167.25:443?allowInsecure=1#%e6%97%a5%e6%9c%ac04
+trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s1.hazz.win:12340?allowInsecure=1&sni=s1.hazz.win#%e7%be%8e%e5%9b%bd01
+trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@107.167.24.6:17001?allowInsecure=1#%e7%be%8e%e5%9b%bd02
+trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s1.hazz.win:12340?allowInsecure=1&sni=s1.hazz.win#%e7%be%8e%e5%9b%bd03
+trojan://d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6@107.167.24.6:17001?allowInsecure=1#%e7%be%8e%e5%9b%bd04
+trojan://f7e7b38f-79d5-4860-8687-f8c083e13da4@cm-gz.okvpn.xyz:20009?allowInsecure=1&sni=cm-gz.okvpn.xyz#%e4%b8%ad%e5%9b%bd01
+trojan://f7e7b38f-79d5-4860-8687-f8c083e13da4@cu-cs.okvpn.xyz:20004?allowInsecure=1&sni=cu-cs.okvpn.xyz#%e4%b8%ad%e5%9b%bd02
+trojan://f7e7b38f-79d5-4860-8687-f8c083e13da4@cu-cs.okvpn.xyz:20000?allowInsecure=1&sni=cu-cs.okvpn.xyz#%e4%b8%ad%e5%9b%bd03
+trojan://f7e7b38f-79d5-4860-8687-f8c083e13da4@cm-gz.okvpn.xyz:20009?allowInsecure=1&sni=cm-gz.okvpn.xyz#%e4%b8%ad%e5%9b%bd04
+trojan://f7e7b38f-79d5-4860-8687-f8c083e13da4@cu-cs.okvpn.xyz:20004?allowInsecure=1&sni=cu-cs.okvpn.xyz#%e4%b8%ad%e5%9b%bd05

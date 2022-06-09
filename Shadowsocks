@@ -1,6 +1,3 @@
-shadowsocks=14.29.124.168:25268, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=false, tag=中国01
-shadowsocks=14.29.124.168:25207, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=false, tag=中国02
-shadowsocks=14.29.124.168:25254, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=false, tag=中国03
 shadowsocks=120.241.236.150:51102, method=chacha20-ietf-poly1305, password=b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, fast-open=false, udp-relay=false, tag=香港01
 shadowsocks=120.232.190.86:11814, method=chacha20-ietf, password=Fhbe0z, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=13370:DqGDfE, obfs=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=台湾01
 shadowsocks=120.241.236.150:52101, method=chacha20-ietf-poly1305, password=b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, fast-open=false, udp-relay=false, tag=台湾02

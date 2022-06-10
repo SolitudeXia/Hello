@@ -1,11 +1,9 @@
 trojan=45.142.167.21:443, password=Aymde8JN7M25qaTPRg, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇯🇵 日本01
 trojan=45.142.167.22:443, password=Aymde8JN7M25qaTPRg, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇯🇵 日本02
 trojan=s1.hazz.win:12340, password=dfbf0d67-f03d-4184-a224-c2d64a571f99, over-tls=true, tls-verification=false, tls-host=s1.hazz.win, fast-open=false, udp-relay=false, tag=🇯🇵 日本03
-trojan=107.167.24.6:17001, password=d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇺🇸 美国01
 trojan=cu-cs.okvpn.xyz:20009, password=2c100ffe-4f52-4133-8c5c-d053fed7b270, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇺🇸 美国02
 trojan=cu-cs.okvpn.xyz:20004, password=2c100ffe-4f52-4133-8c5c-d053fed7b270, over-tls=true, tls-verification=false, tls-host=cu-cs.okvpn.xyz, fast-open=false, udp-relay=false, tag=🇺🇸 美国03
 trojan=cu-cs.okvpn.xyz:20004, password=2c100ffe-4f52-4133-8c5c-d053fed7b270, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇺🇸 美国04
 trojan=s4.hazz.win:12340, password=dfbf0d67-f03d-4184-a224-c2d64a571f99, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇸🇬 新加坡01
 trojan=s4.hazz.win:12340, password=dfbf0d67-f03d-4184-a224-c2d64a571f99, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇸🇬 新加坡02
-trojan=116.129.253.130:3389, password=f6f2072a2e4cfc91, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇸🇬 新加坡03
 trojan=cu-cs.okvpn.xyz:20006, password=2c100ffe-4f52-4133-8c5c-d053fed7b270, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇬🇧 英国01

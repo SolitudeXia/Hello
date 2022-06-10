@@ -1,8 +1,2 @@
-vmess=116.129.254.78:63086, method=aes-128-gcm, password=d9ac2f26-cc36-3faf-80c4-e2345cb25680, obfs=wss, obfs-host=116.129.254.78, obfs-uri=/mugua, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=日本01
-vmess=gy.feethree.top:42529, method=aes-128-gcm, password=6efebf2f-e675-4798-a3f0-c9b225701800, obfs=ws, obfs-host=%257B%2522host%2522:%2522www.anlocl.ga%2522%257D, obfs-uri=/v2ray, fast-open=false, udp-relay=false, aead=true, tag=日本02
-vmess=Intranet.dedicated.line.monaiyun.top:53103, method=aes-128-gcm, password=5bea4a9f-9c1f-355d-afd4-9ff3ee081143, fast-open=false, udp-relay=false, aead=true, tag=日本03
-vmess=Intranet.dedicated.line.monaiyun.top:53106, method=aes-128-gcm, password=5bea4a9f-9c1f-355d-afd4-9ff3ee081143, fast-open=false, udp-relay=false, aead=true, tag=德国01
-vmess=193.122.122.208:26471, method=aes-128-gcm, password=35137513-8f0a-4f74-84f8-ef9f5a8f85a6, fast-open=false, udp-relay=false, aead=true, tag=韩国01
-vmess=Intranet.dedicated.line.monaiyun.top:53101, method=aes-128-gcm, password=5bea4a9f-9c1f-355d-afd4-9ff3ee081143, fast-open=false, udp-relay=false, aead=true, tag=美国01
-vmess=Intranet.dedicated.line.monaiyun.top:53108, method=aes-128-gcm, password=5bea4a9f-9c1f-355d-afd4-9ff3ee081143, fast-open=false, udp-relay=false, aead=true, tag=加拿大01
-vmess=Intranet.dedicated.line.monaiyun.top:53107, method=aes-128-gcm, password=5bea4a9f-9c1f-355d-afd4-9ff3ee081143, fast-open=false, udp-relay=false, aead=true, tag=印度01
+vmess=116.129.254.78:63086, method=aes-128-gcm, password=d9ac2f26-cc36-3faf-80c4-e2345cb25680, obfs=wss, obfs-host=116.129.254.78, obfs-uri=/mugua, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇯🇵 日本01
+vmess=193.122.122.208:26471, method=aes-128-gcm, password=35137513-8f0a-4f74-84f8-ef9f5a8f85a6, fast-open=false, udp-relay=false, aead=true, tag=🇰🇷 韩国01

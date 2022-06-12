@@ -5,3 +5,4 @@ trojan=s1.hazz.win:12340, password=dfbf0d67-f03d-4184-a224-c2d64a571f99, over-tl
 trojan=s4.hazz.win:12340, password=dfbf0d67-f03d-4184-a224-c2d64a571f99, over-tls=true, tls-verification=false, tls-host=edge.apple.com, fast-open=false, udp-relay=false, tag=🇸🇬 新加坡04
 trojan=au2-1.nigirocloud.com:443, password=3yFq7NCP53mVfpXJz3, over-tls=true, tls-verification=false, tls-host=au2-1.nigirocloud.com, fast-open=false, udp-relay=false, tag=🇦🇺 澳大利亚01
 trojan=au2-4.nigirocloud.com:443, password=3yFq7NCP53mVfpXJz3, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇦🇺 澳大利亚02
+trojan=azgy001.xiba1.xyz:20714, password=6089bbd2-2bef-3ee3-a329-1b1a4339d7ed, over-tls=true, tls-verification=false, tls-host=ssl.ssl12.xyz, fast-open=false, udp-relay=false, tag=🇺🇸 美国01

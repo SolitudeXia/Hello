@@ -1,4 +1,2 @@
 vmess=116.129.254.78:63086, method=aes-128-gcm, password=d9ac2f26-cc36-3faf-80c4-e2345cb25680, obfs=wss, obfs-host=116.129.254.78, obfs-uri=/mugua, tls-verification=false, fast-open=false, udp-relay=false, aead=true, tag=🇯🇵 日本01
 vmess=hcmn4.sos4g.xyz:80, method=aes-128-gcm, password=88feb3a4-8dd9-4001-91d6-9cceabca5a4b, obfs=ws, obfs-host=tv.akamaized.net, obfs-uri=/sos4g.xyz, fast-open=false, udp-relay=false, aead=true, tag=🇻🇳 越南01
-vmess=sxqxj.cn:2164, method=aes-128-gcm, password=aba50dd4-5484-3b05-b14a-4661caf862d5, obfs=wss, obfs-uri=/ws, tls-verification=false, fast-open=false, udp-relay=false, aead=false, tag=🇨🇳 中国01
-vmess=sxqxj.cn:2164, method=aes-128-gcm, password=aba50dd4-5484-3b05-b14a-4661caf862d5, obfs=wss, obfs-host=sxqxj.cn, obfs-uri=/ws, tls-verification=false, fast-open=false, udp-relay=false, aead=false, tag=🇨🇳 中国02

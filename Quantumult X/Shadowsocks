@@ -1,2 +1,1 @@
 shadowsocks=120.232.190.86:11814, method=chacha20-ietf, password=Fhbe0z, ssr-protocol=auth_aes128_sha1, ssr-protocol-param=13370:DqGDfE, obfs=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=🇨🇳 台湾01
-shadowsocks=34.222.1.30:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=false, tag=🇺🇸 美国01

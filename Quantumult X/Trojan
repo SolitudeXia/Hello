@@ -2,4 +2,4 @@ trojan=s1.hazz.win:12340, password=dfbf0d67-f03d-4184-a224-c2d64a571f99, over-tl
 trojan=s4.hazz.win:12340, password=dfbf0d67-f03d-4184-a224-c2d64a571f99, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇺🇸 美国01
 trojan=s4.hazz.win:12340, password=dfbf0d67-f03d-4184-a224-c2d64a571f99, over-tls=true, tls-verification=false, fast-open=false, udp-relay=false, tag=🇺🇸 美国02
 trojan=s1.hazz.win:12340, password=dfbf0d67-f03d-4184-a224-c2d64a571f99, over-tls=true, tls-verification=false, tls-host=edge.apple.com, fast-open=false, udp-relay=false, tag=🇺🇸 美国03
-trojan=s4.hazz.win:12340, password=dfbf0d67-f03d-4184-a224-c2d64a571f99, over-tls=true, tls-verification=false, tls-host=edge.apple.com, fast-open=false, udp-relay=false, tag=🇺🇸 美国
+trojan=s4.hazz.win:12340, password=dfbf0d67-f03d-4184-a224-c2d64a571f99, over-tls=true, tls-verification=false, tls-host=edge.apple.com, fast-open=false, udp-relay=false, tag=🇺🇸 美国04

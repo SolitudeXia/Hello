@@ -3,4 +3,4 @@ host-suffix, emby.kim
 ip-cidr, 64.32.25.204/32
 
 #其他
-host-suffix, emby.milkcat.net, proxy
+host-suffix, emby.milkcat.net

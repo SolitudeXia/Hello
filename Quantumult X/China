@@ -1,5 +1,0 @@
-shadowsocks=14.29.124.168:25294, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=false, tag=China 01
-shadowsocks=14.29.124.168:25297, method=aes-128-cfb, password=QazEdcTgb159@$*, fast-open=false, udp-relay=false, tag=China 02
-vmess=sxqxj.cn:2164, method=aes-128-gcm, password=aba50dd4-5484-3b05-b14a-4661caf862d5, obfs=wss, obfs-uri=/ws, tls-verification=false, fast-open=false, udp-relay=false, aead=false, tag=China 03
-vmess=sxqxj.cn:2164, method=aes-128-gcm, password=aba50dd4-5484-3b05-b14a-4661caf862d5, obfs=wss, obfs-host=sxqxj.cn, obfs-uri=/ws, tls-verification=false, fast-open=false, udp-relay=false, aead=false, tag=China 04
-vmess=117.28.242.156:2164, method=aes-128-gcm, password=aba50dd4-5484-3b05-b14a-4661caf862d5, obfs=wss, obfs-host=sxqxj.cn, obfs-uri=/ws, tls-verification=false, fast-open=false, udp-relay=false, aead=false, tag=China 05

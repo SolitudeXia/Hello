@@ -1,11 +1,4 @@
-# 流媒体熊猫服务器
-host-suffix, emby.kim
-ip-cidr, 64.32.25.204/32
-
-#其他
-host-suffix, emby.milkcat.net
-
-#HDOBOX分流规则
+# HDOBOX分流规则
 host-suffix, membed.net
 host-suffix, lookmovie2.to
 host-suffix, fmovies.ps

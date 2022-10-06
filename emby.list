@@ -12,3 +12,6 @@ DOMAIN,ha.jmsooo.com
 # MisakaF
 DOMAIN,cf.misakaf.org
 DOMAIN,4837.misakaf.org
+
+# 熊猫
+ip-cidr, 64.32.25.204/32

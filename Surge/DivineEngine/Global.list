@@ -424,7 +424,6 @@ DOMAIN-SUFFIX,go.dev
 DOMAIN-SUFFIX,golang.org
 # ---(Apple)---
 DOMAIN-SUFFIX,appsto.re // Apple URL Shortener
-DOMAIN-SUFFIX,smoot.apple.com // Spotlight
 DOMAIN,amp-api.podcasts.apple.com // Podcasts
 DOMAIN,beta.music.apple.com // Apple Music Web
 DOMAIN,books.itunes.apple.com // iBooks Store download

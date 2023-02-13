@@ -1,0 +1,90 @@
+# > 改自DivineEngine(自用)
+
+# > YouTube
+USER-AGENT,com.google.ios.youtube*
+USER-AGENT,YouTube*
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,withyoutube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtubeeducation.com
+DOMAIN-SUFFIX,youtubegaming.com
+DOMAIN-SUFFIX,youtubekids.com
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,yt.be
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN,youtubei.googleapis.com
+DOMAIN,yt3.ggpht.com
+
+# > Other
+DOMAIN-SUFFIX,duckduckgo.com
+DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,smartmailcloud.com
+DOMAIN-SUFFIX,revenuecat.com
+;打开邮箱时出现的域名
+DOMAIN-SUFFIX,amplitude.com
+DOMAIN-SUFFIX,braze.eu
+
+# > Alphabet
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,gmodules.com
+DOMAIN-KEYWORD,google
+DOMAIN-SUFFIX,goog
+
+# > Automattic
+DOMAIN-SUFFIX,gravatar.com
+
+# > Meta
+DOMAIN-SUFFIX,accountkit.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,f8.com
+DOMAIN-SUFFIX,facebookmail.com
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fb.watch
+DOMAIN-SUFFIX,fbaddins.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,fbworkmail.com
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,m.me
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,oculus.com
+DOMAIN-SUFFIX,oculuscdn.com
+DOMAIN-SUFFIX,readyatdawn.com
+DOMAIN-SUFFIX,rocksdb.org
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-KEYWORD,.facebook.
+
+# > Github
+DOMAIN-SUFFIX,github.blog
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
+
+# > Reddit
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redditstatic.com
+
+# > Twitter
+DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,tweetdeck.com
+DOMAIN-SUFFIX,twimg.co
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twitpic.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twitter.jp
+DOMAIN-SUFFIX,vine.co
+
+# > Yahoo
+DOMAIN-SUFFIX,yahoo.com
+DOMAIN,search.yahoo.co.jp
+
+# > Microsoft
+DOMAIN-SUFFIX,bing.com

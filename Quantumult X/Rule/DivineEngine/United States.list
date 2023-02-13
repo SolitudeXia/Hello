@@ -51,6 +51,12 @@ DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,twitter.jp
 DOMAIN-SUFFIX,vine.co
 
+# > Reddit
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redditstatic.com
+
 # > Yahoo
 DOMAIN-SUFFIX,yahoo.com
 DOMAIN,search.yahoo.co.jp
@@ -82,10 +88,23 @@ DOMAIN-SUFFIX,licdn.com
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,skype.com
 
+# > Automattic
+DOMAIN-SUFFIX,gravatar.com
+DOMAIN-SUFFIX,tumblr.com
+DOMAIN-SUFFIX,videopress.com
+DOMAIN-SUFFIX,wordpress.com
+
+# > Dropbox
+DOMAIN-SUFFIX,dropbox.com
+DOMAIN-SUFFIX,dropboxapi.com
+DOMAIN-SUFFIX,dropboxusercontent.com
+
 # > Other
 DOMAIN-SUFFIX,duckduckgo.com
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,zaobao.com
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,smartmailcloud.com
+
+DOMAIN-SUFFIX,goog
 DOMAIN-KEYWORD,google

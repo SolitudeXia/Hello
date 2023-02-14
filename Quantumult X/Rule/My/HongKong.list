@@ -1,5 +1,15 @@
 # > 改自DivineEngine(自用)
 
+# > mastodon
+DOMAIN-SUFFIX,mastodon.social
+DOMAIN-SUFFIX,m.cmx.im
+
+# > Pornhub
+DOMAIN-SUFFIX,phncdn.com
+DOMAIN-SUFFIX,phprcdn.com
+DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,pornhubpremium.com
+
 # > Spotify
 USER-AGENT,Spotify*
 DOMAIN-SUFFIX,pscdn.co
@@ -9,23 +19,13 @@ DOMAIN-SUFFIX,spoti.fi
 DOMAIN-KEYWORD,spotify.com
 DOMAIN-KEYWORD,-spotify-com
 
-# > Pornhub
-DOMAIN-SUFFIX,phncdn.com
-DOMAIN-SUFFIX,phprcdn.com
-DOMAIN-SUFFIX,pornhub.com
-DOMAIN-SUFFIX,pornhubpremium.com
-
-# > mastodon
-DOMAIN-SUFFIX,mastodon.social
-DOMAIN-SUFFIX,m.cmx.im
-
-# > Other
+# > Other(ABCDEFGHIJKLMNOPQRSTUVWXYZ)
 DOMAIN,testflight.apple.com
 DOMAIN,gallery.scriptable.app
-DOMAIN-SUFFIX,duckduckgo.com
-DOMAIN-SUFFIX,v2ex.com
-DOMAIN-SUFFIX,deepl.com
-DOMAIN-SUFFIX,greasyfork.org
-DOMAIN-SUFFIX,coingecko.com
-DOMAIN-SUFFIX,wallhaven.cc
 DOMAIN-SUFFIX,appraven.net
+DOMAIN-SUFFIX,coingecko.com
+DOMAIN-SUFFIX,deepl.com
+DOMAIN-SUFFIX,duckduckgo.com
+DOMAIN-SUFFIX,greasyfork.org
+DOMAIN-SUFFIX,wallhaven.cc
+DOMAIN-SUFFIX,v2ex.com

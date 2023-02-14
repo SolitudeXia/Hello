@@ -15,9 +15,17 @@ DOMAIN-SUFFIX,phprcdn.com
 DOMAIN-SUFFIX,pornhub.com
 DOMAIN-SUFFIX,pornhubpremium.com
 
+# > mastodon
+DOMAIN-SUFFIX,mastodon.social
+DOMAIN-SUFFIX,m.cmx.im
+
 # > Other
+DOMAIN,testflight.apple.com
+DOMAIN,gallery.scriptable.app
 DOMAIN-SUFFIX,duckduckgo.com
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,revenuecat.com
 DOMAIN-SUFFIX,coingecko.com
+DOMAIN-SUFFIX,wallhaven.cc
+DOMAIN-SUFFIX,appraven.net

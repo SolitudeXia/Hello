@@ -1,35 +1,29 @@
 # > 改自DivineEngine(自用)
 
-# > YouTube
-USER-AGENT,com.google.ios.youtube*
-USER-AGENT,YouTube*
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,withyoutube.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,youtubeeducation.com
-DOMAIN-SUFFIX,youtubegaming.com
-DOMAIN-SUFFIX,youtubekids.com
-DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN-SUFFIX,yt.be
-DOMAIN-SUFFIX,ytimg.com
-DOMAIN,youtubei.googleapis.com
-DOMAIN,yt3.ggpht.com
-
 # > Other
 DOMAIN-SUFFIX,smartmailcloud.com
 ;打开邮箱时出现的域名
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,braze.eu
 
-# > Alphabet
+# > Alphabet(字母表)
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,gmodules.com
 DOMAIN-KEYWORD,google
 DOMAIN-SUFFIX,goog
 
-# > Automattic
+# > Automattic(淘宝网)
 DOMAIN-SUFFIX,gravatar.com
+DOMAIN-SUFFIX,tumblr.com
+DOMAIN-SUFFIX,videopress.com
+DOMAIN-SUFFIX,wordpress.com
+
+# > Github
+DOMAIN-SUFFIX,github.blog
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
 
 # > Meta
 DOMAIN-SUFFIX,accountkit.com
@@ -54,12 +48,12 @@ DOMAIN-SUFFIX,whatsapp.com
 DOMAIN-SUFFIX,whatsapp.net
 DOMAIN-KEYWORD,.facebook.
 
-# > Github
-DOMAIN-SUFFIX,github.blog
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,github.io
-DOMAIN-SUFFIX,githubassets.com
-DOMAIN-SUFFIX,githubusercontent.com
+# > Microsoft
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,licdn.com
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,skype.com
 
 # > Reddit
 DOMAIN-SUFFIX,redd.it
@@ -83,5 +77,18 @@ DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,yahoo.com
 DOMAIN,search.yahoo.co.jp
 
-# > Microsoft
-DOMAIN-SUFFIX,bing.com
+# > YouTube
+USER-AGENT,com.google.ios.youtube*
+USER-AGENT,YouTube*
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,withyoutube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtubeeducation.com
+DOMAIN-SUFFIX,youtubegaming.com
+DOMAIN-SUFFIX,youtubekids.com
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,yt.be
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN,youtubei.googleapis.com
+DOMAIN,yt3.ggpht.com

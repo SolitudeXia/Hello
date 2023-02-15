@@ -19,6 +19,14 @@ DOMAIN-SUFFIX,spoti.fi
 DOMAIN-KEYWORD,spotify.com
 DOMAIN-KEYWORD,-spotify-com
 
+# > 9to5(包括相关)
+DOMAIN-SUFFIX,9to5google.com
+DOMAIN-SUFFIX,9to5mac.com
+DOMAIN-SUFFIX,9to5toys.com
+DOMAIN-SUFFIX,electrek.co
+DOMAIN-SUFFIX,dronedj.com
+DOMAIN-SUFFIX,spaceexplored.com
+
 # > Other(ABCDEFGHIJKLMNOPQRSTUVWXYZ)
 DOMAIN,testflight.apple.com
 DOMAIN,gallery.scriptable.app

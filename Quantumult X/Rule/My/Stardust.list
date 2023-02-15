@@ -25,6 +25,11 @@ DOMAIN-SUFFIX,tumblr.com
 DOMAIN-SUFFIX,videopress.com
 DOMAIN-SUFFIX,wordpress.com
 
+# > Dropbox
+DOMAIN-SUFFIX,dropbox.com
+DOMAIN-SUFFIX,dropboxapi.com
+DOMAIN-SUFFIX,dropboxusercontent.com
+
 # > Github
 DOMAIN-SUFFIX,github.blog
 DOMAIN-SUFFIX,github.com

@@ -5,8 +5,7 @@ DOMAIN-SUFFIX,github.io
 DOMAIN-SUFFIX,githubassets.com
 DOMAIN-SUFFIX,githubusercontent.com
 
-# > 自用(ABCDEFGHIJKLMNOPQRSTUVWXYZ)
-
+# > Other(ABCDEFGHIJKLMNOPQRSTUVWXYZ)
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,bandswatch.it
 DOMAIN-SUFFIX,guozh.net

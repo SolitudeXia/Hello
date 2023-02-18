@@ -14,3 +14,6 @@ IP-CIDR,203.104.144.0/21,no-resolve
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pixiv.org
 DOMAIN-SUFFIX,pximg.net
+
+# > Other
+DOMAIN-SUFFIX,smoot.apple.com

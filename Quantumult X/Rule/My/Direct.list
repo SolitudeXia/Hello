@@ -5,3 +5,6 @@ DOMAIN-SUFFIX,guozh.net
 DOMAIN-SUFFIX,nba.com
 DOMAIN-SUFFIX,qiyoujiage.com
 DOMAIN-SUFFIX,revenuecat.com
+
+# > Geoip
+geoip, cn, direct

@@ -4,7 +4,6 @@
 DOMAIN-SUFFIX,smartmailcloud.com
 ;打开邮箱时出现的域名
 DOMAIN-SUFFIX,amplitude.com
-DOMAIN-SUFFIX,braze.eu
 
 # > Alphabet(字母表)
 DOMAIN-SUFFIX,gmail.com

@@ -29,6 +29,11 @@ DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,dropboxusercontent.com
 
+# > ChatGPT 代理 
+DOMAIN-SUFFIX,openai.com
+DOMAIN,cdn.auth0.com
+DOMAIN,openaiapi-site.azureedge.net
+
 # > Github
 DOMAIN-SUFFIX,github.blog
 DOMAIN-SUFFIX,github.com

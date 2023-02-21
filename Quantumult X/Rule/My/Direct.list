@@ -1,15 +1,22 @@
-# > 终点站
-DOMAIN，pub1.emby.wtf
-DOMAIN，pub2.emby.wtf
-DOMAIN，pub3.emby.wtf
+# > 改自DivineEngine(自用)
 
-# > 自用(ABCDEFGHIJKLMNOPQRSTUVWXYZ)
+# > Outlook
+DOMAIN,outlook.office365.com
+DOMAIN,smtp-mail.outlook.com
+DOMAIN,smtp.office365.com
+
+# > Other(ABCDEFGHIJKLMNOPQRSTUVWXYZ)
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,bandswatch.it
 DOMAIN-SUFFIX,guozh.net
 DOMAIN-SUFFIX,nba.com
 DOMAIN-SUFFIX,qiyoujiage.com
 DOMAIN-SUFFIX,revenuecat.com
+
+# > 终点站
+DOMAIN，pub1.emby.wtf
+DOMAIN，pub2.emby.wtf
+DOMAIN，pub3.emby.wtf
 
 # > Geoip
 geoip, cn, direct

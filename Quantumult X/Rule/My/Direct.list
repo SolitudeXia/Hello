@@ -1,6 +1,7 @@
 # > 改自DivineEngine(自用)
 
 # > Outlook
+DOMAIN,imap-mail.outlook.com
 DOMAIN,outlook.office365.com
 DOMAIN,smtp-mail.outlook.com
 DOMAIN,smtp.office365.com

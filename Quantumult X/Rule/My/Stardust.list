@@ -12,11 +12,11 @@ DOMAIN-KEYWORD,google
 DOMAIN-SUFFIX,goog
 
 # > Amazon
-DOMAIN-SUFFIX,amazon.co.jp
-DOMAIN,d3c33hcgiwev3.cloudfront.net
-DOMAIN,payments-jp.amazon.com
-DOMAIN,s3-ap-northeast-1.amazonaws.com
-DOMAIN,s3-ap-southeast-2.amazonaws.com
+DOMAIN-SUFFIX,amazon
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,cloudfront.cn
+DOMAIN-SUFFIX,imdb
+DOMAIN-SUFFIX,kindle
 
 # > Automattic(淘宝网)
 DOMAIN-SUFFIX,gravatar.com

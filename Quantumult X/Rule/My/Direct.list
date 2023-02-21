@@ -9,7 +9,9 @@ DOMAIN,smtp.office365.com
 # > Other(ABCDEFGHIJKLMNOPQRSTUVWXYZ)
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,bandswatch.it
+DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,guozh.net
+DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,nba.com
 DOMAIN-SUFFIX,qiyoujiage.com
 DOMAIN-SUFFIX,revenuecat.com

@@ -12,6 +12,7 @@ DOMAIN-KEYWORD,google
 DOMAIN-SUFFIX,goog
 
 # > Amazon
+DOMAIN-SUFFIX,amazon.cn
 DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,amazontrust.com

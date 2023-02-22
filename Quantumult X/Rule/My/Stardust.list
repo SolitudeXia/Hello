@@ -17,7 +17,7 @@ DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,amazontrust.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,cloudfront.cn
-DOMAIN-SUFFIX,images-amazon.com
+DOMAIN-SUFFIX,ssl-images-amazon.com
 DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,kindle.com
 DOMAIN-SUFFIX,media-amazon.com

@@ -4,4 +4,4 @@
 DOMAIN-SUFFIX,paypal-mktg.com
 DOMAIN-SUFFIX,paypalobjects.com
 DOMAIN-KEYWORD,paypal
-USER-AGENT,PayPal*
+#USER-AGENT,PayPal*

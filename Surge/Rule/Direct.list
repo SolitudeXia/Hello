@@ -55,7 +55,7 @@ DOMAIN-SUFFIX,fonts.gstatic.com
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,googletagservices.com
 DOMAIN-SUFFIX,gtm.oasisfeng.com
-DOMAIN-SUFFIX,imasdk.googleapis.com
+#DOMAIN-SUFFIX,imasdk.googleapis.com
 DOMAIN-SUFFIX,mtalk.google.com
 DOMAIN-SUFFIX,ocsp.pki.goog
 DOMAIN-SUFFIX,recaptcha.net

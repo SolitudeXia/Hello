@@ -1,0 +1,18 @@
+;解决DNS泄露，无分流群组(修改自不良林)
+
+[custom]
+
+ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,services.googleapis.cn
+ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+ruleset=REJECT,https://raw.githubusercontent.com/stardustXHJie/Hello/main/Clash/rule/AD.list
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list
+ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+ruleset=DIRECT,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+ruleset=DIRECT,https://raw.githubusercontent.com/stardustXHJie/Hello/main/Clash/rule/China.list
+ruleset=🚀 节点选择,[]FINAL
+
+custom_proxy_group=🚀 节点选择`select`[]DIRECT`.*
+
+enable_rule_generator=true
+overwrite_original_rules=true

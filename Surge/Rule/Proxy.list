@@ -45,11 +45,6 @@ DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,dropboxusercontent.com
 
-# > ChatGPT 代理 
-DOMAIN-SUFFIX,openai.com
-DOMAIN,cdn.auth0.com
-DOMAIN,openaiapi-site.azureedge.net
-
 # > Github
 DOMAIN-KEYWORD,github
 DOMAIN-SUFFIX,github.com
@@ -89,3 +84,22 @@ DOMAIN-SUFFIX,yahoo.com
 DOMAIN-SUFFIX,yahoo.com.hk
 DOMAIN-SUFFIX,yahoo.com.tw
 DOMAIN-SUFFIX,yahoo.net
+
+# > YouTube
+USER-AGENT,*youtube*
+USER-AGENT,YouTube*
+USER-AGENT,com.google.ios.youtube*
+DOMAIN-KEYWORD,youtube
+DOMAIN,youtubei.googleapis.com
+DOMAIN,yt3.ggpht.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,withyoutube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtubeeducation.com
+DOMAIN-SUFFIX,youtubegaming.com
+DOMAIN-SUFFIX,youtubekids.com
+DOMAIN-SUFFIX,yt.be
+DOMAIN-SUFFIX,ytimg.com

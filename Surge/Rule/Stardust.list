@@ -1,5 +1,10 @@
 # > 自用
 
+# > ChatGPT 代理 
+DOMAIN-SUFFIX,openai.com
+DOMAIN,cdn.auth0.com
+DOMAIN,openaiapi-site.azureedge.net
+
 # > mastodon
 DOMAIN-SUFFIX,mastodon.social
 DOMAIN-SUFFIX,m.cmx.im

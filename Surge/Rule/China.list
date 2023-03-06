@@ -16,4 +16,4 @@ DOMAIN-SUFFIX,qiyoujiage.com
 DOMAIN-SUFFIX,revenuecat.com
 
 # > Geoip
-geoip, cn
+#geoip, cn

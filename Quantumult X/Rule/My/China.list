@@ -1,9 +1,9 @@
 # > 自用
 
 # > 终点站
-DOMAIN，pub1.emby.wtf
-DOMAIN，pub2.emby.wtf
-DOMAIN，pub3.emby.wtf
+DOMAIN,pub1.emby.wtf
+DOMAIN,pub2.emby.wtf
+DOMAIN,pub3.emby.wtf
 
 # > Other(ABCDEFGHIJKLMNOPQRSTUVWXYZ)
 DOMAIN-SUFFIX,1password.com

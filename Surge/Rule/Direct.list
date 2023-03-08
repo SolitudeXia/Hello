@@ -107,3 +107,18 @@ DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN-SUFFIX,wunderlist.com
 DOMAIN-SUFFIX,yammer.com
 DOMAIN-SUFFIX,yammerusercontent.com
+
+# > 终点站
+DOMAIN,pub1.emby.wtf
+DOMAIN,pub2.emby.wtf
+DOMAIN,pub3.emby.wtf
+
+# > Other(ABCDEFGHIJKLMNOPQRSTUVWXYZ)
+DOMAIN-SUFFIX,1password.com
+DOMAIN-SUFFIX,authy.com
+DOMAIN-SUFFIX,bandswatch.it
+DOMAIN-SUFFIX,guozh.net
+DOMAIN-SUFFIX,greasyfork.org
+DOMAIN-SUFFIX,nba.com
+DOMAIN-SUFFIX,qiyoujiage.com
+DOMAIN-SUFFIX,revenuecat.com

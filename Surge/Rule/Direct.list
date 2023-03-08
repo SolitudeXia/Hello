@@ -108,6 +108,8 @@ DOMAIN-SUFFIX,wunderlist.com
 DOMAIN-SUFFIX,yammer.com
 DOMAIN-SUFFIX,yammerusercontent.com
 
+# > 自用
+
 # > 终点站
 DOMAIN,pub1.emby.wtf
 DOMAIN,pub2.emby.wtf

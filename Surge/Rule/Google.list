@@ -22,7 +22,7 @@ IP-CIDR,74.125.0.0/16,no-resolve
 IP-CIDR,173.194.0.0/16,no-resolve
 
 # > Spark
-DOMAIN-SUFFIX,amplitude.com
+#DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,firebaseio.com
 DOMAIN-SUFFIX,hockeyapp.net
 DOMAIN-SUFFIX,readdle.com

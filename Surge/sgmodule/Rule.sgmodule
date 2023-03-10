@@ -3,6 +3,8 @@
 #!system=ios
 
 [Rule]
+# > Safari 防跳转
+DOMAIN,app-site-association.cdn-apple.com,REJECT
 # > 京东 去广告
 URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$,REJECT-TINYGIF
 # > 美团 去广告
@@ -17,4 +19,4 @@ URL-REGEX,^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp,REJECT
 URL-REGEX,^https:\/\/api\.wfdata\.club\/v2\/yesfeng\/(infoCenterAd|yesList),REJECT
 
 [MITM]
-hostname = %APPEND% *.meituan.net, *.meituan.com, api.wfdata.club
+hostname = %APPEND% api.m.jd.com, *.meituan.net, *.meituan.com, api.wfdata.club

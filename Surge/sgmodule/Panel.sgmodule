@@ -7,4 +7,4 @@
 
 [Script]
 # = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/sgmodule/flushDNS.js,script-update-interval=0,argument=title=刷新DNS
-IPcheck = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/IPcheck.js,script-update-interval=0,argument=title=节点详情&icon=key.icloud&color=#5AC8FA
+IPcheck = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/IPcheck.js,script-update-interval=0

@@ -30,9 +30,9 @@
 # > 威锋论坛
 #威锋论坛 = type=cron,cronexp="0 6 10 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/weifeng.js,script-update-interval=0,timeout=15
 # > 京东资产变动
-京东资产变动通知 = type=cron,cronexp="0 7 22 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/sgmodule/jd_bean_change.js,script-update-interval=0,timeout=60
+京东资产变动通知 = type=cron,cronexp="0 7 22 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/jd_bean_change.js,script-update-interval=0,timeout=60
 # > 取关京东店铺商品
-取关京东店铺商品 = type=cron,cronexp="0 8 22 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/sgmodule/jd_unsubscribe.js,script-update-interval=0,timeout=60
+取关京东店铺商品 = type=cron,cronexp="0 8 22 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/jd_unsubscribe.js,script-update-interval=0,timeout=60
 # > 热门监控
 热门监控 = type=cron,cronexp="0 0/30 9-22 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/evilbutcher/QuantumultX/master/check_in/hotsearch/hot.js,script-update-interval=0,timeout=60
 # > 公众号监控
@@ -42,6 +42,6 @@
 # > 京东物流
 京东物流 = type=cron,cronexp="0 0 20 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js,script-update-interval=0,timeout=60
 # > 每日一言
-每日一言 = type=cron,cronexp="6 6 6 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/sgmodule/One.js,script-update-interval=0
+每日一言 = type=cron,cronexp="6 6 6 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/One.js,script-update-interval=0
 # > 倒数日
-#倒数日 = type=cron,cronexp="9 9 9 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/sgmodule/Timecard.js,script-update-interval=0
+#倒数日 = type=cron,cronexp="9 9 9 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/Timecard.js,script-update-interval=0

@@ -1,5 +1,3 @@
-# > copy自LucaLin233
-
 let url = "http://ip-api.com/json/?lang=zh-CN"
 
 $httpClient.get(url, function(error, response, data){

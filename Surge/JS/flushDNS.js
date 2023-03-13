@@ -1,5 +1,3 @@
-# > copy自zZPiglet
-
 !(async () => {
     let panel = { title: "Flush DNS" },
         showServer = true,

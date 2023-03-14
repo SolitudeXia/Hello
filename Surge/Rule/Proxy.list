@@ -1,5 +1,16 @@
 # > 改自ACL4SSR,DivineEngine(自用)
 
+# > 国外域名
+DOMAIN-SUFFIX,eu
+DOMAIN-SUFFIX,hk
+DOMAIN-SUFFIX,jp
+DOMAIN-SUFFIX,kr
+DOMAIN-SUFFIX,sg
+DOMAIN-SUFFIX,tw
+DOMAIN-SUFFIX,uk
+DOMAIN-SUFFIX,us
+DOMAIN-SUFFIX,ca
+
 # > Amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN,atv-ps.amazon.com

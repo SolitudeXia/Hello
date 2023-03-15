@@ -114,3 +114,34 @@ DOMAIN-SUFFIX,youtubegaming.com
 DOMAIN-SUFFIX,youtubekids.com
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
+
+
+# > 自用
+# > ChatGPT 代理 
+DOMAIN-SUFFIX,openai.com
+DOMAIN,cdn.auth0.com
+DOMAIN,openaiapi-site.azureedge.net
+
+# > mastodon
+DOMAIN-SUFFIX,mastodon.social
+DOMAIN-SUFFIX,m.cmx.im
+
+# > 9to5(包括相关)
+DOMAIN-SUFFIX,9to5google.com
+DOMAIN-SUFFIX,9to5mac.com
+DOMAIN-SUFFIX,9to5toys.com
+DOMAIN-SUFFIX,electrek.co
+DOMAIN-SUFFIX,dronedj.com
+DOMAIN-SUFFIX,spaceexplored.com
+
+# > Other(ABCDEFGHIJKLMNOPQRSTUVWXYZ)
+DOMAIN,testflight.apple.com
+DOMAIN,gallery.scriptable.app
+DOMAIN-SUFFIX,appraven.net
+DOMAIN-SUFFIX,coingecko.com
+DOMAIN-SUFFIX,deepl.com
+DOMAIN-SUFFIX,duckduckgo.com
+#DOMAIN-SUFFIX,quantumult.app
+DOMAIN-SUFFIX,signal.org
+DOMAIN-SUFFIX,wallhaven.cc
+DOMAIN-SUFFIX,v2ex.com

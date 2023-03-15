@@ -10,4 +10,4 @@
 [Script]
 IP Check = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/IPcheck.js,script-update-interval=0
 Flush DNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/flushDNS.js,script-update-interval=0
-解锁检测 = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/Stream-All.js,script-update-interval=0,argument=title=解锁检测&icon=headphones.circle&color=#FF2121
+解锁检测 = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/Stream-All.js,script-update-interval=0,argument=title=解锁检测&icon=headphones.circle&color=#FF2121

@@ -9,7 +9,6 @@
 策略面板 = script-name="运行时间",update-interval=120
 策略面板 = script-name="流量统计",update-interval=60
 策略面板 = script-name="网络详情",update-interval=120
-策略面板 = script-name="Netflix检测",update-interval=600
 
 [Script]
 #节点信息 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/IPcheck.js,script-update-interval=0,argument=title=节点信息&icon=key.icloud&color=#5AC8FA

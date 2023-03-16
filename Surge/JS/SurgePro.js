@@ -1,5 +1,3 @@
-let params = getParams($argument)
-
 !(async () => {
 /* 时间获取 */
 let traffic = (await httpAPI("/v1/traffic","GET"))

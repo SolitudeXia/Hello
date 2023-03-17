@@ -11,7 +11,6 @@
 策略面板 = script-name="网络速率",update-interval=-1
 策略面板 = script-name="倒数日",update-interval=86400
 策略面板 = script-name="奈飞检测",update-interval=86400
-策略面板 = script-name="Disney检测",update-interval=86400
 #策略面板 = script-name="网络详情",update-interval=120
 #策略面板 = script-name="解锁检测",update-interval=7200
 
@@ -24,6 +23,5 @@ DNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/star
 网络速率 = type=generic,timeout=60,script-path= https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/index.js,script-update-interval=0,argument=icon=arrow.down.circle&icon-color=#5d84f8&mb=1
 倒数日 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/Timecard.js,script-update-interval=0
 奈飞检测 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/nf_check.js,script-update-interval=0,argument=title=𝗡𝗘𝗧𝗙𝗟𝗜𝗫
-Disney检测 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/disney_check.js,script-update-interval=0,argument=title=Disney
 #网络详情 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/net_info.js,script-update-interval=0,argument=title=网络详情&icon=externaldrive.connected.to.line.below&color=#9a7ff7&group=Miaona
 #解锁检测 = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/Stream-All.js,script-update-interval=0,argument=title=解锁检测

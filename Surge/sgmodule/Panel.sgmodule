@@ -16,12 +16,12 @@
 
 [Script]
 运行时间 = type=generic,timeout=10,script-path= https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/surgepro_reloadprofile.js,script-update-interval=0,argument=title=Surge Pro&icon=crown.fill&color=#f6c970
-节点信息 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/IPcheck.js,script-update-interval=0,argument=title=节点信息&icon=externaldrive.connected.to.line.below&color=#9a7ff7
-流量统计 = type=generic,timeout=10,script-path= https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/trafficstatistics.js,script-update-interval=0,argument=title=流量统计&icon=arrow.up.arrow.down.circle&color=#5d84f8
+节点信息 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/IPcheck.js,script-update-interval=0,argument=icon=externaldrive.connected.to.line.below&color=#9a7ff7
+流量统计 = type=generic,timeout=10,script-path= https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/trafficstatistics.js,script-update-interval=0,argument=icon=arrow.up.arrow.down.circle&color=#5d84f8
 DNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/flushDNS.js,script-update-interval=0,argument=title=DNS&icon=network&color=#5d84f8
-网络连通性测试 = type=generic,timeout=3,script-path= https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/ConnectivityTest.js,script-update-interval=0,argument=title=网络连通性测试&icon=icloud.and.arrow.down&color=#FF9F0A&server=false
+网络连通性测试 = type=generic,timeout=3,script-path= https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/ConnectivityTest.js,script-update-interval=0,argument=icon=icloud.and.arrow.down&color=#FF9F0A&server=false
 网络速率 = type=generic,timeout=60,script-path= https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/index.js,script-update-interval=0,argument=icon=arrow.down.circle&icon-color=#5d84f8&mb=1
-倒数日 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/Timecard.js,script-update-interval=0,argument=title=倒数日
+倒数日 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/Timecard.js,script-update-interval=0
 奈飞检测 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/nf_check.js,script-update-interval=0,argument=title=𝗡𝗘𝗧𝗙𝗟𝗜𝗫
 #网络详情 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/net_info.js,script-update-interval=0,argument=title=网络详情&icon=externaldrive.connected.to.line.below&color=#9a7ff7&group=Miaona
 #解锁检测 = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/Stream-All.js,script-update-interval=0,argument=title=解锁检测

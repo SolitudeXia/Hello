@@ -26,6 +26,10 @@ DOMAIN,livewebbs2.msstatic.com,REJECT
 DOMAIN,pp-cdnfile2pcdn.msstatic.com,REJECT
 # > 浙里办
 URL-REGEX,^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,REJECT
+# > 中国银行缤纷生活
+URL-REGEX,^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?txnId=2PIC000001,REJECT
+# > 招商银行
+URL-REGEX,^https?:\/\/webappcfg\.paas\.cmbchina\.com\/v\d\/func\/getmarketconfig,REJECT
 
 [MITM]
-hostname = %APPEND% api.m.jd.com, *.meituan.net, *.meituan.com, api.wfdata.club, portal.zjzwfw.gov.cn
+hostname = %APPEND% api.m.jd.com, *.meituan.net, *.meituan.com, api.wfdata.club, portal.zjzwfw.gov.cn, mlife.jf365.boc.cn, webappcfg.paas.cmbchina.com

@@ -24,6 +24,8 @@ DOMAIN,huyafile.msstatic.com,REJECT
 DOMAIN,livewebbs2pcdn.msstatic.com,REJECT
 DOMAIN,livewebbs2.msstatic.com,REJECT
 DOMAIN,pp-cdnfile2pcdn.msstatic.com,REJECT
+# > 浙里办
+URL-REGEX,^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,REJECT
 
 [MITM]
-hostname = %APPEND% api.m.jd.com, *.meituan.net, *.meituan.com, api.wfdata.club
+hostname = %APPEND% api.m.jd.com, *.meituan.net, *.meituan.com, api.wfdata.club, portal.zjzwfw.gov.cn

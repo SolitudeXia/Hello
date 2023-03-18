@@ -19,11 +19,7 @@ URL-REGEX,^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp,REJECT
 # > 威锋 去广告
 URL-REGEX,^https:\/\/api\.wfdata\.club\/v2\/yesfeng\/(infoCenterAd|yesList),REJECT
 # > 虎牙开屏去广告
-DOMAIN,business.msstatic.com,REJECT
-DOMAIN,huyafile.msstatic.com,REJECT
-DOMAIN,livewebbs2pcdn.msstatic.com,REJECT
-DOMAIN,livewebbs2.msstatic.com,REJECT
-DOMAIN,pp-cdnfile2pcdn.msstatic.com,REJECT
+AND,((DOMAIN-SUFFIX,msstatic.com), (OR,((DOMAIN-KEYWORD,livewebbs2), (DOMAIN-KEYWORD,business), (DOMAIN-KEYWORD,file)))),REJECT-DROP
 # > 浙里办
 URL-REGEX,^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,REJECT
 # > 中国银行缤纷生活

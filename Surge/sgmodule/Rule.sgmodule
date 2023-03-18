@@ -18,20 +18,8 @@ URL-REGEX,^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg,REJECT
 URL-REGEX,^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp,REJECT
 # > 威锋 去广告
 URL-REGEX,^https:\/\/api\.wfdata\.club\/v2\/yesfeng\/(infoCenterAd|yesList),REJECT
-# > 虎牙开屏去广告
-#AND,((DOMAIN-SUFFIX,msstatic.com), (OR,((DOMAIN-KEYWORD,livewebbs2), (DOMAIN-KEYWORD,business), (DOMAIN-KEYWORD,file)))),REJECT-DROP
 # > 浙里办
 URL-REGEX,^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,REJECT
-# > 中国银行缤纷生活
-URL-REGEX,^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?txnId=2PIC000001,REJECT
-# > 招商银行
-URL-REGEX,^https?:\/\/webappcfg\.paas\.cmbchina\.com\/v\d\/func\/getmarketconfig,REJECT
-# > 中国银行
-URL-REGEX,^https:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg,REJECT
-# > 建行生活
-URL-REGEX,^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A00(6|9),REJECT
-# > 工银e生活
-URL-REGEX,^https?:\/\/pv\.elife\.icbc\.com\.cn\/OFSTPV\/utm\.gif,REJECT
 
 [MITM]
-hostname = %APPEND% api.m.jd.com, *.meituan.net, *.meituan.com, api.wfdata.club, portal.zjzwfw.gov.cn, mlife.jf365.boc.cn, webappcfg.paas.cmbchina.com, mbs.boc.cn, yunbusiness.ccb.com, pv.elife.icbc.com.cn
+hostname = %APPEND% api.m.jd.com, *.meituan.net, *.meituan.com, api.wfdata.club, portal.zjzwfw.gov.cn

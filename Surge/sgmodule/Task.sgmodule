@@ -45,3 +45,5 @@
 每日一言 = type=cron,cronexp="6 6 6 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/One.js,script-update-interval=0
 # > Bing积分
 Bing积分 = type=cron,cronexp="0 7 10 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js,script-update-interval=0,timeout=60
+# > 提前购
+周二提前购 = type=cron,cronexp="0 0 19 * * TUE",wake-system=1,script-path=https://raw.githubusercontent.com/DecoAri/JavaScript/main/Surge/CMB_piao.js,script-update-interval=0,timeout=60

@@ -11,6 +11,16 @@ DOMAIN-SUFFIX,uk
 DOMAIN-SUFFIX,us
 DOMAIN-SUFFIX,ca
 
+# 国外域名关键字
+DOMAIN-KEYWORD,1e100
+DOMAIN-KEYWORD,abema
+DOMAIN-KEYWORD,appledaily
+DOMAIN-KEYWORD,avtb
+DOMAIN-KEYWORD,beetalk
+DOMAIN-KEYWORD,blogspot
+#DOMAIN-KEYWORD,porn
+DOMAIN-KEYWORD,sci-hub
+
 # > Amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN,atv-ps.amazon.com
@@ -137,6 +147,7 @@ DOMAIN-SUFFIX,spaceexplored.com
 # > Other(ABCDEFGHIJKLMNOPQRSTUVWXYZ)
 DOMAIN,testflight.apple.com
 DOMAIN,gallery.scriptable.app
+DOMAIN-SUFFIX,adguard.org
 DOMAIN-SUFFIX,appraven.net
 DOMAIN-SUFFIX,coingecko.com
 DOMAIN-SUFFIX,deepl.com

@@ -63,7 +63,6 @@ DOMAIN-SUFFIX,baichuan.baidu.com
 DOMAIN-SUFFIX,baidu9635.com
 DOMAIN-SUFFIX,baidustatic.com
 DOMAIN-SUFFIX,baidutv.baidu.com
-DOMAIN-SUFFIX,baikebcs.bdimg.com
 DOMAIN-SUFFIX,banlv.baidu.com
 DOMAIN-SUFFIX,bar.baidu.com
 DOMAIN-SUFFIX,bdplus.baidu.com
@@ -295,6 +294,30 @@ DOMAIN-SUFFIX,report.qq.com
 DOMAIN-SUFFIX,tajs.qq.com
 DOMAIN-SUFFIX,tcss.qq.com
 DOMAIN-SUFFIX,uu.qq.com
+
+# > Sougou
+DOMAIN-SUFFIX,123.sogou.com
+DOMAIN-SUFFIX,123.sogoucdn.com
+DOMAIN-SUFFIX,adsence.sogou.com
+DOMAIN-SUFFIX,amfi.gou.sogou.com
+DOMAIN-SUFFIX,brand.sogou.com
+DOMAIN-SUFFIX,cpc.sogou.com
+DOMAIN-SUFFIX,epro.sogou.com
+DOMAIN-SUFFIX,fair.sogou.com
+DOMAIN-SUFFIX,files2.sogou.com
+DOMAIN-SUFFIX,galaxy.sogoucdn.com
+DOMAIN-SUFFIX,golden1.sogou.com
+DOMAIN-SUFFIX,goto.sogou.com
+DOMAIN-SUFFIX,inte.sogou.com
+DOMAIN-SUFFIX,iwan.sogou.com
+DOMAIN-SUFFIX,lu.sogou.com
+DOMAIN-SUFFIX,lu.sogoucdn.com
+DOMAIN-SUFFIX,pb.sogou.com
+DOMAIN-SUFFIX,pd.sogou.com
+DOMAIN-SUFFIX,pv.sogou.com
+DOMAIN-SUFFIX,theta.sogou.com
+DOMAIN-SUFFIX,wan.sogou.com
+DOMAIN-SUFFIX,wangmeng.sogou.com
 
 # > Weifeng
 DOMAIN-SUFFIX,aoodoo.feng.com

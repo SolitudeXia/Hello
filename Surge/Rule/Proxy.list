@@ -78,6 +78,7 @@ DOMAIN-SUFFIX,redditstatic.com
 
 # > Twitter
 DOMAIN-KEYWORD,twitter
+DOMAIN-SUFFIX,cms-twdigitalassets.com
 DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,t.co
@@ -115,7 +116,6 @@ DOMAIN-SUFFIX,youtubekids.com
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
 
-
 # > 自用
 # > ChatGPT 代理 
 DOMAIN-SUFFIX,openai.com
@@ -141,7 +141,6 @@ DOMAIN-SUFFIX,appraven.net
 DOMAIN-SUFFIX,coingecko.com
 DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,duckduckgo.com
-#DOMAIN-SUFFIX,quantumult.app
 DOMAIN-SUFFIX,signal.org
 DOMAIN-SUFFIX,wallhaven.cc
 DOMAIN-SUFFIX,v2ex.com

@@ -4,26 +4,28 @@
 
 [Script]
 # > 微博推送 登陆 https://m.weibo.cn 获取
-微博推送 = type=http-request,pattern=^https:\/\/m\.weibo\.cn\/feed\/,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js
+微博推送 = type=http-request,pattern=^https:\/\/m\.weibo\.cn\/feed\/,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js,script-update-interval=0
 # > 哔哩哔哩 app或网页 https://www.bilibili.com/
-B站Cookie(APP) = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/domain\?,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/BiliBili.js,requires-body=0
-#B站Cookie(网页) = type=http-request,pattern=^https?:\/\/m.bilibili.com/$,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/BiliBili.js,requires-body=0
+B站Cookie(APP) = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/domain\?,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/BiliBili.js,requires-body=0,script-update-interval=0
+#B站Cookie(网页) = type=http-request,pattern=^https?:\/\/m.bilibili.com/$,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/BiliBili.js,requires-body=0,script-update-interval=0
 # > 阿里云盘 app获取
-阿里云盘签到cookie = type=http-response,pattern=https:\/\/auth.aliyundrive.com\/v2\/account\/token,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js,requires-body=1
+阿里云盘签到cookie = type=http-response,pattern=https:\/\/auth.aliyundrive.com\/v2\/account\/token,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js,requires-body=1,script-update-interval=0
 # > 什么值得买 app获取
-什么值得买_获取cookie = type=http-request,pattern=^https?:\/\/user-api\.smzdm\.com\/checkin$,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js,requires-body=0
+什么值得买_获取cookie = type=http-request,pattern=^https?:\/\/user-api\.smzdm\.com\/checkin$,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js,requires-body=0,script-update-interval=0
 # > 美团 app获取
-美团获取 = type=http-request,pattern=^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js,requires-body=1
+美团获取 = type=http-request,pattern=^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js,requires-body=1,script-update-interval=0
 # > 美团买菜
-美团买菜 = type=http-request,pattern=^https?:\/\/mall\.meituan\.com\/api\/c\/mallcoin\/checkIn\/queryTaskListInfoV.\?,script-path=https://raw.githubusercontent.com/JoJoJotarou/myScript/master/script/meituan/mall.meituan.cookie.js
+美团买菜 = type=http-request,pattern=^https?:\/\/mall\.meituan\.com\/api\/c\/mallcoin\/checkIn\/queryTaskListInfoV.\?,script-path=https://raw.githubusercontent.com/JoJoJotarou/myScript/master/script/meituan/mall.meituan.cookie.js,script-update-interval=0
 # > 喜马拉雅 app获取
-喜马拉雅 = type=http-request,pattern=^https?:\/\/mobile\.ximalaya\.com\/app-skin-service\/skin\/,script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/xmlySign.js,requires-body=0
+喜马拉雅 = type=http-request,pattern=^https?:\/\/mobile\.ximalaya\.com\/app-skin-service\/skin\/,script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/xmlySign.js,requires-body=0,script-update-interval=0
 # > 中国电信 Cookie
-中国电信 Cookie = type=http-request,pattern=^https:\/\/(e\.189\.cn\/store\/user|open\.e\.189\.cn\/api\/logbox\/oauth2\/loginSubmit\.do),script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/get_10000_cookie.js,requires-body=0
+中国电信 Cookie = type=http-request,pattern=^https:\/\/(e\.189\.cn\/store\/user|open\.e\.189\.cn\/api\/logbox\/oauth2\/loginSubmit\.do),script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/get_10000_cookie.js,requires-body=0,script-update-interval=0
 # > 京东 Cookie
-京东 = type=http-request,pattern=^https:\/\/(api\.m|me-api|ms\.jr)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?|gw\/generic\/hy\/h5\/m\/appSign\?),script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,requires-body=1
+京东 = type=http-request,pattern=^https:\/\/(api\.m|me-api|ms\.jr)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?|gw\/generic\/hy\/h5\/m\/appSign\?),script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,requires-body=1,script-update-interval=0
 # > Bing积分
-Bing积分cookie = type=http-request,pattern=https:\/\/rewards\.bing\.com,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js,requires-body=0
+Bing积分cookie = type=http-request,pattern=https:\/\/rewards\.bing\.com,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js,requires-body=0,script-update-interval=0
+# > 豆瓣 APIKey
+豆瓣 APIKey = type=http-request,pattern=^https:\/\/frodo\.douban\.com\/api\/v\d\/calendar\/today,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/MovieCalendar/MovieCalendar.js,requires-body=0,script-update-interval=0
 
 [MITM]
-hostname = %APPEND% m.weibo.cn, app.bilibili.com, m.bilibili.com, auth.aliyundrive.com, user-api.smzdm.com, i.meituan.com, mall.meituan.com, mobile.ximalaya.com, e.189.cn, open.e.189.cn, ms.jr.jd.com, me-api.jd.com, rewards.bing.com
+hostname = %APPEND% m.weibo.cn, app.bilibili.com, m.bilibili.com, auth.aliyundrive.com, user-api.smzdm.com, i.meituan.com, mall.meituan.com, mobile.ximalaya.com, e.189.cn, open.e.189.cn, ms.jr.jd.com, me-api.jd.com, rewards.bing.com, frodo.douban.com

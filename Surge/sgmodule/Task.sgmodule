@@ -49,3 +49,5 @@ Bing积分 = type=cron,cronexp="0 7 10 * * ?",wake-system=1,script-path=https://
 周二提前购 = type=cron,cronexp="0 0 19 * * TUE",wake-system=1,script-path=https://raw.githubusercontent.com/DecoAri/JavaScript/main/Surge/CMB_piao.js,script-update-interval=0,timeout=60
 # > NASA每日一图
 NASA每日一图 = type=cron,cronexp="9 9 9 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/evilbutcher/QuantumultX/master/check_in/nasa/nasapic.js,script-update-interval=0
+# > 豆瓣
+豆瓣 = type=cron,cronexp="7 7 7 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/MovieCalendar/MovieCalendar.js,script-update-interval=0

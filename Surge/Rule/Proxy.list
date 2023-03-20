@@ -31,25 +31,6 @@ DOMAIN-SUFFIX,githubapp.com
 DOMAIN-SUFFIX,githubassets.com
 DOMAIN-SUFFIX,githubusercontent.com
 
-# > Microsoft
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,linkedin.com
-DOMAIN-SUFFIX,licdn.com
-DOMAIN-SUFFIX,msn.com
-DOMAIN-SUFFIX,skype.com
-
-# > OneDrive
-DOMAIN-KEYWORD,1drv
-DOMAIN-KEYWORD,onedrive
-DOMAIN-KEYWORD,skydrive
-DOMAIN-SUFFIX,livefilestore.com
-DOMAIN-SUFFIX,oneclient.sfx.ms
-DOMAIN-SUFFIX,photos.live.com
-DOMAIN-SUFFIX,spoprod-a.akamaihd.net
-DOMAIN-SUFFIX,storage.live.com
-DOMAIN-SUFFIX,storage.msn.com
-#DOMAIN-SUFFIX,aria.microsoft.com
-
 # > Pornhub
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,phprcdn.com

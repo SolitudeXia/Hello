@@ -1,26 +1,5 @@
 # > 改自ACL4SSR,DivineEngine(自用)
 
-# > 国外域名
-DOMAIN-SUFFIX,eu
-DOMAIN-SUFFIX,hk
-DOMAIN-SUFFIX,jp
-DOMAIN-SUFFIX,kr
-DOMAIN-SUFFIX,sg
-DOMAIN-SUFFIX,tw
-DOMAIN-SUFFIX,uk
-DOMAIN-SUFFIX,us
-DOMAIN-SUFFIX,ca
-
-# 国外域名关键字
-DOMAIN-KEYWORD,1e100
-DOMAIN-KEYWORD,abema
-DOMAIN-KEYWORD,appledaily
-DOMAIN-KEYWORD,avtb
-DOMAIN-KEYWORD,beetalk
-DOMAIN-KEYWORD,blogspot
-#DOMAIN-KEYWORD,porn
-DOMAIN-KEYWORD,sci-hub
-
 # > Amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN,atv-ps.amazon.com
@@ -68,8 +47,6 @@ DOMAIN-SUFFIX,dropboxusercontent.com
 
 # > Github
 DOMAIN-KEYWORD,github
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,github.io
 DOMAIN-SUFFIX,githubapp.com
 DOMAIN-SUFFIX,githubassets.com
 DOMAIN-SUFFIX,githubusercontent.com
@@ -96,8 +73,6 @@ DOMAIN-SUFFIX,twimg.co
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twimg.org
 DOMAIN-SUFFIX,twitpic.com
-DOMAIN-SUFFIX,twitter.com
-DOMAIN-SUFFIX,twitter.jp
 DOMAIN-SUFFIX,vine.co
 
 # > Yahoo

@@ -1,0 +1,14 @@
+# > 改自DivineEngine(自用)
+
+# > Microsoft
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,licdn.com
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,skype.com
+
+# > PayPal
+DOMAIN-SUFFIX,paypal-mktg.com
+DOMAIN-SUFFIX,paypalobjects.com
+DOMAIN-KEYWORD,paypal
+#USER-AGENT,PayPal*

@@ -1,7 +1,0 @@
-# > 改自DivineEngine(自用)
-
-# > PayPal
-DOMAIN-SUFFIX,paypal-mktg.com
-DOMAIN-SUFFIX,paypalobjects.com
-DOMAIN-KEYWORD,paypal
-#USER-AGENT,PayPal*

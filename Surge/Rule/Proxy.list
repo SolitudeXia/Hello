@@ -85,9 +85,12 @@ DOMAIN,testflight.apple.com
 DOMAIN,gallery.scriptable.app
 DOMAIN-SUFFIX,adguard.org
 DOMAIN-SUFFIX,appraven.net
+DOMAIN-SUFFIX,blueseamusic.com
 DOMAIN-SUFFIX,coingecko.com
 DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,duckduckgo.com
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,signal.org
 DOMAIN-SUFFIX,wallhaven.cc
 DOMAIN-SUFFIX,v2ex.com

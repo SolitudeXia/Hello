@@ -73,8 +73,7 @@ DOMAIN-SUFFIX,wsj.com
 DOMAIN-SUFFIX,wsj.net
 
 # > 联合早报
-DOMAIN-SUFFIX,zaobao.com
-DOMAIN-SUFFIX,zaobao.com.sg
+DOMAIN-KEYWORD,zaobao
 
 # > Wikipedia
 DOMAIN-SUFFIX,mediawiki.org
@@ -108,7 +107,7 @@ DOMAIN-SUFFIX,mastodon.social
 DOMAIN-SUFFIX,m.cmx.im
 
 # > 9to5
-DOMAIN,www.9to5google.com
+DOMAIN-SUFFIX,9to5google.com
 DOMAIN-SUFFIX,9to5mac.com
 DOMAIN-SUFFIX,9to5terminal.com
 DOMAIN-SUFFIX,9to5toys.com

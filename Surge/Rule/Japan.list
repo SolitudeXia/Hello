@@ -17,6 +17,7 @@ IP-CIDR,203.104.128.0/19,no-resolve
 
 # > Microsoft
 DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,microsoftonline.com
 
 # > pixiv
 DOMAIN-SUFFIX,pixiv.net

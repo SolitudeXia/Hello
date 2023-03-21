@@ -1,34 +1,3 @@
 #!name=规则合集
 #!desc=自用 @JieStardust
 #!system=ios
-
-[Rule]
-# > Safari 防跳转
-DOMAIN,app-site-association.cdn-apple.com,REJECT
-# > 京东 去广告
-DOMAIN-SUFFIX,jdqd.jd.com,REJECT
-URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$,REJECT-TINYGIF
-# > 美团 去广告
-DOMAIN,portal-portm.meituan.com,REJECT
-URL-REGEX,^https?:\/\/img\.meituan\.net\/(bizad|brandCpt)\/\w+\.(png|jpg),REJECT
-URL-REGEX,^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage,REJECT-TINYGIF
-URL-REGEX,^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|jpg\.webp)$,REJECT
-URL-REGEX,^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4),REJECT
-URL-REGEX,^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg,REJECT
-URL-REGEX,^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp,REJECT
-# > 威锋 去广告
-#URL-REGEX,^https:\/\/api\.wfdata\.club\/v2\/yesfeng\/(infoCenterAd|yesList),REJECT
-# > 浙里办
-URL-REGEX,^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,REJECT
-# > 工商银行 开屏广告
-DOMAIN,pageviewp.icbc.com.cn,REJECT
-# > 微博 开屏广告
-DOMAIN,adstrategy.biz.weibo.com,REJECT
-;DOMAIN,boot.biz.weibo.com,REJECT
-DOMAIN,kadmimage.biz.weibo.com,REJECT
-DOMAIN,sdkaction.biz.weibo.com,REJECT
-DOMAIN,sdkclick.biz.weibo.com,REJECT
-DOMAIN,sdkmonitor.biz.weibo.com,REJECT
-
-[MITM]
-hostname = %APPEND% api.m.jd.com, *.meituan.net, *.meituan.com, api.wfdata.club, portal.zjzwfw.gov.cn

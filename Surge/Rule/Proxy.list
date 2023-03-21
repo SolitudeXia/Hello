@@ -27,9 +27,6 @@ DOMAIN-SUFFIX,dropboxusercontent.com
 
 # > Github
 DOMAIN-KEYWORD,github
-DOMAIN-SUFFIX,githubapp.com
-DOMAIN-SUFFIX,githubassets.com
-DOMAIN-SUFFIX,githubusercontent.com
 
 # > Pornhub
 DOMAIN-SUFFIX,phncdn.com
@@ -90,11 +87,7 @@ DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wiktionary.org
 
 # > Yahoo
-DOMAIN-SUFFIX,yahoo.co.jp
-DOMAIN-SUFFIX,yahoo.com
-DOMAIN-SUFFIX,yahoo.com.hk
-DOMAIN-SUFFIX,yahoo.com.tw
-DOMAIN-SUFFIX,yahoo.net
+DOMAIN-KEYWORD,yahoo
 
 # > 自用
 # > ChatGPT 代理 

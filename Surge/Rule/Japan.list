@@ -1,5 +1,3 @@
-# > 改自ACL4SSR,DivineEngine(自用)
-
 # > Line
 DOMAIN-SUFFIX,lin.ee
 DOMAIN-SUFFIX,line-apps.com
@@ -19,22 +17,6 @@ IP-CIDR,203.104.128.0/19,no-resolve
 
 # > Microsoft
 DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,linkedin.com
-DOMAIN-SUFFIX,licdn.com
-DOMAIN-SUFFIX,msn.com
-DOMAIN-SUFFIX,skype.com
-
-# > OneDrive
-DOMAIN-KEYWORD,1drv
-DOMAIN-KEYWORD,onedrive
-DOMAIN-KEYWORD,skydrive
-DOMAIN-SUFFIX,livefilestore.com
-DOMAIN-SUFFIX,oneclient.sfx.ms
-DOMAIN-SUFFIX,photos.live.com
-DOMAIN-SUFFIX,spoprod-a.akamaihd.net
-DOMAIN-SUFFIX,storage.live.com
-DOMAIN-SUFFIX,storage.msn.com
-#DOMAIN-SUFFIX,aria.microsoft.com
 
 # > pixiv
 DOMAIN-SUFFIX,pixiv.net

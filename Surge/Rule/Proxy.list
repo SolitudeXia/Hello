@@ -108,7 +108,7 @@ DOMAIN-SUFFIX,mastodon.social
 DOMAIN-SUFFIX,m.cmx.im
 
 # > 9to5
-DOMAIN-SUFFIX,9to5google.com
+DOMAIN,www.9to5google.com
 DOMAIN-SUFFIX,9to5mac.com
 DOMAIN-SUFFIX,9to5terminal.com
 DOMAIN-SUFFIX,9to5toys.com

@@ -22,7 +22,6 @@ IP-CIDR,204.15.20.0/22,no-resolve
 
 # > Instagram
 DOMAIN-KEYWORD,instagram
-DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,instagr.am
 
 # > Whatsapp

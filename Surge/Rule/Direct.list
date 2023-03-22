@@ -1,34 +1,32 @@
-# > 改自ACL4SSR(自用)
+# > China Apps
+USER-AGENT,MicroMessenger Client
+USER-AGENT,WeChat*
+USER-AGENT,MApi* // Dianping
+
+# > Ali
+DOMAIN-KEYWORD,alipay
+DOMAIN-KEYWORD,taobao
+DOMAIN-KEYWORD,alicdn
+DOMAIN-KEYWORD,aliyun
+DOMAIN-KEYWORD,.tmall.
+
+# > China
+DOMAIN-SUFFIX,CN
+DOMAIN-KEYWORD,baidu
 
 # > Apple
-DOMAIN,apple.comscoreresearch.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,mzstatic.com // App Store & iTunes Images
 DOMAIN-SUFFIX,aaplimg.com
-DOMAIN-SUFFIX,akadns.net
-DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,apple-mapkit.com
 DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,apple.com.cn
-DOMAIN-SUFFIX,apple.news
-DOMAIN-SUFFIX,appstore.com
-DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,lookup-api.apple.com // Dictionary
 DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,mzstatic.com
-IP-CIDR,17.0.0.0/8,no-resolve
-IP-CIDR,63.92.224.0/19,no-resolve
-IP-CIDR,65.199.22.0/23,no-resolve
-IP-CIDR,139.178.128.0/18,no-resolve
-IP-CIDR,144.178.0.0/19,no-resolve
-IP-CIDR,144.178.36.0/22,no-resolve
-IP-CIDR,144.178.48.0/20,no-resolve
-IP-CIDR,192.35.50.0/24,no-resolve
-IP-CIDR,198.183.17.0/24,no-resolve
-IP-CIDR,205.180.175.0/24,no-resolve
+USER-AGENT,com.apple.appstored* // iOS App Store
 
 # > 自用(ABCDEFGHIJKLMNOPQRSTUVWXYZ)
 DOMAIN-SUFFIX,1password.com
@@ -39,3 +37,6 @@ DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,nba.com
 DOMAIN-SUFFIX,qiyoujiage.com
 DOMAIN-SUFFIX,revenuecat.com
+DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,daniao.org
+DOMAIN,wx.sogou.com

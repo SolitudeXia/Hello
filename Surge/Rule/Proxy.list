@@ -53,7 +53,7 @@ DOMAIN-SUFFIX,spaceexplored.com
 
 # > Other(ABCDEFGHIJKLMNOPQRSTUVWXYZ)
 DOMAIN,gallery.scriptable.app
-DOMAIN-SUFFIX,testflight.apple.com
+DOMAIN-KEYWORD,testflight.apple.com
 DOMAIN-SUFFIX,adguard.org
 DOMAIN-SUFFIX,appraven.net
 DOMAIN-SUFFIX,blueseamusic.com

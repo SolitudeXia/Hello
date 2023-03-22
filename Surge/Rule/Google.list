@@ -21,9 +21,7 @@ IP-CIDR,173.194.0.0/16,no-resolve
 
 # > Spark
 DOMAIN-SUFFIX,amplitude.com
-DOMAIN-SUFFIX,firebaseio.com
-DOMAIN-SUFFIX,hockeyapp.net
-DOMAIN-SUFFIX,readdle.com
+DOMAIN-SUFFIX,sparkmailapp.com
 DOMAIN-SUFFIX,smartmailcloud.com
 
 # > YouTube（删除Google分流重复）

@@ -1,5 +1,5 @@
 # > Amazon
-DOMAIN-KEYWORD,amazon
+DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,amazonaws.com
 
 # > Dropbox
@@ -12,7 +12,6 @@ DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,Pronhub
 
 # > Reddit
-
 
 # > Twitter
 DOMAIN-KEYWORD,twitter
@@ -53,8 +52,8 @@ DOMAIN-SUFFIX,electrek.co
 DOMAIN-SUFFIX,spaceexplored.com
 
 # > Other(ABCDEFGHIJKLMNOPQRSTUVWXYZ)
-DOMAIN,testflight.apple.com
 DOMAIN,gallery.scriptable.app
+DOMAIN-SUFFIX,testflight.apple.com
 DOMAIN-SUFFIX,adguard.org
 DOMAIN-SUFFIX,appraven.net
 DOMAIN-SUFFIX,blueseamusic.com
@@ -66,3 +65,5 @@ DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,signal.org
 DOMAIN-SUFFIX,wallhaven.cc
 DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,miaona.cyou
+DOMAIN-SUFFIX,imarkr.com //未知

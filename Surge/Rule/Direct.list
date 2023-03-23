@@ -4,9 +4,6 @@ DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,itunes.com
 
-# > Alibaba
-DOMAIN-SUFFIX,alicdn.com
-
 # > OneDrive
 DOMAIN-KEYWORD,onedrive
 
@@ -14,13 +11,14 @@ DOMAIN-KEYWORD,onedrive
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,authy.com
 DOMAIN-SUFFIX,bandswatch.it
+DOMAIN-SUFFIX,daniao.org
+DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,guozh.net
 DOMAIN-SUFFIX,iyideng.net
-DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,nba.com
+DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,owenyoung.com
 DOMAIN-SUFFIX,qiyoujiage.com
 DOMAIN-SUFFIX,revenuecat.com
-DOMAIN-SUFFIX,nssurge.com
-DOMAIN-SUFFIX,daniao.org
-DOMAIN-SUFFIX,owenyoung.com
+DOMAIN-SUFFIX,williamlong.info
 DOMAIN,wx.sogou.com

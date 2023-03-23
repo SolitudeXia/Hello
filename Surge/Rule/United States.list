@@ -1,7 +1,7 @@
-# > PayPal
-DOMAIN-KEYWORD,paypal
-#USER-AGENT,PayPal*
-
 # > Cloudflare
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflare.com
+
+# > PayPal
+DOMAIN-KEYWORD,paypal
+#USER-AGENT,PayPal*

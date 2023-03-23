@@ -4,12 +4,12 @@ DOMAIN-KEYWORD,line
 # > Microsoft
 DOMAIN-SUFFIX,bing.com
 
+# > Nintendo //任天堂
+DOMAIN-KEYWORD,nintendo
+
 # > pixiv
 DOMAIN-KEYWORD,pixiv
 DOMAIN-SUFFIX,pximg.net
-
-# > 任天堂
-DOMAIN-KEYWORD,nintendo
 
 # > Other
 DOMAIN-SUFFIX,smoot.apple.com

@@ -4,11 +4,11 @@ DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,itunes.com
 
-# > OneDrive
-DOMAIN-KEYWORD,onedrive
-
 # > Alibaba
 DOMAIN-SUFFIX,alicdn.com
+
+# > OneDrive
+DOMAIN-KEYWORD,onedrive
 
 # > 自用(ABCDEFGHIJKLMNOPQRSTUVWXYZ)
 DOMAIN-SUFFIX,1password.com

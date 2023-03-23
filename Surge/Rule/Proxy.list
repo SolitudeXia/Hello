@@ -7,6 +7,10 @@ DOMAIN-SUFFIX,dronedj.com
 DOMAIN-SUFFIX,electrek.co
 DOMAIN-SUFFIX,spaceexplored.com
 
+# > Adguard
+DOMAIN-SUFFIX,adguard.com
+DOMAIN-SUFFIX,adguard.org
+
 # > Amazon
 DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,amazonaws.com
@@ -70,7 +74,6 @@ DOMAIN-SUFFIX,zaobao.com.sg
 DOMAIN-KEYWORD,jsdelivr.net
 DOMAIN,gallery.scriptable.app
 DOMAIN,sub-store.vercel.app
-DOMAIN-SUFFIX,adguard.org
 DOMAIN-SUFFIX,andro4all.com
 DOMAIN-SUFFIX,appleinsider.com
 DOMAIN-SUFFIX,appraven.net

@@ -4,24 +4,22 @@
 
 [Panel]
 策略面板 = script-name="运行时间",update-interval=1
-策略面板 = script-name="节点信息",update-interval=1
+策略面板 = script-name="网络信息",title="",content="",style=info,update-interval=1
+策略面板 = script-name="节点详情",content="请刷新",style=info,update-interval=1
 策略面板 = script-name="流量统计",update-interval=1
-策略面板 = script-name="DNS",update-interval=15
+策略面板 = script-name="FlushDNS",update-interval=600
 策略面板 = script-name="网络连通性测试",update-interval=1
 策略面板 = script-name="网络速率",update-interval=-1
-策略面板 = script-name="倒数日",update-interval=86400
-策略面板 = script-name="奈飞检测",update-interval=86400
-#策略面板 = script-name="网络详情",update-interval=120
-#策略面板 = script-name="解锁检测",update-interval=7200
+策略面板 = script-name="倒数日",update-interval=3600
+策略面板 = script-name="流媒体检测",title="流媒体解锁检测",content="请刷新面板",update-interval=3600
 
 [Script]
-运行时间 = type=generic,timeout=10,script-path= https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/surgepro_reloadprofile.js,script-update-interval=0,argument=title=Surge Pro&icon=crown.fill&color=#f6c970
-节点信息 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/IPcheck.js,script-update-interval=0,argument=icon=externaldrive.connected.to.line.below&color=#9a7ff7
-流量统计 = type=generic,timeout=10,script-path= https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/trafficstatistics.js,script-update-interval=0,argument=icon=arrow.up.arrow.down.circle&color=#5d84f8
-DNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/flushDNS.js,script-update-interval=0,argument=title=DNS&icon=network&color=#5d84f8
-网络连通性测试 = type=generic,timeout=3,script-path= https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/ConnectivityTest.js,script-update-interval=0,argument=icon=icloud.and.arrow.down&color=#FF9F0A&server=false
-网络速率 = type=generic,timeout=60,script-path= https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/index.js,script-update-interval=0,argument=icon=arrow.down.circle&icon-color=#5d84f8&mb=1
-倒数日 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/Timecard.js,script-update-interval=0
-奈飞检测 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/nf_check.js,script-update-interval=0,argument=title=𝗡𝗘𝗧𝗙𝗟𝗜𝗫
-#网络详情 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/net_info.js,script-update-interval=0,argument=title=网络详情&icon=externaldrive.connected.to.line.below&color=#9a7ff7&group=Miaona
-#解锁检测 = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/Stream-All.js,script-update-interval=0,argument=title=解锁检测
+运行时间 = type=generic,timeout=10,script-path= https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/surgepro_reloadprofile.js,script-update-interval=-1,argument=title=Surge Pro&icon=crown.fill&color=#f6c970
+网络信息 = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Network-Info/Moore/Network-Info.js,script-update-interval=-1
+节点详情 = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/IP-Check/Moore/IP-Check.js,script-update-interval=-1
+流量统计 = type=generic,timeout=10,script-path= https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/trafficstatistics.js,script-update-interval=-1,argument=icon=arrow.up.arrow.down.circle&color=#5d84f8
+FlushDNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Flush-DNS/Moore/Flush-DNS.js,script-update-interval=-1,argument=title=DNS FLush&icon=cube&color=#afe59a&server=false
+网络连通性测试 = type=generic,timeout=3,script-path= https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/ConnectivityTest.js,script-update-interval=-1,argument=icon=icloud.and.arrow.down&color=#FF9F0A&server=false
+网络速率 = type=generic,timeout=60,script-path= https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/index.js,script-update-interval=-1,argument=icon=arrow.down.circle&icon-color=#5d84f8&mb=1
+倒数日 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/smartmimi/conf/master/surge/timecard.js,script-update-interval=-1
+流媒体检测 = type=generic,timeout=15,script-path=script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Stream-All/Moore/Stream-All.js,script-update-interval=-1

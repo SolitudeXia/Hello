@@ -2,6 +2,7 @@
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cloudflare.net
+DOMAIN-SUFFIX,cloudflareinsights.com
 
 # > PayPal
 DOMAIN-KEYWORD,paypal

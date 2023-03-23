@@ -1,6 +1,7 @@
 # > Cloudflare
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflare.net
 
 # > PayPal
 DOMAIN-KEYWORD,paypal

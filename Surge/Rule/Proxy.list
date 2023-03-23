@@ -12,6 +12,7 @@ DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,Pronhub
 
 # > Reddit
+DOMAIN-SUFFIX,reddit.com
 
 # > Twitter
 DOMAIN-KEYWORD,twitter
@@ -32,6 +33,9 @@ DOMAIN-SUFFIX,zaobao.com.sg
 # > Yahoo
 DOMAIN-KEYWORD,yahoo
 
+# > 任天堂
+DOMAIN-KEYWORD,nintendo
+
 # > 自用
 # > ChatGPT 代理 
 DOMAIN-SUFFIX,openai.com
@@ -43,7 +47,7 @@ DOMAIN-SUFFIX,mastodon.social
 DOMAIN-SUFFIX,m.cmx.im
 
 # > 9to5
-DOMAIN-KEYWORD,9to5google
+DOMAIN-SUFFIX,9to5google
 DOMAIN-SUFFIX,9to5mac.com
 DOMAIN-SUFFIX,9to5terminal.com
 DOMAIN-SUFFIX,9to5toys.com
@@ -52,6 +56,7 @@ DOMAIN-SUFFIX,electrek.co
 DOMAIN-SUFFIX,spaceexplored.com
 
 # > Other(ABCDEFGHIJKLMNOPQRSTUVWXYZ)
+DOMAIN-KEYWORD,jsdelivr.net
 DOMAIN,gallery.scriptable.app
 DOMAIN-SUFFIX,testflight.apple.com
 DOMAIN-SUFFIX,adguard.org
@@ -66,4 +71,8 @@ DOMAIN-SUFFIX,signal.org
 DOMAIN-SUFFIX,wallhaven.cc
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,miaona.cyou
-DOMAIN-SUFFIX,imarkr.com //未知
+DOMAIN-SUFFIX,imarkr.com
+DOMAIN-SUFFIX,ft.com
+DOMAIN-SUFFIX,andro4all.com
+DOMAIN-SUFFIX,giffgaff.com
+DOMAIN-SUFFIX,gravatar.com

@@ -17,6 +17,9 @@ DOMAIN-SUFFIX,openai.com
 DOMAIN,cdn.auth0.com
 DOMAIN,openaiapi-site.azureedge.net
 
+# > Disney
+DOMAIN-KEYWORD,disney
+
 # > Dropbox
 DOMAIN-KEYWORD,dropbox
 
@@ -30,11 +33,15 @@ DOMAIN-KEYWORD,github
 DOMAIN-SUFFIX,mastodon.social
 DOMAIN-SUFFIX,m.cmx.im
 
-# > Pornhub
-DOMAIN-KEYWORD,Pronhub
+# > Netflix
+DOMAIN-KEYWORD,netflix
+
+# > Porn
+DOMAIN-KEYWORD,pornhub
+DOMAIN-SUFFIX,91porn
 
 # > Reddit
-DOMAIN-SUFFIX,reddit.com
+DOMAIN-KEYWORD,reddit
 
 # > Twitter
 DOMAIN-KEYWORD,twitter
@@ -78,7 +85,6 @@ DOMAIN-SUFFIX,gravatar.com
 DOMAIN-SUFFIX,imarkr.com
 DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,miaona.cyou
-DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,producthunt.com
 DOMAIN-SUFFIX,signal.org
 DOMAIN-SUFFIX,starlink.com

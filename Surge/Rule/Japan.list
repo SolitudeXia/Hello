@@ -5,8 +5,11 @@ DOMAIN-KEYWORD,line
 DOMAIN-SUFFIX,bing.com
 
 # > pixiv
-DOMAIN-SUFFIX,pixiv.net
-DOMAIN-SUFFIX,pixiv.org
+DOMAIN-KEYWORD,pixiv
+DOMAIN-SUFFIX,pximg.net
+
+# > 任天堂
+DOMAIN-KEYWORD,nintendo
 
 # > Other
 DOMAIN-SUFFIX,smoot.apple.com

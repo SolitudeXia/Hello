@@ -4,6 +4,9 @@ DOMAIN-KEYWORD,line
 # > Microsoft
 DOMAIN-SUFFIX,bing.com
 
+# > 日经新闻
+DOMAIN-SUFFIX,nikkei.com
+
 # > Nintendo //任天堂
 DOMAIN-KEYWORD,nintendo
 

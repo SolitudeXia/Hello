@@ -265,6 +265,34 @@ DOMAIN-SUFFIX,bingads.microsoft.com
 DOMAIN-SUFFIX,rads.msn.com
 DOMAIN,mobileads.msn.com
 
+# > QQ
+DOMAIN-KEYWORD,omgmtaw
+DOMAIN,adsmind.apdcdn.tc.qq.com
+DOMAIN,adsmind.gdtimg.com
+DOMAIN,adsmind.tc.qq.com
+DOMAIN,pgdt.gtimg.cn
+DOMAIN,pgdt.gtimg.com
+DOMAIN,pgdt.ugdtimg.com
+DOMAIN,splashqqlive.gtimg.com
+DOMAIN,wa.gtimg.com
+DOMAIN,wxsnsdy.wxs.qq.com
+DOMAIN,wxsnsdythumb.wxs.qq.com
+DOMAIN-SUFFIX,act.qq.com
+DOMAIN-SUFFIX,ad.qun.qq.com
+DOMAIN-SUFFIX,adsfile.qq.com
+DOMAIN-SUFFIX,bugly.qq.com
+DOMAIN-SUFFIX,buluo.qq.com
+DOMAIN-SUFFIX,e.qq.com
+DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN-SUFFIX,l.qq.com
+DOMAIN-SUFFIX,monitor.qq.com
+DOMAIN-SUFFIX,pingma.qq.com
+DOMAIN-SUFFIX,pingtcss.qq.com
+DOMAIN-SUFFIX,report.qq.com
+DOMAIN-SUFFIX,tajs.qq.com
+DOMAIN-SUFFIX,tcss.qq.com
+DOMAIN-SUFFIX,uu.qq.com
+
 # > Yahoo
 DOMAIN-SUFFIX,ad.wretch.cc
 DOMAIN-SUFFIX,ads.yahoo.com

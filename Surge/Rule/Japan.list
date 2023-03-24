@@ -1,5 +1,12 @@
 # > Line
-DOMAIN-KEYWORD,line
+#DOMAIN-SUFFIX,line.me
+#DOMAIN-SUFFIX,line-apps.com
+#DOMAIN-SUFFIX,line-scdn.net
+#DOMAIN-SUFFIX,line.naver.jp
+#IP-CIDR,103.2.30.0/23,no-resolve
+#IP-CIDR,125.209.208.0/20,no-resolve
+#IP-CIDR,147.92.128.0/17,no-resolve
+#IP-CIDR,203.104.144.0/21,no-resolve
 
 # > Microsoft
 DOMAIN-SUFFIX,bing.com
@@ -11,7 +18,8 @@ DOMAIN-SUFFIX,nikkei.com
 DOMAIN-KEYWORD,nintendo
 
 # > pixiv
-DOMAIN-KEYWORD,pixiv
+DOMAIN-SUFFIX,pixiv.net
+DOMAIN-SUFFIX,pixiv.org
 DOMAIN-SUFFIX,pximg.net
 
 # > Other

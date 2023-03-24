@@ -95,6 +95,21 @@ DOMAIN-SUFFIX,wsj.net
 # > The Washington Post //华盛顿邮报
 DOMAIN-SUFFIX,washingtonpost.com
 
+# > Wikimedia Foundation //维基
+DOMAIN-SUFFIX,mediawiki.org
+DOMAIN-SUFFIX,wikibooks.org
+DOMAIN-SUFFIX,wikidata.org
+DOMAIN-SUFFIX,wikileaks.org
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wikimediafoundation.org
+DOMAIN-SUFFIX,wikinews.org
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikiquote.org
+DOMAIN-SUFFIX,wikisource.org
+DOMAIN-SUFFIX,wikiversity.org
+DOMAIN-SUFFIX,wikivoyage.org
+DOMAIN-SUFFIX,wiktionary.org
+
 # > Yahoo
 DOMAIN-SUFFIX,yahoo.com
 DOMAIN,search.yahoo.co.jp

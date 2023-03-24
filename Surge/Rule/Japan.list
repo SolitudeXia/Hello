@@ -1,15 +1,16 @@
 # > Line
-#DOMAIN-SUFFIX,line.me
-#DOMAIN-SUFFIX,line-apps.com
-#DOMAIN-SUFFIX,line-scdn.net
-#DOMAIN-SUFFIX,line.naver.jp
-#IP-CIDR,103.2.30.0/23,no-resolve
-#IP-CIDR,125.209.208.0/20,no-resolve
-#IP-CIDR,147.92.128.0/17,no-resolve
-#IP-CIDR,203.104.144.0/21,no-resolve
+DOMAIN-SUFFIX,line.me
+DOMAIN-SUFFIX,line-apps.com
+DOMAIN-SUFFIX,line-scdn.net
+DOMAIN-SUFFIX,line.naver.jp
+IP-CIDR,103.2.30.0/23,no-resolve
+IP-CIDR,125.209.208.0/20,no-resolve
+IP-CIDR,147.92.128.0/17,no-resolve
+IP-CIDR,203.104.144.0/21,no-resolve
 
-# > Microsoft
+# > Bing
 DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bing.net
 
 # > 日经新闻
 DOMAIN-SUFFIX,nikkei.com

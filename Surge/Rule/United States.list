@@ -7,3 +7,6 @@ DOMAIN-SUFFIX,cloudflareinsights.com
 # > PayPal
 DOMAIN-KEYWORD,paypal
 #USER-AGENT,PayPal*
+
+# > Other
+DOMAIN-SUFFIX,ultramobile.com //paygo

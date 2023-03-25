@@ -23,7 +23,7 @@ IP-CIDR,74.119.76.0/22,no-resolve
 
 # > Instagram
 DOMAIN-SUFFIX,cdninstagram.com
-DOMAIN-SUFFIX,facebook.com
+// DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,instagr.am
 DOMAIN-SUFFIX,instagram.com
 DOMAIN-KEYWORD,instagram

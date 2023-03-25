@@ -12,6 +12,8 @@ DOMAIN-KEYWORD,skydrive
 DOMAIN-SUFFIX,xbox.com
 
 # > 自用(ABCDEFGHIJKLMNOPQRSTUVWXYZ)
+DOMAIN,sub-store.vercel.app
+DOMAIN,wx.sogou.com
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,authy.com
 DOMAIN-SUFFIX,bandswatch.it
@@ -27,4 +29,3 @@ DOMAIN-SUFFIX,qiyoujiage.com
 DOMAIN-SUFFIX,revenuecat.com
 DOMAIN-SUFFIX,stayfork.app
 DOMAIN-SUFFIX,williamlong.info
-DOMAIN,wx.sogou.com

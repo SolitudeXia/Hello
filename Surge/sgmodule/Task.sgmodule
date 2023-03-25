@@ -42,7 +42,7 @@
 # > 京东物流
 京东物流 = type=cron,cronexp="0 0 20 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js,script-update-interval=0,timeout=60
 # > 每日一言
-#每日一言 = type=cron,cronexp="7 7 7 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/One.js,script-update-interval=0
+每日一言 = type=cron,cronexp="7 7 7 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/One.js,script-update-interval=0
 # > Bing积分
 Bing积分 = type=cron,cronexp="0 7 10 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js,script-update-interval=0,timeout=60
 # > NASA每日一图

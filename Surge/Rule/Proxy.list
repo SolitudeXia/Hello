@@ -161,7 +161,6 @@ DOMAIN-SUFFIX,zaobao.com.sg
 # > Other //ABCDEFGHIJKLMNOPQRSTUVWXYZ
 DOMAIN-KEYWORD,jsdelivr.net
 DOMAIN,gallery.scriptable.app
-DOMAIN,sub-store.vercel.app
 DOMAIN-SUFFIX,91porn //91
 DOMAIN-SUFFIX,andro4all.com
 DOMAIN-SUFFIX,appleinsider.com
@@ -189,4 +188,5 @@ DOMAIN-SUFFIX,nikkei.com //日经新闻
 DOMAIN-SUFFIX,wallhaven.cc
 DOMAIN-SUFFIX,wanqu.co
 DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,vercel.app //sub-store
 DOMAIN-SUFFIX,zhiboz.com //直播吧

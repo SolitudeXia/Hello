@@ -1,4 +1,4 @@
-#  >  Google
+# > Google
 DOMAIN,safebrowsing.googleapis.com
 DOMAIN-SUFFIX,afs.googlesyndication.com
 DOMAIN-SUFFIX,afd.l.google.com
@@ -19,3 +19,70 @@ DOMAIN-SUFFIX,pagead2.googlesyndication.com
 DOMAIN-SUFFIX,pagead-tpc.l.google.com
 DOMAIN-SUFFIX,tpc.googlesyndication.com
 DOMAIN-SUFFIX,video-ad-stats.googlesyndication.com
+
+# > 运营劫持
+DOMAIN-SUFFIX,189key.com
+DOMAIN-SUFFIX,bkyhq.cn
+DOMAIN-SUFFIX,gscxs.cn
+DOMAIN-SUFFIX,hbssjd.cn
+DOMAIN-SUFFIX,hyunke.com
+DOMAIN-SUFFIX,jsncke.com
+DOMAIN-SUFFIX,junkucm.com
+DOMAIN-SUFFIX,lvehaisen.com
+DOMAIN-SUFFIX,tt114.net
+DOMAIN-SUFFIX,urlaw.cn
+DOMAIN-SUFFIX,urlet.cn
+DOMAIN-SUFFIX,wsgblw.com
+DOMAIN-SUFFIX,xchmai.com
+DOMAIN-SUFFIX,ygyzx.cn
+DOMAIN-SUFFIX,zmlled.cn
+ 
+# > ChinaTelecom
+IP-CIDR,122.229.8.47/32,no-resolve
+IP-CIDR,122.229.29.89/32,no-resolve
+
+# > ChinaMobile
+IP-CIDR,120.240.95.37/32,no-resolve
+
+# > 隐私保护
+DOMAIN,analytics.slashdotmedia.com
+DOMAIN,zgsdk.zhugeio.com
+DOMAIN-SUFFIX,ads.linkedin.com
+DOMAIN-SUFFIX,airpr.com
+DOMAIN-SUFFIX,hotjar.com
+DOMAIN-SUFFIX,hotjar.io
+DOMAIN-SUFFIX,hs-analytics.net
+DOMAIN-SUFFIX,kissmetrics.com
+DOMAIN-SUFFIX,liadm.com
+DOMAIN-SUFFIX,mparticle.com
+DOMAIN-SUFFIX,nexac.com
+DOMAIN-SUFFIX,nr-data.net
+DOMAIN-SUFFIX,pardot.com
+DOMAIN-SUFFIX,parrable.com
+DOMAIN-SUFFIX,petametrics.com
+DOMAIN-SUFFIX,predic.io
+DOMAIN-SUFFIX,seewhy.com
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,segmentify.com
+DOMAIN-SUFFIX,sentiance.com
+DOMAIN-SUFFIX,serverbid.com
+DOMAIN-SUFFIX,sessionm.com
+DOMAIN-SUFFIX,smartlook.com
+DOMAIN-SUFFIX,socdm.com
+DOMAIN-SUFFIX,socialannex.com
+DOMAIN-SUFFIX,socialbakers.com
+DOMAIN-SUFFIX,sociaplus.com
+DOMAIN-SUFFIX,stathat.com
+DOMAIN-SUFFIX,stats-locations.com
+DOMAIN-SUFFIX,tagcommander.com
+DOMAIN-SUFFIX,tailtarget.com
+DOMAIN-SUFFIX,tapad.com
+DOMAIN-SUFFIX,tapfiliate.com
+DOMAIN-SUFFIX,tapinfluence.com
+DOMAIN-SUFFIX,tapstream.com
+DOMAIN-SUFFIX,tend.io
+DOMAIN-SUFFIX,trackingio.com
+DOMAIN-SUFFIX,woopra.com
+DOMAIN-SUFFIX,wootric.com
+DOMAIN-SUFFIX,wowanalytics.co.uk
+DOMAIN-SUFFIX,zoomanalytics.co

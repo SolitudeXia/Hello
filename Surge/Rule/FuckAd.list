@@ -1,88 +1,94 @@
-# > Google
-DOMAIN,safebrowsing.googleapis.com
-DOMAIN-SUFFIX,afs.googlesyndication.com
-DOMAIN-SUFFIX,afd.l.google.com
-DOMAIN-SUFFIX,badad.googleplex.com
-DOMAIN-SUFFIX,blaaaa12.googlecode.com
-DOMAIN-SUFFIX,doubleclick.net
-DOMAIN-SUFFIX,googleadservices.com
-DOMAIN-SUFFIX,googleadsserving.cn
-DOMAIN-SUFFIX,googlecommerce.com
-DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,googletagservices.com
-DOMAIN-SUFFIX,googletagmanager.com
-DOMAIN-SUFFIX,google-analytics.com
-DOMAIN-SUFFIX,mobileads.google.com
-DOMAIN-SUFFIX,pagead.google.com
-DOMAIN-SUFFIX,pagead.l.google.com
-DOMAIN-SUFFIX,pagead2.googlesyndication.com
-DOMAIN-SUFFIX,pagead-tpc.l.google.com
-DOMAIN-SUFFIX,tpc.googlesyndication.com
-DOMAIN-SUFFIX,video-ad-stats.googlesyndication.com
+// Advertising
 
-# > 运营劫持
-DOMAIN-SUFFIX,189key.com
-DOMAIN-SUFFIX,bkyhq.cn
-DOMAIN-SUFFIX,gscxs.cn
-DOMAIN-SUFFIX,hbssjd.cn
-DOMAIN-SUFFIX,hyunke.com
-DOMAIN-SUFFIX,jsncke.com
-DOMAIN-SUFFIX,junkucm.com
-DOMAIN-SUFFIX,lvehaisen.com
-DOMAIN-SUFFIX,tt114.net
-DOMAIN-SUFFIX,urlaw.cn
-DOMAIN-SUFFIX,urlet.cn
-DOMAIN-SUFFIX,wsgblw.com
-DOMAIN-SUFFIX,xchmai.com
-DOMAIN-SUFFIX,ygyzx.cn
-DOMAIN-SUFFIX,zmlled.cn
- 
+# > Apple
+DOMAIN-SUFFIX,iadsdk.apple.com
+DOMAIN-SUFFIX,ads.internal.unity3d.com
+DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com
+DOMAIN-SUFFIX,unityads.unity3d.com
+
+# > Baidu
+DOMAIN,afd.baidu.com
+DOMAIN,als.baidu.com
+DOMAIN,duclick.baidu.com
+DOMAIN,mobads.baidu.com
+DOMAIN,mobads-logs.baidu.com
+DOMAIN,nadvideo2.baidu.com
+DOMAIN,nsclick.baidu.com
+DOMAIN-SUFFIX,duapps.com
+DOMAIN-SUFFIX,cpro.baidu.com
+DOMAIN-SUFFIX,pos.baidu.com
+
 # > ChinaTelecom
+DOMAIN,ad.21cn.com
+DOMAIN,ad.k.21cn.com
+DOMAIN,admarket.21cn.com
+DOMAIN,adshows.21cn.com
+IP-CIDR,61.160.200.223/32,no-resolve
+IP-CIDR,61.160.200.242/32,no-resolve
+IP-CIDR,61.160.200.252/32,no-resolve
+IP-CIDR,61.174.50.214/32,no-resolve
+IP-CIDR,111.175.220.163/32,no-resolve
+IP-CIDR,111.175.220.164/32,no-resolve
 IP-CIDR,122.229.8.47/32,no-resolve
 IP-CIDR,122.229.29.89/32,no-resolve
+IP-CIDR,124.232.160.178/32,no-resolve
+IP-CIDR,175.6.223.15/32,no-resolve
+IP-CIDR,183.59.53.237/32,no-resolve
+IP-CIDR,218.93.127.37/32,no-resolve
+IP-CIDR,221.228.17.152/32,no-resolve
+IP-CIDR,221.231.6.79/32,no-resolve
+IP-CIDR,222.186.61.91/32,no-resolve
+IP-CIDR,222.186.61.95/32,no-resolve
+IP-CIDR,222.186.61.96/32,no-resolve
+IP-CIDR,222.186.61.97/32,no-resolve
 
 # > ChinaMobile
+IP-CIDR,114.247.28.96/32,no-resolve
 IP-CIDR,120.240.95.37/32,no-resolve
+IP-CIDR,221.179.131.72/32,no-resolve
+IP-CIDR,221.179.140.145/32,no-resolve
 
-# > 隐私保护
-DOMAIN,analytics.slashdotmedia.com
-DOMAIN,zgsdk.zhugeio.com
-DOMAIN-SUFFIX,ads.linkedin.com
-DOMAIN-SUFFIX,airpr.com
-DOMAIN-SUFFIX,hotjar.com
-DOMAIN-SUFFIX,hotjar.io
-DOMAIN-SUFFIX,hs-analytics.net
-DOMAIN-SUFFIX,kissmetrics.com
-DOMAIN-SUFFIX,liadm.com
-DOMAIN-SUFFIX,mparticle.com
-DOMAIN-SUFFIX,nexac.com
-DOMAIN-SUFFIX,nr-data.net
-DOMAIN-SUFFIX,pardot.com
-DOMAIN-SUFFIX,parrable.com
-DOMAIN-SUFFIX,petametrics.com
-DOMAIN-SUFFIX,predic.io
-DOMAIN-SUFFIX,seewhy.com
-DOMAIN-SUFFIX,segment.io
-DOMAIN-SUFFIX,segmentify.com
-DOMAIN-SUFFIX,sentiance.com
-DOMAIN-SUFFIX,serverbid.com
-DOMAIN-SUFFIX,sessionm.com
-DOMAIN-SUFFIX,smartlook.com
-DOMAIN-SUFFIX,socdm.com
-DOMAIN-SUFFIX,socialannex.com
-DOMAIN-SUFFIX,socialbakers.com
-DOMAIN-SUFFIX,sociaplus.com
-DOMAIN-SUFFIX,stathat.com
-DOMAIN-SUFFIX,stats-locations.com
-DOMAIN-SUFFIX,tagcommander.com
-DOMAIN-SUFFIX,tailtarget.com
-DOMAIN-SUFFIX,tapad.com
-DOMAIN-SUFFIX,tapfiliate.com
-DOMAIN-SUFFIX,tapinfluence.com
-DOMAIN-SUFFIX,tapstream.com
-DOMAIN-SUFFIX,tend.io
-DOMAIN-SUFFIX,trackingio.com
-DOMAIN-SUFFIX,woopra.com
-DOMAIN-SUFFIX,wootric.com
-DOMAIN-SUFFIX,wowanalytics.co.uk
-DOMAIN-SUFFIX,zoomanalytics.co
+# > 工商银行 开屏广告
+DOMAIN,pageviewp.icbc.com.cn
+
+# > 广告联盟
+DOMAIN,is.snssdk.com
+DOMAIN,open.e.kuaishou.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
+
+# > Google
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googleadsserving.cn
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googletagservices.com
+
+# > Tencent
+DOMAIN,adsmind.apdcdn.tc.qq.com
+DOMAIN,adsmind.gdtimg.com
+DOMAIN,adsmind.tc.qq.com
+DOMAIN,adsmind.ugdtimg.com
+DOMAIN,livep.l.t002.ottcn.com
+DOMAIN,pgdt.gtimg.cn
+DOMAIN,pgdt.gtimg.com
+DOMAIN,pgdt.ugdtimg.com
+DOMAIN,splashqqlive.gtimg.com
+DOMAIN,wa.gtimg.com
+DOMAIN-SUFFIX,e.qq.com
+DOMAIN-SUFFIX,gdt.qq.com
+DOMAIN-SUFFIX,l.qq.com
+
+# > Yahoo
+DOMAIN,admarketing.yahoo.net
+DOMAIN,ads.auctions.yahoo.com
+DOMAIN,ads.finance.yahoo.com
+DOMAIN,ads.yahoo.com
+DOMAIN,ads.yahoo.de
+DOMAIN-SUFFIX,adserver.yahoo.com
+DOMAIN-SUFFIX,adspecs.yahoo.com
+DOMAIN-SUFFIX,advertising.yahoo.com
+DOMAIN-SUFFIX,gemini.yahoo.com
+
+# > Other
+DOMAIN-KEYWORD,adservice
+DOMAIN-KEYWORD,appsflyer

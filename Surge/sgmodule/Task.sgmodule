@@ -18,7 +18,7 @@
 # > 喜马拉雅
 喜马拉雅 = type=cron,cronexp="0 5 10 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/xmlySign.js,script-update-interval=0,timeout=60
 # > 今日黄历
-#今日黄历 = type=cron,cronexp="8 8 8 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/wnCalendar.js,script-update-interval=0,timeout=30
+今日黄历 = type=cron,cronexp="8 8 8 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/wnCalendar.js,script-update-interval=0,timeout=30
 # > 彩票开奖
 彩票查询 = type=cron,cronexp="0 0 22 ? * 2,4,7",wake-system=1,script-path=https://raw.githubusercontent.com/evilbutcher/QuantumultX/master/check_in/ssq/ssq.js,script-update-interval=0
 # > 同步检测

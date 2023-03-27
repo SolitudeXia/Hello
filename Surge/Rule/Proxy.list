@@ -159,8 +159,9 @@ DOMAIN-SUFFIX,zaobao.com
 DOMAIN-SUFFIX,zaobao.com.sg
 
 # > Other //ABCDEFGHIJKLMNOPQRSTUVWXYZ
-DOMAIN-KEYWORD,jsdelivr.net
 DOMAIN,gallery.scriptable.app
+DOMAIN,sub-store.vercel.app //sub-store
+DOMAIN,surge.mitsea.com
 DOMAIN-SUFFIX,91porn //91
 DOMAIN-SUFFIX,andro4all.com
 DOMAIN-SUFFIX,appleinsider.com
@@ -175,17 +176,23 @@ DOMAIN-SUFFIX,giffgaff.com
 DOMAIN-SUFFIX,gravatar.com
 DOMAIN-SUFFIX,houstonchronicle //休斯顿纪事报
 DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,javbus.com //javbus
+DOMAIN-SUFFIX,jsdelivr.com
+DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,macrumors.com
 DOMAIN-SUFFIX,miaona.cyou
-DOMAIN-SUFFIX,producthunt.com
-DOMAIN-SUFFIX,signal.org
-DOMAIN-SUFFIX,sleazyfork.org
-DOMAIN-SUFFIX,starlink.com
-DOMAIN-SUFFIX,theinitium.com
 DOMAIN-SUFFIX,news.un.org //联合国
 DOMAIN-SUFFIX,nikkei.com //日经新闻
+DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,producthunt.com
+DOMAIN-SUFFIX,quantumult.app
+DOMAIN-SUFFIX,signal.org
+DOMAIN-SUFFIX,sleazyfork.org
+DOMAIN-SUFFIX,sprig.com
+DOMAIN-SUFFIX,starlink.com
+DOMAIN-SUFFIX,surge-activation.com
+DOMAIN-SUFFIX,theinitium.com
 DOMAIN-SUFFIX,wallhaven.cc
 DOMAIN-SUFFIX,wanqu.co
 DOMAIN-SUFFIX,v2ex.com
-DOMAIN-SUFFIX,vercel.app //sub-store
 DOMAIN-SUFFIX,zhiboz.com //直播吧

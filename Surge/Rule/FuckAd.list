@@ -63,11 +63,11 @@ DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,googletagservices.com
 
 # > 虎牙直播 开屏广告
-DOMAIN,business.msstatic.com
-DOMAIN,huyafile.msstatic.com
-DOMAIN,livewebbs2pcdn.msstatic.com
-DOMAIN,livewebbs2.msstatic.com
-DOMAIN,pp-cdnfile2pcdn.msstatic.com
+// DOMAIN,business.msstatic.com
+// DOMAIN,huyafile.msstatic.com
+// DOMAIN,livewebbs2pcdn.msstatic.com
+// DOMAIN,livewebbs2.msstatic.com
+// DOMAIN,pp-cdnfile2pcdn.msstatic.com
 
 # > iQIYI
 DOMAIN,t7z.cupid.iqiyi.com

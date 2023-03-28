@@ -56,8 +56,8 @@ IP-CIDR,221.179.140.145/32,no-resolve
 DOMAIN,pageviewp.icbc.com.cn
 
 # > 广告联盟
-DOMAIN,is.snssdk.com
-DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+// DOMAIN,is.snssdk.com
+// DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
 
 # > Google
@@ -87,7 +87,7 @@ IP-CIDR,124.192.153.42/32,no-resolve
 
 # > Kuaishou
 DOMAIN,js-ad.a.yximgs.com
-DOMAIN-SUFFIX,e.kuaishou.com
+// DOMAIN-SUFFIX,e.kuaishou.com
 
 # > Tencent
 DOMAIN,adsmind.apdcdn.tc.qq.com
@@ -101,7 +101,7 @@ DOMAIN,pgdt.ugdtimg.com
 DOMAIN,splashqqlive.gtimg.com
 DOMAIN,wa.gtimg.com
 DOMAIN-SUFFIX,e.qq.com
-DOMAIN-SUFFIX,gdt.qq.com
+// DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,l.qq.com
 // Privacy
 DOMAIN,safebrowsing.urlsec.qq.com

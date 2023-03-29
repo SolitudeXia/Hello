@@ -11,6 +11,7 @@ payload:
   # > Adguard
   - DOMAIN-SUFFIX,adguard.com
   - DOMAIN-SUFFIX,adguard.org
+  - DOMAIN-SUFFIX,adtidy.org
   
   # > ChatGPT 代理 
   - DOMAIN-SUFFIX,openai.com

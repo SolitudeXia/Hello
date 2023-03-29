@@ -113,9 +113,11 @@ payload:
   # > 自用
   - DOMAIN-SUFFIX,1password.com
   - DOMAIN-SUFFIX,bandswatch.it
+  - DOMAIN-SUFFIX,brave.com
   - DOMAIN-SUFFIX,daniao.org
   - DOMAIN-SUFFIX,greasyfork.org
   - DOMAIN-SUFFIX,guozh.net
   - DOMAIN-SUFFIX,iyideng.net
   - DOMAIN-SUFFIX,tampermonkey.net
   - DOMAIN-SUFFIX,transrush.com
+  

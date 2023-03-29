@@ -37,6 +37,18 @@ payload:
   - DOMAIN-SUFFIX,notion.new
   - DOMAIN-SUFFIX,notion.site
   - DOMAIN-SUFFIX,notion.so
+  
+  # > NSFW
+  - DOMAIN-SUFFIX,91porn //91
+  - DOMAIN-SUFFIX,Bustnow.com
+  - DOMAIN-SUFFIX,redtube.com
+  - DOMAIN-SUFFIX,Tubethumbs.com
+  - DOMAIN-SUFFIX,xnxx.com
+  - DOMAIN-SUFFIX,Xtube.com
+  - DOMAIN-SUFFIX,xvideos.com
+  - DOMAIN-SUFFIX,Yobt.co
+  - DOMAIN-SUFFIX,youjizz.com
+  - DOMAIN-SUFFIX,youporn.com
 
   # > Porn
   - DOMAIN-SUFFIX,phncdn.com
@@ -89,7 +101,6 @@ payload:
   
   # > Other
   - DOMAIN,surge.mitsea.com
-  - DOMAIN-SUFFIX,91porn //91
   - DOMAIN-SUFFIX,deepl.com
   - DOMAIN-SUFFIX,duckduckgo.com
   - DOMAIN-SUFFIX,figma.com

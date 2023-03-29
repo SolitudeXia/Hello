@@ -21,6 +21,12 @@ payload:
   - DOMAIN-SUFFIX,mzstatic.com
   - DOMAIN-SUFFIX,smoot.apple.cn
   
+  # > Logitech
+  - DOMAIN-SUFFIX,logi.com
+  - DOMAIN-SUFFIX,logicoolg.com
+  - DOMAIN-SUFFIX,logitech.com
+  - DOMAIN-SUFFIX,logitechg.com
+  
   # > Microsoft
   - DOMAIN-SUFFIX,aadrm.com
   - DOMAIN-SUFFIX,acompli.com

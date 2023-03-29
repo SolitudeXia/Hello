@@ -117,7 +117,9 @@ payload:
   - DOMAIN-SUFFIX,daniao.org
   - DOMAIN-SUFFIX,greasyfork.org
   - DOMAIN-SUFFIX,guozh.net
+  - DOMAIN-SUFFIX,identrust.com
   - DOMAIN-SUFFIX,iyideng.net
+  - DOMAIN-SUFFIX,owenyoung.com
   - DOMAIN-SUFFIX,tampermonkey.net
   - DOMAIN-SUFFIX,transrush.com
   

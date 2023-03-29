@@ -47,6 +47,14 @@ payload:
   - DOMAIN-SUFFIX,redd.it
   - DOMAIN-SUFFIX,reddit.com
   - DOMAIN-SUFFIX,redditmedia.com
+  
+  # > Twitch
+  - DOMAIN-SUFFIX,ext-twitch.tv
+  - DOMAIN-SUFFIX,jtvnw.net
+  - DOMAIN-SUFFIX,twitch-ext.rootonline.de
+  - DOMAIN-SUFFIX,twitch.tv
+  - DOMAIN-SUFFIX,twitchcdn.net
+  - DOMAIN-KEYWORD,ttvnw
 
   # > Twitter
   - DOMAIN-SUFFIX,cms-twdigitalassets.com
@@ -94,5 +102,6 @@ payload:
   - DOMAIN-SUFFIX,surge-activation.com
   - DOMAIN-SUFFIX,wallhaven.cc
   - DOMAIN-SUFFIX,v2ex.com
+  - DOMAIN-SUFFIX,you.com
   - DOMAIN-SUFFIX,zhiboz.com
-  - DOMAIN-SUFFIX,brave.com
+  

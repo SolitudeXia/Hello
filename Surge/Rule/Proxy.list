@@ -30,9 +30,11 @@ DOMAIN-SUFFIX,bloomberg.de
 DOMAIN-SUFFIX,bloombergview.com
 
 # > ChatGPT 代理 
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,openai.com
-DOMAIN,cdn.auth0.com
-DOMAIN,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 
 # > Disney
 DOMAIN,cdn.registerdisney.go.com
@@ -166,10 +168,12 @@ DOMAIN-SUFFIX,91porn //91
 DOMAIN-SUFFIX,andro4all.com
 DOMAIN-SUFFIX,appleinsider.com
 DOMAIN-SUFFIX,appraven.net
+DOMAIN-SUFFIX,blueseamusics.com
 DOMAIN-SUFFIX,coingecko.com
 DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,duckduckgo.com
 DOMAIN-SUFFIX,daringfireball.com
+DOMAIN-SUFFIX,e-hentai.org //E站
 DOMAIN-SUFFIX,figma.com
 DOMAIN-SUFFIX,ft.com
 DOMAIN-SUFFIX,giffgaff.com
@@ -184,8 +188,12 @@ DOMAIN-SUFFIX,miaona.cyou
 DOMAIN-SUFFIX,news.un.org //联合国
 DOMAIN-SUFFIX,nikkei.com //日经新闻
 DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,paste.gg
 DOMAIN-SUFFIX,producthunt.com
 DOMAIN-SUFFIX,quantumult.app
+DOMAIN-SUFFIX,rfa.org //自由亚洲
+DOMAIN-SUFFIX,rfi.fr //法国国际广播电台
+DOMAIN-SUFFIX,secureshellfish.app
 DOMAIN-SUFFIX,signal.org
 DOMAIN-SUFFIX,sleazyfork.org
 DOMAIN-SUFFIX,sprig.com

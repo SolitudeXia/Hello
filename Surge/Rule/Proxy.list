@@ -1,3 +1,8 @@
+# > 1Password
+DOMAIN-SUFFIX,1password.com
+DOMAIN-SUFFIX,1passwordservices.com
+DOMAIN-SUFFIX,agilebits.com
+
 # > 9to5
 DOMAIN-SUFFIX,9to5google
 DOMAIN-SUFFIX,9to5mac.com

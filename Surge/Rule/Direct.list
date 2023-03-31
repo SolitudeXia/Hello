@@ -20,6 +20,13 @@ DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,smoot.apple.cn
 
+# > Bilibili
+DOMAIN,upos-hz-mirrorakam.akamaized.net
+DOMAIN-SUFFIX,biliapi.com
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilivideo.com
+
 # > Microsoft
 DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,1drv

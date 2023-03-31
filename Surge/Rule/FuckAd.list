@@ -111,6 +111,7 @@ DOMAIN-SUFFIX,advertising.yahoo.com
 DOMAIN-SUFFIX,gemini.yahoo.com
 
 # > Other
+DOMAIN-SUFFIX,adserver.juicyads.com
 DOMAIN-SUFFIX,jdqd.jd.com //屏蔽京东搜集信息
 DOMAIN-SUFFIX,shouji.sougou.com //屏蔽搜狗搜集信息
 DOMAIN-KEYWORD,adservice

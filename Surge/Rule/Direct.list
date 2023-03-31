@@ -35,7 +35,6 @@ DOMAIN-KEYWORD,skydrive
 
 # > 自用(ABCDEFGHIJKLMNOPQRSTUVWXYZ)
 DOMAIN,wx.sogou.com
-DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,authy.com
 DOMAIN-SUFFIX,bandswatch.it
 DOMAIN-SUFFIX,daniao.org

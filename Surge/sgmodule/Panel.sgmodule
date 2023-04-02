@@ -4,8 +4,8 @@
 
 [Panel]
 策略面板 = script-name="运行时间",update-interval=1
-策略面板 = script-name="网络信息",title="",content="",style=info,update-interval=1
-#策略面板 = script-name="节点详情",content="请刷新",style=info,update-interval=1
+#策略面板 = script-name="网络信息",title="",content="",style=info,update-interval=1
+策略面板 = script-name="节点详情",content="请刷新",style=info,update-interval=1
 策略面板 = script-name="流量统计",update-interval=1
 策略面板 = script-name="FlushDNS",update-interval=1800
 #策略面板 = script-name="网络连通性测试",update-interval=1
@@ -15,8 +15,8 @@
 
 [Script]
 运行时间 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/surgepro_reloadprofile.js,script-update-interval=0,argument=title=Surge Pro&icon=crown.fill&color=#f6c970
-网络信息 = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Network-Info/Moore/net-info-panel_CN.js,script-update-interval=0
-#节点详情 = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/IP-Check/Moore/IP-Check.js,script-update-interval=0
+#网络信息 = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/Network-Info/Moore/net-info-panel_CN.js,script-update-interval=0
+节点详情 = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/IP-Check/Moore/IP-Check.js,script-update-interval=0
 流量统计 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/trafficstatistics.js,script-update-interval=0,argument=icon=arrow.up.arrow.down.circle&color=#5d84f8
 FlushDNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Flush-DNS/Moore/Flush-DNS.js,script-update-interval=0,argument=title=DNS FLush&icon=arrow.triangle.2.circlepath.circle&color=#afe59a&server=false
 #网络连通性测试 = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/ConnectivityTest.js,script-update-interval=0,argument=icon=icloud.and.arrow.down&color=#FF9F0A&server=false

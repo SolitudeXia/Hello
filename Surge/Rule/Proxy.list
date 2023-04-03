@@ -33,6 +33,7 @@ DOMAIN-SUFFIX,bloomberg.cn
 DOMAIN-SUFFIX,bloomberg.com
 DOMAIN-SUFFIX,bloomberg.de
 DOMAIN-SUFFIX,bloombergview.com
+DOMAIN-SUFFIX,bwbx.io
 
 # > ChatGPT 代理 
 DOMAIN-SUFFIX,ai.com
@@ -170,6 +171,7 @@ DOMAIN,gallery.scriptable.app
 DOMAIN,sub-store.vercel.app //sub-store
 DOMAIN,surge.mitsea.com
 DOMAIN-SUFFIX,91porn //91
+DOMAIN-SUFFIX,afreecatv.com
 DOMAIN-SUFFIX,andro4all.com
 DOMAIN-SUFFIX,appleinsider.com
 DOMAIN-SUFFIX,appraven.net
@@ -180,12 +182,15 @@ DOMAIN-SUFFIX,cyberciti.biz
 DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,duckduckgo.com
 DOMAIN-SUFFIX,daringfireball.com
+DOMAIN-SUFFIX,daringfireball.net
 DOMAIN-SUFFIX,e-hentai.org //E站
 DOMAIN-SUFFIX,figma.com
 DOMAIN-SUFFIX,ft.com
 DOMAIN-SUFFIX,giffgaff.com
+DOMAIN-SUFFIX,gitbook.com
 DOMAIN-SUFFIX,gravatar.com
 DOMAIN-SUFFIX,houstonchronicle //休斯顿纪事报
+DOMAIN-SUFFIX,imgur.io
 DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,javbus.com //javbus
 DOMAIN-SUFFIX,jsdelivr.com

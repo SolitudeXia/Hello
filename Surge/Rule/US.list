@@ -9,4 +9,6 @@ DOMAIN-KEYWORD,paypal
 #USER-AGENT,PayPal*
 
 # > Other
+DOMAIN-SUFFIX,crocs.com
 DOMAIN-SUFFIX,ultramobile.com //paygo
+DOMAIN-SUFFIX,yubico.com

@@ -15,7 +15,7 @@
 
 [Script]
 运行时间 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/surgepro_reloadprofile.js,script-update-interval=-1,argument=title=Surge Pro&icon=crown.fill&color=#f6c970
-网络信息 = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/Net-info-panel.js,script-update-interval=-1,argument=460-00
+网络信息 = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/Net-info-panel.js,script-update-interval=-1,argument=460-02
 #节点详情 = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/IP-Check/Moore/IP-Check.js,script-update-interval=-1
 流量统计 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/trafficstatistics.js,script-update-interval=-1,argument=icon=arrow.up.arrow.down.circle&color=#5d84f8
 FlushDNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Flush-DNS/Moore/Flush-DNS.js,script-update-interval=-1,argument=title=DNS FLush&icon=arrow.triangle.2.circlepath.circle&color=#afe59a&server=false

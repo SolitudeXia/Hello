@@ -17,3 +17,6 @@ URL-REGEX,^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp,REJECT
 
 # > 云闪付 去广告
 URL-REGEX,^https:\/\/wallet\.95516\.com\/s\/wl\/icon\/long,REJECT
+
+[MITM]
+hostname = %APPEND% api.m.jd.com, *.meituan.net, *.meituan.com, wallet.95516.com

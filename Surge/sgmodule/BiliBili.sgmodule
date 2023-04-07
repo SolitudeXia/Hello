@@ -4,7 +4,7 @@
 
 [Rule]
 # > 屏蔽IP请求
-URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/resource\/ip,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/resource\/ip,REJECT
 # > 屏蔽DefaultWord
 URL-REGEX,^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Search\/Default,REJECT
 

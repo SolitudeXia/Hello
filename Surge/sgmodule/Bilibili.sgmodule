@@ -50,3 +50,6 @@ URL-REGEX,^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/(Flash|Lis
 UP主推荐广告 = type=http-response,pattern=^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.view\.v1\.View\/View$,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto.js,requires-body=1,script-update-interval=-1
 # > 动态页面去广告
 动态页面去广告 = type=http-response,pattern=^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.dynamic\.v2\.Dynamic\/DynAll$,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto.js,requires-body=1,script-update-interval=-1
+
+[MITM]
+hostname = %APPEND% -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net, app.bilibili.com, api.live.bilibili.com, *.bilibili.com, *.bilibili.*, grpc.biliapi.net,*biliapi.net

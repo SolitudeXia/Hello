@@ -3,21 +3,24 @@
 #!system=ios
 
 [Rule]
-# > 屏蔽广告浮窗
-URL-REGEX,^https?:\/\/api\.bilibili\.com\/pgc\/activity\/deliver\/material\/receive,REJECT-TINYGIF
 # > 屏蔽IP请求
 URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/resource\/ip,REJECT
 # > 屏蔽DefaultWord
 URL-REGEX,^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Search\/Default,REJECT
-URL-REGEX,^https://app.bilibili.com/x/v2/search/defaultwords,REJECT-TINYGIF
+
+[Map Local]
+# > 屏蔽广告浮窗
+^https?:\/\/api\.bilibili\.com\/pgc\/activity\/deliver\/material\/receive data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 # > 应用开屏去广告
-URL-REGEX,^https://app.bilibili.com/x/v2/splash/show,REJECT-TINYGIF
+^https://app.bilibili.com/x/v2/splash/show data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+# > 屏蔽DefaultWord
+^https://app.bilibili.com/x/v2/search/defaultwords data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 # > Material_Ad
-URL-REGEX,^https?:\/\/api\.bilibili\.com\/x\/vip\/ads\/material\/report,REJECT-TINYGIF
+^https?:\/\/api\.bilibili\.com\/x\/vip\/ads\/material\/report data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 # > 小卡片广告
-URL-REGEX,^https://api.bilibili.com/pgc/season/player/cards,REJECT-TINYGIF
+^https://api.bilibili.com/pgc/season/player/cards data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 # > 漫画去广告
-URL-REGEX,^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/(Flash|ListFlash|GetActivityTab),REJECT-TINYGIF
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/(Flash|ListFlash|GetActivityTab) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 [Script]
 # > 屏蔽视频播放下方商品推广
@@ -52,4 +55,4 @@ UP主推荐广告 = type=http-response,pattern=^https?:\/\/(app\.bilibili\.com|g
 动态页面去广告 = type=http-response,pattern=^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.dynamic\.v2\.Dynamic\/DynAll$,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto.js,requires-body=1,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net, app.bilibili.com, api.live.bilibili.com, *.bilibili.com, *.bilibili.*, grpc.biliapi.net,*biliapi.net
+hostname = %APPEND% -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net, app.bilibili.com, api.live.bilibili.com, *.bilibili.com, *.bilibili.*, grpc.biliapi.net, *biliapi.net

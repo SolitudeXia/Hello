@@ -2,6 +2,10 @@
 #!desc=自用 @JieStardust
 #!system=ios
 
+[General]
+# > Boxjs、云盘挂载
+force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net, *.example.com:0
+
 [Rule]
 # > 建设银行
 URL-REGEX,^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/nf\/newfin\/activity\/xjr_\w+\.png$,REJECT
@@ -29,14 +33,23 @@ URL-REGEX,^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,R
 # > 12306 开屏广告
 12306 = type=http-request,pattern=^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/12306.js,requires-body=1,script-update-interval=-1
 
-# > 阿里云盘去广告
-云盘去广告 = type=http-response,pattern=^https:\/\/api\.aliyundrive\.com\/apps\/v1\/users\/home\/widgets$,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js,requires-body=1,script-update-interval=-1
+# > 阿里云盘广告
+云盘广告 = type=http-response,pattern=^https:\/\/api\.aliyundrive\.com\/apps\/v1\/users\/home\/widgets$,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js,requires-body=1,script-update-interval=-1
+
+# > BoxJs
+BoxJs = type=http-request,pattern=^https?:\/\/(.+\.)?boxjs\.(com|net),script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js,requires-body=1,timeout=120
 
 # > 京东App 历史价格 
 京东比价 = type=http-response,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),script-path=https://raw.githubusercontent.com/githubdulong/Script/master/jd_price.js,requires-body=1,script-update-interval=-1
+
+# > Sub-Store
+Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store.min.js,requires-body=1,timeout=120,max-size=131072,script-update-interval=-1
+
+# > TestFlight账户管理
+TestFlight = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js,requires-body=1,script-update-interval=-1
 
 # > 微信公众号文章广告
 公众号广告 = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/self_use.js,requires-body=1,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% image1.ccb.com, imageadv.ccb.com, api.m.jd.com, *.meituan.net, *.meituan.com, wallet.95516.com, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, mp.weixin.qq.com
+hostname = %APPEND% image1.ccb.com, imageadv.ccb.com, api.m.jd.com, *.meituan.net, *.meituan.com, wallet.95516.com, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net, sub.store, testflight.apple.com, mp.weixin.qq.com

@@ -3,6 +3,10 @@
 #!system=ios
 
 [Rule]
+# > 建设银行
+URL-REGEX,^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/nf\/newfin\/activity\/xjr_\w+\.png$,REJECT
+URL-REGEX,^http:\/\/imageadv\.ccb\.com\/adpic\/(nctm\/ad|sszserver\/upload\/activity)\/\d{8}\/\w+\.(gif|png|jpg)$,REJECT
+
 # > 京东 去广告
 URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$,REJECT-TINYGIF
 
@@ -21,5 +25,15 @@ URL-REGEX,^https:\/\/wallet\.95516\.com\/s\/wl\/icon\/long,REJECT
 # > 浙里办
 URL-REGEX,^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,REJECT
 
+[Script]
+# > 12306 开屏广告 //ad.12306.cn
+12306 = type=http-request, pattern=^https:\/\/ad\.12306\.cn\/ad\/ser\/getAdList, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/12306.js, timeout=60, script-update-interval=0
+
+# > 阿里云盘 //api.aliyundrive.com
+阿里云盘 = type=http-response, pattern=^https:\/\/api\.aliyundrive\.com\/apps\/v1\/users\/home\/widgets$, requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js, timeout=60, script-update-interval=0
+
+# > 京东App 历史价格 
+京东比价 = type=http-response,requires-body=1,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),script-path=https://raw.githubusercontent.com/githubdulong/Script/master/jd_price.js
+
 [MITM]
-hostname = %APPEND% api.m.jd.com, *.meituan.net, *.meituan.com, wallet.95516.com, portal.zjzwfw.gov.cn
+hostname = %APPEND% image1.ccb.com, imageadv.ccb.com, api.m.jd.com, *.meituan.net, *.meituan.com, wallet.95516.com, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com

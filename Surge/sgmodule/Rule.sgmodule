@@ -1,3 +1,7 @@
 #!name=规则合集
 #!desc=自用 @JieStardust
 #!system=ios
+
+[Rule]
+# > 云闪付 去广告
+URL-REGEX,^https:\/\/wallet\.95516\.com\/s\/wl\/icon\/long,REJECT

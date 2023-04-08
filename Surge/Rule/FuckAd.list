@@ -110,6 +110,14 @@ DOMAIN-SUFFIX,adspecs.yahoo.com
 DOMAIN-SUFFIX,advertising.yahoo.com
 DOMAIN-SUFFIX,gemini.yahoo.com
 
+# > 云闪付 开屏广告
+DOMAIN,ads.95516.com
+DOMAIN,cm-10-138.getui.com
+DOMAIN,sdk.open.talk.getui.net
+DOMAIN,sdk-conf.getui.com
+DOMAIN,switch.cup.com.cn
+DOMAIN,tysdk.95516.com
+
 # > Other
 DOMAIN-SUFFIX,adserver.juicyads.com
 DOMAIN-SUFFIX,jdqd.jd.com //屏蔽京东搜集信息

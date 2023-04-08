@@ -133,16 +133,10 @@ DOMAIN-SUFFIX,twitpic.com
 DOMAIN-SUFFIX,vine.co
 DOMAIN-KEYWORD,twitter
 
-# > The New York Times //纽约时报
-DOMAIN-SUFFIX,nyt.com
-DOMAIN-SUFFIX,nytimes.com
-
-# > The Wall Street Journal //华尔街日报
-DOMAIN-SUFFIX,wsj.com
-DOMAIN-SUFFIX,wsj.net
-
-# > The Washington Post //华盛顿邮报
-DOMAIN-SUFFIX,washingtonpost.com
+# > UBI //育碧
+DOMAIN-SUFFIX,ubi.com
+DOMAIN-SUFFIX,ubisoft.com
+DOMAIN-SUFFIX,uplay.com
 
 # > Wikimedia //维基
 DOMAIN-SUFFIX,mediawiki.org
@@ -162,10 +156,6 @@ DOMAIN-SUFFIX,wiktionary.org
 DOMAIN-SUFFIX,yahoo.com
 DOMAIN,search.yahoo.co.jp
 
-# > Zaobao //联合早报
-DOMAIN-SUFFIX,zaobao.com
-DOMAIN-SUFFIX,zaobao.com.sg
-
 # > Other //ABCDEFGHIJKLMNOPQRSTUVWXYZ
 DOMAIN,gallery.scriptable.app
 DOMAIN,sub-store.vercel.app //sub-store
@@ -178,6 +168,7 @@ DOMAIN-SUFFIX,appraven.net
 DOMAIN-SUFFIX,arc.net
 DOMAIN-SUFFIX,blueseamusics.com
 DOMAIN-SUFFIX,coingecko.com
+DOMAIN-SUFFIX,cryptomator.org
 DOMAIN-SUFFIX,cyberciti.biz
 DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,duckduckgo.com
@@ -200,6 +191,8 @@ DOMAIN-SUFFIX,miaona.cyou
 DOMAIN-SUFFIX,news.un.org //联合国
 DOMAIN-SUFFIX,nikkei.com //日经新闻
 DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,nyt.com //纽约时报
+DOMAIN-SUFFIX,nytimes.com //纽约时报
 DOMAIN-SUFFIX,paste.gg
 DOMAIN-SUFFIX,producthunt.com
 DOMAIN-SUFFIX,quantumult.app
@@ -212,7 +205,13 @@ DOMAIN-SUFFIX,sprig.com
 DOMAIN-SUFFIX,starlink.com
 DOMAIN-SUFFIX,surge-activation.com
 DOMAIN-SUFFIX,theinitium.com
+DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,voachinese.com //美国之音
 DOMAIN-SUFFIX,wallhaven.cc
 DOMAIN-SUFFIX,wanqu.co
-DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,washingtonpost.com //华盛顿邮报
+DOMAIN-SUFFIX,wsj.com //华尔街日报
+DOMAIN-SUFFIX,wsj.net //华尔街日报
+DOMAIN-SUFFIX,zaobao.com //联合早报
+DOMAIN-SUFFIX,zaobao.com.sg //联合早报
 DOMAIN-SUFFIX,zhiboz.com //直播吧

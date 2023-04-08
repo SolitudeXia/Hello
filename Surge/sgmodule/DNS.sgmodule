@@ -33,6 +33,8 @@ ip6-loopback = ::1
 *.qcloudcdn.cn = server:119.29.29.29 // 腾讯云CDN
 *.qcloudcdn.com = server:119.29.29.29 // 腾讯云CDN
 *.qq.com = server:119.29.29.29 // QQ
+*.qlogo.cn = server:119.29.29.29 // 腾讯头像
+*.qpic.cn = server:119.29.29.29 // 腾讯图片
 *.weixin.qq.com = server:119.29.29.29 // 微信
 *.wx.qq.com = server:119.29.29.29 // 微信
 *.weixin.com = server:119.29.29.29 // 微信
@@ -58,6 +60,8 @@ ip6-loopback = ::1
 *.bilicdn?.com = server:223.5.5.5 // BiliBili CDN
 *.hdslb.com = server:223.5.5.5 // BiliBili 静态资源
 *.hdslb.net = server:223.5.5.5 // BiliBili 静态资源
+*.bilivideo.com = server:223.5.5.5 // BiliBili 视频
+*.bilivideo.cn = server:223.5.5.5 // BiliBili 视频
 
 # > 京东
 *.jd.com = server:223.5.5.5 // 京东

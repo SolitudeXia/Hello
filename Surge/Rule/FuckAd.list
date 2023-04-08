@@ -116,6 +116,8 @@ DOMAIN,switch.cup.com.cn
 DOMAIN,tysdk.95516.com
 
 # > Other
+DOMAIN,in.appcenter.ms
+DOMAIN,sdk.fra-01,braze.eu
 DOMAIN-SUFFIX,adserver.juicyads.com
 DOMAIN-KEYWORD,adservice
 DOMAIN-KEYWORD,appsflyer

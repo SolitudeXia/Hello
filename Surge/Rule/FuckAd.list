@@ -52,9 +52,6 @@ IP-CIDR,120.240.95.37/32,no-resolve
 IP-CIDR,221.179.131.72/32,no-resolve
 IP-CIDR,221.179.140.145/32,no-resolve
 
-# > 工商银行 开屏广告
-DOMAIN,pageviewp.icbc.com.cn
-
 # > 广告联盟
 // DOMAIN,is.snssdk.com
 // DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
@@ -120,8 +117,6 @@ DOMAIN,tysdk.95516.com
 
 # > Other
 DOMAIN-SUFFIX,adserver.juicyads.com
-DOMAIN-SUFFIX,jdqd.jd.com //屏蔽京东搜集信息
-DOMAIN-SUFFIX,shouji.sougou.com //屏蔽搜狗搜集信息
 DOMAIN-KEYWORD,adservice
 DOMAIN-KEYWORD,appsflyer
 // Privacy

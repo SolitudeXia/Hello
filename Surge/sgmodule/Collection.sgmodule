@@ -7,49 +7,60 @@
 force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net, *.example.com:0
 
 [Rule]
+# > 阿里巴巴
+URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv,REJECT
+URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/.+?etao_advertise,REJECT
+URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimusic\.common\.mobileservice\.startinit,REJECT
+URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.etao\.noah\.query\/.+tao_splash,REJECT
+URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.queryadvertise,REJECT
+URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get,REJECT
+URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome,REJECT
+URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources,REJECT
+# > CSDN //app-gw.csdn.net
+URL-REGEX,^https:\/\/app-gw\.csdn\.net\/cms-app\/v\d\/home_page\/open_advertisement,REJECT
 # > 建设银行
 URL-REGEX,^http:\/\/image1\.ccb\.com\/newsinfo\/eBranch\/check\/nf\/newfin\/activity\/xjr_\w+\.png$,REJECT
 URL-REGEX,^http:\/\/imageadv\.ccb\.com\/adpic\/(nctm\/ad|sszserver\/upload\/activity)\/\d{8}\/\w+\.(gif|png|jpg)$,REJECT
-
 # > 京东 去广告
-URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$,REJECT-TINYGIF
-
+URL-REGEX,^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=queryMaterialAdverts,REJECT
+URL-REGEX,^https:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx,REJECT
+URL-REGEX,^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/(aladdin|base)\/(new)?na\/m\/(getLoadingPicture|adInfo),REJECT
 # > 美团 去广告
-DOMAIN,portal-portm.meituan.com,REJECT
-URL-REGEX,^https?:\/\/img\.meituan\.net\/(bizad|brandCpt)\/\w+\.(png|jpg),REJECT
-URL-REGEX,^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage,REJECT-TINYGIF
-URL-REGEX,^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|jpg\.webp)$,REJECT
-URL-REGEX,^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4),REJECT
-URL-REGEX,^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg,REJECT
-URL-REGEX,^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp,REJECT
-
+URL-REGEX,^https:\/\/img\.meituan\.net\/bizad\/bizad_brandCpt_\d+,REJECT
+URL-REGEX,^https?:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-alita)\/\w+\??,REJECT
 # > 云闪付 去广告
 URL-REGEX,^https:\/\/wallet\.95516\.com\/s\/wl\/icon\/long,REJECT
-
 # > 浙里办
 URL-REGEX,^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,REJECT
+
+[Map Local]
+# > 阿里巴巴
+^https:\/\/gw\.alicdn\.com\/imgextra\/i\d\/[\w!]+-\d-tps-702-758\.png data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/(gw|heic)\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602)\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0 data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+# > 美团 去广告
+^http:\/\/wmapi\.meituan\.com\/api\/v7\/(loadInfo|openscreen|startpicture)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+# > 去除公众号商品推广
+^https:\/\/mp\.weixin\.qq\.com\/mp\/cps_product_info\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 [Script]
 # > 12306 开屏广告
 12306 = type=http-request,pattern=^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/12306.js,requires-body=1,script-update-interval=-1
-
 # > 阿里云盘广告
 云盘广告 = type=http-response,pattern=^https:\/\/api\.aliyundrive\.com\/apps\/v1\/users\/home\/widgets$,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js,requires-body=1,script-update-interval=-1
-
 # > BoxJs
 BoxJs = type=http-request,pattern=^https?:\/\/(.+\.)?boxjs\.(com|net),script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js,requires-body=1,timeout=120
-
+# > 广告联盟去广告
+广告联盟 = type=http-response,pattern=^https:\/\/((api-access\.pangolin-sdk-toutiao|is\.snssdk)\.com\/api\/ad\/union\/sdk\/get_ads|open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ$|mi\.gdt\.qq\.com\/gdt_mview\.fcg\?),script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/adsense.js,requires-body=1,max-size=0,script-update-interval=-1
+# > 京东 去广告
+京东去广告 = type=http-response,pattern=^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=start,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js,requires-body=1,script-update-interval=-1
 # > 京东App 历史价格 
 京东比价 = type=http-response,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),script-path=https://raw.githubusercontent.com/githubdulong/Script/master/jd_price.js,requires-body=1,script-update-interval=-1
-
 # > Sub-Store
 Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store.min.js,requires-body=1,timeout=120,max-size=131072,script-update-interval=-1
-
 # > TestFlight账户管理
 TestFlight = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js,requires-body=1,script-update-interval=-1
-
 # > 微信公众号文章广告
 公众号广告 = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/self_use.js,requires-body=1,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% image1.ccb.com, imageadv.ccb.com, api.m.jd.com, *.meituan.net, *.meituan.com, wallet.95516.com, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net, sub.store, testflight.apple.com, mp.weixin.qq.com
+hostname = %APPEND% acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, app-gw.csdn.net, image1.ccb.com, imageadv.ccb.com, api.m.jd.com, bdsp-x.jd.com, dsp-x.jd.com, api.jr.mi.com, img.meituan.net, s3plus.meituan.net, wmapi.meituan.com, wallet.95516.com, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net, api-access.pangolin-sdk-toutiao.com, is.snssdk.com, mi.gdt.qq.com, open.e.kuaishou.com, sub.store, testflight.apple.com, mp.weixin.qq.com

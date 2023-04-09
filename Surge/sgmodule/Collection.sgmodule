@@ -16,6 +16,9 @@ URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.film\.mtopadvertiseapi\.quer
 URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get,REJECT
 URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome,REJECT
 URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources,REJECT
+# > 虎牙直播
+URL-REGEX,^https?:\/\/business\.msstatic\.com\/advertiser\/,REJECT
+URL-REGEX,^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/,REJECT-TINYGIF
 # > 京东 去广告
 URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$,REJECT-TINYGIF
 # > 美团 去广告
@@ -52,4 +55,4 @@ TestFlight = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/v\d\/(
 公众号广告 = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/self_use.js,requires-body=1,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, api.m.jd.com, img.meituan.net, s3plus.meituan.net, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, boxjs.com, boxjs.net, api-access.pangolin-sdk-toutiao.com, is.snssdk.com, mi.gdt.qq.com, open.e.kuaishou.com, sub.store, testflight.apple.com, mp.weixin.qq.com
+hostname = %APPEND% acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, business.msstatic.com, cdnfilel.msstatic.com, api.m.jd.com, img.meituan.net, s3plus.meituan.net, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, boxjs.com, boxjs.net, api-access.pangolin-sdk-toutiao.com, is.snssdk.com, mi.gdt.qq.com, open.e.kuaishou.com, sub.store, testflight.apple.com, mp.weixin.qq.com

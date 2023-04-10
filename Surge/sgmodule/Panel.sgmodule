@@ -23,5 +23,5 @@
 #网络连通性测试 = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/ConnectivityTest.js,script-update-interval=-1,argument=icon=icloud.and.arrow.down&color=#FF9F0A&server=false
 #网络速率 = type=generic,timeout=60,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/index.js,script-update-interval=-1,argument=icon=arrow.down.circle&icon-color=#5d84f8&mb=1
 解锁检测 = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/Stream-All.js,script-update-interval=-1,argument=title=解锁检测&icon=headphones.circle&color=#FF2121
-ChatGPT = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/CFGPT/CFGPT_nowarp.js,argument=icon=bubble.right&color=#789262
+ChatGPT = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/CFGPT/CFGPT_nowarp.js,argument=icon=bubble.right&color=#0aa344
 倒数日 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/smartmimi/conf/master/surge/timecard.js,script-update-interval=-1

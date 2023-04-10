@@ -27,10 +27,6 @@ URL-REGEX,^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,R
 # > 阿里巴巴
 ^https:\/\/gw\.alicdn\.com\/imgextra\/i\d\/[\w!]+-\d-tps-702-758\.png data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 ^https:\/\/(gw|heic)\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602)\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0 data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-# > 百度云
-^https:\/\/pan\.baidu\.com\/act\/api\/activityentry\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-^https:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/adx\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-^https:\/\/update\.pan\.baidu\.com\/statistics\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 # > 美团 去广告
 ^http:\/\/wmapi\.meituan\.com\/api\/v7\/(loadInfo|openscreen|startpicture)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 ^https?:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-alita)\/\w+\?? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
@@ -44,8 +40,6 @@ URL-REGEX,^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,R
 云盘广告 = type=http-response,pattern=^https:\/\/api\.aliyundrive\.com\/apps\/v1\/users\/home\/widgets$,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js,requires-body=1,script-update-interval=-1
 # > 阿里云盘挂载
 云盘挂载 = type=http-request,pattern=^http:\/\/(aliyun|quark|pikpak)\.example\.com,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/fileball.js,requires-body=1,script-update-interval=-1
-# > 百度网盘画质倍速
-百度网盘 = type=http-response,pattern=https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/baiduCloud.js,requires-body=1,max-size=0,script-update-interval=-1
 # > BoxJs
 BoxJs = type=http-request,pattern=^https?:\/\/(.+\.)?boxjs\.(com|net),script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js,requires-body=1,timeout=120
 # > 广告联盟去广告
@@ -60,4 +54,4 @@ TestFlight = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/v\d\/(
 公众号广告 = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/self_use.js,requires-body=1,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, pan.baidu.com, api.m.jd.com, img.meituan.net, s3plus.meituan.net, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, boxjs.com, boxjs.net, api-access.pangolin-sdk-toutiao.com, is.snssdk.com, mi.gdt.qq.com, open.e.kuaishou.com, sub.store, testflight.apple.com, mp.weixin.qq.com
+hostname = %APPEND% acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, api.m.jd.com, img.meituan.net, s3plus.meituan.net, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, boxjs.com, boxjs.net, api-access.pangolin-sdk-toutiao.com, is.snssdk.com, mi.gdt.qq.com, open.e.kuaishou.com, sub.store, testflight.apple.com, mp.weixin.qq.com

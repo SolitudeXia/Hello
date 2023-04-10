@@ -47,7 +47,7 @@ BoxJs = type=http-request,pattern=^https?:\/\/(.+\.)?boxjs\.(com|net),script-pat
 # > 京东App 历史价格 
 京东比价 = type=http-response,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),script-path=https://raw.githubusercontent.com/githubdulong/Script/master/jd_price.js,requires-body=1,script-update-interval=-1
 # > 京粉转链
-#京粉转链 = type=http-response,pattern=^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item),script-path=https://raw.githubusercontent.com/githubdulong/Script/master/jfConvert.js,use-local-host-item-for-proxy=true,requires-body=1,max-size=0,script-update-interval=-1
+京粉转链 = type=http-response,pattern=^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item),script-path=https://raw.githubusercontent.com/githubdulong/Script/master/jfConvert.js,use-local-host-item-for-proxy=true,requires-body=1,max-size=0,script-update-interval=-1
 # > Sub-Store
 Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store.min.js,requires-body=1,timeout=120,max-size=131072,script-update-interval=-1
 # > TestFlight账户管理

@@ -17,7 +17,7 @@ URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get,REJECT
 URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome,REJECT
 URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources,REJECT
 # > 京东 去广告
-# URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$,REJECT-TINYGIF
 # > 美团 去广告
 URL-REGEX,^https:\/\/img\.meituan\.net\/bizad\/bizad_brandCpt_\d+,REJECT
 # > 浙里办

@@ -3,7 +3,7 @@
 #!system=ios
 
 [Rule]
-// URL-REGEX,^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/(get-lbs-cell-info\.php$|sdkconfig\.php\?),REJECT
+URL-REGEX,^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/(get-lbs-cell-info\.php$|sdkconfig\.php\?),REJECT
 
 [Map Local]
 # > 首页 签到,发布按钮,侧边栏,右上角红包,侧边栏提醒,超话tab悬浮,顶部直播
@@ -20,7 +20,7 @@
 ^https:\/\/api\.weibo\.cn\/2\/video\/redpacket\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 ^https:\/\/api\.weibo\.cn\/!\/sug\/list\/finderchange\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 # > 开屏广告
-// ^https:\/\/boot\.biz\.weibo\.com\/v1\/ad\/realtime$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/boot\.biz\.weibo\.com\/v1\/ad\/realtime$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 # > 微博长文章推广
 ^https:\/\/card\.weibo\.com\/article\/m\/aj\/(reward|uvead)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 ^https:\/\/weibo\.com\/ttarticle\/x\/m\/aj\/(reward|uvead)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
@@ -43,8 +43,8 @@ Weibo_10 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/messageflow\
 Weibo_11 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/search\/(container_timeline|finder)\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,requires-body=1,script-update-interval=-1
 Weibo_12 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/searchall\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,requires-body=1,script-update-interval=-1
 # > 开屏广告
-// Weibo_13 = type=http-response,pattern=^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php$,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,requires-body=1,script-update-interval=-1
-// Weibo_14 = type=http-response,pattern=^https:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,requires-body=1,script-update-interval=-1
+Weibo_13 = type=http-response,pattern=^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php$,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,requires-body=1,script-update-interval=-1
+Weibo_14 = type=http-response,pattern=^https:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,requires-body=1,script-update-interval=-1
 # > 跳过重定向页面以直接访问 //weibo.cn, shop.sc.weibo.com, t.cn, sinaurl.cn
 Weibo_15 = type=http-request,pattern=^https:\/\/weibo\.cn\/sinaurl\?(.*&)?(u|toasturl|goto)=,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/noRedirect.js,script-update-interval=-1
 Weibo_16 = type=http-request,pattern=^https:\/\/shop\.sc\.weibo\.com\/h5\/jump\/error\?(.*&)?url=,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/noRedirect.js,script-update-interval=-1

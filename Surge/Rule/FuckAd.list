@@ -96,6 +96,14 @@ DOMAIN-SUFFIX,l.qq.com
 // Privacy
 DOMAIN,safebrowsing.urlsec.qq.com
 
+# > 微博 开屏广告
+DOMAIN,adstrategy.biz.weibo.com
+// DOMAIN,boot.biz.weibo.com
+DOMAIN,kadmimage.biz.weibo.com
+DOMAIN,sdkaction.biz.weibo.com
+DOMAIN,sdkclick.biz.weibo.com
+DOMAIN,sdkmonitor.biz.weibo.com
+
 # > Yahoo
 DOMAIN,admarketing.yahoo.net
 DOMAIN,ads.auctions.yahoo.com

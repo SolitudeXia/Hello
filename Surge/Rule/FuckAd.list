@@ -17,7 +17,7 @@ DOMAIN,nsclick.baidu.com
 DOMAIN-SUFFIX,duapps.com
 DOMAIN-SUFFIX,cpro.baidu.com
 DOMAIN-SUFFIX,pos.baidu.com
-// Privacy
+# Privacy
 DOMAIN,hm.baidu.com
 DOMAIN,hmma.baidu.com
 
@@ -26,7 +26,7 @@ DOMAIN,ad.21cn.com
 DOMAIN,ad.k.21cn.com
 DOMAIN,admarket.21cn.com
 DOMAIN,adshows.21cn.com
-// Hijacking
+# Hijacking
 IP-CIDR,61.160.200.223/32,no-resolve
 IP-CIDR,61.160.200.242/32,no-resolve
 IP-CIDR,61.160.200.252/32,no-resolve
@@ -53,8 +53,8 @@ IP-CIDR,221.179.131.72/32,no-resolve
 IP-CIDR,221.179.140.145/32,no-resolve
 
 # > 广告联盟
-// DOMAIN,is.snssdk.com
-// DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+# DOMAIN,is.snssdk.com
+# DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
 
 # > Google
@@ -62,7 +62,7 @@ DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,googleadsserving.cn
 DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,googletagservices.com
-// Privacy
+# Privacy
 DOMAIN,safebrowsing.googleapis.com
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,google-analytics.com
@@ -77,7 +77,7 @@ IP-CIDR,124.192.153.42/32,no-resolve
 
 # > Kuaishou
 DOMAIN,js-ad.a.yximgs.com
-// DOMAIN-SUFFIX,e.kuaishou.com
+# DOMAIN-SUFFIX,e.kuaishou.com
 
 # > Tencent
 DOMAIN,adsmind.apdcdn.tc.qq.com
@@ -91,9 +91,9 @@ DOMAIN,pgdt.ugdtimg.com
 DOMAIN,splashqqlive.gtimg.com
 DOMAIN,wa.gtimg.com
 DOMAIN-SUFFIX,e.qq.com
-// DOMAIN-SUFFIX,gdt.qq.com
+# DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,l.qq.com
-// Privacy
+# Privacy
 DOMAIN,safebrowsing.urlsec.qq.com
 
 # > Yahoo
@@ -121,4 +121,4 @@ DOMAIN,sdk.fra-01,braze.eu
 DOMAIN-SUFFIX,adserver.juicyads.com
 DOMAIN-KEYWORD,adservice
 DOMAIN-KEYWORD,appsflyer
-// Privacy
+# Privacy

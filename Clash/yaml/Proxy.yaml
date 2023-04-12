@@ -11,7 +11,6 @@ payload:
   # > Adguard
   - DOMAIN-SUFFIX,adguard.com
   - DOMAIN-SUFFIX,adguard.org
-  - DOMAIN-SUFFIX,adtidy.org
   
   # > ChatGPT 代理 
   - DOMAIN-SUFFIX,openai.com
@@ -49,7 +48,17 @@ payload:
   - DOMAIN-SUFFIX,Yobt.co
   - DOMAIN-SUFFIX,youjizz.com
   - DOMAIN-SUFFIX,youporn.com
-
+  
+  # > Nvidia //代理
+  - DOMAIN-SUFFIX,geforce.com
+  - DOMAIN-SUFFIX,gputechconf.com
+  - DOMAIN-SUFFIX,nvidia.com
+  - DOMAIN-SUFFIX,nvidiaforhp.com
+  - DOMAIN-SUFFIX,nvidiagrid.net
+  - DOMAIN-SUFFIX,shotwithgeforce.com
+  - DOMAIN-SUFFIX,tegrazone.co
+  - DOMAIN-SUFFIX,tegrazone.com
+  
   # > Porn
   - DOMAIN-SUFFIX,phncdn.com
   - DOMAIN-SUFFIX,phprcdn.com
@@ -117,4 +126,3 @@ payload:
   - DOMAIN-SUFFIX,v2ex.com
   - DOMAIN-SUFFIX,you.com
   - DOMAIN-SUFFIX,zhiboz.com
-  

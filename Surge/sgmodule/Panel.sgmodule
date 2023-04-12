@@ -22,6 +22,6 @@
 #FlushDNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Flush-DNS/Moore/Flush-DNS.js,script-update-interval=-1,argument=title=DNS FLush&icon=arrow.triangle.2.circlepath.circle&color=#afe59a&server=false
 #网络连通性测试 = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/ConnectivityTest.js,script-update-interval=-1,argument=icon=icloud.and.arrow.down&color=#FF9F0A&server=false
 #网络速率 = type=generic,timeout=60,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/script/index.js,script-update-interval=-1,argument=icon=arrow.down.circle&icon-color=#5d84f8&mb=1
-解锁检测 = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/Stream-All.js,script-update-interval=-1,argument=title=解锁检测&icon=headphones.circle&color=#FF2121
+解锁检测 = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/Stream-All.js,script-update-interval=-1,argument=title=解锁检测&icon=play.rectangle.fill&color=#FF2121
 ChatGPT检测 = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/Panel/CFGPT/CFGPT_2.js,script-update-interval=-1,argument=icon=bubble.right&iconerr=xmark.seal.fill&icon-color=#D65C51
 倒数日 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/smartmimi/conf/master/surge/timecard.js,script-update-interval=-1

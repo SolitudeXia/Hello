@@ -1,10 +1,6 @@
 # > General
 DOMAIN,app.appsflyer.com
 
-# > Alibaba
-DOMAIN,log.mmstat.com
-DOMAIN,sycm.mmstat.com
-
 # > Tencent
 DOMAIN,fairplay.l.qq.com
 DOMAIN,livew.l.qq.com

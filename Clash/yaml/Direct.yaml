@@ -110,6 +110,11 @@ payload:
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,microsoft
   
+  # > Nvidia
+  - DOMAIN-SUFFIX,geforce.cn
+  - DOMAIN-SUFFIX,gputechconf.cn
+  - DOMAIN-SUFFIX,nvidia.cn
+  
   # > 自用
   - DOMAIN-SUFFIX,1password.com
   - DOMAIN-SUFFIX,bandswatch.it

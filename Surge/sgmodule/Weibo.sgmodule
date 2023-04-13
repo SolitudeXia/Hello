@@ -45,10 +45,11 @@ Weibo_12 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/searchall\?,
 # > 开屏广告
 Weibo_13 = type=http-response,pattern=^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php$,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,requires-body=1,script-update-interval=-1
 Weibo_14 = type=http-response,pattern=^https:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,requires-body=1,script-update-interval=-1
+Weibo_15 = type=http-response,pattern=^https:\/\/bootpreload\.uve\.weibo\.com\/v1\/ad\/preload$,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,requires-body=1,script-update-interval=-1
 # > 跳过重定向页面以直接访问 //weibo.cn, shop.sc.weibo.com, t.cn, sinaurl.cn
-Weibo_15 = type=http-request,pattern=^https:\/\/weibo\.cn\/sinaurl\?(.*&)?(u|toasturl|goto)=,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/noRedirect.js,script-update-interval=-1
-Weibo_16 = type=http-request,pattern=^https:\/\/shop\.sc\.weibo\.com\/h5\/jump\/error\?(.*&)?url=,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/noRedirect.js,script-update-interval=-1
-Weibo_17 = type=http-response,pattern=^https:\/\/(sinaurl|t)\.cn\/,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/noRedirect.js,script-update-interval=-1
+Weibo_16 = type=http-request,pattern=^https:\/\/weibo\.cn\/sinaurl\?(.*&)?(u|toasturl|goto)=,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/noRedirect.js,script-update-interval=-1
+Weibo_17 = type=http-request,pattern=^https:\/\/shop\.sc\.weibo\.com\/h5\/jump\/error\?(.*&)?url=,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/noRedirect.js,script-update-interval=-1
+Weibo_18 = type=http-response,pattern=^https:\/\/(sinaurl|t)\.cn\/,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/noRedirect.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% api.weibo.cn, boot.biz.weibo.com, sdkapp.uve.weibo.com, wbapp.uve.weibo.com, card.weibo.com, weibo.com, weibo.cn, shop.sc.weibo.com, t.cn, sinaurl.cn
+hostname = %APPEND% api.weibo.cn, boot.biz.weibo.com, *.uve.weibo.com, card.weibo.com, weibo.com, weibo.cn, shop.sc.weibo.com, t.cn, sinaurl.cn

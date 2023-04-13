@@ -43,12 +43,7 @@ DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 
 # > Disney
-DOMAIN,cdn.registerdisney.go.com
-DOMAIN-SUFFIX,bamgrid.com
-DOMAIN-SUFFIX,disney-plus.net
 DOMAIN-SUFFIX,disneyplus.com
-DOMAIN-SUFFIX,disneystreaming.com
-DOMAIN-SUFFIX,dssott.com
 
 # > Dropbox
 DOMAIN-SUFFIX,dropbox.com
@@ -68,40 +63,12 @@ DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,gitlab.io
 DOMAIN-SUFFIX,gitlab.net
 
-# > Mastodon //长毛象
+# > Mastodon // 长毛象
 DOMAIN-SUFFIX,mastodon.social
 DOMAIN-SUFFIX,m.cmx.im
 
 # > Netflix
-DOMAIN,netflix.com.edgesuite.net
-DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,netflix.com
-DOMAIN-SUFFIX,netflix.net
-DOMAIN-SUFFIX,nflxext.com
-DOMAIN-SUFFIX,nflximg.com
-DOMAIN-SUFFIX,nflximg.net
-DOMAIN-SUFFIX,nflxso.net
-DOMAIN-SUFFIX,nflxvideo.net
-DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
-DOMAIN-KEYWORD,dualstack.apiproxy-
-DOMAIN-KEYWORD,netflixdnstest
-IP-CIDR,103.87.204.0/22,no-resolve
-IP-CIDR,108.175.32.0/20,no-resolve
-IP-CIDR,185.2.220.0/22,no-resolve
-IP-CIDR,185.9.188.0/22,no-resolve
-IP-CIDR,192.173.64.0/18,no-resolve
-IP-CIDR,198.38.96.0/19,no-resolve
-IP-CIDR,198.45.48.0/20,no-resolve
-IP-CIDR,207.45.72.0/22,no-resolve
-IP-CIDR,208.75.76.0/22,no-resolve
-IP-CIDR,23.246.0.0/18,no-resolve
-IP-CIDR,37.77.184.0/21,no-resolve
-IP-CIDR,38.72.126.0/24,no-resolve
-IP-CIDR,45.57.0.0/17,no-resolve
-IP-CIDR,64.120.128.0/17,no-resolve
-IP-CIDR,66.197.128.0/17,no-resolve
-IP-CIDR,69.53.224.0/19,no-resolve
-IP-CIDR,8.41.4.0/24,no-resolve
 
 # > Notion
 DOMAIN-SUFFIX,notion-static.com
@@ -139,12 +106,12 @@ DOMAIN-SUFFIX,twitpic.com
 DOMAIN-SUFFIX,vine.co
 DOMAIN-KEYWORD,twitter
 
-# > UBI //育碧
+# > UBI // 育碧
 DOMAIN-SUFFIX,ubi.com
 DOMAIN-SUFFIX,ubisoft.com
 DOMAIN-SUFFIX,uplay.com
 
-# > Wikimedia //维基
+# > Wikimedia // 维基
 DOMAIN-SUFFIX,mediawiki.org
 DOMAIN-SUFFIX,wikibooks.org
 DOMAIN-SUFFIX,wikidata.org
@@ -162,11 +129,11 @@ DOMAIN-SUFFIX,wiktionary.org
 DOMAIN-SUFFIX,yahoo.com
 DOMAIN,search.yahoo.co.jp
 
-# > Other //ABCDEFGHIJKLMNOPQRSTUVWXYZ
+# > Other // ABCDEFGHIJKLMNOPQRSTUVWXYZ
 DOMAIN,gallery.scriptable.app
-DOMAIN,sub-store.vercel.app //sub-store
+DOMAIN,sub-store.vercel.app // sub-store
 DOMAIN,surge.mitsea.com
-DOMAIN-SUFFIX,91porn //91
+DOMAIN-SUFFIX,91porn // 91
 DOMAIN-SUFFIX,afreecatv.com
 DOMAIN-SUFFIX,andro4all.com
 DOMAIN-SUFFIX,appleinsider.com
@@ -180,30 +147,30 @@ DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,duckduckgo.com
 DOMAIN-SUFFIX,daringfireball.com
 DOMAIN-SUFFIX,daringfireball.net
-DOMAIN-SUFFIX,e-hentai.org //E站
+DOMAIN-SUFFIX,e-hentai.org // E站
 DOMAIN-SUFFIX,figma.com
 DOMAIN-SUFFIX,ft.com
 DOMAIN-SUFFIX,giffgaff.com
 DOMAIN-SUFFIX,gitbook.com
 DOMAIN-SUFFIX,gravatar.com
-DOMAIN-SUFFIX,houstonchronicle //休斯顿纪事报
+DOMAIN-SUFFIX,houstonchronicle // 休斯顿纪事报
 DOMAIN-SUFFIX,imgur.io
 DOMAIN-SUFFIX,ip-api.com
-DOMAIN-SUFFIX,javbus.com //javbus
+DOMAIN-SUFFIX,javbus.com // javbus
 DOMAIN-SUFFIX,jsdelivr.com
 DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,macrumors.com
 DOMAIN-SUFFIX,miaona.cyou
-DOMAIN-SUFFIX,news.un.org //联合国
-DOMAIN-SUFFIX,nikkei.com //日经新闻
+DOMAIN-SUFFIX,news.un.org // 联合国
+DOMAIN-SUFFIX,nikkei.com // 日经新闻
 DOMAIN-SUFFIX,nssurge.com
-DOMAIN-SUFFIX,nyt.com //纽约时报
-DOMAIN-SUFFIX,nytimes.com //纽约时报
+DOMAIN-SUFFIX,nyt.com // 纽约时报
+DOMAIN-SUFFIX,nytimes.com // 纽约时报
 DOMAIN-SUFFIX,paste.gg
 DOMAIN-SUFFIX,producthunt.com
 DOMAIN-SUFFIX,quantumult.app
-DOMAIN-SUFFIX,rfa.org //自由亚洲
-DOMAIN-SUFFIX,rfi.fr //法国国际广播电台
+DOMAIN-SUFFIX,rfa.org // 自由亚洲
+DOMAIN-SUFFIX,rfi.fr // 法国国际广播电台
 DOMAIN-SUFFIX,secureshellfish.app
 DOMAIN-SUFFIX,signal.org
 DOMAIN-SUFFIX,sleazyfork.org
@@ -213,12 +180,12 @@ DOMAIN-SUFFIX,store.nba.com
 DOMAIN-SUFFIX,surge-activation.com
 DOMAIN-SUFFIX,theinitium.com
 DOMAIN-SUFFIX,v2ex.com
-DOMAIN-SUFFIX,voachinese.com //美国之音
+DOMAIN-SUFFIX,voachinese.com // 美国之音
 DOMAIN-SUFFIX,wallhaven.cc
 DOMAIN-SUFFIX,wanqu.co
-DOMAIN-SUFFIX,washingtonpost.com //华盛顿邮报
-DOMAIN-SUFFIX,wsj.com //华尔街日报
-DOMAIN-SUFFIX,wsj.net //华尔街日报
-DOMAIN-SUFFIX,zaobao.com //联合早报
-DOMAIN-SUFFIX,zaobao.com.sg //联合早报
-DOMAIN-SUFFIX,zhiboz.com //直播吧
+DOMAIN-SUFFIX,washingtonpost.com // 华盛顿邮报
+DOMAIN-SUFFIX,wsj.com // 华尔街日报
+DOMAIN-SUFFIX,wsj.net // 华尔街日报
+DOMAIN-SUFFIX,zaobao.com // 联合早报
+DOMAIN-SUFFIX,zaobao.com.sg // 联合早报
+DOMAIN-SUFFIX,zhiboz.com // 直播吧

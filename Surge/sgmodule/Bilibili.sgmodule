@@ -24,33 +24,33 @@ URL-REGEX,^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.in
 
 [Script]
 # > 屏蔽视频播放下方商品推广
-商品推广 = type=http-response,pattern=^https?:\/\/api\.bili(api|bili)\.(net|com)\/pgc\/season\/app\/related\/recommend\?,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,requires-body=1,script-update-interval=-1
+商品推广 = type=http-response,pattern=^https?:\/\/api\.bili(api|bili)\.(net|com)\/pgc\/season\/app\/related\/recommend\?,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=-1
 # > 屏蔽直播页顶部轮播图
-顶部轮播图 = type=http-response,pattern=^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-interface\/v2\/index\/feed,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,requires-body=1,script-update-interval=-1
+顶部轮播图 = type=http-response,pattern=^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-interface\/v2\/index\/feed,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=-1
 # > 屏蔽直播间商品广告浮窗
-商品广告浮窗 = type=http-response,pattern=^https?:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v\d\/ecommerce-user\/get_shopping_info\?,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,requires-body=1,script-update-interval=-1
+商品广告浮窗 = type=http-response,pattern=^https?:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v\d\/ecommerce-user\/get_shopping_info\?,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=-1
 # > 屏蔽首页右上活动
-首页右上活动 = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,requires-body=1,script-update-interval=-1
+首页右上活动 = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=-1
 # > 观影页面去广告
-观影页面去广告 = type=http-response,pattern=^https?:\/\/api\.(bilibili|biliapi)\.(com|net)\/pgc\/page\/cinema\/tab\?,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,requires-body=1,script-update-interval=-1
+观影页面去广告 = type=http-response,pattern=^https?:\/\/api\.(bilibili|biliapi)\.(com|net)\/pgc\/page\/cinema\/tab\?,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=-1
 # > 应用开屏广告预加载
-开屏广告预加载 = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,requires-body=1,script-update-interval=-1
+开屏广告预加载 = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=-1
 # > 1080P高码率+4K画质[番剧和影视除外]
-画质解锁 = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\?,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,requires-body=1,script-update-interval=-1
+画质解锁 = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\?,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=-1
 # > 热搜发现
-热搜发现 = type=http-response,pattern=^https://app.bilibili.com/x/v2/search/square,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,requires-body=1,script-update-interval=-1
+热搜发现 = type=http-response,pattern=^https://app.bilibili.com/x/v2/search/square,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=-1
 # > 推荐去广告
-推荐去广告 = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,requires-body=1,script-update-interval=-1
+推荐去广告 = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=-1
 # > 追番去广告
-追番去广告 = type=http-response,pattern=^https?:\/\/api\.(bilibili|biliapi)\.(com|net)\/pgc\/page\/bangumi,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,requires-body=1,script-update-interval=-1
+追番去广告 = type=http-response,pattern=^https?:\/\/api\.(bilibili|biliapi)\.(com|net)\/pgc\/page\/bangumi,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=-1
 # > 直播去广告
-直播去广告 = type=http-response,pattern=^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,requires-body=1,script-update-interval=-1
+直播去广告 = type=http-response,pattern=^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=-1
 # > 标签页处理
-标签页处理 = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,requires-body=1,script-update-interval=-1
+标签页处理 = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=-1
 # > 我的页面处理
-我的页面处理 = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,requires-body=1,script-update-interval=-1
+我的页面处理 = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=-1
 # > Other
-Bilibili-Proto = type=http-response,pattern=^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.(view\.v1\.View\/View|dynamic\.v2\.Dynamic\/DynAll)$,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/bilibili-proto.js,requires-body=1,binary-body-mode=1,script-update-interval=-1
+Bilibili-Proto = type=http-response,pattern=^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.(view\.v1\.View\/View|dynamic\.v2\.Dynamic\/DynAll)$,requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/bilibili-proto.js,binary-body-mode=1,script-update-interval=-1
 
 [MITM]
 hostname = %APPEND% ap*.bilibili.com, grpc.biliapi.net, manga.bilibili.com, api.live.bilibili.com

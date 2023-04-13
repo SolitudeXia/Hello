@@ -14,10 +14,10 @@ DOMAIN,cf.misakaf.org
 DOMAIN,cdn.misakaf.org
   
 # > Cc
-DOMAIN,cc.ccemby.tk //日本节点
+DOMAIN,cc.ccemby.tk // 日本节点
   
 # > Orange
-DOMAIN,cf.embytv.cf //香港节点(优先选择)
+DOMAIN,cf.embytv.cf // 香港节点(优先选择)
 DOMAIN,cdn.embytv.cf
   
 # > 纸片人

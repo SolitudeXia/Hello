@@ -1,6 +1,7 @@
 # > Apple
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,mzstatic.com // App Store & iTunes Images
 

@@ -1,6 +1,29 @@
 # > General
 DOMAIN,app.appsflyer.com
 
+# > Firebase Cloud Messaging
+DOMAIN,talk.google.com
+DOMAIN,mtalk.google.com
+DOMAIN,alt1-mtalk.google.com
+DOMAIN,alt2-mtalk.google.com
+DOMAIN,alt3-mtalk.google.com
+DOMAIN,alt4-mtalk.google.com
+DOMAIN,alt5-mtalk.google.com
+DOMAIN,alt6-mtalk.google.com
+DOMAIN,alt7-mtalk.google.com
+DOMAIN,alt8-mtalk.google.com
+
+# > Google CDN
+DOMAIN,clientservices.googleapis.com // Google Chrome
+DOMAIN,dl.google.com // Google Download
+DOMAIN,dl.l.google.com // Google Download
+DOMAIN,fonts.googleapis.com // Google Fonts
+DOMAIN,fonts.gstatic.com // Google Fonts
+DOMAIN,translate.googleapis.com // Google Translate
+DOMAIN,update.googleapis.com // Google Update
+DOMAIN-SUFFIX,blog.google // Google Blog
+DOMAIN-SUFFIX,googletraveladservices.com // Google Flights
+
 # > Tencent
 DOMAIN,fairplay.l.qq.com
 DOMAIN,livew.l.qq.com

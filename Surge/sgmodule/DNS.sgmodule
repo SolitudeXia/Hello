@@ -35,7 +35,7 @@ fonts.gstatic.com = server:119.29.29.29 // Google Fonts
 
 # > Apple
 networking.apple = server:https://doh.dns.apple.com/dns-query // Apple
-*.apple.com = server:https://doh.dns.apple.com/dns-query // Apple.com
+# *.apple.com = server:https://doh.dns.apple.com/dns-query // Apple.com
 *.icloud.com = server:https://doh.dns.apple.com/dns-query // iCloud.com
 
 # > 阿里巴巴

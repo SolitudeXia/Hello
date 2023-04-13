@@ -1,8 +1,10 @@
 # > Cloudflare
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflareclient.com
 DOMAIN-SUFFIX,cloudflare.net
 DOMAIN-SUFFIX,cloudflareinsights.com
+DOMAIN-SUFFIX,cloudflarestream.com
 
 # > PayPal
 DOMAIN-KEYWORD,paypal
@@ -10,5 +12,5 @@ DOMAIN-KEYWORD,paypal
 
 # > Other
 DOMAIN-SUFFIX,crocs.com
-DOMAIN-SUFFIX,ultramobile.com //paygo
+DOMAIN-SUFFIX,ultramobile.com // paygo
 DOMAIN-SUFFIX,yubico.com

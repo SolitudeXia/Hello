@@ -31,8 +31,6 @@ URL-REGEX,^https:\/\/img\.meituan\.net\/bizad\/bizad_brandCpt_\d+,REJECT
 URL-REGEX,^https?:\/\/ucmp\.sf-express\.com\/cx-wechat-query\/query\/info-flow\/reconsitution-list,REJECT
 # > 浙里办
 URL-REGEX,^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,REJECT
-# > 中通快递 微信小程序净化
-URL-REGEX,^https:\/\/hdgateway\.zto\.com,REJECT
 
 [Map Local]
 # > 阿里巴巴
@@ -45,6 +43,8 @@ URL-REGEX,^https:\/\/hdgateway\.zto\.com,REJECT
 ^https?:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-alita)\/\w+\?? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 # > 去除公众号商品推广
 ^https:\/\/mp\.weixin\.qq\.com\/mp\/cps_product_info\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+# > 中通快递 微信小程序净化
+^https:\/\/hdgateway\.zto\.com\/(getApolloConfig|track|getAdInfo|listJumperShow|fs1) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 [Script]
 # > 12306 开屏广告

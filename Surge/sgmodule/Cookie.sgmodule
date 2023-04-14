@@ -6,7 +6,7 @@
 # > 微博推送 登陆 https://m.weibo.cn 获取
 微博推送 = type=http-request,pattern=^https:\/\/m\.weibo\.cn\/feed\/,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js,script-update-interval=-1
 # > 哔哩哔哩 app或网页 https://www.bilibili.com/
-B站Cookie(APP) = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/domain\?,requires-body=0,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/BiliBili.js,script-update-interval=-1
+#B站Cookie(APP) = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/domain\?,requires-body=0,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/BiliBili.js,script-update-interval=-1
 #B站Cookie(网页) = type=http-request,pattern=^https?:\/\/m.bilibili.com/$,requires-body=0,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/BiliBili.js,script-update-interval=-1
 # > 阿里云盘 app获取
 阿里云盘签到cookie = type=http-response,pattern=https:\/\/auth.aliyundrive.com\/v2\/account\/token,requires-body=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js,script-update-interval=-1

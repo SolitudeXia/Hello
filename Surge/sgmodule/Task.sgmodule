@@ -53,3 +53,5 @@ Bing积分 = type=cron,cronexp="0 7 10 * * ?",wake-system=1,script-path=https://
 伊利乳品 = type=cron,cronexp="0 8 10 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.js,script-update-interval=-1
 # > IT之家
 IT之家 = type=cron,cronexp="0 9 10 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ithome/ithome.js,script-update-interval=-1
+# > 哔哩哔哩番剧监控
+番剧监控 = type=cron,cronexp="0 0 9,20 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/bangumiMonitor.js,script-update-interval=-1

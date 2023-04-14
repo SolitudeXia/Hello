@@ -30,6 +30,8 @@ Bing积分cookie = type=http-request,pattern=https:\/\/rewards\.bing\.com,requir
 伊利乳品 = type=http-request,requires-body=1,pattern=https:\/\/club\.yili\.com\/MALLIFChe\/MCSWSIAPI\.asmx\/Call,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.cookie.js,script-update-interval=-1
 # > IT之家 app获取
 IT之家 = type=http-request,pattern=^https:\/\/my\.ruanmei\.com\/api\/usersign\/getsigninfo?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ithome/ithome.cookie.js,script-update-interval=-1,debug=true
+# > 哔哩哔哩番剧监控
+番剧监控cookie = type=http-request,pattern=https?:\/\/app.bilibili.com\/x\/v2\/space\/bangumi,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/bangumiMonitor.js,script-update-interval=-1
 
 [MITM]
 hostname = %APPEND% m.weibo.cn, app.bilibili.com, m.bilibili.com, auth.aliyundrive.com, user-api.smzdm.com, i.meituan.com, mall.meituan.com, mobile.ximalaya.com, e.189.cn, open.e.189.cn, ms.jr.jd.com, me-api.jd.com, rewards.bing.com, frodo.douban.com, club.yili.com, my.ruanmei.com

@@ -167,6 +167,7 @@ DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,nyt.com // 纽约时报
 DOMAIN-SUFFIX,nytimes.com // 纽约时报
 DOMAIN-SUFFIX,paste.gg
+DOMAIN-SUFFIX,pepcn.com // 壹页单章
 DOMAIN-SUFFIX,producthunt.com
 DOMAIN-SUFFIX,quantumult.app
 DOMAIN-SUFFIX,rfa.org // 自由亚洲
@@ -189,3 +190,4 @@ DOMAIN-SUFFIX,wsj.net // 华尔街日报
 DOMAIN-SUFFIX,zaobao.com // 联合早报
 DOMAIN-SUFFIX,zaobao.com.sg // 联合早报
 DOMAIN-SUFFIX,zhiboz.com // 直播吧
+IP-CIDR,1.0.0.1/32,no-resolve

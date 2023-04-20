@@ -1,7 +1,6 @@
 # > 1Password
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,1passwordservices.com
-DOMAIN-SUFFIX,agilebits.com
 
 # > 9to5
 DOMAIN-SUFFIX,9to5google
@@ -94,6 +93,14 @@ DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,spoti.fi
 DOMAIN-KEYWORD,spotify
 
+# > Twitch
+DOMAIN-SUFFIX,ext-twitch.tv
+DOMAIN-SUFFIX,jtvnw.net
+DOMAIN-SUFFIX,twitch-ext.rootonline.de
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,twitchcdn.net
+DOMAIN-KEYWORD,ttvnw
+
 # > Twitter
 DOMAIN-SUFFIX,cms-twdigitalassets.com
 DOMAIN-SUFFIX,periscope.tv
@@ -143,16 +150,18 @@ DOMAIN-SUFFIX,blueseamusics.com
 DOMAIN-SUFFIX,coingecko.com
 DOMAIN-SUFFIX,cryptomator.org
 DOMAIN-SUFFIX,cyberciti.biz
-DOMAIN-SUFFIX,deepl.com
-DOMAIN-SUFFIX,duckduckgo.com
 DOMAIN-SUFFIX,daringfireball.com
 DOMAIN-SUFFIX,daringfireball.net
+DOMAIN-SUFFIX,deepl.com
+DOMAIN-SUFFIX,duckduckgo.com
+DOMAIN-SUFFIX,duolingo.com
 DOMAIN-SUFFIX,e-hentai.org // E站
 DOMAIN-SUFFIX,figma.com
 DOMAIN-SUFFIX,ft.com
 DOMAIN-SUFFIX,giffgaff.com
 DOMAIN-SUFFIX,gitbook.com
 DOMAIN-SUFFIX,gravatar.com
+DOMAIN-SUFFIX,horse.im // 游山打猎
 DOMAIN-SUFFIX,houstonchronicle // 休斯顿纪事报
 DOMAIN-SUFFIX,imgur.io
 DOMAIN-SUFFIX,ip-api.com
@@ -166,6 +175,7 @@ DOMAIN-SUFFIX,nikkei.com // 日经新闻
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,nyt.com // 纽约时报
 DOMAIN-SUFFIX,nytimes.com // 纽约时报
+DOMAIN-SUFFIX,overflow.design //图标集
 DOMAIN-SUFFIX,paste.gg
 DOMAIN-SUFFIX,pepcn.com // 壹页单章
 DOMAIN-SUFFIX,producthunt.com
@@ -179,6 +189,7 @@ DOMAIN-SUFFIX,sprig.com
 DOMAIN-SUFFIX,starlink.com
 DOMAIN-SUFFIX,store.nba.com
 DOMAIN-SUFFIX,surge-activation.com
+DOMAIN-SUFFIX,theguardian.com // 卫报
 DOMAIN-SUFFIX,theinitium.com
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,voachinese.com // 美国之音

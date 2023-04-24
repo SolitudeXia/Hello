@@ -27,7 +27,7 @@ Bing积分cookie = type=http-request,pattern=https:\/\/rewards\.bing\.com,requir
 # > 豆瓣 APIKey
 豆瓣 APIKey = type=http-request,pattern=^https:\/\/frodo\.douban\.com\/api\/v\d\/calendar\/today,requires-body=0,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/MovieCalendar/MovieCalendar.js,script-update-interval=-1
 # > 伊利乳品 小程序
-伊利乳品 = type=http-request,requires-body=1,pattern=https:\/\/club\.yili\.com\/MALLIFChe\/MCSWSIAPI\.asmx\/Call,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.cookie.js,script-update-interval=-1
+伊利乳品 = type=http-request,pattern=https:\/\/club\.yili\.com\/MALLIFChe\/MCSWSIAPI\.asmx\/Call,requires-body=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.cookie.js,script-update-interval=-1
 # > IT之家 app获取
 IT之家 = type=http-request,pattern=^https:\/\/my\.ruanmei\.com\/api\/usersign\/getsigninfo?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ithome/ithome.cookie.js,script-update-interval=-1,debug=true
 # > 哔哩哔哩番剧监控

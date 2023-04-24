@@ -9,6 +9,15 @@ DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com // App Store & iTunes Images
 
+# > Github
+DOMAIN-KEYWORD,github
+
+# > GitLab
+DOMAIN-SUFFIX,gitlab-static.net
+DOMAIN-SUFFIX,gitlab.com
+DOMAIN-SUFFIX,gitlab.io
+DOMAIN-SUFFIX,gitlab.net
+
 # > Microsoft
 DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,1drv

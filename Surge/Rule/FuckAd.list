@@ -240,8 +240,8 @@ DOMAIN-SUFFIX,zzy1.quyaoya.com
 DOMAIN-SUFFIX,staticxx.facebook.com
 
 # > 广告联盟
-# DOMAIN,is.snssdk.com
-# DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN,is.snssdk.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
 
 # > Google
@@ -302,7 +302,7 @@ DOMAIN-SUFFIX,stat.m.jd.com
 
 # > Kuaishou
 DOMAIN,js-ad.a.yximgs.com
-# DOMAIN-SUFFIX,e.kuaishou.com
+DOMAIN-SUFFIX,e.kuaishou.com
 
 # > QQ
 DOMAIN-KEYWORD,omgmtaw

@@ -10,8 +10,6 @@ force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.ne
 # > CSDN去广告
 # URL-REGEX,^https?:\/\/app-gw\.csdn\.net\/silkroad-api\/api\/v\d\/assemble\/list\/pub\/channel\/app_open_screen_ad,REJECT
 # URL-REGEX,^https?:\/\/app-gw\.csdn\.net\/abtesting\/v2\/getList?,REJECT
-# > IT之家 去广告
-URL-REGEX,^https:\/\/api\.zuihuimai\.com,REJECT
 # > 京东 去广告
 URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$,REJECT-TINYGIF //去开屏
 # > 美团 去广告
@@ -38,9 +36,9 @@ URL-REGEX,^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,R
 # > BoxJs
 BoxJs = type=http-request,pattern=^https?:\/\/(.+\.)?boxjs\.(com|net),requires-body=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js,timeout=120
 # > IT之家 去广告
-APP新闻列表去广告 = type=http-response,pattern=^https:\/\/api\.ithome\.com\/json\/(listpage|newslist)\/news,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/ithome/ithome.ad.js,script-update-interval=-1
-APP首页轮播图去广告 = type=http-response,pattern=^https:\/\/api\.ithome\.com\/json\/slide\/index,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/ithome/ithome.ad.js,script-update-interval=-1
-APP列表新接口 = type=http-response,pattern=^https:\/\/napi\.ithome\.com\/api\/(news|topmenu)\/(getfeeds|index),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/ithome/ithome.ad.js,script-update-interval=-1
+ithome = type=http-response,pattern=^https:\/\/api\.ithome\.com\/json\/(listpage\/news|newslist\/news|slide\/index),requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/ithome.js,script-update-interval=-1
+ithome = type=http-response,pattern=^https:\/\/m\.ithome\.com\/api\/news\/newslistpageget,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/ithome.js,script-update-interval=-1
+ithome = type=http-response,pattern=^https:\/\/napi\.ithome\.com\/api\/(news\/index|topmenu\/getfeeds),requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/ithome.js,script-update-interval=-1
 # > 酷安去广告
 酷安 = type=http-response,pattern=^https:\/\/api\.coolapk\.com\/v6\/feed\/(detail|replyList)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js,script-update-interval=-1
 酷安 = type=http-response,pattern=^https:\/\/api\.coolapk\.com\/v6\/main\/(dataList|indexV8)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js,script-update-interval=-1
@@ -59,4 +57,4 @@ TestFlight = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/v\d\/(
 公众号广告 = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/self_use.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% api.zuihuimai.com, api.ithome.com, napi.ithome.com, api.m.jd.com, api.coolapk.com, img.meituan.net, s3plus.meituan.net, ucmp.sf-express.com, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, boxjs.com, boxjs.net, api-access.pangolin-sdk-toutiao.com, is.snssdk.com, mi.gdt.qq.com, open.e.kuaishou.com, github.com:443, raw.githubusercontent.com:443, spclient.wg.spotify.com, sub.store, testflight.apple.com, mp.weixin.qq.com
+hostname = %APPEND% api.ithome.com, m.ithome.com, napi.ithome.com, api.m.jd.com, api.coolapk.com, img.meituan.net, s3plus.meituan.net, ucmp.sf-express.com, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, boxjs.com, boxjs.net, api-access.pangolin-sdk-toutiao.com, is.snssdk.com, mi.gdt.qq.com, open.e.kuaishou.com, github.com:443, raw.githubusercontent.com:443, spclient.wg.spotify.com, sub.store, testflight.apple.com, mp.weixin.qq.com

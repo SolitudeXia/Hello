@@ -1,4 +1,5 @@
 # > AppleProxy
+DOMAIN,amp-api.sandbox.apple.com
 DOMAIN-SUFFIX,smoot.apple.com
 # TestFlight
 DOMAIN,beta.apple.com
@@ -22,6 +23,7 @@ IP-CIDR,203.104.144.0/21,no-resolve
 DOMAIN-KEYWORD,nintendo
 
 # > pixiv
+DOMAIN-SUFFIX,ads-pixiv.net
 DOMAIN-SUFFIX,booth.pm
 DOMAIN-SUFFIX,fanbox.cc
 DOMAIN-SUFFIX,pixiv.cat

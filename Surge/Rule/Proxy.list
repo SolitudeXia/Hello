@@ -53,6 +53,15 @@ DOMAIN-SUFFIX,dropboxusercontent.com
 DOMAIN-SUFFIX,espn.com
 DOMAIN-SUFFIX,espn.net
 
+# > Github
+DOMAIN-KEYWORD,github
+
+# > GitLab
+DOMAIN-SUFFIX,gitlab-static.net
+DOMAIN-SUFFIX,gitlab.com
+DOMAIN-SUFFIX,gitlab.io
+DOMAIN-SUFFIX,gitlab.net
+
 # > Mastodon // 长毛象
 DOMAIN-SUFFIX,mastodon.social
 DOMAIN-SUFFIX,m.cmx.im

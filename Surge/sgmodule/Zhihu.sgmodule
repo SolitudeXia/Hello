@@ -2,3 +2,44 @@
 #!desc=修改自RuCu6
 #!system=ios
 
+[Rule]
+# > 其他,服务器推送配置
+URL-REGEX,^https:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config$,REJECT
+
+[Map Local]
+# > 首页 悬浮图标,顶部横幅,开屏广告,关注页推荐,推荐信息流,热榜信息流,热榜直播,回答底部卡片
+^https:\/\/api\.zhihu\.com\/commercial_api\/(banners_v3\/app_topstory_banner$|launch_v2\?|real_time_launch_v2\?) data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
+^https:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings$ data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
+^https:\/\/api\.zhihu\.com\/(moments\/lastread|drama\/hot-drama-list)$ data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
+^https:\/\/api\.zhihu\.com\/root\/window$ data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
+# > 我的页面 项目列表,会员卡片,更多卡片
+^https:\/\/api\.zhihu\.com\/me\/guides\?? data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
+^https:\/\/api\.zhihu\.com\/unlimited\/go\/my_card$ data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-200.txt"
+# > 搜索页 关键词,猜你想搜
+^https:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading$ data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
+^https:\/\/api\.zhihu\.com\/search\/preset_words\?? data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
+^https:\/\/www\.zhihu\.com\/api\/v4\/search\/related_queries\/(answer|article)\/\d+ data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
+# > 其他,服务器推送配置
+^https:\/\/api\.zhihu\.com\/ad-style-service\/request$ data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
+^https:\/\/appcloud2\.zhihu\.com\/v3\/resource\?group_name=mp$ data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
+
+[Script]
+# > 首页 悬浮图标,顶部横幅,开屏广告,关注页推荐,推荐信息流,热榜信息流,热榜直播,回答底部卡片
+zhihu = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer$,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,script-update-interval=-1
+zhihu = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/(moments_v3|topstory\/recommend(_v2)?)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,script-update-interval=-1
+zhihu = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,script-update-interval=-1
+# > 我的页面 项目列表,会员卡片,更多卡片
+zhihu = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/people\/homepage_entry$,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,script-update-interval=-1
+zhihu = type=http-response,pattern=^https:\/\/www\.zhihu\.com\/appview\/v3\/zhmore\??,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,script-update-interval=-1
+# > 搜索页 关键词,猜你想搜
+zhihu = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/search\/recommend_query\/v2\?,requires-body=1,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/replace-body.js,argument=""recommend_queries":\{.+\}->"recommend_queries":{}"
+# > 回答详情页,下一个回答
+zhihu = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/next-(bff|data)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,script-update-interval=-1
+zhihu = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+\/(feeds|answers)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,script-update-interval=-1
+zhihu = type=http-response,pattern=^https:\/\/www\.zhihu\.com\/api\/v4\/(answers|articles)\/\d+\/recommendations?\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,script-update-interval=-1
+# > 其他,服务器推送配置
+zhihu = type=http-response,pattern=^https:\/\/appcloud2\.zhihu\.com\/v3\/config$,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,script-update-interval=-1
+zhihu = type=http-response,pattern=^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js,script-update-interval=-1
+
+[MITM]
+hostname = %APPEND% api.zhihu.com, appcloud2.zhihu.com, m-cloud.zhihu.com, www.zhihu.com

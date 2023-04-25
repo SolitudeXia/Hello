@@ -1,5 +1,7 @@
 # > AppleProxy
 DOMAIN,amp-api.sandbox.apple.com
+DOMAIN,sandbox.itunes.apple.com
+DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,smoot.apple.com
 # TestFlight
 DOMAIN,beta.apple.com

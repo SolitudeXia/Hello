@@ -10,4 +10,8 @@ payload:
   #- USER-AGENT,PayPal*
 
   # > Other
-  - DOMAIN-SUFFIX,ultramobile.com //paygo
+  - DOMAIN-SUFFIX,crocs.com
+  - DOMAIN-SUFFIX,ebay.com
+  - DOMAIN-SUFFIX,lego.com
+  - DOMAIN-SUFFIX,ultramobile.com
+  - DOMAIN-SUFFIX,yubico.com

@@ -2,6 +2,7 @@
 DOMAIN,app.appsflyer.com
 
 # > Firebase Cloud Messaging
+DOMAIN,talk.google.com
 DOMAIN,mtalk.google.com
 DOMAIN,alt1-mtalk.google.com
 DOMAIN,alt2-mtalk.google.com
@@ -17,6 +18,8 @@ DOMAIN,clientservices.googleapis.com // Google Chrome
 DOMAIN,dl.google.com // Google Download
 DOMAIN,dl.l.google.com // Google Download
 DOMAIN,update.googleapis.com // Google Update
+DOMAIN,fonts.googleapis.com // Google Fonts
+DOMAIN,fonts.gstatic.com // Google Fonts
 DOMAIN-SUFFIX,blog.google // Google Blog
 DOMAIN-SUFFIX,googletraveladservices.com // Google Flights
 

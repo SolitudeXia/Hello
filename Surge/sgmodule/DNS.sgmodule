@@ -37,11 +37,6 @@ update.googleapis.com = server:119.29.29.29 // Google Update
 fonts.googleapis.com = server:119.29.29.29 // Google Fonts
 fonts.gstatic.com = server:119.29.29.29 // Google Fonts
 
-# > Apple
-networking.apple = server:https://doh.dns.apple.com/dns-query // Apple
-# *.apple.com = server:https://doh.dns.apple.com/dns-query // Apple.com
-*.icloud.com = server:https://doh.dns.apple.com/dns-query // iCloud.com
-
 # > 阿里巴巴
 *.alibaba.cn = server:https://dns.alidns.com/dns-query // 阿里巴巴
 *.alibaba.com.cn = server:https://dns.alidns.com/dns-query // 阿里巴巴

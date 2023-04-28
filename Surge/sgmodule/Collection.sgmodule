@@ -23,6 +23,8 @@ URL-REGEX,^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=queryMaterialAd
 # > 美团 去广告
 URL-REGEX,^https:\/\/img\.meituan\.net\/bizad\/bizad_brandCpt_\d+,REJECT
 URL-REGEX,^https?:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-alita)\/\w+\??,REJECT
+# > 威锋 去广告
+URL-REGEX,^https:\/\/api\.wfdata\.club\/v2\/yesfeng\/(infoCenterAd|yesList),REJECT
 # > 闲鱼
 URL-REGEX,^https:\/\/gw\.alicdn\.com\/mt\/,REJECT
 URL-REGEX,^https:\/\/gw\.alicdn\.com\/tfs\/.+\d{3,4}-\d{4},REJECT
@@ -74,4 +76,4 @@ TestFlight = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/v\d\/(
 公众号广告 = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/self_use.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, app.dewu.com, cdn.poizon.com, gw.alicdn.com, acs.m.taobao.com, api.ithome.com, m.ithome.com, napi.ithome.com, api.m.jd.com, api.coolapk.com, img.meituan.net, s3plus.meituan.net, ucmp.sf-express.com, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, boxjs.com, boxjs.net, github.com:443, raw.githubusercontent.com:443, spclient.wg.spotify.com, sub.store, testflight.apple.com, mp.weixin.qq.com
+hostname = %APPEND% acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, app.dewu.com, cdn.poizon.com, gw.alicdn.com, acs.m.taobao.com, api.ithome.com, m.ithome.com, napi.ithome.com, api.m.jd.com, api.coolapk.com, img.meituan.net, s3plus.meituan.net, api.wfdata.club, ucmp.sf-express.com, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, boxjs.com, boxjs.net, github.com:443, raw.githubusercontent.com:443, spclient.wg.spotify.com, sub.store, testflight.apple.com, mp.weixin.qq.com

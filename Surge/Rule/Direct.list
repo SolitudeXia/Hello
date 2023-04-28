@@ -1,21 +1,43 @@
 # > Apple
+DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-livephotoskit.com
+DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN-SUFFIX,apple-support.akadns.net
+DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.com.akadns.net
 DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,apple.com.edgekey.net
+DOMAIN-SUFFIX,applemusic.com
 DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,apzones.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.akadns.net
 DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,mzstatic.com // App Store & iTunes Images
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,smoot.apple.cn
 
-# > Microsoft
-DOMAIN-KEYWORD,microsoft
-DOMAIN-KEYWORD,1drv
-DOMAIN-KEYWORD,onedrive
-DOMAIN-KEYWORD,skydrive
+# ---(Microsoft)---
+# > Outlook
+DOMAIN,outlook.office365.com
+DOMAIN,smtp-mail.outlook.com
+DOMAIN,smtp.office365.com
 
-# > 自用(ABCDEFGHIJKLMNOPQRSTUVWXYZ)
+# > Windows Server Update Services
+DOMAIN,download.microsoft.com
+DOMAIN,wustat.windows.com
+DOMAIN,ntservicepack.microsoft.com
+DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+DOMAIN-SUFFIX,update.microsoft.com
+DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,windowsupdate.microsoft.com
+
+# > For Myself
 DOMAIN,wx.sogou.com
 DOMAIN-SUFFIX,authy.com
 DOMAIN-SUFFIX,bandswatch.it

@@ -1,5 +1,21 @@
 // Advertising
 
+# > 360
+DOMAIN-SUFFIX,3600.com
+DOMAIN-SUFFIX,gamebox.360.cn
+DOMAIN-SUFFIX,jiagu.360.cn
+DOMAIN-SUFFIX,kuaikan.netmon.360safe.com
+DOMAIN-SUFFIX,leak.360.cn
+DOMAIN-SUFFIX,lianmeng.360.cn
+DOMAIN-SUFFIX,pub.se.360.cn
+DOMAIN-SUFFIX,s.so.360.cn
+DOMAIN-SUFFIX,shouji.360.cn
+DOMAIN-SUFFIX,soft.data.weather.360.cn
+DOMAIN-SUFFIX,stat.360safe.com
+DOMAIN-SUFFIX,stat.m.360.cn
+DOMAIN-SUFFIX,update.360safe.com
+DOMAIN-SUFFIX,wan.360.cn
+
 # > Apple
 DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,ads.internal.unity3d.com
@@ -236,6 +252,19 @@ DOMAIN-SUFFIX,znsv.baidu.com
 DOMAIN-SUFFIX,zz.bdstatic.com
 DOMAIN-SUFFIX,zzy1.quyaoya.com
 
+# > ByteDance 头条抖音
+DOMAIN-SUFFIX,ad.toutiao.com
+DOMAIN-SUFFIX,dsp.toutiao.com
+DOMAIN-SUFFIX,ic.snssdk.com
+DOMAIN-SUFFIX,log.snssdk.com
+DOMAIN-SUFFIX,nativeapp.toutiao.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,pangolin.snssdk.com
+DOMAIN-SUFFIX,partner.toutiao.com
+DOMAIN-SUFFIX,pglstatp-toutiao.com
+DOMAIN-SUFFIX,sm.toutiao.com
+
 # > Facebook
 DOMAIN-SUFFIX,staticxx.facebook.com
 
@@ -332,14 +361,6 @@ DOMAIN-SUFFIX,tajs.qq.com
 DOMAIN-SUFFIX,tcss.qq.com
 DOMAIN-SUFFIX,uu.qq.com
 
-# > QQ Live
-DOMAIN-SUFFIX,btrace.video.qq.com
-DOMAIN-SUFFIX,dp3.qq.com
-DOMAIN-SUFFIX,mcgi.v.qq.com
-DOMAIN-SUFFIX,mdevstat.qqlive.qq.com
-DOMAIN-SUFFIX,omgmta1.qq.com
-DOMAIN-SUFFIX,rcgi.video.qq.com
-
 # > Sougou
 DOMAIN-SUFFIX,123.sogou.com
 DOMAIN-SUFFIX,123.sogoucdn.com
@@ -363,6 +384,13 @@ DOMAIN-SUFFIX,pv.sogou.com
 DOMAIN-SUFFIX,theta.sogou.com
 DOMAIN-SUFFIX,wan.sogou.com
 DOMAIN-SUFFIX,wangmeng.sogou.com
+
+# > Weifeng
+DOMAIN-SUFFIX,aoodoo.feng.com
+DOMAIN-SUFFIX,fengbuy.com
+DOMAIN-SUFFIX,push.feng.com
+DOMAIN-SUFFIX,we.tm
+DOMAIN-SUFFIX,yes1.feng.com
 
 # > Yahoo
 DOMAIN-SUFFIX,ad.wretch.cc
@@ -975,6 +1003,25 @@ DOMAIN-SUFFIX,yadro.ru
 DOMAIN-SUFFIX,yengo.com
 DOMAIN-SUFFIX,zedo.com
 DOMAIN-SUFFIX,zemanta.com
+
+# > 垃圾站点
+DOMAIN-SUFFIX,11h5.com
+DOMAIN-SUFFIX,1kxun.mobi
+DOMAIN-SUFFIX,26zsd.cn
+DOMAIN-SUFFIX,519397.com
+DOMAIN-SUFFIX,626uc.com
+DOMAIN-SUFFIX,915.com
+DOMAIN-SUFFIX,appget.cn
+DOMAIN-SUFFIX,appuu.cn
+DOMAIN-SUFFIX,coinhive.com
+DOMAIN-SUFFIX,huodonghezi.cn
+DOMAIN-SUFFIX,vcbn65.xyz
+DOMAIN-SUFFIX,wanfeng1.com
+DOMAIN-SUFFIX,wep016.top
+DOMAIN-SUFFIX,win-stock.com.cn
+DOMAIN-SUFFIX,zantainet.com
+DOMAIN-SUFFIX,dh54wf.xyz
+DOMAIN-SUFFIX,g2q3e.cn
 
 # > 运营商广告
 DOMAIN-SUFFIX,114so.cn

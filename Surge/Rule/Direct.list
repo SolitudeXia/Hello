@@ -20,6 +20,13 @@ DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,smoot.apple.cn
 
+# > Public Direct CDN
+DOMAIN-SUFFIX,baomitu.com
+DOMAIN-SUFFIX,bootcss.com
+DOMAIN-SUFFIX,jiasule.com
+DOMAIN-SUFFIX,staticfile.org
+DOMAIN-SUFFIX,upaiyun.com
+
 # > For Myself
 DOMAIN,wx.sogou.com
 DOMAIN-SUFFIX,authy.com

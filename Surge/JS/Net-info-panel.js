@@ -1,4 +1,4 @@
-const { wifi, v4, v6 } = $network;
+const { wifi, v4 } = $network;
 
 let cellularInfo = '';
 
@@ -20,7 +20,7 @@ const radioGeneration = {
 
 const carrierNames = loadCarrierNames();
 
-if (!v4.primaryAddress && !v6.primaryAddress) {
+if (!v4.primaryAddress) {
   $done({
     title: '无网络',
     content: '尚未连接网络\n请检查网络状态后重试',
@@ -58,9 +58,7 @@ if (!v4.primaryAddress && !v6.primaryAddress) {
       title: wifi.ssid ? wifi.ssid : cellularInfo,
       content:
         (v4.primaryAddress ? `IPv4 : ${v4.primaryAddress} \n` : '') +
-        (v6.primaryAddress ? `IPv6 : ${v6.primaryAddress}\n` : '') +
         (v4.primaryRouter && wifi.ssid ? `Router IPv4 : ${v4.primaryRouter}\n` : '') +
-        (v6.primaryRouter && wifi.ssid ? `Router IPv6 : ${v6.primaryRouter}\n` : '') +
         `节点 IP : ${info.query}\n` +
         `节点 ISP : ${info.isp}\n` +
         `节点位置 : ${getFlagEmoji(IsTaiwan(info.countryCode))} | ${info.countryCode} - ${info.region} ${info.city}\n` +

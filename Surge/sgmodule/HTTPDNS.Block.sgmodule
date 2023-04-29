@@ -15,7 +15,7 @@ IP-CIDR,203.107.1.0/24,REJECT,no-resolve
 DOMAIN,httpsdns.baidu.com,REJECT
 DOMAIN,httpdns.baidu.com,REJECT
 # > Bilibili
-DOMAIN,httpdns.bilivideo.com,REJECT
+# DOMAIN,httpdns.bilivideo.com,REJECT
 # > JD
 DOMAIN,dns.jd.com,REJECT
 IP-CIDR,101.124.19.122/32,REJECT,no-resolve

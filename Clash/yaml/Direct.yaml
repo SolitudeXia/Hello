@@ -31,6 +31,14 @@ payload:
   - DOMAIN-SUFFIX,logitechg.com
   - DOMAIN-SUFFIX,logitechg.fr
   
+  # > Public Direct CDN
+  - DOMAIN-SUFFIX,baomitu.com
+  - DOMAIN-SUFFIX,bootcss.com
+  - DOMAIN-SUFFIX,jiasule.com
+  - DOMAIN-SUFFIX,staticfile.org
+  - DOMAIN-SUFFIX,upaiyun.com
+  
+  # ---(Microsoft)---
   # > Microsoft
   - DOMAIN-SUFFIX,aadrm.com
   - DOMAIN-SUFFIX,acompli.com
@@ -75,7 +83,6 @@ payload:
   - DOMAIN-SUFFIX,office365.com
   - DOMAIN-SUFFIX,officeppe.net
   - DOMAIN-SUFFIX,omniroot.com
-  - DOMAIN-SUFFIX,onedrive.com
   - DOMAIN-SUFFIX,onenote.com
   - DOMAIN-SUFFIX,onenote.net
   - DOMAIN-SUFFIX,onestore.ms
@@ -85,8 +92,6 @@ payload:
   - DOMAIN-SUFFIX,public-trust.com
   - DOMAIN-SUFFIX,sfbassets.com
   - DOMAIN-SUFFIX,sfx.ms
-  - DOMAIN-SUFFIX,sharepoint.com
-  - DOMAIN-SUFFIX,sharepointonline.com
   - DOMAIN-SUFFIX,skype.com
   - DOMAIN-SUFFIX,skypeassets.com
   - DOMAIN-SUFFIX,skypeforbusiness.com
@@ -107,8 +112,20 @@ payload:
   - DOMAIN-SUFFIX,wunderlist.com
   - DOMAIN-SUFFIX,yammer.com
   - DOMAIN-SUFFIX,yammerusercontent.com
-  - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,microsoft
+  # > OneDrive
+  - DOMAIN-SUFFIX,livefilestore.com
+  - DOMAIN-SUFFIX,oneclient.sfx.ms
+  - DOMAIN-SUFFIX,photos.live.com
+  - DOMAIN-SUFFIX,sharepoint.com
+  - DOMAIN-SUFFIX,sharepointonline.com
+  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net
+  - DOMAIN-SUFFIX,storage.live.com
+  - DOMAIN-SUFFIX,storage.msn.com
+  - DOMAIN-KEYWORD,1drv
+  - DOMAIN-KEYWORD,onedrive
+  - DOMAIN-KEYWORD,skydrive
+  # ------
   
   # > Nvidia
   - DOMAIN-SUFFIX,geforce.cn

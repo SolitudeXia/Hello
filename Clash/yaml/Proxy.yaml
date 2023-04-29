@@ -13,9 +13,63 @@ payload:
   - DOMAIN-SUFFIX,adguard.org
   
   # > Amazon
+  - DOMAIN-KEYWORD,avoddashs
+  - DOMAIN,atv-ps.amazon.com
+  - DOMAIN,avodmp4s3ww-a.akamaihd.net
+  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net
+  - DOMAIN,d1xfray82862hr.cloudfront.net
+  - DOMAIN,d22qjgkvxw22r6.cloudfront.net
+  - DOMAIN,d25xi40x97liuc.cloudfront.net
+  - DOMAIN,d27xxe7juh1us6.cloudfront.net
+  - DOMAIN,d3196yreox78o9.cloudfront.net
+  - DOMAIN,dmqdd6hw24ucf.cloudfront.net
+  - DOMAIN,ktpx.amazon.com
+  - DOMAIN-SUFFIX,aboutamazon.com
+  - DOMAIN-SUFFIX,aiv-cdn.net
+  - DOMAIN-SUFFIX,aiv-delivery.net
+  - DOMAIN-SUFFIX,amazon.co.jp
   - DOMAIN-SUFFIX,amazon.com
+  - DOMAIN-SUFFIX,amazon.jobs
   - DOMAIN-SUFFIX,amazonaws.com
-  - DOMAIN-SUFFIX,amazontrust.com
+  - DOMAIN-SUFFIX,amazonuniversity.jobs
+  - DOMAIN-SUFFIX,amazonvideo.com
+  - DOMAIN-SUFFIX,media-amazon.com
+  - DOMAIN-SUFFIX,pv-cdn.net
+  - IP-CIDR,13.32.0.0/15,no-resolve
+  - IP-CIDR,13.35.0.0/17,no-resolve
+  - IP-CIDR,18.184.0.0/15,no-resolve
+  - IP-CIDR,18.194.0.0/15,no-resolve
+  - IP-CIDR,18.208.0.0/13,no-resolve
+  - IP-CIDR,18.232.0.0/14,no-resolve
+  - IP-CIDR,52.58.0.0/15,no-resolve
+  - IP-CIDR,52.74.0.0/16,no-resolve
+  - IP-CIDR,52.77.0.0/16,no-resolve
+  - IP-CIDR,52.84.0.0/15,no-resolve
+  - IP-CIDR,52.200.0.0/13,no-resolve
+  - IP-CIDR,54.93.0.0/16,no-resolve
+  - IP-CIDR,54.156.0.0/14,no-resolve
+  - IP-CIDR,54.226.0.0/15,no-resolve
+  - IP-CIDR,54.230.156.0/22,no-resolve
+  - URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/
+  
+  # > Blizzard
+  - DOMAIN-SUFFIX,battle.net
+  - DOMAIN-SUFFIX,battlenet.com
+  - DOMAIN-SUFFIX,blizzard.com
+  
+  # > BBC
+  - DOMAIN-KEYWORD,bbcfmt
+  - DOMAIN-KEYWORD,uk-live
+  - DOMAIN-SUFFIX,bbc.co
+  - DOMAIN-SUFFIX,bbc.com
+  - DOMAIN-SUFFIX,bbc.in
+
+  # > Bloomberg
+  - DOMAIN-SUFFIX,bloomberg.cn
+  - DOMAIN-SUFFIX,bloomberg.com
+  - DOMAIN-SUFFIX,bloomberg.de
+  - DOMAIN-SUFFIX,bloombergview.com
+  - DOMAIN-SUFFIX,bwbx.io
   
   # > ChatGPT 代理 
   - DOMAIN-SUFFIX,ai.com
@@ -23,6 +77,22 @@ payload:
   - DOMAIN-SUFFIX,identrust.com
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  
+  # > Dropbox
+  - DOMAIN-SUFFIX,dropbox.com
+  - DOMAIN-SUFFIX,dropboxapi.com
+  - DOMAIN-SUFFIX,dropboxusercontent.com
+  
+  # > Epic
+  - DOMAIN-SUFFIX,epicgames.com
+  - DOMAIN-SUFFIX,epicgames.dev
+  - DOMAIN-SUFFIX,helpshift.com
+  - DOMAIN-SUFFIX,paragon.com
+  - DOMAIN-SUFFIX,unrealengine.com
+
+  # > Espn
+  - DOMAIN-SUFFIX,espn.com
+  - DOMAIN-SUFFIX,espn.net
   
   # > Github
   - DOMAIN-KEYWORD,github
@@ -66,6 +136,15 @@ payload:
   - DOMAIN-SUFFIX,tegrazone.co
   - DOMAIN-SUFFIX,tegrazone.com
   
+  # > Origin
+  - DOMAIN,cloudsync-prod.s3.amazonaws.com
+  - DOMAIN,eaasserts-a.akamaihd.net
+  - DOMAIN,origin-a.akamaihd.net
+  - DOMAIN,originasserts.akamaized.net
+  - DOMAIN,rtm.tnt-ea.com
+  - DOMAIN-SUFFIX,ea.com
+  - DOMAIN-SUFFIX,origin.com
+  
   # > Porn
   - DOMAIN-SUFFIX,phncdn.com
   - DOMAIN-SUFFIX,phprcdn.com
@@ -76,6 +155,36 @@ payload:
   - DOMAIN-SUFFIX,redd.it
   - DOMAIN-SUFFIX,reddit.com
   - DOMAIN-SUFFIX,redditmedia.com
+  
+  # > Surge
+  - DOMAIN,surge.mitsea.com
+  - DOMAIN-SUFFIX,nssurge.com
+  - DOMAIN-SUFFIX,surge-activation.com
+
+  # > Steam
+  - DOMAIN,steamcdn-a.akamaihd.net
+  - DOMAIN,steamcommunity-a.akamaihd.net
+  - DOMAIN,steammobile.akamaized.net
+  - DOMAIN,steampipe.akamaized.net
+  - DOMAIN,steamstore-a.akamaihd.net
+  - DOMAIN,steamusercontent-a.akamaihd.net
+  - DOMAIN-SUFFIX,fanatical.com
+  - DOMAIN-SUFFIX,humblebundle.com
+  - DOMAIN-SUFFIX,playartifact.com
+  - DOMAIN-SUFFIX,s.team
+  - DOMAIN-SUFFIX,st.dl.eccdnx.com
+  - DOMAIN-SUFFIX,steam-api.com
+  - DOMAIN-SUFFIX,steam-chat.com
+  - DOMAIN-SUFFIX,steambroadcast.akamaized.net
+  - DOMAIN-SUFFIX,steamcommunity.com
+  - DOMAIN-SUFFIX,steamgames.com
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,steamserver.net
+  - DOMAIN-SUFFIX,steamstat.us
+  - DOMAIN-SUFFIX,steamstatic.com
+  - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
+  - DOMAIN-SUFFIX,underlords.com
+  - DOMAIN-SUFFIX,valvesoftware.com
   
   # > Twitch
   - DOMAIN-SUFFIX,ext-twitch.tv
@@ -96,6 +205,11 @@ payload:
   - DOMAIN-SUFFIX,twitter.jp
   - DOMAIN-SUFFIX,vine.co
   - DOMAIN-KEYWORD,twitter
+  
+  # > UBI // 育碧
+  - DOMAIN-SUFFIX,ubi.com
+  - DOMAIN-SUFFIX,ubisoft.com
+  - DOMAIN-SUFFIX,uplay.com
   
   # > Wikimedia //维基
   - DOMAIN-SUFFIX,mediawiki.org

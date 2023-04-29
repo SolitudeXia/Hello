@@ -1,6 +1,10 @@
 #!name=🌐 DNS分流
 #!desc=按企业/公司分流使用所属DNS进行解析（自用）
 
+[General]
+# 使加密DNS请求通过代理策略执行
+encrypted-dns-follow-outbound-mode = true
+
 [Host]
 # > IPv6
 ip6-localhost = ::1 // IPv6 Localhost
@@ -32,58 +36,27 @@ fonts.gstatic.com = server:119.29.29.29 // Google Fonts
 *.alibaba.cn = server:223.5.5.5 // 阿里巴巴
 *.alibaba.com.cn = server:223.5.5.5 // 阿里巴巴
 *.china.alibaba.com = server:223.5.5.5 // Alibaba 中国
-*.1688.com = server:223.5.5.5 // 1688
 *.taobao.com = server:223.5.5.5 // 淘宝
-*.tbcache.com = server:223.5.5.5 // 淘宝 缓存
 *.tmall.com = server:223.5.5.5 // 天猫
 *.alicdn.com = server:223.5.5.5 // 阿里 CDN
-*.alikunlun.com = server:223.5.5.5 // 阿里昆仑
-*.aliapp.com = server:223.5.5.5 // 云引擎应用平台
-*.aliapp.org = server:223.5.5.5 // 上云平台
-*.alibabausercontent.com = server:223.5.5.5 // 阿里用户上传资料
-*.mmstat.com = server:223.5.5.5 // mmstat 数据统计 广告追踪
-tb.cn = server:223.5.5.5 // 淘宝短网址
+*.aliapp.com = server:https://dns.alidns.com/dns-query // 云引擎应用平台
+*.aliapp.org = server:https://dns.alidns.com/dns-query // 上云平台
 
 # > 阿里云
 *.aliyun.* = server:223.5.5.5 // 阿里云
 *.aliyuncdn.* = server:223.5.5.5 // 阿里云 CDN
 *.aliyuncs.com = server:223.5.5.5 // 阿里云 API 服务
-*.aliyunddos????.com = server:223.5.5.5 // 阿里云 DDoS防护
 *.aliyundrive.com = server:223.5.5.5 // 阿里云盘
-*.aliyundun.com = server:223.5.5.5 // 阿里云盾
-*.aliyundunwaf.com = server:223.5.5.5 // 阿里云盾 Web 应用防火墙
-*.aliyun-inc.com = server:223.5.5.5 // 阿里云 内部
 
 # > 蚂蚁集团
-*.antgroup.com = server:223.5.5.5 // 蚂蚁集团
-*.antfin.com = server:223.5.5.5 // 蚂蚁金服
-*.antfinancial.com = server:223.5.5.5 // 蚂蚁金服
 *.alipay.com = server:223.5.5.5 // 支付宝
 *.alipay.com.cn = server:223.5.5.5 // 支付宝
 *.alipaydns.com = server:223.5.5.5 // 支付宝 HTTP DNS
-*.alipayeshop.com = server:223.5.5.5 // 支付宝 商家资源
-*.alipaylog.com = server:223.5.5.5 // 支付宝 Mdap
 *.alipayobjects.com = server:223.5.5.5 // 支付宝 静态资源
-*.alipay-eco.com = server:223.5.5.5 // 支付宝 开放技术生态体系
 
 # > 腾讯
 *.tencent.com = server:119.29.29.29 // 腾讯
-*.qcloud.com = server:119.29.29.29 // 腾讯云
-*.qcloudcdn.cn = server:119.29.29.29 // 腾讯云CDN
-*.qcloudcdn.com = server:119.29.29.29 // 腾讯云CDN
-*.qcloudcos.com = server:119.29.29.29 // 腾讯云对象储存
-*.qcloudimg.com = server:119.29.29.29 // 腾讯云静态资源
-*.qcloudcjgj.com = server:119.29.29.29 // 腾讯云超级管家
-*.qcloudwzgj.com = server:119.29.29.29 // 腾讯云网站管家
-*.qcloudzygj.com = server:119.29.29.29 // 腾讯云主页管家
-*.myqcloud.com = server:119.29.29.29 // 腾讯开放云
-*.tencent-cloud.net = server:119.29.29.29 // 腾讯云
-*.tencentcloud-aiot.com = server:119.29.29.29 // 腾讯云aiot解决方案
-*.tencentcloudapi.com = server:119.29.29.29 // 腾讯云API
-*.tencentcloudcr.com = server:119.29.29.29 // 腾讯云容器镜像服务TCR
-*.tencentcloudmarket.com = server:119.29.29.29 // 腾讯云云市场
 *.qq.com = server:119.29.29.29 // QQ
-*.qlogo.cn = server:119.29.29.29 // 腾讯头像
 *.qpic.cn = server:119.29.29.29 // 腾讯图片
 *.weixin.qq.com = server:119.29.29.29 // 微信
 *.wx.qq.com = server:119.29.29.29 // 微信
@@ -91,13 +64,7 @@ tb.cn = server:223.5.5.5 // 淘宝短网址
 *.weixinbridge.com = server:119.29.29.29 // 微信公众平台
 *.wechat.com = server:119.29.29.29 // WeChat
 *.servicewechat.com = server:119.29.29.29 // 微信小程序
-*.weiyun.com = server:119.29.29.29 // 微云
 *.gtimg.cn = server:119.29.29.29 // 腾讯 图片 静态资源
-*.idqqimg.com = server:119.29.29.29 // 腾讯 图片 静态资源
-*.cdn-go.cn = server:119.29.29.29 // 腾讯 静态资源 CDN
-*.smtcdns.com = server:119.29.29.29 // 腾讯云 智能云解析DNS
-*.smtcdns.net = server:119.29.29.29 // 腾讯云 智能云解析DNS
-url.cn = server:119.29.29.29 // 腾讯短网址
 
 # > 百度
 *.baidu = server:180.76.76.76 // 百度
@@ -109,16 +76,6 @@ url.cn = server:119.29.29.29 // 腾讯短网址
 *.baiduyundns.* = server:180.76.76.76 // 百度云DNS
 *.bdydns.* = server:180.76.76.76 // 百度云 DNS
 *.bdycdn.* = server:180.76.76.76 // 百度云 CDN
-*.bdysite.com = server:180.76.76.76 // 百度云 域名
-*.bdysites.com = server:180.76.76.76 // 百度云 域名
-*.baidubce.* = server:180.76.76.76 // 百度智能云
-*.bcedns.* = server:180.76.76.76 // 百度智能云 DNS
-*.bcebos.com = server:180.76.76.76 // 百度智能云 对象存储BOS
-*.bcevod.com = server:180.76.76.76 // 百度智能云 播放器服务
-*.bceimg.com = server:180.76.76.76 // 百度智能云 图片服务
-*.bcehost.com = server:180.76.76.76 // 百度智能云 主机
-*.bcehosts.com = server:180.76.76.76 // 百度智能云 主机
-dwz.cn = server:180.76.76.76 // 百度短网址
 
 # > BiliBili
 *.bilibili.com = server:114.114.114.114 // BiliBili
@@ -127,41 +84,21 @@ dwz.cn = server:180.76.76.76 // 百度短网址
 *.bilicdn?.com = server:114.114.114.114 // BiliBili CDN
 *.hdslb.com = server:114.114.114.114 // BiliBili 静态资源
 *.hdslb.net = server:114.114.114.114 // BiliBili 静态资源
-cn-hk-eq-bcache-??.bilivideo.com = server:114.114.114.114 // BiliBili 视频服务器（unknown）
 upos-hz-mirrorakam.akamaized.net = server:114.114.114.114 // BiliBili upos视频服务器（akamai）
 upos-sz-mirrorasiaov.bilibilivideo.com = server:114.114.114.114 // BiliBili upos视频服务器（asia-abroad.com）
 upos-sz-mirrorali.bilivideo.com = server:223.5.5.5 // BiliBili upos视频服务器（阿里云）
-upos-sz-mirrorali?.bilivideo.com = server:223.5.5.5 // BiliBili upos视频服务器（阿里云）
-upos-sz-mirrorali??.bilivideo.com = server:223.5.5.5 // BiliBili upos视频服务器（阿里云）
-upos-sz-mirrorbos.bilivideo.com = server:180.76.76.76 // BiliBili upos视频服务器（百度云）
-upos-sz-mirrorcos.bilivideo.com = server:119.29.29.29 // BiliBili upos视频服务器（腾讯云）
-upos-sz-mirrorcos?.bilivideo.com = server:119.29.29.29 // BiliBili upos视频服务器（腾讯云）
-upos-sz-mirrorcos??.bilivideo.com = server:119.29.29.29 // BiliBili upos视频服务器（腾讯云）
-upos-sz-mirrorhw.bilivideo.com = server:114.114.114.114 // BiliBili upos视频服务器（华为云）
-upos-sz-mirrorhw?.bilivideo.com = server:114.114.114.114 // BiliBili upos视频服务器（华为云）
-upos-sz-mirrorhwo?.bilivideo.com = server:114.114.114.114 // BiliBili upos视频服务器（华为云）
-upos-sz-mirrorks3.bilivideo.com = server:114.114.114.114 // BiliBili upos视频服务器（金山云）
-upos-sz-mirrorks3?.bilivideo.com = server:114.114.114.114 // BiliBili upos视频服务器（金山云）
-upos-sz-mirrorkodo.bilivideo.com = server:114.114.114.114 // BiliBili upos视频服务器（七牛云）
-upos-sz-mirrorkodo?.bilivideo.com = server:114.114.114.114 // BiliBili upos视频服务器（七牛云）
-upos-sz-mirrorwcs.bilivideo.com = server:114.114.114.114 // BiliBili upos视频服务器（网宿）
-upos-sz-mirrorwcs?.bilivideo.com = server:114.114.114.114 // BiliBili upos视频服务器（网宿）
-upos-sz-mirrorxycdn.bilivideo.com = server:114.114.114.114 // BiliBili upos视频服务器（迅雷）
-upos-sz-upcdnbd??.bilivideo.com = server:180.76.76.76 // BiliBili upos视频服务器（百度云）
-upos-sz-upcdnhw.bilivideo.com = server:114.114.114.114 // BiliBili uupos视频服务器（华为云）
-upos-sz-upcdntx.bilivideo.com = server:119.29.29.29 // BiliBili upos视频服务器（腾讯云）
-upos-sz-upcdnws.bilivideo.com = server:114.114.114.114 // BiliBili upos视频服务器（网宿）
-upos-tf-all-js.bilivideo.com = server:114.114.114.114 // BiliBili upos视频服务器（unknown）
-*.mcdn.bilivideo.com = server:114.114.114.114 // BiliBili mCDN视频服务器
 *.bilivideo.com = server:114.114.114.114 // BiliBili 视频
 *.bilivideo.cn = server:114.114.114.114 // BiliBili 视频
-acg.tv = server:114.114.114.114 // BiliBili短网址
 
 # > 京东
 *.jd.com = server:114.114.114.114 // 京东
 *.360buyimg.com = server:114.114.114.114 // 京东 静态资源
-*.jdcloud.com = server:114.114.114.114 // 京东云
-*.jcloudstatic.com = server:114.114.114.114 // 京东云 缓存和存储
-*.jcloudstatic.net = server:114.114.114.114 // 京东云 静态资源
-*.jdgslb.com = server:114.114.114.114 // 京东云 全局负载均衡
-3.cn = server:114.114.114.114 // 京东短网址
+
+# > 🇹🇼 TWN
+# Taiwan Network Information Center
+*.tw = server:https://dns.twnic.tw/dns-query // TWNIC DNS
+*.taipei = server:https://dns.twnic.tw/dns-query // TWNIC DNS
+
+# > 🇺🇸 USA
+# Hurricane Electric
+*.he.net = server:https://ordns.he.net/dns-query // HE.net

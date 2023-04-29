@@ -14,14 +14,9 @@ IP-CIDR,203.107.1.0/24,REJECT,no-resolve
 # > Baidu
 DOMAIN,httpsdns.baidu.com,REJECT
 DOMAIN,httpdns.baidu.com,REJECT
-# > Bilibili
-# DOMAIN,httpdns.bilivideo.com,REJECT
 # > JD
 DOMAIN,dns.jd.com,REJECT
 IP-CIDR,101.124.19.122/32,REJECT,no-resolve
-IP-CIDR6,2402:db40:5100:1011::5/128,REJECT,no-resolve
-# > JD Cloud
-IP-CIDR,103.224.222.208/32,REJECT,no-resolve
 # > Weibo
 DOMAIN,dns.weibo.cn,REJECT
 IP-CIDR,39.97.128.148/32,REJECT,no-resolve
@@ -34,11 +29,8 @@ IP-CIDR,42.187.182.106/32,REJECT,no-resolve
 IP-CIDR,42.187.182.123/32,REJECT,no-resolve
 IP-CIDR,42.187.184.154/32,REJECT,no-resolve
 IP-CIDR,123.151.54.50/32,REJECT,no-resolve
-IP-CIDR6,2402:4e00:1900:1700:0:9554:1ad9:c3a/128,REJECT,no-resolve
-IP-CIDR6,240e:928:1400:10::25/128,REJECT,no-resolve
 # > Zhihu
 IP-CIDR,118.89.204.198/23,REJECT,no-resolve
-IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve
 
 [URL Rewrite]
 # > alipay

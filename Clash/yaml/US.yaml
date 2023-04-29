@@ -2,8 +2,10 @@ payload:
   # > Cloudflare
   - DOMAIN-SUFFIX,cloudflare-dns.com
   - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,cloudflareclient.com
   - DOMAIN-SUFFIX,cloudflare.net
   - DOMAIN-SUFFIX,cloudflareinsights.com
+  - DOMAIN-SUFFIX,cloudflarestream.com
 
   # > PayPal
   - DOMAIN-KEYWORD,paypal
@@ -13,5 +15,6 @@ payload:
   - DOMAIN-SUFFIX,crocs.com
   - DOMAIN-SUFFIX,ebay.com
   - DOMAIN-SUFFIX,lego.com
+  - DOMAIN-SUFFIX,padandquill.com
   - DOMAIN-SUFFIX,ultramobile.com
   - DOMAIN-SUFFIX,yubico.com

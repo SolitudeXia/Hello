@@ -357,7 +357,6 @@ DOMAIN-SUFFIX,getui.com
 DOMAIN-SUFFIX,getui.net
 
 # > Other
-DOMAIN,app-sdk-logs.cn-hangzhou.log.aliyuncs.com
 DOMAIN,advert.108sq.cn
 DOMAIN,dm.toutiao.com
 DOMAIN,sdk-fra-01.braze.eu

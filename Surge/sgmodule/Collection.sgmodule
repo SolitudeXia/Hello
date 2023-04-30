@@ -8,9 +8,12 @@ force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.ne
 
 [Rule]
 # > 108社区
+URL-REGEX,^http:\/\/adash\.m\.taobao\.com\/rest\/sur\?,REJECT
 URL-REGEX,^http:\/\/app\.108sq\.cn\/Api\/(AppUserInfoForUpdate|UserPrestigeInfos)\?,REJECT
+URL-REGEX,^http:\/\/app\.108sq\.cn\/api\/userbindmobileinfo\?$,REJECT
 URL-REGEX,^http:\/\/app\.108sq\.cn\/Common\/MyConfigInfo$,REJECT
 URL-REGEX,^http:\/\/clientlog\.108sq\.cn\/api\/LogInfo\/Error$,REJECT
+URL-REGEX,^http:\/\/shop\.108sq\.cn\/API\/item\/hasitem$,REJECT
 URL-REGEX,^http:\/\/userop\.108sq\.cn\/api\/atask\/gettask$,REJECT
 URL-REGEX,^http:\/\/userop\.108sq\.cn\/API\/AFavorites\/Exists\?,REJECT
 URL-REGEX,^http:\/\/userop\.108sq\.cn\/API\/AMedal\/UserMedalInfos\?,REJECT

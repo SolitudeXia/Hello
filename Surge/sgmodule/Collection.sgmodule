@@ -7,6 +7,9 @@
 force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net, *.example.com:0
 
 [Rule]
+# > 支付宝
+URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.common\.gettimestamp\/\*\?,REJECT
+# > 闲鱼
 URL-REGEX,^http://ems.youku.com/imp?,REJECT
 URL-REGEX,^http://df.tanx.com/spf3?,REJECT
 # > 108社区

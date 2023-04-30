@@ -8,11 +8,12 @@ force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.ne
 
 [Rule]
 # > 108社区
-URL-REGEX,^http:\/\/userop\.108sq\.cn\/API\/AMedal\/UserMedalInfos\?,REJECT
-URL-REGEX,^http:\/\/clientlog\.108sq\.cn\/api\/LogInfo\/Error$,REJECT
-URL-REGEX,^http:\/\/app\.108sq\.cn\/Api\/AppUserInfoForUpdate\?,REJECT
+URL-REGEX,^http:\/\/app\.108sq\.cn\/Api\/(AppUserInfoForUpdate|UserPrestigeInfos)\?,REJECT
 URL-REGEX,^http:\/\/app\.108sq\.cn\/Common\/MyConfigInfo$,REJECT
+URL-REGEX,^http:\/\/clientlog\.108sq\.cn\/api\/LogInfo\/Error$,REJECT
 URL-REGEX,^http:\/\/userop\.108sq\.cn\/api\/atask\/gettask$,REJECT
+URL-REGEX,^http:\/\/userop\.108sq\.cn\/API\/AFavorites\/Exists\?,REJECT
+URL-REGEX,^http:\/\/userop\.108sq\.cn\/API\/AMedal\/UserMedalInfos\?,REJECT
 # > 阿里巴巴
 URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv,REJECT
 URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/.+?etao_advertise,REJECT
@@ -29,6 +30,11 @@ URL-REGEX,^https:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement,REJECT
 URL-REGEX,^https?:\/\/cdn\.poizon\.com\/node-common\/.*.jpg,REJECT
 # > 京东 去开屏
 URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$,REJECT-TINYGIF
+# > 肯德基 微信小程序净化
+URL-REGEX,^https:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/coupon,REJECT
+URL-REGEX,^https:\/\/dynamicad\.kfc\.com\.cn\/api,REJECT
+URL-REGEX,^https:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/custom_v2\/wxapp,REJECT
+URL-REGEX,^https:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/activity,REJECT
 # > 酷安去广告
 URL-REGEX,^https:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch,REJECT
 # > 美团 去开屏
@@ -74,4 +80,4 @@ TestFlight = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/v\d\/(
 公众号广告 = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/self_use.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, app.dewu.com, cdn.poizon.com, api.ithome.com, m.ithome.com, napi.ithome.com, api.m.jd.com, api.coolapk.com, flowplus.meituan.net, s3plus.meituan.net, api.wfdata.club, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, member.aliyundrive.com, boxjs.com, boxjs.net, github.com:443, raw.githubusercontent.com:443, spclient.wg.spotify.com, sub.store, testflight.apple.com, mp.weixin.qq.com
+hostname = %APPEND% acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, app.dewu.com, cdn.poizon.com, api.ithome.com, m.ithome.com, napi.ithome.com, api.m.jd.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, api.coolapk.com, flowplus.meituan.net, s3plus.meituan.net, api.wfdata.club, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, member.aliyundrive.com, boxjs.com, boxjs.net, github.com:443, raw.githubusercontent.com:443, spclient.wg.spotify.com, sub.store, testflight.apple.com, mp.weixin.qq.com

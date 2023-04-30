@@ -31,10 +31,9 @@ URL-REGEX,^https?:\/\/cdn\.poizon\.com\/node-common\/.*.jpg,REJECT
 # > 京东 去开屏
 URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$,REJECT-TINYGIF
 # > 肯德基 微信小程序净化
-URL-REGEX,^https:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/coupon,REJECT
+URL-REGEX,^https:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/(activity|coupon),REJECT
 URL-REGEX,^https:\/\/dynamicad\.kfc\.com\.cn\/api,REJECT
 URL-REGEX,^https:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/custom_v2\/wxapp,REJECT
-URL-REGEX,^https:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/activity,REJECT
 # > 酷安去广告
 URL-REGEX,^https:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch,REJECT
 # > 美团 去开屏

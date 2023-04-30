@@ -1,6 +1,7 @@
 # ---(Apple)---
 # > AppleProxy
 DOMAIN,amp-api.podcasts.apple.com
+DOMAIN,amp-api.sandbox.apple.com
 DOMAIN,apple.comscoreresearch.com
 DOMAIN,beta.music.apple.com
 DOMAIN,books.apple.com

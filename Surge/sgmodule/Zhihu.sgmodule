@@ -3,6 +3,8 @@
 #!system=ios
 
 [Rule]
+# > 我的页面 项目列表,会员卡片,更多卡片
+URL-REGEX,^https:\/\/www\.zhihu\.com\/appview\/v2\/zhmore\?,REJECT
 # > 其他,服务器推送配置
 URL-REGEX,^https:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config$,REJECT
 

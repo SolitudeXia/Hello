@@ -353,12 +353,11 @@ DOMAIN-SUFFIX,yads.yahoo.co.jp
 DOMAIN-SUFFIX,ybp.yahoo.com
 
 # > 云闪付
-DOMAIN-SUFFIX,ads.95516.com
-DOMAIN-SUFFIX,cm-10-138.getui.com
-DOMAIN-SUFFIX,sdk.open.talk.getui.net
-DOMAIN-SUFFIX,sdk-conf.getui.com
-DOMAIN-SUFFIX,switch.cup.com.cn
-DOMAIN-SUFFIX,tysdk.95516.com
+DOMAIN,ads.95516.com
+DOMAIN,switch.cup.com.cn
+DOMAIN,tysdk.95516.com
+DOMAIN-SUFFIX,getui.com
+DOMAIN-SUFFIX,getui.net
 
 # > Other
 DOMAIN,gecko-pangle-hl.snssdk.com

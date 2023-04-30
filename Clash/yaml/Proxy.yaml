@@ -114,7 +114,7 @@ payload:
   - DOMAIN-SUFFIX,notion.so
   
   # > NSFW
-  - DOMAIN-SUFFIX,91porn //91
+  - DOMAIN-SUFFIX,91porn
   - DOMAIN-SUFFIX,Bustnow.com
   - DOMAIN-SUFFIX,redtube.com
   - DOMAIN-SUFFIX,Tubethumbs.com
@@ -239,7 +239,7 @@ payload:
   - DOMAIN-SUFFIX,emojipedia.org
   - DOMAIN-SUFFIX,figma.com
   - DOMAIN-SUFFIX,gravatar.com
-  - DOMAIN-SUFFIX,javbus.com //javbus
+  - DOMAIN-SUFFIX,javbus.com
   - DOMAIN-SUFFIX,macrumors.com
   - DOMAIN-SUFFIX,miaona.cyou
   - DOMAIN-SUFFIX,nssurge.com

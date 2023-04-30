@@ -7,6 +7,8 @@
 force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net, *.example.com:0
 
 [Rule]
+URL-REGEX,http://ems.youku.com/imp?,REJECT
+URL-REGEX,http://df.tanx.com/spf3?,REJECT
 # > 108社区
 URL-REGEX,^http:\/\/adash\.m\.taobao\.com\/rest\/sur\?,REJECT
 URL-REGEX,^http:\/\/app\.108sq\.cn\/Api\/(AppUserInfoForUpdate|UserPrestigeInfos)\?,REJECT

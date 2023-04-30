@@ -239,12 +239,9 @@ DOMAIN-SUFFIX,zzy1.quyaoya.com
 # > ByteDance 头条抖音
 DOMAIN-SUFFIX,ad.toutiao.com
 DOMAIN-SUFFIX,dsp.toutiao.com
-DOMAIN-SUFFIX,ic.snssdk.com
-DOMAIN-SUFFIX,log.snssdk.com
 DOMAIN-SUFFIX,nativeapp.toutiao.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
-DOMAIN-SUFFIX,pangolin.snssdk.com
 DOMAIN-SUFFIX,partner.toutiao.com
 DOMAIN-SUFFIX,pglstatp-toutiao.com
 DOMAIN-SUFFIX,sm.toutiao.com
@@ -360,19 +357,25 @@ DOMAIN-SUFFIX,getui.com
 DOMAIN-SUFFIX,getui.net
 
 # > Other
-DOMAIN,gecko-pangle-hl.snssdk.com
+DOMAIN,app-sdk-logs.cn-hangzhou.log.aliyuncs.com
+DOMAIN,advret.108sq.cn
+DOMAIN,dm.toutiao.com
 DOMAIN,sdk-fra-01.braze.eu
 DOMAIN-SUFFIX,baomitu.com
 DOMAIN-SUFFIX,cnzz.com
+DOMAIN-SUFFIX,ctobsnssdk.com
 DOMAIN-SUFFIX,fivecdm.com
 DOMAIN-SUFFIX,gepush.com
 DOMAIN-SUFFIX,growingio.com
 DOMAIN-SUFFIX,ocsp-certum.com
+DOMAIN-SUFFIX,qzs.gdtimg.com
 DOMAIN-SUFFIX,rubiconproject.com
+DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,umeng.com
 DOMAIN-SUFFIX,umengcloud.com
 DOMAIN-SUFFIX,vungle.cn
 DOMAIN-SUFFIX,vungle.com
+DOMAIN-SUFFIX,zijieapi.com
 DOMAIN-KEYWORD,adservice
 DOMAIN-KEYWORD,adsystem
 DOMAIN-KEYWORD,appsflyer

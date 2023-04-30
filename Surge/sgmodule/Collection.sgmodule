@@ -7,6 +7,12 @@
 force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net, *.example.com:0
 
 [Rule]
+# > 108社区
+URL-REGEX,^http:\/\/userop\.108sq\.cn\/API\/AMedal\/UserMedalInfos\?,REJECT
+URL-REGEX,^http:\/\/clientlog\.108sq\.cn\/api\/LogInfo\/Error$,REJECT
+URL-REGEX,^http:\/\/app\.108sq\.cn\/Api\/AppUserInfoForUpdate\?,REJECT
+URL-REGEX,^http:\/\/app\.108sq\.cn\/Common\/MyConfigInfo$,REJECT
+URL-REGEX,^http:\/\/userop\.108sq\.cn\/api\/atask\/gettask$,REJECT
 # > 阿里巴巴
 URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv,REJECT
 URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/.+?etao_advertise,REJECT

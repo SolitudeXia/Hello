@@ -40,7 +40,6 @@ DOMAIN-SUFFIX,userimg.qunar.com
 DOMAIN-SUFFIX,yiliao.hupan.com
 
 # > Baidu
-# Baidu
 DOMAIN-SUFFIX,a.baidu.cn
 DOMAIN-SUFFIX,a.baidu.com
 DOMAIN-SUFFIX,ad.duapps.com
@@ -271,7 +270,7 @@ DOMAIN-SUFFIX,pagead.google.com
 DOMAIN-SUFFIX,pagead.l.google.com
 DOMAIN-SUFFIX,service.urchin.com
 
-# iqiyi PPS 爱奇艺
+# > iqiyi PPS 爱奇艺
 DOMAIN-SUFFIX,ad.m.iqiyi.com
 DOMAIN-SUFFIX,afp.iqiyi.com
 DOMAIN-SUFFIX,c.uaa.iqiyi.com
@@ -353,10 +352,20 @@ DOMAIN-SUFFIX,ws.progrss.yahoo.com
 DOMAIN-SUFFIX,yads.yahoo.co.jp
 DOMAIN-SUFFIX,ybp.yahoo.com
 
-# Other
+# > 云闪付
+DOMAIN-SUFFIX,ads.95516.com
+DOMAIN-SUFFIX,cm-10-138.getui.com
+DOMAIN-SUFFIX,sdk.open.talk.getui.net
+DOMAIN-SUFFIX,sdk-conf.getui.com
+DOMAIN-SUFFIX,switch.cup.com.cn
+DOMAIN-SUFFIX,tysdk.95516.com
+
+# > Other
 DOMAIN,gecko-pangle-hl.snssdk.com
+DOMAIN,sdk-fra-01.braze.eu
 DOMAIN-SUFFIX,baomitu.com
 DOMAIN-SUFFIX,fivecdm.com
+DOMAIN-SUFFIX,gepush.com
 DOMAIN-SUFFIX,ocsp-certum.com
 DOMAIN-SUFFIX,umeng.com
 DOMAIN-SUFFIX,umengcloud.com

@@ -253,6 +253,7 @@ DOMAIN,search.yahoo.co.jp
 
 # > Other // ABCDEFGHIJKLMNOPQRSTUVWXYZ
 DOMAIN,gallery.scriptable.app
+DOMAIN,oss-static-resource-zaobao.oss-cn-hongkong.aliyuncs.com
 DOMAIN,sub-store.vercel.app // sub-store
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,91porn // 91

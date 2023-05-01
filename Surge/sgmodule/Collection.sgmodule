@@ -7,11 +7,6 @@
 force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net, *.example.com:0
 
 [Rule]
-# > 支付宝
-URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.common\.gettimestamp\/\*\?,REJECT
-# > 闲鱼
-URL-REGEX,^http://ems.youku.com/imp?,REJECT
-URL-REGEX,^http://df.tanx.com/spf3?,REJECT
 # > 108社区
 URL-REGEX,^http:\/\/adash\.m\.taobao\.com\/rest\/sur\?,REJECT
 URL-REGEX,^http:\/\/app\.108sq\.cn\/Api\/(AppUserInfoForUpdate|UserPrestigeInfos)\?,REJECT
@@ -43,7 +38,7 @@ URL-REGEX,^https:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/(activity|c
 URL-REGEX,^https:\/\/dynamicad\.kfc\.com\.cn\/api,REJECT
 URL-REGEX,^https:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/custom_v2\/wxapp,REJECT
 # > 酷安去广告
-URL-REGEX,^https:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch,REJECT
+URL-REGEX,^https:\/\/api\.coolapk\.com\/v6\/search\?,REJECT
 # > 美团 去开屏
 URL-REGEX,^https:\/\/flowplus\.meituan\.net\/v1\/mss_\w+\/linglong\/\d+\.jpg$,REJECT
 URL-REGEX,^https:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-alita)\/\w+\.zip$,REJECT
@@ -85,6 +80,9 @@ Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,requires-body=1,max
 TestFlight = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/,requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js,script-update-interval=-1
 # > 微信公众号文章广告
 公众号广告 = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/self_use.js,script-update-interval=-1
+# > 小红书广告
+开屏广告 = type=http-response,pattern=^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config,requires-body=1,script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/xiaohongshu/xiaohongshu.ad.js,script-update-interval=-1
+推荐信息流广告 = type=http-response,pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v6\/homefeed\?,requires-body=1,script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/xiaohongshu/xiaohongshu.ad.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, app.dewu.com, cdn.poizon.com, api.ithome.com, m.ithome.com, napi.ithome.com, api.m.jd.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, api.coolapk.com, flowplus.meituan.net, s3plus.meituan.net, api.wfdata.club, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, member.aliyundrive.com, boxjs.com, boxjs.net, github.com:443, raw.githubusercontent.com:443, spclient.wg.spotify.com, sub.store, testflight.apple.com, mp.weixin.qq.com
+hostname = %APPEND% acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, app.dewu.com, cdn.poizon.com, api.ithome.com, m.ithome.com, napi.ithome.com, api.m.jd.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, api.coolapk.com, flowplus.meituan.net, s3plus.meituan.net, api.wfdata.club, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, member.aliyundrive.com, boxjs.com, boxjs.net, github.com:443, raw.githubusercontent.com:443, spclient.wg.spotify.com, sub.store, testflight.apple.com, mp.weixin.qq.com, edith.xiaohongshu.com

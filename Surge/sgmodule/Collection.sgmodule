@@ -43,6 +43,8 @@ URL-REGEX,^https:\/\/gw\.alicdn\.com\/mt\/,REJECT
 URL-REGEX,^https:\/\/gw\.alicdn\.com\/(tfs|tps)\/.+\d{3,4}-\d{4},REJECT
 # > 浙里办
 URL-REGEX,^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,REJECT
+# > Safari 防跳转
+DOMAIN,app-site-association.cdn-apple.com,REJECT
 
 [Script]
 # > 12306 开屏广告

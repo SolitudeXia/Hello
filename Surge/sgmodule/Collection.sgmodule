@@ -11,12 +11,8 @@ force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.ne
 URL-REGEX,^http:\/\/adash\.m\.taobao\.com\/rest\/sur\?,REJECT
 URL-REGEX,^http:\/\/app\.108sq\.cn\/Api\/(AppUserInfoForUpdate|UserPrestigeInfos)\?,REJECT
 URL-REGEX,^http:\/\/app\.108sq\.cn\/api\/userbindmobileinfo\?$,REJECT
-URL-REGEX,^http:\/\/app\.108sq\.cn\/Common\/MyConfigInfo$,REJECT
-URL-REGEX,^http:\/\/clientlog\.108sq\.cn\/api\/LogInfo\/Error$,REJECT
-URL-REGEX,^http:\/\/shop\.108sq\.cn\/API\/item\/hasitem$,REJECT
-URL-REGEX,^http:\/\/userop\.108sq\.cn\/api\/atask\/gettask$,REJECT
-URL-REGEX,^http:\/\/userop\.108sq\.cn\/API\/AFavorites\/Exists\?,REJECT
-URL-REGEX,^http:\/\/userop\.108sq\.cn\/API\/AMedal\/UserMedalInfos\?,REJECT
+URL-REGEX,^http:\/\/(app|userop|shop|clientlog)\.108sq\.cn\/(Common|api|API\/|atask|item|LogInfo)\/(MyConfigInfo|gettask|hasitem|Error)$,REJECT
+URL-REGEX,^http:\/\/userop\.108sq\.cn\/API\/(AMedal|AFavorites)\/(UserMedalInfos|Exists)\?,REJECT
 # > 阿里巴巴
 URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv,REJECT
 URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/.+?etao_advertise,REJECT
@@ -37,8 +33,6 @@ URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$,REJECT-
 URL-REGEX,^https:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/(activity|coupon),REJECT
 URL-REGEX,^https:\/\/dynamicad\.kfc\.com\.cn\/api,REJECT
 URL-REGEX,^https:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/custom_v2\/wxapp,REJECT
-# > 酷安去广告
-URL-REGEX,^https:\/\/api\.coolapk\.com\/v6\/search\?,REJECT
 # > 美团 去开屏
 URL-REGEX,^https:\/\/flowplus\.meituan\.net\/v1\/mss_\w+\/linglong\/\d+\.jpg$,REJECT
 URL-REGEX,^https:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-alita)\/\w+\.zip$,REJECT
@@ -46,8 +40,7 @@ URL-REGEX,^https:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-a
 URL-REGEX,^https:\/\/api\.wfdata\.club\/v2\/yesfeng\/(infoCenterAd|yesList),REJECT
 # > 闲鱼
 URL-REGEX,^https:\/\/gw\.alicdn\.com\/mt\/,REJECT
-URL-REGEX,^https:\/\/gw\.alicdn\.com\/tfs\/.+\d{3,4}-\d{4},REJECT
-URL-REGEX,^https:\/\/gw\.alicdn\.com\/tps\/.+\d{3,4}-\d{4},REJECT
+URL-REGEX,^https:\/\/gw\.alicdn\.com\/(tfs|tps)\/.+\d{3,4}-\d{4},REJECT
 # > 浙里办
 URL-REGEX,^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,REJECT
 
@@ -62,14 +55,10 @@ aliyundrive = type=http-response,pattern=^https:\/\/member\.aliyundrive\.com\/v1
 云盘挂载 = type=http-request,pattern=^http:\/\/(aliyun|quark|pikpak)\.example\.com,requires-body=1,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/fileball.js,script-update-interval=-1
 # > BoxJs
 BoxJs = type=http-request,pattern=^https?:\/\/(.+\.)?boxjs\.(com|net),requires-body=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js,timeout=120,script-update-interval=0
-# > IT之家 去广告
-ithome = type=http-response,pattern=^https:\/\/api\.ithome\.com\/json\/(listpage\/news|newslist\/news|slide\/index),requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/ithome.js,script-update-interval=-1
-ithome = type=http-response,pattern=^https:\/\/m\.ithome\.com\/api\/news\/newslistpageget,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/ithome.js,script-update-interval=-1
-ithome = type=http-response,pattern=^https:\/\/napi\.ithome\.com\/api\/(news\/index|topmenu\/getfeeds),requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/ithome.js,script-update-interval=-1
-# > 酷安去广告
-酷安 = type=http-response,pattern=^https:\/\/api\.coolapk\.com\/v6\/feed\/(detail|replyList)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js,script-update-interval=-1
-酷安 = type=http-response,pattern=^https:\/\/api\.coolapk\.com\/v6\/main\/(dataList|indexV8)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js,script-update-interval=-1
-酷安 = type=http-response,pattern=^https:\/\/api\.coolapk\.com\/v6\/page\/dataList\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js,script-update-interval=-1
+# > IT之家广告
+ithome = type=http-response,pattern=^https:\/\/(napi|api|m)\.ithome\.com\/(api|json)\/(news|topmenu|listpage|newslist|slide)\/(getfeeds|index|slide),requires-body=1,script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/ithome/ithome.ad.js,script-update-interval=-1
+# > 酷安广告
+酷安 = type=http-response,pattern=^https:\/\/api\.coolapk\.com\/v6\/(feed|main|page)\/(detail|replyList|dataList|indexV8)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js,script-update-interval=-1
 # > Qx to Surge
 重写转换 = type=http-request,pattern=^https?:\/\/(github|raw\.githubusercontent)\.com\/.+(qx$|qx\?(jsc|hnadd|hndel|n|y|x|del|i)=),requires-body=1,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/qs.js,script-update-interval=-1
 # > Spotify解锁

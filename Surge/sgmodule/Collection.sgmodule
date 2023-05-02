@@ -48,9 +48,8 @@ URL-REGEX,^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,R
 # > 12306 开屏广告
 12306 = type=http-request,pattern=^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList,requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/12306.js,script-update-interval=-1
 # > 阿里云盘
-aliyundrive = type=http-response,pattern=^https:\/\/api\.aliyundrive\.com\/apps\/v1\/users\/home\/widgets$,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/adrive.js,script-update-interval=-1
-aliyundrive = type=http-response,pattern=^https:\/\/api\.aliyundrive\.com\/business\/v1(\.0)?\/users\/(feature\/list|(me\/)?vip\/info)$,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/adrive.js,script-update-interval=-1
-aliyundrive = type=http-response,pattern=^https:\/\/member\.aliyundrive\.com\/v1\/users\/me$,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/adrive.js,script-update-interval=-1
+云盘解锁 = type=http-response,pattern=https:\/\/api\.aliyundrive\.com\/business\/v1\.0\/users\/vip/info,requires-body=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/mock.js,argument=("?vipList")->$1: [{"code": "svip.77t"，， "promotedAt": 1675574551，， "expire": 4077667351，， "name": "8TB超级会员"} ]，，"test"&("?level")\s?:\s?("(.+?)"|\d|null)->$1: "77t"&("?name")\s?:\s?("(.+?)"|\d|null)->$1: "77T超级会员"
+云盘描述 = type=http-response,pattern=https:\/\/api\.aliyundrive\.com\/business\/v1\/users\/me\/vip\/info,requires-body=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/mock.js,argument=("?description")\s?:\s?("(.+?)"|\d|null)->$1: "有效期至 2099-12-31"&("?rightButtonText")\s?:\s?("(.+?)"|\d|null)->$1: "SVIP"&("?level")\s?:\s?("(.+?)"|\d|null)->$1: "77t"
 # > 阿里云盘挂载
 云盘挂载 = type=http-request,pattern=^http:\/\/(aliyun|quark|pikpak)\.example\.com,requires-body=1,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/fileball.js,script-update-interval=-1
 # > BoxJs
@@ -72,4 +71,4 @@ Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,requires-body=1,max
 推荐信息流广告 = type=http-response,pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v6\/homefeed\?,requires-body=1,script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/xiaohongshu/xiaohongshu.ad.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, app.dewu.com, cdn.poizon.com, api.ithome.com, m.ithome.com, napi.ithome.com, api.m.jd.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, api.coolapk.com, flowplus.meituan.net, s3plus.meituan.net, api.wfdata.club, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, member.aliyundrive.com, boxjs.com, boxjs.net, github.com:443, raw.githubusercontent.com:443, spclient.wg.spotify.com, sub.store, mp.weixin.qq.com, edith.xiaohongshu.com
+hostname = %APPEND% acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, app.dewu.com, cdn.poizon.com, api.ithome.com, m.ithome.com, napi.ithome.com, api.m.jd.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, api.coolapk.com, flowplus.meituan.net, s3plus.meituan.net, api.wfdata.club, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, boxjs.com, boxjs.net, github.com:443, raw.githubusercontent.com:443, spclient.wg.spotify.com, sub.store, mp.weixin.qq.com, edith.xiaohongshu.com

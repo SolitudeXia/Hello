@@ -28,7 +28,7 @@
 #数据备份 = type=cron,cronexp="0 25 20 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/dompling/Script/master/gist/backup.js,script-update-interval=0,timeout=60
 #数据恢复 = type=cron,cronexp="0 26 20 1 * ?",wake-system=1,script-path=https://raw.githubusercontent.com/dompling/Script/master/gist/restore.js,script-update-interval=0,timeout=60
 # > 威锋论坛
-#威锋论坛 = type=cron,cronexp="0 6 10 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/weifeng.js,script-update-interval=0,timeout=15
+威锋论坛 = type=cron,cronexp="0 6 10 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/weifeng.js,script-update-interval=0,timeout=15
 # > 京东资产变动
 京东资产变动通知 = type=cron,cronexp="0 7 22 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/jd_bean_change.js,script-update-interval=0,timeout=60
 # > 取关京东店铺商品

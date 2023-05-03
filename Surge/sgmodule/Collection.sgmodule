@@ -67,7 +67,7 @@ MIX解锁 = type=http-response,pattern= ^https:\/\/bmall\.camera360\.com\/api\/m
 # > Qx to Surge
 重写转换 = type=http-request,pattern=^https?:\/\/(github|raw\.githubusercontent)\.com\/.+(qx$|qx\?(jsc|hnadd|hndel|n|y|x|del|i)=),requires-body=1,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/qs.js,script-update-interval=-1
 # > 扫描全能王 pro
-CS = type=http-response,pattern=https:\/\/(api|api-cs)*\.intsig\.net\/purchase\/cs\/query_property\?,requires-body=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/Script/camscanner.js,script-update-interval=-1
+CS = type=http-response,pattern=^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?,requires-body=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/Script/camscanner.js,script-update-interval=-1
 # > Spotify解锁
 Spotify= type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js,binary-body-mode=1,script-update-interval=-1
 # > Sub-Store
@@ -79,4 +79,4 @@ Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,requires-body=1,max
 推荐信息流广告 = type=http-response,pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v6\/homefeed\?,requires-body=1,script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/xiaohongshu/xiaohongshu.ad.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, app.dewu.com, cdn.poizon.com, api.ithome.com, m.ithome.com, napi.ithome.com, api.m.jd.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, api.coolapk.com, flowplus.meituan.net, s3plus.meituan.net, api.wfdata.club, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, boxjs.com, boxjs.net, dayone.*, bmall.camera360.com, github.com:443, raw.githubusercontent.com:443, ap*.intsig.net, spclient.wg.spotify.com, sub.store, mp.weixin.qq.com, edith.xiaohongshu.com
+hostname = %APPEND% acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, app.dewu.com, cdn.poizon.com, api.ithome.com, m.ithome.com, napi.ithome.com, api.m.jd.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, api.coolapk.com, flowplus.meituan.net, s3plus.meituan.net, api.wfdata.club, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, boxjs.com, boxjs.net, dayone.*, bmall.camera360.com, github.com:443, raw.githubusercontent.com:443, api.intsig.net, api-cs.intsig.net, spclient.wg.spotify.com, sub.store, mp.weixin.qq.com, edith.xiaohongshu.com

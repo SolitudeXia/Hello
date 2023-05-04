@@ -1,20 +1,22 @@
 #!name=菜鸟（自用）
-#!desc=修改自keywos
+#!desc=修改自RuCu6 Keywos
 #!system=ios
 
 [Map Local]
-# > 通用广告请求
-^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(show|mshow)\.cn\/ data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-200.txt"
+# > 首页 - 搜索框下方今日好物推荐
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword\.get\.cn\/1\.0\? data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
+# > 首页 - 底部商品推广
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.index\.cn\/1\.0\? data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
+# > Other
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbmensa\.research\.researchservice\.(acquire|event|close)\.cn\/1\.0\? data="https://raw.githubusercontent.com/Keywos/rule/main/mocks/reject-dict.json"
 
 [Script]
 # > 菜鸟ua拦截
 移除不明请求 = type=http-response,pattern=^http:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch,requires-body=1,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/ua.js,script-update-interval=-1
 # > 首页 - 惊喜福利推广
-移除首页惊喜福利推广 = type=http-response,pattern=^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.protocol\.homepage\.get\.cn,requires-body=1,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/cainiao.js,script-update-interval=-1
-# > 首页 - 搜索框下方今日好物推荐
-移除首页今日好物推荐 = type=http-response,pattern=^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword,requires-body=1,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/cainiao.js,script-update-interval=-1
+移除首页惊喜福利推广 = type=http-response,pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.protocol\.homepage\.get\.cn\/1\.0\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js,script-update-interval=-1
 # > 首页 - 底部商品推广
-移除首页底部商品推广 = type=http-response,pattern=^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.index\.cn,requires-body=1,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/cainiao.js,script-update-interval=-1
+移除首页底部商品推广 = type=http-response,pattern=^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.m?show\.cn\/1\.0\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cainiao.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% cn-acs.m.cainiao.com, amdc.m.taobao.com
+hostname = %APPEND% cn-acs.m.cainiao.com

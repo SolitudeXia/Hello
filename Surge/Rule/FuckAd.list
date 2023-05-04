@@ -563,6 +563,8 @@ DOMAIN-SUFFIX,vungle.cn
 DOMAIN-SUFFIX,vungle.com
 DOMAIN-SUFFIX,zijieapi.com
 #
+DOMAIN-KEYWORD,adjust
+#
 DOMAIN,app-sdk-logs.cn-hangzhou.log.aliyuncs.com
 DOMAIN-SUFFIX,dypnsapi.aliyuncs.com
 DOMAIN-SUFFIX,vpp-license-proxy.aliyuncs.com

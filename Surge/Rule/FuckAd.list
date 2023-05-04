@@ -542,9 +542,7 @@ DOMAIN-SUFFIX,appcommon.kfc.com.cn
 DOMAIN-SUFFIX,baomitu.com
 DOMAIN-SUFFIX,cnzz.com
 DOMAIN-SUFFIX,ctobsnssdk.com
-DOMAIN-SUFFIX,df.tanx.com
 DOMAIN-SUFFIX,dm.toutiao.com
-DOMAIN-SUFFIX,et.tanx.com
 DOMAIN-SUFFIX,fivecdm.com
 DOMAIN-SUFFIX,gepush.com
 DOMAIN-SUFFIX,goofish.com
@@ -552,7 +550,6 @@ DOMAIN-SUFFIX,growingio.com
 DOMAIN-SUFFIX,log.umsns.com
 DOMAIN-SUFFIX,lwlog.laiwang.com
 DOMAIN-SUFFIX,ocsp-certum.com
-DOMAIN-SUFFIX,opehs.tanx.com
 DOMAIN-SUFFIX,qzs.gdtimg.com
 DOMAIN-SUFFIX,sdk.fra-01.braze.eu
 DOMAIN-SUFFIX,sdk-fra-01.braze.eu
@@ -592,6 +589,7 @@ DOMAIN-SUFFIX,tls.im.dingtalk.cn
 #
 DOMAIN-SUFFIX,adashx.m.taobao.com
 DOMAIN-SUFFIX,aid.m.taobao.com
+DOMAIN-SUFFIX,atoken.m.taobao.com
 DOMAIN-SUFFIX,audid-api.taobao.com
 DOMAIN-SUFFIX,baichuan-sdk.taobao.com
 DOMAIN-SUFFIX,eco.taobao.com
@@ -600,6 +598,11 @@ DOMAIN-SUFFIX,msgacs.m.taobao.com
 DOMAIN-SUFFIX,openacs.m.taobao.com
 DOMAIN-SUFFIX,rhdc-acs.m.taobao.com
 #
+DOMAIN-SUFFIX,df.tanx.com
+DOMAIN-SUFFIX,et.tanx.com
+DOMAIN-SUFFIX,ifs.tanx.com
+DOMAIN-SUFFIX,opehs.tanx.com
+#
 DOMAIN-SUFFIX,atm.youku.com
 DOMAIN-SUFFIX,ems.youku.com
 DOMAIN-SUFFIX,iyes.youku.com
@@ -607,6 +610,7 @@ DOMAIN-SUFFIX,sealine.youku.com
 DOMAIN-SUFFIX,ups.youku.com
 #
 IP-CIDR,39.98.102.12/32,no-resolve
+IP-CIDR,59.82.31.215/32,no-resolve
 IP-CIDR,59.82.84.190/32,no-resolve
 IP-CIDR,59.82.112.61/32,no-resolve
 IP-CIDR,59.82.113.188/32,no-resolve

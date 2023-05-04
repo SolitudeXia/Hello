@@ -36,10 +36,6 @@ IT之家 = type=http-request,pattern=^https:\/\/my\.ruanmei\.com\/api\/usersign\
 WSKEY = type=http-response,pattern=^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=newUserInfo,requires-body=1,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/get_jd_wskey.js,script-update-interval=-1
 # > 顺丰速运 app获取
 顺丰速运 = type=http-request,pattern=^https:\/\/ccsp-egmas.sf-express.com\/cx-app-member\/member\/app\/user\/universalSign,requires-body=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js,script-update-interval=-1
-# > 百度贴吧 app获取
-贴吧获取 = type=http-request,pattern=^https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js,script-update-interval=-1
-贴吧获取 = type=http-request,pattern=^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/channelIconConfig,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js,script-update-interval=-1
-贴吧获取 = type=http-request,pattern=^https?:\/\/tiebac\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% m.weibo.cn, app.bilibili.com, m.bilibili.com, auth.aliyundrive.com, user-api.smzdm.com, i.meituan.com, mall.meituan.com, mobile.ximalaya.com, e.189.cn, open.e.189.cn, ms.jr.jd.com, me-api.jd.com, rewards.bing.com, club.yili.com, my.ruanmei.com, api.wfdata.club, c.tieba.baidu.com
+hostname = %APPEND% m.weibo.cn, app.bilibili.com, m.bilibili.com, auth.aliyundrive.com, user-api.smzdm.com, i.meituan.com, mall.meituan.com, mobile.ximalaya.com, e.189.cn, open.e.189.cn, ms.jr.jd.com, me-api.jd.com, rewards.bing.com, club.yili.com, my.ruanmei.com, api.wfdata.club

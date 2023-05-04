@@ -24,8 +24,6 @@ B站Cookie(APP) = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/r
 京东 = type=http-request,pattern=^https:\/\/(api\.m|me-api|ms\.jr)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?|gw\/generic\/hy\/h5\/m\/appSign\?),requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,script-update-interval=-1
 # > Bing积分
 Bing积分cookie = type=http-request,pattern=https:\/\/rewards\.bing\.com,requires-body=0,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js,script-update-interval=-1
-# > 豆瓣 APIKey
-豆瓣 APIKey = type=http-request,pattern=^https:\/\/frodo\.douban\.com\/api\/v\d\/calendar\/today,requires-body=0,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/MovieCalendar/MovieCalendar.js,script-update-interval=-1
 # > 伊利乳品 小程序
 伊利乳品 = type=http-request,pattern=https:\/\/club\.yili\.com\/MALLIFChe\/MCSWSIAPI\.asmx\/Call,requires-body=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.cookie.js,script-update-interval=-1
 # > IT之家 app获取
@@ -40,4 +38,4 @@ WSKEY = type=http-response,pattern=^https:\/\/api\.m\.jd\.com\/client\.action\?f
 顺丰速运 = type=http-request,pattern=^https:\/\/ccsp-egmas.sf-express.com\/cx-app-member\/member\/app\/user\/universalSign,requires-body=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% m.weibo.cn, app.bilibili.com, m.bilibili.com, auth.aliyundrive.com, user-api.smzdm.com, i.meituan.com, mall.meituan.com, mobile.ximalaya.com, e.189.cn, open.e.189.cn, ms.jr.jd.com, me-api.jd.com, rewards.bing.com, frodo.douban.com, club.yili.com, my.ruanmei.com, api.wfdata.club
+hostname = %APPEND% m.weibo.cn, app.bilibili.com, m.bilibili.com, auth.aliyundrive.com, user-api.smzdm.com, i.meituan.com, mall.meituan.com, mobile.ximalaya.com, e.189.cn, open.e.189.cn, ms.jr.jd.com, me-api.jd.com, rewards.bing.com, club.yili.com, my.ruanmei.com, api.wfdata.club

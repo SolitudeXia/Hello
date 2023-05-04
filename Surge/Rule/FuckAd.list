@@ -534,6 +534,7 @@ DOMAIN,advert.108sq.cn
 DOMAIN,alilang-intranet.alibaba-inc.com
 #
 DOMAIN-SUFFIX,abtest.alibaba.com
+DOMAIN-SUFFIX,adashx.ut.cainiao.com
 DOMAIN-SUFFIX,orange-dc.alibaba.com
 DOMAIN-SUFFIX,acs-mum.alibabachengdun.com
 DOMAIN-SUFFIX,appcashier.kfc.com.cn
@@ -566,6 +567,7 @@ DOMAIN-SUFFIX,vungle.com
 DOMAIN-SUFFIX,zijieapi.com
 #
 DOMAIN,app-sdk-logs.cn-hangzhou.log.aliyuncs.com
+DOMAIN-SUFFIX,dypnsapi.aliyuncs.com
 DOMAIN-SUFFIX,vpp-license-proxy.aliyuncs.com
 DOMAIN-SUFFIX,dypnsapi.aliyuncs.com
 #
@@ -594,6 +596,7 @@ DOMAIN-SUFFIX,audid-api.taobao.com
 DOMAIN-SUFFIX,baichuan-sdk.taobao.com
 DOMAIN-SUFFIX,eco.taobao.com
 DOMAIN-SUFFIX,gaode-acs.m.taobao.com
+DOMAIN-SUFFIX,msgacs.m.taobao.com
 DOMAIN-SUFFIX,openacs.m.taobao.com
 DOMAIN-SUFFIX,rhdc-acs.m.taobao.com
 #

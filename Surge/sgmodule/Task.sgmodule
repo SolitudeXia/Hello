@@ -53,3 +53,5 @@ IT之家 = type=cron,cronexp="0 9 10 * * ?",wake-system=1,script-path=https://ra
 番剧监控 = type=cron,cronexp="0 0 9,20 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/bangumiMonitor.js,script-update-interval=0
 # > 顺丰速运
 顺丰速运 = type=cron,cronexp="0 10 10 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js,script-update-interval=0
+# > 无忧行
+无忧行 = type=cron,cronexp="0 11 10 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jegotrip.js,script-update-interval=0

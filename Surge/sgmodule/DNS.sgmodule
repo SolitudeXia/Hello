@@ -1,10 +1,6 @@
 #!name=🌐 DNS分流
 #!desc=按企业/公司分流使用所属DNS进行解析（自用）
 
-[General]
-# 使加密DNS请求通过代理策略执行
-encrypted-dns-follow-outbound-mode = true
-
 [Host]
 # > IPv6
 ip6-localhost = ::1 // IPv6 Localhost
@@ -32,6 +28,11 @@ update.googleapis.com = server:119.29.29.29 // Google Update
 fonts.googleapis.com = server:119.29.29.29 // Google Fonts
 fonts.gstatic.com = server:119.29.29.29 // Google Fonts
 
+# > Router Admin Panel
+tplogin.cn = server:syslib // TP-Link Router
+tplinklogin.net = server:syslib // TP-Link Router
+tplinkwifi.net = server:syslib // TP-Link Router
+
 # > 阿里巴巴
 *.alibaba.cn = server:223.5.5.5 // 阿里巴巴
 *.alibaba.com.cn = server:223.5.5.5 // 阿里巴巴
@@ -39,8 +40,8 @@ fonts.gstatic.com = server:119.29.29.29 // Google Fonts
 *.taobao.com = server:223.5.5.5 // 淘宝
 *.tmall.com = server:223.5.5.5 // 天猫
 *.alicdn.com = server:223.5.5.5 // 阿里 CDN
-*.aliapp.com = server:https://dns.alidns.com/dns-query // 云引擎应用平台
-*.aliapp.org = server:https://dns.alidns.com/dns-query // 上云平台
+*.aliapp.com = server:223.5.5.5 // 云引擎应用平台
+*.aliapp.org = server:223.5.5.5 // 上云平台
 
 # > 阿里云
 *.aliyun.* = server:223.5.5.5 // 阿里云
@@ -78,30 +79,6 @@ fonts.gstatic.com = server:119.29.29.29 // Google Fonts
 *.bdycdn.* = server:180.76.76.76 // 百度云 CDN
 
 # > BiliBili
-*.bilibili.com = server:114.114.114.114 // BiliBili
-*.biliapi.com = server:114.114.114.114 // BiliBili API
-*.biliapi.net = server:114.114.114.114 // BiliBili API
-*.bilicdn?.com = server:114.114.114.114 // BiliBili CDN
-*.hdslb.com = server:114.114.114.114 // BiliBili 静态资源
-*.hdslb.net = server:114.114.114.114 // BiliBili 静态资源
-upos-hz-mirrorakam.akamaized.net = server:114.114.114.114 // BiliBili upos视频服务器（akamai）
-upos-sz-mirrorasiaov.bilibilivideo.com = server:114.114.114.114 // BiliBili upos视频服务器（asia-abroad.com）
 upos-sz-mirrorali.bilivideo.com = server:223.5.5.5 // BiliBili upos视频服务器（阿里云）
 upos-sz-mirrorbos.bilivideo.com = server:180.76.76.76 // BiliBili upos视频服务器（百度云）
 upos-sz-mirrorcos.bilivideo.com = server:119.29.29.29 // BiliBili upos视频服务器（腾讯云）
-upos-sz-mirrorks3.bilivideo.com = server:114.114.114.114 // BiliBili upos视频服务器（金山云）
-*.bilivideo.com = server:114.114.114.114 // BiliBili 视频
-*.bilivideo.cn = server:114.114.114.114 // BiliBili 视频
-
-# > 京东
-*.jd.com = server:114.114.114.114 // 京东
-*.360buyimg.com = server:114.114.114.114 // 京东 静态资源
-
-# > 🇹🇼 TWN
-# Taiwan Network Information Center
-*.tw = server:https://dns.twnic.tw/dns-query // TWNIC DNS
-*.taipei = server:https://dns.twnic.tw/dns-query // TWNIC DNS
-
-# > 🇺🇸 USA
-# Hurricane Electric
-*.he.net = server:https://ordns.he.net/dns-query // HE.net

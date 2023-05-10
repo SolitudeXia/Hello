@@ -71,7 +71,7 @@ Spotify= type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(boot
 # > Sub-Store
 Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,requires-body=1,max-size=131072,script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store.min.js,timeout=120,script-update-interval=-1
 # > TestFlight
-账户管理 = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/,requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js,script-update-interval=-1
+#账户管理 = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/,requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js,script-update-interval=-1
 # > 微信公众号文章广告
 公众号广告 = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/self_use.js,script-update-interval=-1
 # > 小红书广告
@@ -79,4 +79,4 @@ Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,requires-body=1,max
 推荐信息流广告 = type=http-response,pattern=^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v6\/homefeed\?,requires-body=1,script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/xiaohongshu/xiaohongshu.ad.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% app.dewu.com, cdn.poizon.com, api.ithome.com, m.ithome.com, napi.ithome.com, api.m.jd.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, api.coolapk.com, flowplus.meituan.net, s3plus.meituan.net, ccsp-egmas.sf-express.com, shopic.sf-express.com, api.wfdata.club, acs.m.taobao.com, portal.zjzwfw.gov.cn, www.zhihu.com, zhuanlan.zhihu.com, ad.12306.cn, api.aliyundrive.com, boxjs.com, boxjs.net, dayone.*, m.douban.com, bmall.camera360.com, github.com:443, raw.githubusercontent.com:443, spclient.wg.spotify.com, sub.store, testflight.apple.com, mp.weixin.qq.com, edith.xiaohongshu.com
+hostname = %APPEND% app.dewu.com, cdn.poizon.com, api.ithome.com, m.ithome.com, napi.ithome.com, api.m.jd.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, api.coolapk.com, flowplus.meituan.net, s3plus.meituan.net, ccsp-egmas.sf-express.com, shopic.sf-express.com, api.wfdata.club, acs.m.taobao.com, portal.zjzwfw.gov.cn, www.zhihu.com, zhuanlan.zhihu.com, ad.12306.cn, api.aliyundrive.com, boxjs.com, boxjs.net, dayone.*, m.douban.com, bmall.camera360.com, github.com:443, raw.githubusercontent.com:443, spclient.wg.spotify.com, sub.store, mp.weixin.qq.com, edith.xiaohongshu.com

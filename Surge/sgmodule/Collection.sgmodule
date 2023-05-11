@@ -54,6 +54,8 @@ DOMAIN,app-site-association.cdn-apple.com,REJECT
 云盘挂载 = type=http-request,pattern=^http:\/\/(aliyun|quark|pikpak)\.example\.com,requires-body=1,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/fileball.js,script-update-interval=-1
 # > BoxJs
 BoxJs = type=http-request,pattern=^https?:\/\/(.+\.)?boxjs\.(com|net),requires-body=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js,timeout=120,script-update-interval=0
+# > 策略自动切换
+SpeedLimit = type=rule,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/speedLimit.js,timeout=60,argument="Group=Apple&policy=DIRECT,Japan&time=15&minSpeed=15"
 # > Dayone vip
 Dayone = type=http-response,pattern=^https:\/\/dayone\.(me|app)\/api\/(users|v2\/users\/(account-status|receipt))$,requires-body=1,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/dayone.js,script-update-interval=-1
 # > 豆瓣电影 搜索

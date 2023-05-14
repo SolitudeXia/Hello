@@ -20,7 +20,7 @@
 # > 今日黄历
 今日黄历 = type=cron,cronexp="8 8 8 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/wnCalendar.js,script-update-interval=0,timeout=30
 # > 彩票开奖
-彩票查询 = type=cron,cronexp="0 0 22 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/evilbutcher/QuantumultX/master/check_in/ssq/ssq.js,script-update-interval=0
+#彩票查询 = type=cron,cronexp="0 0 22 * * 2,4,7",wake-system=1,script-path=https://raw.githubusercontent.com/evilbutcher/QuantumultX/master/check_in/ssq/ssq.js,script-update-interval=0
 # > 同步检测
 账号同步 = type=cron,cronexp="0 23 10,20 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/jd/ql_sync_box.js,script-update-interval=0,timeout=60
 帐户检测 = type=cron,cronexp="0 24 10,20 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/jd/jd_cookie_search.js,script-update-interval=0,timeout=60
@@ -55,3 +55,7 @@ IT之家 = type=cron,cronexp="0 9 10 * * ?",wake-system=1,script-path=https://ra
 顺丰速运 = type=cron,cronexp="0 10 10 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js,script-update-interval=0
 # > 无忧行
 无忧行 = type=cron,cronexp="0 11 10 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jegotrip.js,script-update-interval=0
+# > SUB 订阅同步
+订阅同步 = type=cron,cronexp="9 9 9 * * ?",wake-system=1,script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js,script-update-interval=0,timeout=60
+# > 切换会话
+切换会话 = type=cron,cronexp="0 25 10,20 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js,script-update-interval=0

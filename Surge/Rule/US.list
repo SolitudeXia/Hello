@@ -1,3 +1,11 @@
+# > AppleProxy
+DOMAIN,amp-api.sandbox.apple.com
+DOMAIN,p10-buy.itunes.apple.com
+DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,smoot.apple.com
+# >> TestFlight
+DOMAIN-KEYWORD,testflight
+
 # > Cloudflare
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflare.com
@@ -8,7 +16,6 @@ DOMAIN-SUFFIX,cloudflarestream.com
 
 # > PayPal
 DOMAIN-KEYWORD,paypal
-#USER-AGENT,PayPal*
 
 # > Other
 DOMAIN-SUFFIX,crocs.com

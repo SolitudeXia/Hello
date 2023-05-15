@@ -1,4 +1,6 @@
 # > Apple
+DOMAIN,p70-buy.itunes.apple.com
+DOMAIN,p24-buy.itunes.apple.com
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,akadns.net
 DOMAIN-SUFFIX,apple-cloudkit.com
@@ -7,10 +9,8 @@ DOMAIN-SUFFIX,apple-mapkit.com
 DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.com.cn
-DOMAIN-SUFFIX,apple.com.edgekey.net
 DOMAIN-SUFFIX,applemusic.com
 DOMAIN-SUFFIX,appstore.com
-DOMAIN-SUFFIX,apzones.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud.com
@@ -18,7 +18,6 @@ DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
-DOMAIN-SUFFIX,smoot.apple.cn
 
 # > Public Direct CDN
 DOMAIN-SUFFIX,baomitu.com

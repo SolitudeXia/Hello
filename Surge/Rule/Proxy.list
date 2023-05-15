@@ -201,6 +201,15 @@ DOMAIN-SUFFIX,wikiversity.org
 DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wiktionary.org
 
+# > Xbox
+DOMAIN-SUFFIX,xbox.com
+DOMAIN-SUFFIX,xboxab.com
+DOMAIN-SUFFIX,xboxab.net
+DOMAIN-SUFFIX,xboxlive.com
+DOMAIN-SUFFIX,xboxservice.com
+DOMAIN-SUFFIX,xboxservices.com
+DOMAIN-SUFFIX,gamepass.com
+
 # > Yahoo
 DOMAIN-SUFFIX,yahoo.com
 DOMAIN,search.yahoo.co.jp

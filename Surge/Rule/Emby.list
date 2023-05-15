@@ -21,6 +21,3 @@ DOMAIN,embyplus.org
 
 # > 莫高雷
 IP-CIDR,202.61.255.248/32,no-resolve
-
-# > 音乐服
-DOMAIN,blueseamusics.com

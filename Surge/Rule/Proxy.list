@@ -7,10 +7,6 @@ DOMAIN-SUFFIX,dronedj.com
 DOMAIN-SUFFIX,electrek.co
 DOMAIN-SUFFIX,spaceexplored.com
 
-# > Adguard
-DOMAIN-SUFFIX,adguard.com
-DOMAIN-SUFFIX,adguard.org
-
 # > Amazon
 DOMAIN-KEYWORD,avoddashs
 DOMAIN,atv-ps.amazon.com
@@ -57,33 +53,15 @@ DOMAIN-SUFFIX,battlenet.com
 DOMAIN-SUFFIX,blizzard.com
 
 # > BBC
-DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,uk-live
 DOMAIN-SUFFIX,bbc.co
 DOMAIN-SUFFIX,bbc.com
-DOMAIN-SUFFIX,bbc.in
 
 # > Bloomberg
 DOMAIN-SUFFIX,bloomberg.cn
 DOMAIN-SUFFIX,bloomberg.com
 DOMAIN-SUFFIX,bloomberg.de
 DOMAIN-SUFFIX,bloombergview.com
-DOMAIN-SUFFIX,bwbx.io
-
-# > ChatGPT 代理 
-DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-
-# > Disney
-DOMAIN,cdn.registerdisney.go.com
-DOMAIN-SUFFIX,bamgrid.com
-DOMAIN-SUFFIX,disney-plus.net
-DOMAIN-SUFFIX,disneyplus.com
-DOMAIN-SUFFIX,disneystreaming.com
-DOMAIN-SUFFIX,dssott.com
 
 # > Dropbox
 DOMAIN-SUFFIX,dropbox.com
@@ -101,9 +79,6 @@ DOMAIN-SUFFIX,unrealengine.com
 DOMAIN-SUFFIX,espn.com
 DOMAIN-SUFFIX,espn.net
 
-# > Github
-DOMAIN-KEYWORD,github
-
 # > GitLab
 DOMAIN-SUFFIX,gitlab-static.net
 DOMAIN-SUFFIX,gitlab.com
@@ -114,43 +89,20 @@ DOMAIN-SUFFIX,gitlab.net
 DOMAIN-SUFFIX,mastodon.social
 DOMAIN-SUFFIX,m.cmx.im
 
-# > Netflix
-DOMAIN,netflix.com.edgesuite.net
-DOMAIN-SUFFIX,fast.com
-DOMAIN-SUFFIX,netflix.com
-DOMAIN-SUFFIX,netflix.net
-DOMAIN-SUFFIX,nflxext.com
-DOMAIN-SUFFIX,nflximg.com
-DOMAIN-SUFFIX,nflximg.net
-DOMAIN-SUFFIX,nflxso.net
-DOMAIN-SUFFIX,nflxvideo.net
-DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
-DOMAIN-KEYWORD,dualstack.apiproxy-
-DOMAIN-KEYWORD,netflixdnstest
-IP-CIDR,103.87.204.0/22,no-resolve
-IP-CIDR,108.175.32.0/20,no-resolve
-IP-CIDR,185.2.220.0/22,no-resolve
-IP-CIDR,185.9.188.0/22,no-resolve
-IP-CIDR,192.173.64.0/18,no-resolve
-IP-CIDR,198.38.96.0/19,no-resolve
-IP-CIDR,198.45.48.0/20,no-resolve
-IP-CIDR,207.45.72.0/22,no-resolve
-IP-CIDR,208.75.76.0/22,no-resolve
-IP-CIDR,23.246.0.0/18,no-resolve
-IP-CIDR,37.77.184.0/21,no-resolve
-IP-CIDR,38.72.126.0/24,no-resolve
-IP-CIDR,45.57.0.0/17,no-resolve
-IP-CIDR,64.120.128.0/17,no-resolve
-IP-CIDR,66.197.128.0/17,no-resolve
-IP-CIDR,69.53.224.0/19,no-resolve
-IP-CIDR,8.41.4.0/24,no-resolve
-
 # > Notion
 DOMAIN-SUFFIX,notion-static.com
 DOMAIN-SUFFIX,notion.com
 DOMAIN-SUFFIX,notion.new
 DOMAIN-SUFFIX,notion.site
 DOMAIN-SUFFIX,notion.so
+
+# > OpenAi
+DOMAIN-KEYWORD,openai
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,stripe.com
 
 # > Origin
 DOMAIN,cloudsync-prod.s3.amazonaws.com
@@ -161,7 +113,7 @@ DOMAIN,rtm.tnt-ea.com
 DOMAIN-SUFFIX,ea.com
 DOMAIN-SUFFIX,origin.com
 
-# > Porn
+# > Pornhub
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,phprcdn.com
 DOMAIN-SUFFIX,pornhub.com
@@ -171,6 +123,13 @@ DOMAIN-SUFFIX,pornhubpremium.com
 DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmedia.com
+
+# > Spark
+DOMAIN-SUFFIX,amplitude.com
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,hockeyapp.net
+DOMAIN-SUFFIX,readdle.com
+DOMAIN-SUFFIX,smartmailcloud.com
 
 # > Spotify
 DOMAIN-SUFFIX,pscdn.co
@@ -184,27 +143,23 @@ DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,surge-activation.com
 
 # > Steam
+DOMAIN,steambroadcast.akamaized.net
 DOMAIN,steamcdn-a.akamaihd.net
 DOMAIN,steamcommunity-a.akamaihd.net
-DOMAIN,steammobile.akamaized.net
 DOMAIN,steampipe.akamaized.net
 DOMAIN,steamstore-a.akamaihd.net
 DOMAIN,steamusercontent-a.akamaihd.net
+DOMAIN,steamuserimages-a.akamaihd.net
 DOMAIN-SUFFIX,fanatical.com
 DOMAIN-SUFFIX,humblebundle.com
 DOMAIN-SUFFIX,playartifact.com
-DOMAIN-SUFFIX,s.team
-DOMAIN-SUFFIX,st.dl.eccdnx.com
-DOMAIN-SUFFIX,steam-api.com
 DOMAIN-SUFFIX,steam-chat.com
-DOMAIN-SUFFIX,steambroadcast.akamaized.net
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steamgames.com
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,steamstat.us
 DOMAIN-SUFFIX,steamstatic.com
-DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
 DOMAIN-SUFFIX,underlords.com
 DOMAIN-SUFFIX,valvesoftware.com
 
@@ -224,7 +179,6 @@ DOMAIN-SUFFIX,twimg.co
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twimg.org
 DOMAIN-SUFFIX,twitpic.com
-DOMAIN-SUFFIX,twitter.jp
 DOMAIN-SUFFIX,vine.co
 DOMAIN-KEYWORD,twitter
 
@@ -257,6 +211,8 @@ DOMAIN,oss-static-resource-zaobao.oss-cn-hongkong.aliyuncs.com
 DOMAIN,sub-store.vercel.app // sub-store
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,91porn // 91
+DOMAIN-SUFFIX,adguard.com
+DOMAIN-SUFFIX,adguard.org // Adguard
 DOMAIN-SUFFIX,afreecatv.com
 DOMAIN-SUFFIX,andro4all.com
 DOMAIN-SUFFIX,appleinsider.com
@@ -270,6 +226,7 @@ DOMAIN-SUFFIX,cyberciti.biz
 DOMAIN-SUFFIX,daringfireball.com
 DOMAIN-SUFFIX,daringfireball.net
 DOMAIN-SUFFIX,deepl.com
+DOMAIN-SUFFIX,disneyplus.com // Disney
 DOMAIN-SUFFIX,duckduckgo.com
 DOMAIN-SUFFIX,duolingo.com
 DOMAIN-SUFFIX,e-hentai.org // E站
@@ -291,6 +248,7 @@ DOMAIN-SUFFIX,kuro40.myportfolio.com
 DOMAIN-SUFFIX,macrumors.com
 DOMAIN-SUFFIX,macstories.net
 DOMAIN-SUFFIX,miaona.cyou
+DOMAIN-SUFFIX,netflix.com // Netflix
 DOMAIN-SUFFIX,news.un.org // 联合国
 DOMAIN-SUFFIX,nikkei.com // 日经新闻
 DOMAIN-SUFFIX,nite07.com
@@ -324,4 +282,5 @@ DOMAIN-SUFFIX,wsj.net // 华尔街日报
 DOMAIN-SUFFIX,zaobao.com // 联合早报
 DOMAIN-SUFFIX,zaobao.com.sg // 联合早报
 DOMAIN-SUFFIX,zhiboz.com // 直播吧
+DOMAIN-KEYWORD,github
 IP-CIDR,1.0.0.1/32,no-resolve

@@ -19,6 +19,17 @@ DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
 
+# > Microsoft
+DOMAIN-KEYWORD,1drv
+DOMAIN-KEYWORD,microsoft
+DOMAIN-KEYWORD,onedrive
+DOMAIN-KEYWORD,skydrive
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,skype.com
+
 # > Public Direct CDN
 DOMAIN-SUFFIX,baomitu.com
 DOMAIN-SUFFIX,bootcss.com

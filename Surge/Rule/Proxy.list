@@ -216,6 +216,7 @@ DOMAIN,search.yahoo.co.jp
 # > Other // ABCDEFGHIJKLMNOPQRSTUVWXYZ
 DOMAIN,gallery.scriptable.app
 DOMAIN,oss-static-resource-zaobao.oss-cn-hongkong.aliyuncs.com
+DOMAIN,oss-static-zaobao.oss-cn-hongkong.aliyuncs.com
 DOMAIN,sub-store.vercel.app // sub-store
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,91porn // 91
@@ -229,6 +230,7 @@ DOMAIN-SUFFIX,arc.net
 DOMAIN-SUFFIX,blueseamusics.com
 DOMAIN-SUFFIX,chron.com
 DOMAIN-SUFFIX,coingecko.com
+DOMAIN-SUFFIX,craft.do
 DOMAIN-SUFFIX,cryptomator.org
 DOMAIN-SUFFIX,cyberciti.biz
 DOMAIN-SUFFIX,daringfireball.com

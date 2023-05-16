@@ -57,25 +57,15 @@ payload:
   - DOMAIN-SUFFIX,blizzard.com
   
   # > BBC
-  - DOMAIN-KEYWORD,bbcfmt
   - DOMAIN-KEYWORD,uk-live
   - DOMAIN-SUFFIX,bbc.co
   - DOMAIN-SUFFIX,bbc.com
-  - DOMAIN-SUFFIX,bbc.in
 
   # > Bloomberg
   - DOMAIN-SUFFIX,bloomberg.cn
   - DOMAIN-SUFFIX,bloomberg.com
   - DOMAIN-SUFFIX,bloomberg.de
   - DOMAIN-SUFFIX,bloombergview.com
-  - DOMAIN-SUFFIX,bwbx.io
-  
-  # > ChatGPT 代理 
-  - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   
   # > Dropbox
   - DOMAIN-SUFFIX,dropbox.com
@@ -92,9 +82,6 @@ payload:
   # > Espn
   - DOMAIN-SUFFIX,espn.com
   - DOMAIN-SUFFIX,espn.net
-  
-  # > Github
-  - DOMAIN-KEYWORD,github
   
   # > GitLab
   - DOMAIN-SUFFIX,gitlab-static.net
@@ -113,18 +100,6 @@ payload:
   - DOMAIN-SUFFIX,notion.site
   - DOMAIN-SUFFIX,notion.so
   
-  # > NSFW
-  - DOMAIN-SUFFIX,91porn
-  - DOMAIN-SUFFIX,Bustnow.com
-  - DOMAIN-SUFFIX,redtube.com
-  - DOMAIN-SUFFIX,Tubethumbs.com
-  - DOMAIN-SUFFIX,xnxx.com
-  - DOMAIN-SUFFIX,Xtube.com
-  - DOMAIN-SUFFIX,xvideos.com
-  - DOMAIN-SUFFIX,Yobt.co
-  - DOMAIN-SUFFIX,youjizz.com
-  - DOMAIN-SUFFIX,youporn.com
-  
   # > Nvidia //代理
   - DOMAIN-SUFFIX,geforce.com
   - DOMAIN-SUFFIX,gputechconf.com
@@ -135,6 +110,12 @@ payload:
   - DOMAIN-SUFFIX,tegrazone.co
   - DOMAIN-SUFFIX,tegrazone.com
   
+  # > OpenAi
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,stripe.com
+  
   # > Origin
   - DOMAIN,cloudsync-prod.s3.amazonaws.com
   - DOMAIN,eaasserts-a.akamaihd.net
@@ -144,7 +125,7 @@ payload:
   - DOMAIN-SUFFIX,ea.com
   - DOMAIN-SUFFIX,origin.com
   
-  # > Porn
+  # > Pornhub
   - DOMAIN-SUFFIX,phncdn.com
   - DOMAIN-SUFFIX,phprcdn.com
   - DOMAIN-SUFFIX,pornhub.com
@@ -154,6 +135,12 @@ payload:
   - DOMAIN-SUFFIX,redd.it
   - DOMAIN-SUFFIX,reddit.com
   - DOMAIN-SUFFIX,redditmedia.com
+  
+  # > Spotify
+  - DOMAIN-SUFFIX,pscdn.co
+  - DOMAIN-SUFFIX,scdn.co
+  - DOMAIN-SUFFIX,spoti.fi
+  - DOMAIN-KEYWORD,spotify
   
   # > Surge
   - DOMAIN,surge.mitsea.com
@@ -201,7 +188,6 @@ payload:
   - DOMAIN-SUFFIX,twimg.com
   - DOMAIN-SUFFIX,twimg.org
   - DOMAIN-SUFFIX,twitpic.com
-  - DOMAIN-SUFFIX,twitter.jp
   - DOMAIN-SUFFIX,vine.co
   - DOMAIN-KEYWORD,twitter
   
@@ -224,11 +210,21 @@ payload:
   - DOMAIN-SUFFIX,wikivoyage.org
   - DOMAIN-SUFFIX,wiktionary.org
   
+  # > Xbox
+  - DOMAIN-SUFFIX,xbox.com
+  - DOMAIN-SUFFIX,xboxab.com
+  - DOMAIN-SUFFIX,xboxab.net
+  - DOMAIN-SUFFIX,xboxlive.com
+  - DOMAIN-SUFFIX,xboxservice.com
+  - DOMAIN-SUFFIX,xboxservices.com
+  - DOMAIN-SUFFIX,gamepass.com
+  
   # > Yahoo
   - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN,search.yahoo.co.jp
   
   # > Other
+  - DOMAIN-KEYWORD,github
   - DOMAIN,surge.mitsea.com
   - DOMAIN-SUFFIX,1password.com
   - DOMAIN-SUFFIX,adtidy.org

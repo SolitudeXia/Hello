@@ -2,6 +2,7 @@
 #!desc=按企业/公司分流使用所属DNS进行解析（自用）
 
 [Host]
+# --- CUSTOM HOSTS ---
 # > IPv6
 ip6-localhost = ::1 // IPv6 Localhost
 ip6-loopback = ::1 // IPv6 Loopback
@@ -12,7 +13,7 @@ ip6-allrouters = ff02::2 // IPv6 All Routers
 ip6-allhosts = ff02::3 // IPv6 All Hosts
 
 # > Modify Contents
-# Firebase Cloud Messaging
+# services.googleapis.cn = 74.125.193.94 // Google API Services China
 talk.google.com = 108.177.125.188 // Firebase Cloud Messaging
 mtalk.google.com = 108.177.125.188, 2404:6800:4008:c07::bc, 142.250.31.188 // Firebase Cloud Messaging
 alt1-mtalk.google.com = 3.3.3.3, 2607:f8b0:4023:c0b::bc, 64.233.171.188 // Firebase Cloud Messaging
@@ -23,15 +24,8 @@ alt5-mtalk.google.com = 3.3.3.3, 2607:f8b0:4023:1::bc, 142.250.112.188 // Fireba
 alt6-mtalk.google.com = 3.3.3.3, 172.217.197.188 // Firebase Cloud Messaging
 alt7-mtalk.google.com = 74.125.200.188, 2607:f8b0:4002:c03::bc, 108.177.12.188 // Firebase Cloud Messaging
 alt8-mtalk.google.com = 3.3.3.3 // Firebase Cloud Messaging
-# Google CDN
-blog.google = server:119.29.29.29 // Google Blog
-googletraveladservices.com = server:119.29.29.29 // Google Flights
-dl.google.com = server:119.29.29.29 // Google Download
-dl.l.google.com = server:119.29.29.29 // Google Download
-clientservices.googleapis.com = server:119.29.29.29 // Google Chrome
-update.googleapis.com = server:119.29.29.29 // Google Update
-fonts.googleapis.com = server:119.29.29.29 // Google Fonts
-fonts.gstatic.com = server:119.29.29.29 // Google Fonts
+# dl.google.com = 180.163.151.161 // Google CDN
+# dl.l.google.com = 180.163.151.161 // Google CDN
 
 # > Encrypted DNS
 dns.google = 8.8.8.8, 8.8.4.4, 2001:4860:4860::8888, 2001:4860:4860::8844 // https://dns.google/dns-query
@@ -40,6 +34,20 @@ one.one.one.one = 1.1.1.1, 1.0.0.1, 2606:4700:4700::1001, 2606:4700:4700::1111  
 dns.alidns.com = 223.5.5.5, 223.6.6.6, 2400:3200:baba::1, 2400:3200::1 // https://dns.alidns.com/dns-query
 doh.pub = 1.12.12.12, 120.53.53.53 // https://doh.pub/dns-query
 dot.pub = 1.12.12.12, 120.53.53.53 // dot.pub:853
+
+# --- CUSTOM DNS ---
+# > Modify Contents
+blog.google = server:119.29.29.29 // Google Blog
+googletraveladservices.com = server:119.29.29.29 // Google Flights
+dl.google.com = server:119.29.29.29 // Google Download
+dl.l.google.com = server:119.29.29.29 // Google Download
+clientservices.googleapis.com = server:119.29.29.29 // Google Chrome
+update.googleapis.com = server:119.29.29.29 // Google Update
+translate.googleapis.com = server:119.29.29.29 // Google Translate
+fonts.googleapis.com = server:119.29.29.29 // Google Fonts
+fonts.gstatic.com = server:119.29.29.29 // Google Fonts
+stun.l.google.com = server:syslib // Google STUN
+stun?.l.google.com = server:syslib // Google STUN
 
 # > 阿里巴巴
 *.alibaba.cn = server:223.5.5.5 // 阿里巴巴

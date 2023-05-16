@@ -1,16 +1,20 @@
 payload:
   # > Cloudflare
-  - DOMAIN-SUFFIX,cloudflare-dns.com
   - DOMAIN-SUFFIX,cloudflare.com
-  - DOMAIN-SUFFIX,cloudflareclient.com
   - DOMAIN-SUFFIX,cloudflare.net
+  - DOMAIN-SUFFIX,cloudflare-dns.com
+  - DOMAIN-SUFFIX,cloudflareclient.com
   - DOMAIN-SUFFIX,cloudflareinsights.com
   - DOMAIN-SUFFIX,cloudflarestream.com
-
+  - DOMAIN-SUFFIX,every1dns.net
+  - DOMAIN-SUFFIX,workers.dev
+  
   # > PayPal
-  - DOMAIN-KEYWORD,paypal
-  #- USER-AGENT,PayPal*
-
+  - DOMAIN-SUFFIX,paypal.com
+  - DOMAIN-SUFFIX,paypal.me
+  - DOMAIN-SUFFIX,paypal-mktg.com
+  - DOMAIN-SUFFIX,paypalobjects.com
+  
   # > Other
   - DOMAIN-SUFFIX,crocs.com
   - DOMAIN-SUFFIX,ebay.com

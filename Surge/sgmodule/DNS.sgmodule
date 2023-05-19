@@ -30,7 +30,13 @@ tplinklogin.net = server:syslib // TP-Link Router
 
 # > Apple
 *.apple.com = server:syslib // Apple.com
+*.apple.com.cn = server:syslib
+*.apple-cloudkit.com = server:syslib
 *.icloud.com = server:https://doh.dns.apple.com/dns-query // iCloud.com
+*.icloud.com.cn = server:https://doh.dns.apple.com/dns-query // iCloud.com
+*.itunes.com = server:syslib
+*.mzstatic.com = server:syslib
+testflight.apple.com = server:8.8.8.8
 
 # > 阿里巴巴
 *.alibaba.cn = server:223.5.5.5 // 阿里巴巴

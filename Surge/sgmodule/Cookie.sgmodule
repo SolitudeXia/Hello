@@ -39,6 +39,8 @@ WSKEY = type=http-response,pattern=^https:\/\/api\.m\.jd\.com\/client\.action\?f
 # > 无忧行 app获取
 Cookie = type=http-response,pattern=https:\/\/app\.jegotrip\.com\.cn\/api\/service\/v1\/mission\/sign\/querySign\?token=,requires-body=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jegotrip.cookie.js,script-update-interval=-1
 Cookie = type=http-response,pattern=https:\/\/cdn\.jegotrip\.com\.cn\/static\/missioncenter\/config\.js,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jegotrip.cookie.js,script-update-interval=-1
+# > 慢慢买
+获取cookie = type=http-request,pattern=^https?:\/\/apph5\.manmanbuy\.com\/taolijin\/(login.aspx|logserver.aspx),requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% m.weibo.cn, app.bilibili.com, m.bilibili.com, auth.aliyundrive.com, user-api.smzdm.com, i.meituan.com, mall.meituan.com, mobile.ximalaya.com, e.189.cn, open.e.189.cn, ms.jr.jd.com, me-api.jd.com, rewards.bing.com, club.yili.com, my.ruanmei.com, api.wfdata.club, cdn.jegotrip.com.cn, app.jegotrip.com.cn
+hostname = %APPEND% m.weibo.cn, app.bilibili.com, m.bilibili.com, auth.aliyundrive.com, user-api.smzdm.com, i.meituan.com, mall.meituan.com, mobile.ximalaya.com, e.189.cn, open.e.189.cn, ms.jr.jd.com, me-api.jd.com, rewards.bing.com, club.yili.com, my.ruanmei.com, api.wfdata.club, cdn.jegotrip.com.cn, app.jegotrip.com.cn, apph5.manmanbuy.com

@@ -29,6 +29,7 @@ DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,outlook.com
 DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,windows.net
 
 # > Public Direct CDN
 DOMAIN-SUFFIX,baomitu.com

@@ -1,5 +1,5 @@
 #!name=哔哩哔哩（自用）
-#!desc=修改自kokoryh
+#!desc=修改自kokoryh Maasea
 #!system=ios
 
 [Rule]
@@ -27,6 +27,12 @@ bili-proto = type=http-response,pattern=^https:\/\/(grpc\.biliapi\.net|app\.bili
 bili-live = type=http-response,pattern=^https:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom,requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/dev/bilibili_json.js,script-update-interval=-1
 # > 番剧页 & 观影页广告
 bili-bangumi = type=http-response,pattern=^https:\/\/api\.bilibili\.com\/pgc\/page\/(bangumi|cinema\/tab\?),requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/dev/bilibili_json.js,script-update-interval=-1
+# > 交互式弹幕 (点赞, 投票)
+bilibili.helper.dmView = type=http-response,pattern=^https:\/\/grpc\.biliapi\.net\/bilibili\.community\.service\.dm\.v1\.DM\/DmView,requires-body=1,max-size=-1,binary-body-mode=1,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Bilibili/bilibili.helper.beta.js,script-update-interval=-1
+# > 青少年弹窗 (Beta)
+bilibili.helper.teenager = type=http-response,pattern=^https:\/\/grpc\.biliapi\.net\/bilibili\.app\.interface\.v1\.Teenagers\/ModeStatus,requires-body=1,binary-body-mode=1,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Bilibili/bilibili.helper.beta.js,script-update-interval=-1
+# > 支持在持久化存储中指定视频播放CDN, 告别 mcdn
+bilibili.helper.mainList = type=http-response,pattern=^https:\/\/grpc\.biliapi\.net\/bilibili\.main\.community\.reply\.v1\.Reply\/MainList,requires-body=1,binary-body-mode=1,script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Bilibili/bilibili.helper.beta.js,script-update-interval=-1
 
 [MITM]
 hostname = %APPEND% app.bilibili.com, api.bilibili.com, api.live.bilibili.com, grpc.biliapi.net

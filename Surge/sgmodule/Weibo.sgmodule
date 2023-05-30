@@ -1,5 +1,5 @@
 #!name=微博（自用）
-#!desc=修改自RuCu6
+#!desc=修改自RuCu6 zmqcherish
 #!system=ios
 
 [Rule]
@@ -14,6 +14,7 @@ URL-REGEX,^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/(get-lbs-cell-info
 ^https:\/\/api\.weibo\.cn\/2\/comments\/bullet_screens\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 ^https:\/\/api\.weibo\.cn\/2\/photo\/info\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 ^https:\/\/api\.weibo\.cn\/2\/statuses\/(container_positive|push_info)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/api\.weibo\.cn\/2\/vote\/get_vote_detail\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 ^https:\/\/api\.weibo\.cn\/2\/!\/huati\/(discovery_home_bottom_getdotinfo|mobile_discovery_searchchange)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 # > 发现页 热门微博信息流,搜索列表,热搜提醒,猜你想搜,视频流红包
 ^https:\/\/api\.weibo\.cn\/2\/search\/container_discover\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
@@ -21,7 +22,7 @@ URL-REGEX,^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/(get-lbs-cell-info
 ^https:\/\/api\.weibo\.cn\/2\/video\/redpacket\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 ^https:\/\/api\.weibo\.cn\/!\/sug\/list\/finderchange\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 # > 开屏广告
-^https:\/\/boot\.biz\.weibo\.com\/v1\/ad\/realtime$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/bootrealtime\.uve\.weibo\.com\/v2\/ad\/realtime$ data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 # > 微博长文章推广
 ^https:\/\/card\.weibo\.com\/article\/m\/aj\/(reward|uvead)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 ^https:\/\/weibo\.com\/ttarticle\/x\/m\/aj\/(reward|uvead)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
@@ -44,9 +45,9 @@ Weibo = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/messageflow\/no
 Weibo = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/search\/(container_timeline|finder)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,script-update-interval=-1
 Weibo = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/searchall\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,script-update-interval=-1
 # > 开屏广告
+Weibo = type=http-response,pattern=^https:\/\/bootpreload\.uve\.weibo\.com\/v1\/ad\/preload$,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,script-update-interval=-1
 Weibo = type=http-response,pattern=^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php$,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,script-update-interval=-1
 Weibo = type=http-response,pattern=^https:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/wbpullad\.lua\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,script-update-interval=-1
-Weibo = type=http-response,pattern=^https:\/\/bootpreload\.uve\.weibo\.com\/v1\/ad\/preload$,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,script-update-interval=-1
 # > 跳过重定向页面以直接访问 //weibo.cn, shop.sc.weibo.com, t.cn, sinaurl.cn
 Weibo = type=http-request,pattern=^https:\/\/weibo\.cn\/sinaurl\?(.*&)?(u|toasturl|goto)=,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/noRedirect.js,script-update-interval=-1
 Weibo = type=http-request,pattern=^https:\/\/shop\.sc\.weibo\.com\/h5\/jump\/error\?(.*&)?url=,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/noRedirect.js,script-update-interval=-1

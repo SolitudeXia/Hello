@@ -12,12 +12,5 @@ DOMAIN,ha.jmsooo.com
 # > Cc
 DOMAIN,cc.ccemby.tk // 日本节点
   
-# > Orange
-DOMAIN,cf.embytv.cf // 香港节点(优先选择)
-DOMAIN,cdn.embytv.cf
-  
 # > 纸片人
 DOMAIN,embyplus.org  
-
-# > 莫高雷
-IP-CIDR,202.61.255.248/32,no-resolve

@@ -9,12 +9,6 @@ payload:
   - DOMAIN-SUFFIX,every1dns.net
   - DOMAIN-SUFFIX,workers.dev
   
-  # > PayPal
-  - DOMAIN-SUFFIX,paypal.com
-  - DOMAIN-SUFFIX,paypal.me
-  - DOMAIN-SUFFIX,paypal-mktg.com
-  - DOMAIN-SUFFIX,paypalobjects.com
-  
   # > Other
   - DOMAIN-SUFFIX,crocs.com
   - DOMAIN-SUFFIX,ebay.com

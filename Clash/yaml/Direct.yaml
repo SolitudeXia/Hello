@@ -39,6 +39,12 @@ payload:
   - DOMAIN-SUFFIX,logitechg.com
   - DOMAIN-SUFFIX,logitechg.fr
   
+  # > PayPal
+  - DOMAIN-SUFFIX,paypal.com
+  - DOMAIN-SUFFIX,paypal.me
+  - DOMAIN-SUFFIX,paypal-mktg.com
+  - DOMAIN-SUFFIX,paypalobjects.com
+  
   # > Public Direct CDN
   - DOMAIN-SUFFIX,baomitu.com
   - DOMAIN-SUFFIX,bootcss.com

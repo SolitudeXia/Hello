@@ -12,6 +12,7 @@ DOMAIN-SUFFIX,apple.com.cn
 DOMAIN-SUFFIX,applemusic.com
 DOMAIN-SUFFIX,appstore.com
 DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud.com.cn
@@ -21,15 +22,8 @@ DOMAIN-SUFFIX,mzstatic.com
 
 # > Microsoft
 DOMAIN-KEYWORD,1drv
-DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,onedrive
-DOMAIN-KEYWORD,skydrive
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,live.com
-DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,outlook.com
-DOMAIN-SUFFIX,skype.com
-DOMAIN-SUFFIX,windows.net
 
 # > PayPal
 USER-AGENT,PayPal*

@@ -3,7 +3,6 @@ DOMAIN,amp-api.sandbox.apple.com
 DOMAIN,amp-api-edge.apps.apple.com
 DOMAIN,buy.itunes.apple.com
 DOMAIN,p10-buy.itunes.apple.com
-DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,smoot.apple.com
 # >> TestFlight
 DOMAIN-KEYWORD,testflight

@@ -57,12 +57,10 @@ ithome = type=http-response,pattern=^https:\/\/(napi|api|m)\.ithome\.com\/(api|j
 酷安 = type=http-response,pattern=^https:\/\/api\.coolapk\.com\/v6\/(feed|main|page)\/(detail|replyList|dataList|indexV8)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js,script-update-interval=-1
 # > Qx to Surge
 重写转换 = type=http-request,pattern=^https?:\/\/(github|raw\.githubusercontent)\.com\/.+(qx$|qx\?(jsc|hnadd|hndel|n|y|x|del|i)=),requires-body=1,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/qs.js,script-update-interval=-1
-# > Spotify解锁
-Spotify= type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$,requires-body=1,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js,binary-body-mode=1,script-update-interval=-1
 # > Sub-Store
 Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,requires-body=1,max-size=131072,script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store.min.js,timeout=120,script-update-interval=-1
 # > 微信公众号文章广告
 公众号广告 = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/self_use.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% app.dewu.com, cdn.poizon.com, api.ithome.com, m.ithome.com, napi.ithome.com, api.m.jd.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, api.coolapk.com, flowplus.meituan.net, s3plus.meituan.net, ccsp-egmas.sf-express.com, shopic.sf-express.com, api.wfdata.club, gw.alicdn.com, acs.m.taobao.com, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, boxjs.com, boxjs.net, dayone.*, m.douban.com, github.com:443, raw.githubusercontent.com:443, spclient.wg.spotify.com, sub.store, mp.weixin.qq.com
+hostname = %APPEND% app.dewu.com, cdn.poizon.com, api.ithome.com, m.ithome.com, napi.ithome.com, api.m.jd.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, api.coolapk.com, flowplus.meituan.net, s3plus.meituan.net, ccsp-egmas.sf-express.com, shopic.sf-express.com, api.wfdata.club, gw.alicdn.com, acs.m.taobao.com, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, boxjs.com, boxjs.net, dayone.*, m.douban.com, github.com:443, raw.githubusercontent.com:443, sub.store, mp.weixin.qq.com

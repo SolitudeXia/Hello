@@ -2,7 +2,6 @@
 DOMAIN,beta.music.apple.com // Apple Music Web
 DOMAIN,books.itunes.apple.com // iBooks Store download
 DOMAIN,radio.itunes.apple.com // Apple Music Radio
-DOMAIN-SUFFIX,digicert.com
 DOMAIN-SUFFIX,smoot.apple.com // Spotlight
 # >> TestFlight
 DOMAIN-KEYWORD,testflight

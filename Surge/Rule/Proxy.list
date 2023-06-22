@@ -96,12 +96,6 @@ DOMAIN-SUFFIX,notion.new
 DOMAIN-SUFFIX,notion.site
 DOMAIN-SUFFIX,notion.so
 
-# > OpenAi
-DOMAIN-KEYWORD,openai
-DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,challenges.cloudflare.com
-DOMAIN-SUFFIX,stripe.com
-
 # > Origin
 DOMAIN,cloudsync-prod.s3.amazonaws.com
 DOMAIN,eaasserts-a.akamaihd.net
@@ -227,6 +221,7 @@ DOMAIN-SUFFIX,appleinsider.com
 DOMAIN-SUFFIX,appraven.net
 DOMAIN-SUFFIX,arc.net
 DOMAIN-SUFFIX,blueseamusics.com
+DOMAIN-SUFFIX,chinadigitaltimes.net
 DOMAIN-SUFFIX,chron.com
 DOMAIN-SUFFIX,coingecko.com
 DOMAIN-SUFFIX,craft.do

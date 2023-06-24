@@ -7,17 +7,12 @@
 force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net, *.example.com:0
 
 [Rule]
-# > 得物 去开屏
-URL-REGEX,^https:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement,REJECT
-URL-REGEX,^https?:\/\/cdn\.poizon\.com\/node-common\/.*.jpg,REJECT
 # > 京东 去开屏
 URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$,REJECT-TINYGIF
 # > 肯德基微信小程序 去广告
 URL-REGEX,^https:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/(coupon|activity),REJECT
 URL-REGEX,^https:\/\/dynamicad\.kfc\.com\.cn\/api,REJECT
 URL-REGEX,^https:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/custom_v2\/wxapp,REJECT
-# > 酷安广告
-URL-REGEX,^https:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch,REJECT
 # > 美团 去广告
 URL-REGEX,^https:\/\/flowplus\.meituan\.net\/v1\/mss_\w+\/linglong\/\d+\.jpg$,REJECT
 URL-REGEX,^https:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-alita)\/\w+\.zip$,REJECT
@@ -28,9 +23,6 @@ URL-REGEX,^https?:\/\/shopic\.sf-express\.com\/crm\/mobile\/common\/flashscreen,
 # > 威锋 去广告
 URL-REGEX,^https:\/\/api\.wfdata\.club\/v2\/yesfeng\/(infoCenterAd|yesList),REJECT
 # > 闲鱼 去广告
-URL-REGEX,^https:\/\/gw\.alicdn\.com\/mt\/,REJECT
-URL-REGEX,^https:\/\/gw\.alicdn\.com\/tfs\/.+\d{3,4}-\d{4},REJECT
-URL-REGEX,^https:\/\/gw\.alicdn\.com\/tps\/.+\d{3,4}-\d{4},REJECT
 URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.taobao\.idle\.home\.welcome,REJECT
 # > 浙里办 去开屏
 URL-REGEX,^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,REJECT
@@ -53,8 +45,6 @@ Dayone = type=http-response,pattern=^https:\/\/dayone\.(me|app)\/api\/(users|v2\
 豆瓣电影 = type=http-response,pattern=^https://m.douban.com/movie/subject/.+,requires-body=1,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/Douban.js,script-update-interval=-1
 # > IT之家广告
 ithome = type=http-response,pattern=^https:\/\/(napi|api|m)\.ithome\.com\/(api|json)\/(news|topmenu|listpage|newslist|slide)\/(getfeeds|index|slide),requires-body=1,script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/ithome/ithome.ad.js,script-update-interval=-1
-# > 酷安广告
-酷安 = type=http-response,pattern=^https:\/\/api\.coolapk\.com\/v6\/(feed|main|page)\/(detail|replyList|dataList|indexV8)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/coolapk.js,script-update-interval=-1
 # > Qx to Surge
 重写转换 = type=http-request,pattern=^https?:\/\/(github|raw\.githubusercontent)\.com\/.+(qx$|qx\?(jsc|hnadd|hndel|n|y|x|del|i)=),requires-body=1,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/qs.js,script-update-interval=-1
 # > Sub-Store
@@ -63,4 +53,4 @@ Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,requires-body=1,max
 公众号广告 = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/self_use.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% app.dewu.com, cdn.poizon.com, api.ithome.com, m.ithome.com, napi.ithome.com, api.m.jd.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, api.coolapk.com, flowplus.meituan.net, s3plus.meituan.net, ccsp-egmas.sf-express.com, shopic.sf-express.com, api.wfdata.club, gw.alicdn.com, acs.m.taobao.com, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, boxjs.com, boxjs.net, dayone.*, m.douban.com, github.com:443, raw.githubusercontent.com:443, sub.store, mp.weixin.qq.com
+hostname = %APPEND% api.ithome.com, m.ithome.com, napi.ithome.com, api.m.jd.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, flowplus.meituan.net, s3plus.meituan.net, ccsp-egmas.sf-express.com, shopic.sf-express.com, api.wfdata.club, acs.m.taobao.com, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, boxjs.com, boxjs.net, dayone.*, m.douban.com, github.com:443, raw.githubusercontent.com:443, sub.store, mp.weixin.qq.com

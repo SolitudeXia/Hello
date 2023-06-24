@@ -1,17 +1,54 @@
 // Advertising
 
+# > Alibaba
+DOMAIN-SUFFIX,acjs.aliyun.com
+DOMAIN-SUFFIX,adash-c.m.taobao.com
+DOMAIN-SUFFIX,adash-c.ut.taobao.com
+DOMAIN-SUFFIX,adashx4yt.m.taobao.com
+DOMAIN-SUFFIX,adashxgc.ut.taobao.com
+DOMAIN-SUFFIX,afp.alicdn.com
+DOMAIN-SUFFIX,ai.m.taobao.com
+DOMAIN-SUFFIX,alipaylog.com
+DOMAIN-SUFFIX,atanx.alicdn.com
+DOMAIN-SUFFIX,atanx2.alicdn.com
+DOMAIN-SUFFIX,fav.simba.taobao.com
+DOMAIN-SUFFIX,g.click.taobao.com
+DOMAIN-SUFFIX,g.tbcdn.cn
+DOMAIN-SUFFIX,gma.alicdn.com
+DOMAIN-SUFFIX,gtmsdd.alicdn.com
+DOMAIN-SUFFIX,hydra.alibaba.com
+DOMAIN-SUFFIX,m.simba.taobao.com
+DOMAIN-SUFFIX,pindao.huoban.taobao.com
+DOMAIN-SUFFIX,re.m.taobao.com
+DOMAIN-SUFFIX,redirect.simba.taobao.com
+DOMAIN-SUFFIX,rj.m.taobao.com
+DOMAIN-SUFFIX,sdkinit.taobao.com
+DOMAIN-SUFFIX,show.re.taobao.com
+DOMAIN-SUFFIX,simaba.m.taobao.com
+DOMAIN-SUFFIX,simaba.taobao.com
+DOMAIN-SUFFIX,srd.simba.taobao.com
+DOMAIN-SUFFIX,strip.taobaocdn.com
+DOMAIN-SUFFIX,tns.simba.taobao.com
+DOMAIN-SUFFIX,tyh.taobao.com
+DOMAIN-SUFFIX,userimg.qunar.com
+DOMAIN-SUFFIX,yiliao.hupan.com
+
 # > Apple
 DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,ads.internal.unity3d.com
+DOMAIN-SUFFIX,adserver.unityads.unity3d.com
 DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com
 DOMAIN-SUFFIX,unityads.unity3d.com
 
 # > ByteDance 头条抖音
 DOMAIN-SUFFIX,ad.toutiao.com
 DOMAIN-SUFFIX,dsp.toutiao.com
+DOMAIN-SUFFIX,ic.snssdk.com
+DOMAIN-SUFFIX,log.snssdk.com
 DOMAIN-SUFFIX,nativeapp.toutiao.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,pangolin.snssdk.com
 DOMAIN-SUFFIX,partner.toutiao.com
 DOMAIN-SUFFIX,pglstatp-toutiao.com
 DOMAIN-SUFFIX,sm.toutiao.com

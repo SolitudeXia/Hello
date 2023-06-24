@@ -1,5 +1,4 @@
-//流媒体emby服务器
-
+# 流媒体emby服务器
 # > 终点站
 DOMAIN,pub1.emby.wtf
 DOMAIN,pub2.emby.wtf
@@ -13,4 +12,11 @@ DOMAIN,ha.jmsooo.com
 DOMAIN,cc.ccemby.tk // 日本节点
   
 # > 纸片人
-DOMAIN,embyplus.org  
+DOMAIN,embyplus.org
+
+# RSS
+DOMAIN-SUFFIX,geekplux.com
+DOMAIN-SUFFIX,limboy.me
+DOMAIN-SUFFIX,weekly.tw93.fun
+DOMAIN-SUFFIX,yishi.io
+DOMAIN-SUFFIX,zu1k.com

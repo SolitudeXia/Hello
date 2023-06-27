@@ -222,7 +222,6 @@ payload:
   # > Other
   - DOMAIN-KEYWORD,github
   - DOMAIN,surge.mitsea.com
-  - DOMAIN-SUFFIX,1password.com
   - DOMAIN-SUFFIX,adtidy.org
   - DOMAIN-SUFFIX,basicappleguy.com
   - DOMAIN-SUFFIX,brave.com

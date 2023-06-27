@@ -210,7 +210,6 @@ DOMAIN,search.yahoo.co.jp
 # > Other // ABCDEFGHIJKLMNOPQRSTUVWXYZ
 DOMAIN,gallery.scriptable.app
 DOMAIN,sub-store.vercel.app // sub-store
-DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,91porn // 91
 DOMAIN-SUFFIX,adguard.com
 DOMAIN-SUFFIX,adguard.org // Adguard

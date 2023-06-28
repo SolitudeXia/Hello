@@ -17,6 +17,9 @@ DOMAIN,embyplus.org
 # RSS
 DOMAIN-SUFFIX,geekplux.com
 DOMAIN-SUFFIX,limboy.me
+DOMAIN-SUFFIX,quoth.win
 DOMAIN-SUFFIX,weekly.tw93.fun
 DOMAIN-SUFFIX,yishi.io
 DOMAIN-SUFFIX,zu1k.com
+#
+DOMAIN-SUFFIX,rsshub.app

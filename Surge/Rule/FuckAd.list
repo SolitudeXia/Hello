@@ -36,7 +36,6 @@ DOMAIN-SUFFIX,yiliao.hupan.com
 # > Apple
 DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,ads.internal.unity3d.com
-DOMAIN-SUFFIX,adserver.unityads.unity3d.com
 DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com
 DOMAIN-SUFFIX,unityads.unity3d.com
 
@@ -53,24 +52,47 @@ DOMAIN-SUFFIX,partner.toutiao.com
 DOMAIN-SUFFIX,pglstatp-toutiao.com
 DOMAIN-SUFFIX,sm.toutiao.com
 
+# > JD
+DOMAIN-SUFFIX,ads.union.jd.com
+DOMAIN-SUFFIX,c-nfa.jd.com
+DOMAIN-SUFFIX,cps.360buy.com
+DOMAIN-SUFFIX,img-x.jd.com
+DOMAIN-SUFFIX,jrclick.jd.com
+DOMAIN-SUFFIX,jzt.jd.com
+DOMAIN-SUFFIX,policy.jd.com
+DOMAIN-SUFFIX,stat.m.jd.com
+
 # > Kuaishou
 DOMAIN,js-ad.a.yximgs.com
 DOMAIN-SUFFIX,e.kuaishou.com
 
 # > Tencent
+DOMAIN-KEYWORD,omgmtaw
 DOMAIN,adsmind.apdcdn.tc.qq.com
 DOMAIN,adsmind.gdtimg.com
 DOMAIN,adsmind.tc.qq.com
-DOMAIN,adsmind.ugdtimg.com
-DOMAIN,livep.l.t002.ottcn.com
 DOMAIN,pgdt.gtimg.cn
 DOMAIN,pgdt.gtimg.com
 DOMAIN,pgdt.ugdtimg.com
 DOMAIN,splashqqlive.gtimg.com
 DOMAIN,wa.gtimg.com
+DOMAIN,wxsnsdy.wxs.qq.com
+DOMAIN,wxsnsdythumb.wxs.qq.com
+DOMAIN-SUFFIX,act.qq.com
+DOMAIN-SUFFIX,ad.qun.qq.com
+DOMAIN-SUFFIX,adsfile.qq.com
+DOMAIN-SUFFIX,bugly.qq.com
+DOMAIN-SUFFIX,buluo.qq.com
 DOMAIN-SUFFIX,e.qq.com
 DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,l.qq.com
+DOMAIN-SUFFIX,monitor.qq.com
+DOMAIN-SUFFIX,pingma.qq.com
+DOMAIN-SUFFIX,pingtcss.qq.com
+DOMAIN-SUFFIX,report.qq.com
+DOMAIN-SUFFIX,tajs.qq.com
+DOMAIN-SUFFIX,tcss.qq.com
+DOMAIN-SUFFIX,uu.qq.com
 
 # > 闲鱼
 DOMAIN,m.ykimg.com

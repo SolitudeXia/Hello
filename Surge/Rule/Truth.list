@@ -15,6 +15,7 @@ DOMAIN,cc.ccemby.tk // 日本节点
 DOMAIN,embyplus.org
 
 # RSS
+DOMAIN-SUFFIX,assets.matters.news
 DOMAIN-SUFFIX,geekplux.com
 DOMAIN-SUFFIX,jinbo123.com
 DOMAIN-SUFFIX,limboy.me

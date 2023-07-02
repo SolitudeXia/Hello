@@ -1,14 +1,3 @@
-# > Cloudflare
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,cloudflare.net
-DOMAIN-SUFFIX,cloudflare-dns.com
-DOMAIN-SUFFIX,cloudflareclient.com
-DOMAIN-SUFFIX,cloudflareinsights.com
-DOMAIN-SUFFIX,cloudflarestream.com
-DOMAIN-SUFFIX,every1dns.net
-DOMAIN-SUFFIX,workers.dev
-
-# > Other
 DOMAIN-SUFFIX,audiomack.com // AudioMack
 DOMAIN-SUFFIX,crocs.com
 DOMAIN-SUFFIX,lego.com

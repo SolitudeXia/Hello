@@ -6,7 +6,7 @@
 # > 屏蔽搜索框关键词
 URL-REGEX,^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.interface\.v1\.Search\/DefaultWords,REJECT
 # > 屏蔽IP请求
-#URL-REGEX,^https:\/\/app\.bilibili\.com\/x\/resource\/ip,REJECT
+URL-REGEX,^https:\/\/app\.bilibili\.com\/x\/resource\/ip,REJECT
 
 [Map Local]
 # > 屏蔽首页右上活动

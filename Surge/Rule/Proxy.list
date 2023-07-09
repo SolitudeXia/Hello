@@ -36,6 +36,7 @@ DOMAIN-SUFFIX,gitlab.net
 # > Mastodon // 长毛象
 DOMAIN-SUFFIX,mastodon.social
 DOMAIN-SUFFIX,m.cmx.im
+DOMAIN-SUFFIX,neodb.social
 
 # > Notion
 DOMAIN-SUFFIX,notion-static.com

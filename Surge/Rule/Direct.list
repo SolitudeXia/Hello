@@ -19,12 +19,9 @@ DOMAIN-SUFFIX,mzstatic.com
 
 # > Google China
 DOMAIN-SUFFIX,265.com
-DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,cache.pack.google.com
 DOMAIN-SUFFIX,clickserve.dartsearch.net
 DOMAIN-SUFFIX,crl.pki.goog
-DOMAIN-SUFFIX,googletagmanager.com
-DOMAIN-SUFFIX,googletagservices.com
 DOMAIN-SUFFIX,gtm.oasisfeng.com
 DOMAIN-SUFFIX,ocsp.pki.goog
 DOMAIN-SUFFIX,recaptcha.net
@@ -42,7 +39,6 @@ DOMAIN-KEYWORD,onedrive
 DOMAIN-SUFFIX,outlook.com
 
 # > PayPal
-USER-AGENT,PayPal*
 DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,paypal.me
 DOMAIN-SUFFIX,paypal-mktg.com

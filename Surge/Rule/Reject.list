@@ -91,7 +91,6 @@
 .ok365.com
 .114so.cn
 .dragonparking.com
-.minisplat.cn
 
 # --- AD Block ---
 
@@ -185,9 +184,7 @@ analyze.innei.ren
 .exposebox.com
 .eyeota.net
 .fwmrm.net
-g1.tagtic.cn
-xy-log.tagtic.cn
-.log.tagtic.cn
+
 .sdownload.stargame.com
 .pgdt.ugdtimg.com
 .getrockerbox.com
@@ -434,8 +431,6 @@ static.sensorsdata.cn
 .ssacdn.com
 supersonicads-a.akamaihd.net
 
-.uberads.com
-
 .ad-plus.cn
 .hot-mob.com
 .leadboltads.net
@@ -514,7 +509,6 @@ informer.yandex.ru
 analytics.slashdotmedia.com
 .bluekai.com
 
-.ads.pro-market.net
 .stat.xtom.com
 .analytics.archive.org
 .stats.yinyuetai.com
@@ -875,7 +869,7 @@ report.qqweb.qq.com
 btrace.qq.com
 mtrace.qq.com
 pingtcss.qq.com
-splashqqlive.gtimg.com
+
 access-sngapm.qcloud.com
 beacon.gtimg.com
 .l.qq.com

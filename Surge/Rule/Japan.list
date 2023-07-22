@@ -1,7 +1,14 @@
-# > AppleProxy
-DOMAIN,beta.music.apple.com // Apple Music Web
-DOMAIN,books.itunes.apple.com // iBooks Store download
-DOMAIN,radio.itunes.apple.com // Apple Music Radio
+# > Apple Proxy
+DOMAIN,audiocontentdownload.apple.com
+DOMAIN,beta.itunes.apple.com
+DOMAIN,books.itunes.apple.com
+DOMAIN,embed.music.apple.com
+DOMAIN,hls.itunes.apple.com
+DOMAIN,itunes.apple.com
+DOMAIN,lookup-api.apple.com
+DOMAIN,news-client.apple.com
+DOMAIN,news-edge.apple.com
+DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,smoot.apple.com // Spotlight
 # >> TestFlight
 DOMAIN-KEYWORD,testflight
@@ -33,3 +40,12 @@ DOMAIN-SUFFIX,playstation.net
 DOMAIN-SUFFIX,playstationnetwork.com
 DOMAIN-SUFFIX,sony.com
 DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+
+# > Microsoft
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,licdn.com
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,office365.com
+DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,windows.net

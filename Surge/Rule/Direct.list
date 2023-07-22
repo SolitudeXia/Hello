@@ -1,12 +1,13 @@
 # > Apple
 DOMAIN-SUFFIX,aaplimg.com
-DOMAIN-SUFFIX,akadns.net
 DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-dns.net
 DOMAIN-SUFFIX,apple-livephotoskit.com
 DOMAIN-SUFFIX,apple-mapkit.com
 DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,applemusic.com
 DOMAIN-SUFFIX,appstore.com
 DOMAIN-SUFFIX,cdn-apple.com
@@ -16,22 +17,11 @@ DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,organicfruitapps.com
 
-# > Google China
-DOMAIN-SUFFIX,265.com
-DOMAIN-SUFFIX,cache.pack.google.com
-DOMAIN-SUFFIX,clickserve.dartsearch.net
+# > Google 直连
 DOMAIN-SUFFIX,crl.pki.goog
-DOMAIN-SUFFIX,gtm.oasisfeng.com
 DOMAIN-SUFFIX,ocsp.pki.goog
-DOMAIN-SUFFIX,recaptcha.net
-DOMAIN-SUFFIX,safebrowsing-cache.google.com
-DOMAIN-SUFFIX,settings.crashlytics.com
-DOMAIN-SUFFIX,ssl-google-analytics.l.google.com
-DOMAIN-SUFFIX,toolbarqueries.google.com
-DOMAIN-SUFFIX,tools.google.com
-DOMAIN-SUFFIX,tools.l.google.com
-DOMAIN-SUFFIX,www-googletagmanager.l.google.com
 
 # > Microsoft
 DOMAIN-KEYWORD,1drv

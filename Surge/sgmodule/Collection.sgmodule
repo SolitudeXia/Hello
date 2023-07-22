@@ -34,6 +34,8 @@ DOMAIN,app-site-association.cdn-apple.com,REJECT
 [Script]
 # > 12306 开屏广告
 12306 = type=http-request,pattern=^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList,requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/12306.js,script-update-interval=-1
+# > Unlock Adguard
+Adguard = type=http-response,pattern=^https:\/\/mobile-api\.adguard\.(org|com)\/api\/.+\/ios_validate_receipt,requires-body=1,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/adguard.js,script-update-interval=-1
 # > 阿里云盘
 云盘解锁 = type=http-response,pattern=https:\/\/api\.aliyundrive\.com\/business\/v1\.0\/users\/vip/info,requires-body=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/mock.js,script-update-interval=-1,argument=("?vipList")->$1: [{"code": "svip.77t"，， "promotedAt": 1675574551，， "expire": 4077667351，， "name": "8TB超级会员"} ]，，"test"&("?level")\s?:\s?("(.+?)"|\d|null)->$1: "77t"&("?name")\s?:\s?("(.+?)"|\d|null)->$1: "77T超级会员"
 云盘描述 = type=http-response,pattern=https:\/\/api\.aliyundrive\.com\/business\/v1\/users\/me\/vip\/info,requires-body=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/mock.js,script-update-interval=-1,argument=("?description")\s?:\s?("(.+?)"|\d|null)->$1: "有效期至 2099-12-31"&("?rightButtonText")\s?:\s?("(.+?)"|\d|null)->$1: "SVIP"&("?level")\s?:\s?("(.+?)"|\d|null)->$1: "77t"
@@ -55,4 +57,4 @@ Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,requires-body=1,max
 公众号广告 = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/self_use.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% app.dewu.com, api.ithome.com, m.ithome.com, napi.ithome.com, api.m.jd.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, flowplus.meituan.net, s3plus.meituan.net, ccsp-egmas.sf-express.com, shopic.sf-express.com, api.wfdata.club, acs.m.taobao.com, portal.zjzwfw.gov.cn, ad.12306.cn, api.aliyundrive.com, boxjs.com, boxjs.net, dayone.*, m.douban.com, github.com:443, raw.githubusercontent.com:443, sub.store, mp.weixin.qq.com
+hostname = %APPEND% app.dewu.com, api.ithome.com, m.ithome.com, napi.ithome.com, api.m.jd.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, flowplus.meituan.net, s3plus.meituan.net, ccsp-egmas.sf-express.com, shopic.sf-express.com, api.wfdata.club, acs.m.taobao.com, portal.zjzwfw.gov.cn, *api.adguard.*, ad.12306.cn, api.aliyundrive.com, boxjs.com, boxjs.net, dayone.*, m.douban.com, github.com:443, raw.githubusercontent.com:443, sub.store, mp.weixin.qq.com

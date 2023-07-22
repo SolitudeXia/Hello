@@ -4,24 +4,11 @@
 [Host]
 # --- CUSTOM HOSTS ---
 # > IPv6
-ip6-localhost = ::1 // IPv6 Localhost
-ip6-loopback = ::1 // IPv6 Loopback
-ip6-localnet = fe00::0 // IPv6 Link-Local
-ip6-mcastprefix = ff00::0 // IPv6 Multicast
-ip6-allnodes = ff02::1 // IPv6 All Nodes
-ip6-allrouters = ff02::2 // IPv6 All Routers
-ip6-allhosts = ff02::3 // IPv6 All Hosts
+ip6-localhost = ::1 
+ip6-loopback = ::1 
 
 # > Modify Contents
-mtalk.google.com = 108.177.125.188, 2404:6800:4008:c07::bc, 142.250.31.188 // Firebase Cloud Messaging
-
-# > Encrypted DNS
-dns.google = 8.8.8.8, 8.8.4.4, 2001:4860:4860::8888, 2001:4860:4860::8844 // https://dns.google/dns-query
-cloudflare-dns.com = 104.16.249.249, 104.16.248.249, 2606:4700::6810:f8f9, 2606:4700::6810:f9f9 // https://cloudflare-dns.com/dns-query
-one.one.one.one = 1.1.1.1, 1.0.0.1, 2606:4700:4700::1001, 2606:4700:4700::1111  // one.one.one.one:853
-dns.alidns.com = 223.5.5.5, 223.6.6.6, 2400:3200:baba::1, 2400:3200::1 // https://dns.alidns.com/dns-query
-doh.pub = 1.12.12.12, 120.53.53.53 // https://doh.pub/dns-query
-dot.pub = 1.12.12.12, 120.53.53.53 // dot.pub:853
+mtalk.google.com = 108.177.125.188, 142.250.31.188 // Firebase Cloud Messaging
 
 # --- CUSTOM DNS ---
 # > Modify Contents

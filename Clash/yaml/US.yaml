@@ -1,14 +1,4 @@
-payload:
-  # > Cloudflare
-  - DOMAIN-SUFFIX,cloudflare.com
-  - DOMAIN-SUFFIX,cloudflare.net
-  - DOMAIN-SUFFIX,cloudflare-dns.com
-  - DOMAIN-SUFFIX,cloudflareclient.com
-  - DOMAIN-SUFFIX,cloudflareinsights.com
-  - DOMAIN-SUFFIX,cloudflarestream.com
-  - DOMAIN-SUFFIX,every1dns.net
-  - DOMAIN-SUFFIX,workers.dev
-  
+payload:  
   # > Other
   - DOMAIN-SUFFIX,crocs.com
   - DOMAIN-SUFFIX,ebay.com

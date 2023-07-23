@@ -14,6 +14,9 @@ DOMAIN,cc.ccemby.tk // 日本节点
 # > 纸片人
 DOMAIN,embyplus.org
 
+# > Dolphin Emby
+DOMAIN,public.emby.ws
+
 # RSS
 DOMAIN-SUFFIX,assets.matters.news
 DOMAIN-SUFFIX,blog.skk.moe

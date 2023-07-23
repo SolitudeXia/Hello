@@ -18,6 +18,9 @@ DOMAIN-SUFFIX,bloomberg.com
 DOMAIN-SUFFIX,bloomberg.de
 DOMAIN-SUFFIX,bloombergview.com
 
+# > Cloudflare
+DOMAIN-SUFFIX,cloudflareresolve.com
+
 # > Dropbox
 DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxapi.com

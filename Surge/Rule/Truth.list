@@ -18,20 +18,22 @@ DOMAIN,embyplus.org
 DOMAIN,public.emby.ws
 
 # RSS
-DOMAIN-SUFFIX,assets.matters.news
-DOMAIN-SUFFIX,blog.skk.moe
-DOMAIN-SUFFIX,geekplux.com
-DOMAIN-SUFFIX,jim-nielsen.com
-DOMAIN-SUFFIX,jinbo123.com
-DOMAIN-SUFFIX,limboy.me
-DOMAIN-SUFFIX,quoth.win
-DOMAIN-SUFFIX,sogola.eth.limo
-DOMAIN-SUFFIX,weekly.tw93.fun
-DOMAIN-SUFFIX,yishi.io
-DOMAIN-SUFFIX,zu1k.com
+DOMAIN,assets.matters.news
+DOMAIN,blog.skk.moe
+DOMAIN,geekplux.com
+DOMAIN,jim-nielsen.com
+DOMAIN,jinbo123.com
+DOMAIN,limboy.me
+DOMAIN,quoth.win
+DOMAIN,sogola.eth.limo
+DOMAIN,weekly.tw93.fun
+DOMAIN,yishi.io
+DOMAIN,zu1k.com
 #
 DOMAIN-SUFFIX,rsshub.app
 
 # IPTV
-DOMAIN-SUFFIX,ktpremium.com
-
+DOMAIN,hidra.live
+DOMAIN,ktpremium.com
+DOMAIN,onrev.xyz
+DOMAIN,qthgotneqov.tvla.xyz

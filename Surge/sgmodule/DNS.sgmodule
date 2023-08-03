@@ -82,9 +82,3 @@ upos-sz-upcdntx.bilivideo.com = server:119.29.29.29 // BiliBili upos视频服务
 # > 京东
 *.jd.com = server:syslib // 京东
 *.360buyimg.com = server:syslib // 京东 静态资源
-
-# > Other
-*.paypal.com = server:https://dns.google/dns-query
-*.paypal.me = server:https://dns.google/dns-query
-*.paypal-mktg.com = server:https://dns.google/dns-query
-*.paypalobjects.com = server:https://dns.google/dns-query

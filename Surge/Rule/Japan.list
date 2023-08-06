@@ -25,9 +25,7 @@ DOMAIN,testflight.apple.com
 # ------
 
 # > Nintendo
-DOMAIN-SUFFIX,nintendo.co.jp
 DOMAIN-SUFFIX,nintendo.com
-DOMAIN-SUFFIX,nintendo.jp
 DOMAIN-SUFFIX,nintendo.net
 
 # > pixiv

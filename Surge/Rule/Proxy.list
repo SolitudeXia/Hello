@@ -8,14 +8,12 @@ DOMAIN-SUFFIX,electrek.co
 DOMAIN-SUFFIX,spaceexplored.com
 
 # > BBC
-DOMAIN-KEYWORD,uk-live
 DOMAIN-SUFFIX,bbc.co
 DOMAIN-SUFFIX,bbc.com
 
 # > Bloomberg
 DOMAIN-SUFFIX,bloomberg.cn
 DOMAIN-SUFFIX,bloomberg.com
-DOMAIN-SUFFIX,bloomberg.de
 DOMAIN-SUFFIX,bloombergview.com
 
 # > Cloudflare
@@ -71,7 +69,6 @@ DOMAIN-SUFFIX,redditmedia.com
 # > Spotify
 DOMAIN-SUFFIX,pscdn.co
 DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,spoti.fi
 DOMAIN-KEYWORD,spotify
 
 # > Surge
@@ -82,7 +79,6 @@ DOMAIN-SUFFIX,surge-activation.com
 # > Twitch
 DOMAIN-SUFFIX,ext-twitch.tv
 DOMAIN-SUFFIX,jtvnw.net
-DOMAIN-SUFFIX,twitch-ext.rootonline.de
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,twitchcdn.net
 DOMAIN-KEYWORD,ttvnw
@@ -112,13 +108,11 @@ DOMAIN-SUFFIX,wikiversity.org
 DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wiktionary.org
 
-# > Yahoo
-DOMAIN-SUFFIX,yahoo.com
-DOMAIN,search.yahoo.co.jp
-
 # > Other // ABCDEFGHIJKLMNOPQRSTUVWXYZ
+DOMAIN,aaronnick.github.io
 DOMAIN,gallery.scriptable.app
 DOMAIN,sub-store.vercel.app // sub-store
+DOMAIN,www.safe-in-cloud.com
 DOMAIN-SUFFIX,91porn // 91
 DOMAIN-SUFFIX,adguard.com
 DOMAIN-SUFFIX,adguard.org // Adguard
@@ -197,6 +191,7 @@ DOMAIN-SUFFIX,washingtonpost.com // 华盛顿邮报
 DOMAIN-SUFFIX,wireguard.com
 DOMAIN-SUFFIX,wsj.com // 华尔街日报
 DOMAIN-SUFFIX,wsj.net // 华尔街日报
+DOMAIN-SUFFIX,yahoo.com // 雅虎
 DOMAIN-SUFFIX,zaobao.com // 联合早报
 DOMAIN-SUFFIX,zaobao.com.sg // 联合早报
 DOMAIN-SUFFIX,zhiboz.com // 直播吧

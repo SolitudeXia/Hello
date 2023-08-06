@@ -3,30 +3,45 @@ payload:
   - DOMAIN-SUFFIX,aaplimg.com
   - DOMAIN-SUFFIX,akadns.net
   - DOMAIN-SUFFIX,apple-cloudkit.com
-  - DOMAIN-SUFFIX,apple-livephotoskit.com
+  - DOMAIN-SUFFIX,apple-dns.net
   - DOMAIN-SUFFIX,apple-mapkit.com
   - DOMAIN-SUFFIX,apple.co
   - DOMAIN-SUFFIX,apple.com
   - DOMAIN-SUFFIX,apple.com.cn
-  - DOMAIN-SUFFIX,applemusic.com
+  - DOMAIN-SUFFIX,apple.news
   - DOMAIN-SUFFIX,appstore.com
   - DOMAIN-SUFFIX,cdn-apple.com
+  - DOMAIN-SUFFIX,crashlytics.com
+  - DOMAIN-SUFFIX,icloud-content.com
   - DOMAIN-SUFFIX,icloud.com
   - DOMAIN-SUFFIX,icloud.com.cn
-  - DOMAIN-SUFFIX,icloud-content.com
   - DOMAIN-SUFFIX,itunes.com
   - DOMAIN-SUFFIX,me.com
   - DOMAIN-SUFFIX,mzstatic.com
+
+  # > Blizzard
+  - DOMAIN-SUFFIX,battle.net
+  - DOMAIN-SUFFIX,battlenet.com
+  - DOMAIN-SUFFIX,blizzard.com
+
+  # > Epic
+  - DOMAIN-SUFFIX,epicgames.com
+  - DOMAIN-SUFFIX,epicgames.dev
+  - DOMAIN-SUFFIX,helpshift.com
+  - DOMAIN-SUFFIX,paragon.com
+  - DOMAIN-SUFFIX,unrealengine.com
+
+  # > Google CN
+  - DOMAIN-SUFFIX,crl.pki.goog
+  - DOMAIN-SUFFIX,ocsp.pki.goog
   
   # > Logitech
   - DOMAIN-SUFFIX,logi.com
   - DOMAIN-SUFFIX,logicoolg.com
   - DOMAIN-SUFFIX,logitech.biz
   - DOMAIN-SUFFIX,logitech.com
-  - DOMAIN-SUFFIX,logitech.fr
   - DOMAIN-SUFFIX,logitech.io
   - DOMAIN-SUFFIX,logitechg.com
-  - DOMAIN-SUFFIX,logitechg.fr
   
   # > PayPal
   - DOMAIN-SUFFIX,paypal.com
@@ -129,6 +144,31 @@ payload:
   - DOMAIN-SUFFIX,geforce.cn
   - DOMAIN-SUFFIX,gputechconf.cn
   - DOMAIN-SUFFIX,nvidia.cn
+
+  # > Sony
+  - DOMAIN-SUFFIX,playstation.com
+  - DOMAIN-SUFFIX,playstation.net
+  - DOMAIN-SUFFIX,playstationnetwork.com
+  - DOMAIN-SUFFIX,sony.com
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+
+  # > SteamCN
+  - DOMAIN-SUFFIX,cm.steampowered.com
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,steamusercontent.com
+  - DOMAIN-SUFFIX,steamchina.com
+  - DOMAIN,csgo.wmsj.cn
+  - DOMAIN,dota2.wmsj.cn
+  - DOMAIN,wmsjsteam.com
+  - DOMAIN,dl.steam.clngaa.com
+  - DOMAIN,dl.steam.ksyna.com
+  - DOMAIN,st.dl.bscstorage.net
+  - DOMAIN,st.dl.eccdnx.com
+  - DOMAIN,st.dl.pinyuncloud.com
+  - DOMAIN,xz.pphimalayanrt.com
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com
+  - DOMAIN,steampowered.com.8686c.com
+  - DOMAIN,steamstatic.com.8686c.com
   
   # > 自用
   - DOMAIN-SUFFIX,1password.com

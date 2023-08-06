@@ -1,5 +1,5 @@
 # > 9to5
-DOMAIN-SUFFIX,9to5google
+DOMAIN-SUFFIX,9to5google.com
 DOMAIN-SUFFIX,9to5mac.com
 DOMAIN-SUFFIX,9to5terminal.com
 DOMAIN-SUFFIX,9to5toys.com
@@ -113,7 +113,7 @@ DOMAIN,aaronnick.github.io
 DOMAIN,gallery.scriptable.app
 DOMAIN,sub-store.vercel.app // sub-store
 DOMAIN,www.safe-in-cloud.com
-DOMAIN-SUFFIX,91porn // 91
+DOMAIN-SUFFIX,91porn.com // 91
 DOMAIN-SUFFIX,adguard.com
 DOMAIN-SUFFIX,adguard.org // Adguard
 DOMAIN-SUFFIX,afreecatv.com
@@ -146,7 +146,7 @@ DOMAIN-SUFFIX,gitbook.com
 DOMAIN-SUFFIX,gravatar.com
 DOMAIN-SUFFIX,haohailong.net //海龙说
 DOMAIN-SUFFIX,horse.im // 游山打猎
-DOMAIN-SUFFIX,houstonchronicle // 休斯顿纪事报
+DOMAIN-SUFFIX,houstonchronicle.com // 休斯顿纪事报
 DOMAIN-SUFFIX,imgur.io
 DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,javbus.com // javbus

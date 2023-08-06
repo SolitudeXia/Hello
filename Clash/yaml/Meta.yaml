@@ -6,10 +6,5 @@ payload:
   - DOMAIN-KEYWORD,fbcdn
   
   # > Instagram
-  - DOMAIN-KEYWORD,instagram
   - DOMAIN-SUFFIX,instagr.am
-
-  # > Other
-  - DOMAIN-SUFFIX,messenger.com
-  - DOMAIN-SUFFIX,oculus.com
-  - DOMAIN-SUFFIX,oculuscdn.com
+  - DOMAIN-KEYWORD,instagram

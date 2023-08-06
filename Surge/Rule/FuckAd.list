@@ -1,132 +1,36 @@
-# Advertising
+# >> ByteDance 头条抖音
+.ad.toutiao.com
+.dsp.toutiao.com
+.ic.snssdk.com
+.log.snssdk.com
+.nativeapp.toutiao.com
+.pangolin-sdk-toutiao-b.com
+.pangolin-sdk-toutiao.com
+.pangolin.snssdk.com
+.partner.toutiao.com
+.pglstatp-toutiao.com
+.sm.toutiao.com
 
-# > Alibaba
-DOMAIN-SUFFIX,acjs.aliyun.com
-DOMAIN-SUFFIX,adash-c.m.taobao.com
-DOMAIN-SUFFIX,adash-c.ut.taobao.com
-DOMAIN-SUFFIX,adashx4yt.m.taobao.com
-DOMAIN-SUFFIX,adashxgc.ut.taobao.com
-DOMAIN-SUFFIX,afp.alicdn.com
-DOMAIN-SUFFIX,ai.m.taobao.com
-DOMAIN-SUFFIX,alipaylog.com
-DOMAIN-SUFFIX,atanx.alicdn.com
-DOMAIN-SUFFIX,atanx2.alicdn.com
-DOMAIN-SUFFIX,fav.simba.taobao.com
-DOMAIN-SUFFIX,g.click.taobao.com
-DOMAIN-SUFFIX,g.tbcdn.cn
-DOMAIN-SUFFIX,gma.alicdn.com
-DOMAIN-SUFFIX,gtmsdd.alicdn.com
-DOMAIN-SUFFIX,hydra.alibaba.com
-DOMAIN-SUFFIX,m.simba.taobao.com
-DOMAIN-SUFFIX,pindao.huoban.taobao.com
-DOMAIN-SUFFIX,re.m.taobao.com
-DOMAIN-SUFFIX,redirect.simba.taobao.com
-DOMAIN-SUFFIX,rj.m.taobao.com
-DOMAIN-SUFFIX,sdkinit.taobao.com
-DOMAIN-SUFFIX,show.re.taobao.com
-DOMAIN-SUFFIX,simaba.m.taobao.com
-DOMAIN-SUFFIX,simaba.taobao.com
-DOMAIN-SUFFIX,srd.simba.taobao.com
-DOMAIN-SUFFIX,strip.taobaocdn.com
-DOMAIN-SUFFIX,tns.simba.taobao.com
-DOMAIN-SUFFIX,tyh.taobao.com
-DOMAIN-SUFFIX,userimg.qunar.com
-DOMAIN-SUFFIX,yiliao.hupan.com
+# >> Umeng
+.umeng.cn
+.umeng.com
+.umengcloud.com
+.mobmore.com
+.uyunad.com
+.puata.info
+.whalecloud.com
 
-# > Apple
-DOMAIN-SUFFIX,iadsdk.apple.com
-DOMAIN-SUFFIX,ads.internal.unity3d.com
-DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com
-DOMAIN-SUFFIX,unityads.unity3d.com
+# >> 云闪付
+ads.95516.com
+sdk.open.talk.gepush.com
+switch.cup.com.cn
+tysdk.95516.com
+.getui.com
+.getui.net
 
-# > ByteDance 头条抖音
-DOMAIN-SUFFIX,ad.toutiao.com
-DOMAIN-SUFFIX,dsp.toutiao.com
-DOMAIN-SUFFIX,ic.snssdk.com
-DOMAIN-SUFFIX,log.snssdk.com
-DOMAIN-SUFFIX,nativeapp.toutiao.com
-DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
-DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
-DOMAIN-SUFFIX,pangolin.snssdk.com
-DOMAIN-SUFFIX,partner.toutiao.com
-DOMAIN-SUFFIX,pglstatp-toutiao.com
-DOMAIN-SUFFIX,sm.toutiao.com
-
-# > JD
-DOMAIN-SUFFIX,ads.union.jd.com
-DOMAIN-SUFFIX,c-nfa.jd.com
-DOMAIN-SUFFIX,cps.360buy.com
-DOMAIN-SUFFIX,img-x.jd.com
-DOMAIN-SUFFIX,jrclick.jd.com
-DOMAIN-SUFFIX,jzt.jd.com
-DOMAIN-SUFFIX,policy.jd.com
-DOMAIN-SUFFIX,stat.m.jd.com
-
-# > Kuaishou
-DOMAIN,js-ad.a.yximgs.com
-DOMAIN-SUFFIX,e.kuaishou.com
-
-# > Tencent
-DOMAIN-KEYWORD,omgmtaw
-DOMAIN,adsmind.apdcdn.tc.qq.com
-DOMAIN,adsmind.gdtimg.com
-DOMAIN,adsmind.tc.qq.com
-DOMAIN,pgdt.gtimg.cn
-DOMAIN,pgdt.gtimg.com
-DOMAIN,pgdt.ugdtimg.com
-DOMAIN,splashqqlive.gtimg.com
-DOMAIN,wa.gtimg.com
-DOMAIN,wxsnsdy.wxs.qq.com
-DOMAIN,wxsnsdythumb.wxs.qq.com
-DOMAIN-SUFFIX,act.qq.com
-DOMAIN-SUFFIX,ad.qun.qq.com
-DOMAIN-SUFFIX,adsfile.qq.com
-DOMAIN-SUFFIX,bugly.qq.com
-DOMAIN-SUFFIX,buluo.qq.com
-DOMAIN-SUFFIX,e.qq.com
-DOMAIN-SUFFIX,gdt.qq.com
-DOMAIN-SUFFIX,l.qq.com
-DOMAIN-SUFFIX,monitor.qq.com
-DOMAIN-SUFFIX,pingma.qq.com
-DOMAIN-SUFFIX,pingtcss.qq.com
-DOMAIN-SUFFIX,report.qq.com
-DOMAIN-SUFFIX,tajs.qq.com
-DOMAIN-SUFFIX,tcss.qq.com
-DOMAIN-SUFFIX,uu.qq.com
-
-# > 闲鱼
-DOMAIN,m.ykimg.com
-DOMAIN,iyes.youku.com
-DOMAIN,adashx.m.taobao.com
-DOMAIN,apoll.m.taobao.com
-DOMAIN,udpolimenew.baidu.com
-DOMAIN,app-alpha.bytedance.net
-
-# > 云闪付
-DOMAIN,ads.95516.com
-DOMAIN,sdk.open.talk.gepush.com
-DOMAIN,switch.cup.com.cn
-DOMAIN,tysdk.95516.com
-DOMAIN-SUFFIX,getui.com
-DOMAIN-SUFFIX,getui.net
-
-# > Other
-DOMAIN,advert.108sq.cn
-#
-DOMAIN-SUFFIX,app-measurement.com
-DOMAIN-SUFFIX,appcashier.kfc.com.cn
-DOMAIN-SUFFIX,appcommon.kfc.com.cn
-DOMAIN-SUFFIX,baomitu.com
-DOMAIN-SUFFIX,cnzz.com
-DOMAIN-SUFFIX,dualstack-logs.amap.com
-DOMAIN-SUFFIX,growingio.com
-DOMAIN-SUFFIX,sdk.fra-01.braze.eu
-DOMAIN-SUFFIX,sdk-fra-01.braze.eu
-DOMAIN-SUFFIX,tanx.com
-DOMAIN-SUFFIX,umeng.com
-DOMAIN-SUFFIX,umengcloud.com
-#
-DOMAIN-KEYWORD,adjust
-DOMAIN-KEYWORD,adservice
-DOMAIN-KEYWORD,adsystem
-DOMAIN-KEYWORD,appsflyer
+# >> Other
+ads.cup.com.cn
+advert.108sq.cn
+.appcashier.kfc.com.cn
+.appcommon.kfc.com.cn
+.dualstack-logs.amap.com

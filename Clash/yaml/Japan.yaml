@@ -1,28 +1,37 @@
 payload:  
+  # ---(Apple)---
+  - DOMAIN-SUFFIX,appsto.re
+  - DOMAIN-SUFFIX,smoot.apple.com
+  - DOMAIN,amp-api.podcasts.apple.com
+  - DOMAIN,beta.music.apple.com
+  - DOMAIN,books.itunes.apple.com
+  - DOMAIN,lookup-api.apple.com
+  - DOMAIN,radio.itunes.apple.com
+  # > Web Preview
+  - DOMAIN,apps.apple.com
+  - DOMAIN,books.apple.com
+  - DOMAIN,itunes.apple.com
+  - DOMAIN,tv.apple.com
+  # > News
+  - DOMAIN-SUFFIX,apple.news
+  - DOMAIN,gateway.icloud.com
+  - DOMAIN,news-assets.apple.com
+  - DOMAIN,news-client.apple.com
+  - DOMAIN,news-client-search.apple.com
+  - DOMAIN,news-edge.apple.com
+  - DOMAIN,news-events.apple.com
+  - DOMAIN,apple.comscoreresearch.com
+  # > TestFlight
+  - DOMAIN,testflight.apple.com
+  #
+  - DOMAIN-SUFFIX,digicert.com
+  # ------
+  
   # > Nintendo
-  - DOMAIN-SUFFIX,nintendo-europe.com
-  - DOMAIN-SUFFIX,nintendo.be
-  - DOMAIN-SUFFIX,nintendo.co.jp
-  - DOMAIN-SUFFIX,nintendo.co.uk
   - DOMAIN-SUFFIX,nintendo.com
-  - DOMAIN-SUFFIX,nintendo.com.au
-  - DOMAIN-SUFFIX,nintendo.de
-  - DOMAIN-SUFFIX,nintendo.es
-  - DOMAIN-SUFFIX,nintendo.eu
-  - DOMAIN-SUFFIX,nintendo.fr
-  - DOMAIN-SUFFIX,nintendo.it
-  - DOMAIN-SUFFIX,nintendo.jp
   - DOMAIN-SUFFIX,nintendo.net
-  - DOMAIN-SUFFIX,nintendo.nl
-  - DOMAIN-SUFFIX,nintendowifi.net
   
   # > pixiv
   - DOMAIN-SUFFIX,pixiv.net
+  - DOMAIN-SUFFIX,pixiv.org
   - DOMAIN-SUFFIX,pximg.net
-  
-  # > Sony
-  - DOMAIN-SUFFIX,playstation.com
-  - DOMAIN-SUFFIX,playstation.net
-  - DOMAIN-SUFFIX,playstationnetwork.com
-  - DOMAIN-SUFFIX,sony.com
-  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com

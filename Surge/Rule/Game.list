@@ -1,15 +1,3 @@
-# > Blizzard
-DOMAIN-SUFFIX,battle.net
-DOMAIN-SUFFIX,battlenet.com
-DOMAIN-SUFFIX,blizzard.com
-
-# > Epic
-DOMAIN-SUFFIX,epicgames.com
-DOMAIN-SUFFIX,epicgames.dev
-DOMAIN-SUFFIX,helpshift.com
-DOMAIN-SUFFIX,paragon.com
-DOMAIN-SUFFIX,unrealengine.com
-
 # > Origin
 DOMAIN,cloudsync-prod.s3.amazonaws.com
 DOMAIN,eaasserts-a.akamaihd.net

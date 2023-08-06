@@ -1,6 +1,6 @@
 payload:
   # > 9to5
-  - DOMAIN-SUFFIX,9to5google
+  - DOMAIN-SUFFIX,9to5google.com
   - DOMAIN-SUFFIX,9to5mac.com
   - DOMAIN-SUFFIX,9to5terminal.com
   - DOMAIN-SUFFIX,9to5toys.com
@@ -27,39 +27,23 @@ payload:
   - DOMAIN-SUFFIX,aboutamazon.com
   - DOMAIN-SUFFIX,aiv-cdn.net
   - DOMAIN-SUFFIX,aiv-delivery.net
-  - DOMAIN-SUFFIX,amazon.co.jp
   - DOMAIN-SUFFIX,amazon.com
   - DOMAIN-SUFFIX,amazon.jobs
   - DOMAIN-SUFFIX,amazonaws.com
+  - DOMAIN-SUFFIX,amazontools.com
   - DOMAIN-SUFFIX,amazonuniversity.jobs
   - DOMAIN-SUFFIX,amazonvideo.com
   - DOMAIN-SUFFIX,media-amazon.com
   - DOMAIN-SUFFIX,pv-cdn.net
-  - IP-CIDR,13.32.0.0/15,no-resolve
-  - IP-CIDR,13.35.0.0/17,no-resolve
-  - IP-CIDR,18.184.0.0/15,no-resolve
-  - IP-CIDR,18.194.0.0/15,no-resolve
-  - IP-CIDR,18.208.0.0/13,no-resolve
-  - IP-CIDR,18.232.0.0/14,no-resolve
-  - IP-CIDR,52.58.0.0/15,no-resolve
-  - IP-CIDR,52.74.0.0/16,no-resolve
-  - IP-CIDR,52.77.0.0/16,no-resolve
-  - IP-CIDR,52.84.0.0/15,no-resolve
-  - IP-CIDR,52.200.0.0/13,no-resolve
-  - IP-CIDR,54.93.0.0/16,no-resolve
-  - IP-CIDR,54.156.0.0/14,no-resolve
-  - IP-CIDR,54.226.0.0/15,no-resolve
-  - IP-CIDR,54.230.156.0/22,no-resolve
+  - DOMAIN-SUFFIX,seattlespheres.com
   
   # > BBC
-  - DOMAIN-KEYWORD,uk-live
   - DOMAIN-SUFFIX,bbc.co
   - DOMAIN-SUFFIX,bbc.com
 
   # > Bloomberg
   - DOMAIN-SUFFIX,bloomberg.cn
   - DOMAIN-SUFFIX,bloomberg.com
-  - DOMAIN-SUFFIX,bloomberg.de
   - DOMAIN-SUFFIX,bloombergview.com
 
   # > Cloudflare
@@ -113,7 +97,17 @@ payload:
   # > OpenAi
   - DOMAIN-KEYWORD,openai
   - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+  - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,stripe.com
   
   # > Pornhub
@@ -126,11 +120,11 @@ payload:
   - DOMAIN-SUFFIX,redd.it
   - DOMAIN-SUFFIX,reddit.com
   - DOMAIN-SUFFIX,redditmedia.com
+  - DOMAIN,www.redditstatic.com
   
   # > Spotify
   - DOMAIN-SUFFIX,pscdn.co
   - DOMAIN-SUFFIX,scdn.co
-  - DOMAIN-SUFFIX,spoti.fi
   - DOMAIN-KEYWORD,spotify
   
   # > Surge
@@ -141,7 +135,6 @@ payload:
   # > Twitch
   - DOMAIN-SUFFIX,ext-twitch.tv
   - DOMAIN-SUFFIX,jtvnw.net
-  - DOMAIN-SUFFIX,twitch-ext.rootonline.de
   - DOMAIN-SUFFIX,twitch.tv
   - DOMAIN-SUFFIX,twitchcdn.net
   - DOMAIN-KEYWORD,ttvnw
@@ -171,10 +164,6 @@ payload:
   - DOMAIN-SUFFIX,wikivoyage.org
   - DOMAIN-SUFFIX,wiktionary.org
   
-  # > Yahoo
-  - DOMAIN-SUFFIX,yahoo.com
-  - DOMAIN,search.yahoo.co.jp
-  
   # > Other
   - DOMAIN-KEYWORD,github
   - DOMAIN,surge.mitsea.com
@@ -196,5 +185,6 @@ payload:
   - DOMAIN-SUFFIX,surge-activation.com
   - DOMAIN-SUFFIX,wallhaven.cc
   - DOMAIN-SUFFIX,v2ex.com
+  - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,you.com
   - DOMAIN-SUFFIX,zhiboz.com

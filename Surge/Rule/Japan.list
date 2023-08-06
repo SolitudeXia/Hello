@@ -22,6 +22,8 @@ DOMAIN,news-events.apple.com
 DOMAIN,apple.comscoreresearch.com
 # > TestFlight
 DOMAIN,testflight.apple.com
+#
+DOMAIN-SUFFIX,digicert.com
 # ------
 
 # > Nintendo

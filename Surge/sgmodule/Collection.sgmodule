@@ -23,11 +23,18 @@ URL-REGEX,^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,R
 # > Safari 防跳转
 DOMAIN,app-site-association.cdn-apple.com,REJECT
 
+[Map Local]
+# > 阿里云盘净化
+^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+
 [Script]
 # > 12306 开屏广告
 12306 = type=http-request,pattern=^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList,requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/12306.js,script-update-interval=-1
 # > Unlock Adguard
 Adguard = type=http-response,pattern=^https:\/\/mobile-api\.adguard\.(org|com)\/api\/.+\/ios_validate_receipt,requires-body=1,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/adguard.js,script-update-interval=-1
+# > 阿里云盘净化
+云盘净化 = type=http-response,pattern=^https:\/\/api\.alipan\.com\/apps\/v2\/users\/home\/(news|widgets),requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js,script-update-interval=-1
+云盘净化 = type=http-response,pattern=^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js,script-update-interval=-1
 # > 阿里云盘挂载
 云盘挂载 = type=http-request,pattern=^http:\/\/(aliyun|quark|pikpak)\.example\.com,requires-body=1,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/fileball.js,script-update-interval=-1
 # > BoxJs
@@ -44,4 +51,4 @@ Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,requires-body=1,max
 公众号广告 = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/self_use.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% app.dewu.com, api.m.jd.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, flowplus.meituan.net, s3plus.meituan.net, portal.zjzwfw.gov.cn, ad.12306.cn, *api.adguard.*, boxjs.com, boxjs.net, dayone.*, m.douban.com, github.com:443, raw.githubusercontent.com:443, sub.store, mp.weixin.qq.com
+hostname = %APPEND% app.dewu.com, api.m.jd.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, flowplus.meituan.net, s3plus.meituan.net, portal.zjzwfw.gov.cn, ad.12306.cn, *api.adguard.*, api.alipan.com, member.alipan.com, boxjs.com, boxjs.net, dayone.*, m.douban.com, github.com:443, raw.githubusercontent.com:443, sub.store, mp.weixin.qq.com

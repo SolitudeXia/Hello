@@ -42,11 +42,13 @@ Adguard = type=http-response,pattern=^https:\/\/mobile-api\.adguard\.(org|com)\/
 # > BoxJs
 BoxJs = type=http-request,pattern=^https?:\/\/(.+\.)?boxjs\.(com|net),requires-body=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js,timeout=120,script-update-interval=0
 # > 彩云天气
-彩云解锁 = type=http-response,pattern=^https:\/\/biz\.cyapi\.cn\/(p\/v1\/vip_info|v2\/user),requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caiyun.js,script-update-interval=0
+彩云解锁 = type=http-response,pattern=^https:\/\/biz\.cyapi\.cn\/(p\/v1\/vip_info|v2\/user),requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caiyun.js,script-update-interval=-1
 # > Dayone vip
 Dayone = type=http-response,pattern=^https:\/\/dayone\.(me|app)\/api\/(users|v2\/users\/(account-status|receipt))$,requires-body=1,script-path=https://raw.githubusercontent.com/langkhach270389/Surge-LK/new/scripts/langkhach/dayone.js,script-update-interval=-1
 # > 豆瓣电影 搜索
 豆瓣电影 = type=http-response,pattern=^https://m.douban.com/movie/subject/.+,requires-body=1,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/Douban.js,script-update-interval=-1
+# > 广告联盟去广告
+广告联盟 = type=http-response,pattern=^https:\/\/((api-access\.pangolin-sdk-toutiao|is\.snssdk)\.com\/api\/ad\/union\/sdk\/get_ads|open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ$|mi\.gdt\.qq\.com\/gdt_mview\.fcg\?),requires-body=1,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/adsense.js,script-update-interval=-1
 # > Qx to Surge
 重写转换 = type=http-request,pattern=^https?:\/\/(github|raw\.githubusercontent)\.com\/.+(qx$|qx\?(jsc|hnadd|hndel|n|y|x|del|i)=),requires-body=1,script-path=https://raw.githubusercontent.com/Keywos/rule/main/JS/qs.js,script-update-interval=-1
 # > Sub-Store
@@ -55,4 +57,4 @@ Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,requires-body=1,max
 公众号广告 = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/self_use.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% app.dewu.com, api.m.jd.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, flowplus.meituan.net, s3plus.meituan.net, portal.zjzwfw.gov.cn, wallet.95516.com, ad.12306.cn, *api.adguard.*, api.alipan.com, member.alipan.com, boxjs.com, boxjs.net, biz.cyapi.cn, dayone.*, m.douban.com, github.com:443, raw.githubusercontent.com:443, sub.store, mp.weixin.qq.com
+hostname = %APPEND% app.dewu.com, api.m.jd.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, flowplus.meituan.net, s3plus.meituan.net, portal.zjzwfw.gov.cn, wallet.95516.com, ad.12306.cn, *api.adguard.*, api.alipan.com, member.alipan.com, boxjs.com, boxjs.net, biz.cyapi.cn, dayone.*, m.douban.com, api-access.pangolin-sdk-toutiao.com, is.snssdk.com, mi.gdt.qq.com, open.e.kuaishou.com, github.com:443, raw.githubusercontent.com:443, sub.store, mp.weixin.qq.com

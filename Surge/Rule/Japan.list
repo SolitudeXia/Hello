@@ -37,12 +37,7 @@ DOMAIN-SUFFIX,pximg.net
 
 # > Microsoft
 DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,bing.net
 DOMAIN-SUFFIX,licdn.com
 DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,msn.com
-DOMAIN-SUFFIX,office365.com
 DOMAIN-SUFFIX,skype.com
-DOMAIN-SUFFIX,windows.com
-DOMAIN-SUFFIX,windows.net
-DOMAIN-KEYWORD,microsoft

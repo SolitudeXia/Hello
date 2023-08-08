@@ -35,9 +35,14 @@ DOMAIN-SUFFIX,crl.pki.goog
 DOMAIN-SUFFIX,ocsp.pki.goog
 
 # > Microsoft
-DOMAIN-KEYWORD,1drv
-DOMAIN-KEYWORD,onedrive
+DOMAIN,rewards.bing.com
+DOMAIN-SUFFIX,office365.com
 DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,windows.com
+DOMAIN-SUFFIX,windows.net
+DOMAIN-KEYWORD,1drv
+DOMAIN-KEYWORD,microsoft
+DOMAIN-KEYWORD,onedrive
 
 # > PayPal
 DOMAIN-SUFFIX,paypal.com

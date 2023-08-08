@@ -35,7 +35,6 @@ DOMAIN-SUFFIX,crl.pki.goog
 DOMAIN-SUFFIX,ocsp.pki.goog
 
 # > Microsoft
-DOMAIN,rewards.bing.com
 DOMAIN-SUFFIX,office365.com
 DOMAIN-SUFFIX,outlook.com
 DOMAIN-SUFFIX,windows.com

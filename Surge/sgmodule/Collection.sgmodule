@@ -28,6 +28,9 @@ URL-REGEX,^https:\/\/wallet\.95516\.com(:10533)?\/s\/wl\/icon\/large\/1,REJECT
 [Map Local]
 # > 阿里云盘净化
 ^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+# > 百度云盘净化
+^https:\/\/pan\.baidu\.com\/(act\/api\/activityentry|rest\/2\.0\/pcs\/adx)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https?:\/\/update\.pan\.baidu\.com\/statistics\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 [Script]
 # > 12306 开屏广告
@@ -39,6 +42,9 @@ Adguard = type=http-response,pattern=^https:\/\/mobile-api\.adguard\.(org|com)\/
 云盘净化 = type=http-response,pattern=^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js,script-update-interval=-1
 # > 阿里云盘挂载
 云盘挂载 = type=http-request,pattern=^http:\/\/(aliyun|quark|pikpak)\.example\.com,requires-body=1,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/fileball.js,script-update-interval=-1
+# > 百度云盘
+网盘净化 = type=http-response,pattern=^https:\/\/pan\.baidu\.com\/api\/getsyscfg\?,requires-body=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/BlockAds.js,script-update-interval=-1
+画质倍速 = type=http-response,pattern=^https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/baidu/baiduCloud.js,script-update-interval=-1
 # > BoxJs
 BoxJs = type=http-request,pattern=^https?:\/\/(.+\.)?boxjs\.(com|net),requires-body=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js,timeout=120,script-update-interval=0
 # > 彩云天气
@@ -57,4 +63,4 @@ Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,requires-body=1,max
 公众号广告 = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/self_use.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% app.dewu.com, api.m.jd.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, flowplus.meituan.net, s3plus.meituan.net, portal.zjzwfw.gov.cn, wallet.95516.com, ad.12306.cn, *api.adguard.*, api.alipan.com, member.alipan.com, boxjs.com, boxjs.net, biz.cyapi.cn, dayone.*, m.douban.com, api-access.pangolin-sdk-toutiao.com, is.snssdk.com, mi.gdt.qq.com, open.e.kuaishou.com, github.com:443, raw.githubusercontent.com:443, sub.store, mp.weixin.qq.com
+hostname = %APPEND% app.dewu.com, api.m.jd.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, flowplus.meituan.net, s3plus.meituan.net, portal.zjzwfw.gov.cn, wallet.95516.com, ad.12306.cn, *api.adguard.*, api.alipan.com, member.alipan.com, pan.baidu.com, boxjs.com, boxjs.net, biz.cyapi.cn, dayone.*, m.douban.com, api-access.pangolin-sdk-toutiao.com, is.snssdk.com, mi.gdt.qq.com, open.e.kuaishou.com, github.com:443, raw.githubusercontent.com:443, sub.store, mp.weixin.qq.com

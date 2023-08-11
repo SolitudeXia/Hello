@@ -1,5 +1,13 @@
+# >> 云闪付
+DOMAIN,ads.95516.com
+DOMAIN,sdk.open.talk.gepush.com
+DOMAIN,switch.cup.com.cn
+DOMAIN,tysdk.95516.com
+DOMAIN-SUFFIX,getui.com
+DOMAIN-SUFFIX,getui.net
+
 # >> Other
-ads.cup.com.cn
-advert.108sq.cn
-.appcashier.kfc.com.cn
-.appcommon.kfc.com.cn
+DOMAIN,ads.cup.com.cn
+DOMAIN,advert.108sq.cn
+DOMAIN-SUFFIX,appcashier.kfc.com.cn
+DOMAIN-SUFFIX,appcommon.kfc.com.cn

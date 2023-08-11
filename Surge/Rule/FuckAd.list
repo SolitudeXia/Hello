@@ -1,31 +1,74 @@
-# >> ByteDance 头条抖音
-DOMAIN-SUFFIX,ad.toutiao.com
-DOMAIN-SUFFIX,dsp.toutiao.com
-DOMAIN-SUFFIX,ic.snssdk.com
-DOMAIN-SUFFIX,log.snssdk.com
-DOMAIN-SUFFIX,nativeapp.toutiao.com
-DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
-#DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
-DOMAIN-SUFFIX,pangolin.snssdk.com
-DOMAIN-SUFFIX,partner.toutiao.com
-DOMAIN-SUFFIX,pglstatp-toutiao.com
-DOMAIN-SUFFIX,sm.toutiao.com
+# > Apple
+DOMAIN,api-adservices.apple.com
+DOMAIN,app-site-association.cdn-apple.com // Safari 防跳转
+DOMAIN-SUFFIX,iadsdk.apple.com
 
-# >> Umeng
+# > 百度网盘
+DOMAIN,mobads.baidu.com
+
+# > 哔哩哔哩
+DOMAIN,mall.bilibili.com
+DOMAIN,passport.bilibili.com
+
+# > 彩云天气
+DOMAIN,ad.cyapi.cn
+
+# > ChatGPT
+DOMAIN,o33249.ingest.sentry.io
+
+# > Foreca & Google
+DOMAIN,adservice.google.com
+DOMAIN,googleads.g.doubleclick-cn.net
+DOMAIN,googleads.g.doubleclick.net
+DOMAIN,pagead2.googlesyndication.com
+DOMAIN,pubads.g.doubleclick.net
+DOMAIN,www.googleadservices.com
+DOMAIN-KEYWORD,adservice.google.com.
+
+# > 高德地图
+DOMAIN,amap-aos-info-nogw.amap.com
+DOMAIN,awaken.amap.com
+DOMAIN,free-aos-cdn-image.amap.com
+
+# > 广告联盟
+DOMAIN,is.snssdk.com
+DOMAIN,mi.gdt.qq.com
+DOMAIN,open.e.kuaishou.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
+
+# > 美团
+DOMAIN,al-log.d.meituan.net
+DOMAIN,babel-statistics-android.d.meituan.net
+DOMAIN,maplocatesdksnapshot.d.meituan.net
+DOMAIN,metrics-picture.d.meituan.net
+DOMAIN,route-stats.d.meituan.net
+
+# > 什么值得买
+DOMAIN,api.zuihuimai.com
+
+# > Umeng
 DOMAIN-SUFFIX,umeng.cn
 DOMAIN-SUFFIX,umeng.com
 DOMAIN-SUFFIX,umengcloud.com
 
-# >> 云闪付
-DOMAIN,ads.95516.com
-DOMAIN,tysdk.95516.com
-DOMAIN,ads.cup.com.cn
-DOMAIN,switch.cup.com.cn
-DOMAIN,sdk.open.talk.gepush.com
-DOMAIN-SUFFIX,getui.com
-DOMAIN-SUFFIX,getui.net
+# > 微博 (开屏广告)
+DOMAIN,adstrategy.biz.weibo.com
+DOMAIN,kadmimage.biz.weibo.com
+DOMAIN,sdkaction.biz.weibo.com
+DOMAIN,sdkclick.biz.weibo.com
+DOMAIN,sdkmonitor.biz.weibo.com
 
-# >> Other
+# > 云闪付 开屏广告
+DOMAIN,ads.95516.com
+DOMAIN,cm-10-138.getui.com
+DOMAIN,sdk-conf.getui.com
+DOMAIN,sdk.open.talk.getui.net
+DOMAIN,switch.cup.com.cn
+DOMAIN,tysdk.95516.com
+
+# > Other
 DOMAIN,advert.108sq.cn
 DOMAIN-SUFFIX,appcashier.kfc.com.cn
 DOMAIN-SUFFIX,appcommon.kfc.com.cn

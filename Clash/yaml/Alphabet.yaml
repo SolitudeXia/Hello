@@ -1,7 +1,6 @@
 payload:
   # > Google
   - DOMAIN-SUFFIX,abc.xyz
-  - DOMAIN-SUFFIX,admin.recaptcha.net
   - DOMAIN-SUFFIX,ampproject.org
   - DOMAIN-SUFFIX,android.com
   - DOMAIN-SUFFIX,androidify.com

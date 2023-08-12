@@ -80,7 +80,3 @@ upos-sz-mirrorcos?.bilivideo.com = server:119.29.29.29 // BiliBili upos视频服
 upos-sz-mirrorcos??.bilivideo.com = server:119.29.29.29 // BiliBili upos视频服务器（腾讯云）
 upos-sz-upcdnbd??.bilivideo.com = server:180.76.76.76 // BiliBili upos视频服务器（百度云）
 upos-sz-upcdntx.bilivideo.com = server:119.29.29.29 // BiliBili upos视频服务器（腾讯云）
-
-# > 京东
-*.jd.com = server:syslib // 京东
-*.360buyimg.com = server:syslib // 京东 静态资源

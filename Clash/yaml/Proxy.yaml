@@ -13,7 +13,6 @@ payload:
   - DOMAIN-SUFFIX,adguard.org
   
   # > Amazon
-  - DOMAIN-KEYWORD,avoddashs
   - DOMAIN,atv-ps.amazon.com
   - DOMAIN,avodmp4s3ww-a.akamaihd.net
   - DOMAIN,d1v5ir2lpwr8os.cloudfront.net
@@ -36,6 +35,7 @@ payload:
   - DOMAIN-SUFFIX,media-amazon.com
   - DOMAIN-SUFFIX,pv-cdn.net
   - DOMAIN-SUFFIX,seattlespheres.com
+  - DOMAIN-KEYWORD,avoddashs
   
   # > BBC
   - DOMAIN-SUFFIX,bbc.co
@@ -95,7 +95,6 @@ payload:
   - DOMAIN-SUFFIX,tegrazone.com
   
   # > OpenAi
-  - DOMAIN-KEYWORD,openai
   - DOMAIN-SUFFIX,ai.com
   - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
@@ -109,6 +108,7 @@ payload:
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-KEYWORD,openai
   
   # > Pornhub
   - DOMAIN-SUFFIX,phncdn.com
@@ -120,7 +120,7 @@ payload:
   - DOMAIN-SUFFIX,redd.it
   - DOMAIN-SUFFIX,reddit.com
   - DOMAIN-SUFFIX,redditmedia.com
-  - DOMAIN,www.redditstatic.com
+  - DOMAIN-SUFFIX,redditstatic.com
   
   # > Spotify
   - DOMAIN-SUFFIX,pscdn.co
@@ -176,7 +176,6 @@ payload:
   - DOMAIN-SUFFIX,wiktionary.org
   
   # > Other
-  - DOMAIN-KEYWORD,github
   - DOMAIN,surge.mitsea.com
   - DOMAIN-SUFFIX,adtidy.org
   - DOMAIN-SUFFIX,basicappleguy.com
@@ -199,3 +198,4 @@ payload:
   - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,you.com
   - DOMAIN-SUFFIX,zhiboz.com
+  - DOMAIN-KEYWORD,github

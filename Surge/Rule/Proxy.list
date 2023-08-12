@@ -110,6 +110,7 @@ DOMAIN-SUFFIX,wiktionary.org
 
 # > Other // ABCDEFGHIJKLMNOPQRSTUVWXYZ
 DOMAIN,aaronnick.github.io
+DOMAIN,disney.api.edge.bamgrid.com
 DOMAIN,gallery.scriptable.app
 DOMAIN,sub-store.vercel.app // sub-store
 DOMAIN,www.safe-in-cloud.com

@@ -31,6 +31,7 @@ DOMAIN-SUFFIX,paragon.com
 DOMAIN-SUFFIX,unrealengine.com
 
 # > Microsoft
+DOMAIN-SUFFIX,bingapis.com
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,msauth.net
 DOMAIN-SUFFIX,msftauth.net

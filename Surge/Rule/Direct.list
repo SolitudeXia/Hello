@@ -32,6 +32,7 @@ DOMAIN-SUFFIX,unrealengine.com
 
 # > Microsoft
 DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,msauth.net
 DOMAIN-SUFFIX,msftauth.net
 DOMAIN-SUFFIX,office365.com
 DOMAIN-SUFFIX,outlook.com

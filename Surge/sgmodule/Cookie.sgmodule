@@ -37,7 +37,7 @@ Bing积分cookie = type=http-request,pattern=https:\/\/rewards\.bing\.com,script
 #Cookie1 = type=http-response,pattern=https:\/\/app\.jegotrip\.com\.cn\/api\/service\/v1\/mission\/sign\/querySign\?token=,requires-body=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jegotrip.cookie.js,script-update-interval=-1
 #Cookie2 = type=http-response,pattern=https:\/\/cdn\.jegotrip\.com\.cn\/static\/missioncenter\/config\.js,requires-body=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jegotrip.cookie.js,script-update-interval=-1
 # > 慢慢买
-慢慢买cookie = type=http-request,pattern=^https?:\/\/apph5\.manmanbuy\.com\/taolijin\/(login.aspx|logserver.aspx),requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js,script-update-interval=-1
+#慢慢买cookie = type=http-request,pattern=^https?:\/\/apph5\.manmanbuy\.com\/taolijin\/(login.aspx|logserver.aspx),requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js,script-update-interval=-1
 # > 特仑苏 小程序
 特仑苏cookie = type=http-request,pattern=^https:\/\/mall\.telunsu\.net\/wxapi\/rest\/getUser\?openid=,script-path=https://raw.githubusercontent.com/Sliverkiss/helloworld/master/Study/tls.js,script-update-interval=-1
 # > 高德地图 app获取

@@ -82,22 +82,6 @@ payload:
   - DOMAIN-SUFFIX,tegrazone.co
   - DOMAIN-SUFFIX,tegrazone.com
   
-  # > OpenAi
-  - DOMAIN-SUFFIX,ai.com
-  - DOMAIN-SUFFIX,auth0.com
-  - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,client-api.arkoselabs.com
-  - DOMAIN-SUFFIX,events.statsigapi.net
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,intercom.io
-  - DOMAIN-SUFFIX,intercomcdn.com
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-  - DOMAIN-SUFFIX,sentry.io
-  - DOMAIN-SUFFIX,stripe.com
-  - DOMAIN-KEYWORD,openai
-  
   # > Pornhub
   - DOMAIN-SUFFIX,phncdn.com
   - DOMAIN-SUFFIX,phprcdn.com

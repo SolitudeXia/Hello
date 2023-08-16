@@ -164,8 +164,11 @@ payload:
   - DOMAIN-SUFFIX,wiktionary.org
   
   # > Other
-  - DOMAIN,surge.mitsea.com
+  - DOMAIN,www.safe-in-cloud.com
+  - DOMAIN,zhaojiaren.club
+  - DOMAIN-SUFFIX,91porn.com
   - DOMAIN-SUFFIX,adtidy.org
+  - DOMAIN-SUFFIX,afreecatv.com
   - DOMAIN-SUFFIX,basicappleguy.com
   - DOMAIN-SUFFIX,brave.com
   - DOMAIN-SUFFIX,deepl.com
@@ -176,11 +179,10 @@ payload:
   - DOMAIN-SUFFIX,javbus.com
   - DOMAIN-SUFFIX,macrumors.com
   - DOMAIN-SUFFIX,miaona.cyou
-  - DOMAIN-SUFFIX,nssurge.com
+  - DOMAIN-SUFFIX,proton.me
   - DOMAIN-SUFFIX,public-dns.info
   - DOMAIN-SUFFIX,substack.com
   - DOMAIN-SUFFIX,sleazyfork.org
-  - DOMAIN-SUFFIX,surge-activation.com
   - DOMAIN-SUFFIX,wallhaven.cc
   - DOMAIN-SUFFIX,v2ex.com
   - DOMAIN-SUFFIX,yahoo.com

@@ -33,6 +33,7 @@ DOMAIN-SUFFIX,unrealengine.com
 # > Microsoft
 DOMAIN,cn.bing.com
 DOMAIN,rewards.bing.com
+DOMAIN-SUFFIX,azureedge.net
 DOMAIN-SUFFIX,bingapis.com
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,msauth.net

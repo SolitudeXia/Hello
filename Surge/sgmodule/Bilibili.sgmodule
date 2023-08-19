@@ -1,38 +1,12 @@
-#!name=Bilibili（自用）
-#!desc=修改自RuCu6 kokoryh
+#!name=Bilibili
+#!desc=画质解锁+皮肤
 #!system=ios
 
-[Rule]
-# > 首页 DefaultWord,推荐,热搜发现,右上角活动,标签页,观影页,直播,直播间商品广告浮窗
-URL-REGEX,^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.interface\.v1\.Search\/DefaultWords$,REJECT
-# > IP请求,地理位置请求
-URL-REGEX,^https:\/\/app\.bilibili\.com\/x\/resource\/ip,REJECT
-URL-REGEX,^https:\/\/api\.bilibili\.com\/x\/web-interface\/zone\?jsonp=jsonp$,REJECT
-
-[Map Local]
-# > 首页 DefaultWord,推荐,热搜发现,右上角活动,标签页,观影页,直播,直播间商品广告浮窗
-^https:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-
 [Script]
-# > Proto 动态广告,后台播放限制,播放页广告
-biliProto = type=http-response,pattern=^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.dynamic\.v2\.Dynamic\/Dyn(All|Video),requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/biliProto.js,script-update-interval=-1
-biliProto = type=http-response,pattern=^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.interface\.v1\.Teenagers\/ModeStatus,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/biliProto.js,script-update-interval=-1
-#biliProto = type=http-response,pattern=^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.playurl\.v1\.PlayURL\/PlayView,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/biliProto.js,script-update-interval=-1
-biliProto = type=http-response,pattern=^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.(view|viewunite)\.v1\.View\/(View|TFInfo),requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/biliProto.js,script-update-interval=-1
-biliProto = type=http-response,pattern=^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.community\.service\.dm\.v1\.DM\/(DmView|DmSegMobile),requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/biliProto.js,script-update-interval=-1
-biliProto = type=http-response,pattern=^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.main\.community\.reply\.v1\.Reply\/MainList,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/biliProto.js,script-update-interval=-1
-biliProto = type=http-response,pattern=^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.polymer\.app\.search\.v1\.Search\/SearchAll,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/biliProto.js,script-update-interval=-1
-# > 首页 DefaultWord,推荐,热搜发现,右上角活动,标签页,观影页,直播,直播间商品广告浮窗
-bili = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/(feed\/index(\/story)?|search\/square)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/bili.js,script-update-interval=-1
-bili = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/x\/resource\/(top\/activity|show\/tab\/v2)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/bili.js,script-update-interval=-1
-bili = type=http-response,pattern=^https:\/\/api\.bilibili\.com\/pgc\/page\/(bangumi|cinema\/tab\?),requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/bili.js,script-update-interval=-1
-bili = type=http-response,pattern=^https:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/bili.js,script-update-interval=-1
-# > 开屏广告
-bili = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/(brand\/list|event\/list2|list|show)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/bili.js,script-update-interval=-1
 # > 我的页面 解锁1080P高码率,4K画质,皮肤推送
-bili = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/account\/(mine(\/ipad)?|myinfo)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/bili.js,script-update-interval=-1
+画质解锁 = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/account\/(mine(\/ipad)?|myinfo)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/bili.js,script-update-interval=-1
 # > 装扮DIY
-bili-skin = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\?,requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/dev/bili-suit-diy.js,script-update-interval=-1
+皮肤装扮 = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\?,requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/dev/bili-suit-diy.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% app.bilibili.com, api.bilibili.com, api.live.bilibili.com, grpc.biliapi.net
+hostname = %APPEND% app.bilibili.com

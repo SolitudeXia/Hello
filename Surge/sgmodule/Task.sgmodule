@@ -19,8 +19,6 @@
 喜马拉雅 = type=cron,cronexp="0 6 10 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/xmlySign.js,script-update-interval=0,timeout=60
 # > 今日黄历
 今日黄历 = type=cron,cronexp="8 8 8 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/wnCalendar.js,script-update-interval=0,timeout=30
-# > 彩票开奖
-#彩票开奖 = type=cron,cronexp="0 0 22 * * 2,4,7",wake-system=1,script-path=https://raw.githubusercontent.com/evilbutcher/QuantumultX/master/check_in/ssq/ssq.js,script-update-interval=0,timeout=60
 # > 同步检测
 账号同步 = type=cron,cronexp="0 23 10,20 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/jd/ql_sync_box.js,script-update-interval=0,timeout=60
 帐户检测 = type=cron,cronexp="0 24 10,20 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/jd/jd_cookie_search.js,script-update-interval=0,timeout=60
@@ -37,10 +35,10 @@
 #热门监控 = type=cron,cronexp="0 0 9,12,15,18,21 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/evilbutcher/QuantumultX/master/check_in/hotsearch/hot.js,script-update-interval=0,timeout=60
 # > 汇率监控
 汇率监控 = type=cron,cronexp="0 30 19 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js,script-update-interval=0,timeout=60
-# > 京东物流
-京东物流 = type=cron,cronexp="0 0 20 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jdWuLiu.js,script-update-interval=0,timeout=60
 # > 每日一言
 每日一言 = type=cron,cronexp="7 7 7 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/One.js,script-update-interval=0,timeout=30
+# > Bing积分
+Bing积分 = type=cron,cronexp="0 8 10 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js,script-update-interval=0,timeout=300
 # > 伊利乳品
 伊利乳品 = type=cron,cronexp="0 9 10 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.js,script-update-interval=0,timeout=30
 # > IT之家

@@ -46,6 +46,8 @@ Bing积分cookie = type=http-request,pattern=https:\/\/rewards\.bing\.com,script
 捷停车cookie = type=http-request,pattern=^https:\/\/sytgate\.jslife\.com\.cn\/core-gateway\/order\/carno\/pay\/info,requires-body=1,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jparking_sign.js,script-update-interval=-1
 # > 建行生活 app获取 
 建行生活cookie = type=http-request,pattern=^https:\/\/yunbusiness\.ccb\.com\/clp_coupon\/txCtrl\?txcode=A3341A040,requires-body=1,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js,script-update-interval=-1
+# > 途虎养车 小程序
+途虎养车cookie = type=http-request,pattern=https://api.tuhu.cn/User/GetInternalCenterInfo,script-path=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Tuhyche.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% m.weibo.cn, app.bilibili.com, auth.aliyundrive.com, user-api.smzdm.com, i.meituan.com, mall.meituan.com, mobile.ximalaya.com, e.189.cn, open.e.189.cn, ms.jr.jd.com, me-api.jd.com, rewards.bing.com, club.yili.com, my.ruanmei.com, api.wfdata.club, cdn.jegotrip.com.cn, app.jegotrip.com.cn, apph5.manmanbuy.com, mall.telunsu.net, sytgate.jslife.com.cn, yunbusiness.ccb.com
+hostname = %APPEND% m.weibo.cn, app.bilibili.com, auth.aliyundrive.com, user-api.smzdm.com, i.meituan.com, mall.meituan.com, mobile.ximalaya.com, e.189.cn, open.e.189.cn, ms.jr.jd.com, me-api.jd.com, rewards.bing.com, club.yili.com, my.ruanmei.com, api.wfdata.club, cdn.jegotrip.com.cn, app.jegotrip.com.cn, apph5.manmanbuy.com, mall.telunsu.net, sytgate.jslife.com.cn, yunbusiness.ccb.com, api.tuhu.cn

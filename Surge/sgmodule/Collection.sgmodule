@@ -19,7 +19,8 @@ URL-REGEX,^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsreso
 # > 得物 去开屏
 URL-REGEX,^https:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement,REJECT
 # > 京东 去开屏
-URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$,REJECT-TINYGIF
+URL-REGEX,^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(start|queryMaterialAdverts),REJECT
+URL-REGEX,^https:\/\/m\.360buyimg\.com\/mobilecms\/s\d{4}x\d{4},REJECT
 # > 肯德基微信小程序 去广告
 URL-REGEX,^https:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/(coupon|activity),REJECT
 URL-REGEX,^https:\/\/dynamicad\.kfc\.com\.cn\/api,REJECT
@@ -71,4 +72,4 @@ Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,requires-body=1,max
 公众号广告 = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/self_use.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, app.dewu.com, api.m.jd.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, flowplus.meituan.net, s3plus.meituan.net, wallet.95516.com, portal.zjzwfw.gov.cn, ad.12306.cn, *api.adguard.*, api.alipan.com, member.alipan.com, pan.baidu.com, boxjs.com, boxjs.net, biz.cyapi.cn, dayone.*, m.douban.com, github.com:443, raw.githubusercontent.com:443, sub.store, mp.weixin.qq.com
+hostname = %APPEND% acs.m.taobao.com, gw.alicdn.com, heic.alicdn.com, app.dewu.com, api.m.jd.com, m.360buyimg.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, flowplus.meituan.net, s3plus.meituan.net, wallet.95516.com, portal.zjzwfw.gov.cn, ad.12306.cn, *api.adguard.*, api.alipan.com, member.alipan.com, pan.baidu.com, boxjs.com, boxjs.net, biz.cyapi.cn, dayone.*, m.douban.com, github.com:443, raw.githubusercontent.com:443, sub.store, mp.weixin.qq.com

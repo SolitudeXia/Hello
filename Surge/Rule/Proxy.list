@@ -109,9 +109,9 @@ DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wiktionary.org
 
 # > Other // ABCDEFGHIJKLMNOPQRSTUVWXYZ
-DOMAIN,aaronnick.github.io
 DOMAIN,disney.api.edge.bamgrid.com
 DOMAIN,gallery.scriptable.app
+DOMAIN,miaona.info
 DOMAIN,sub-store.vercel.app // sub-store
 DOMAIN,www.linking.vision
 DOMAIN,www.safe-in-cloud.com

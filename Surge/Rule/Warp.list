@@ -25,3 +25,17 @@ DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-KEYWORD,openai
+
+# > Other
+DOMAIN-SUFFIX,audiomack.com // AudioMack
+DOMAIN-SUFFIX,crocs.com
+DOMAIN-SUFFIX,lego.com
+DOMAIN-SUFFIX,mschf.com
+DOMAIN-SUFFIX,newbalance.com
+DOMAIN-SUFFIX,onekey.so
+DOMAIN-SUFFIX,onekey-asset.com // onekey
+DOMAIN-SUFFIX,padandquill.com
+DOMAIN-SUFFIX,rocketsshop.com
+DOMAIN-SUFFIX,store.nba.com
+DOMAIN-SUFFIX,ultramobile.com // paygo
+DOMAIN-SUFFIX,yubico.com

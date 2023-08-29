@@ -7,23 +7,10 @@ DOMAIN-SUFFIX,dronedj.com
 DOMAIN-SUFFIX,electrek.co
 DOMAIN-SUFFIX,spaceexplored.com
 
-# > BBC
-DOMAIN-SUFFIX,bbc.co
-DOMAIN-SUFFIX,bbc.com
-
-# > Bloomberg
-DOMAIN-SUFFIX,bloomberg.cn
-DOMAIN-SUFFIX,bloomberg.com
-DOMAIN-SUFFIX,bloombergview.com
-
 # > Dropbox
 DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,dropboxusercontent.com
-
-# > Espn
-DOMAIN-SUFFIX,espn.com
-DOMAIN-SUFFIX,espn.net
 
 # > GitLab
 DOMAIN-SUFFIX,gitlab-static.net
@@ -65,17 +52,6 @@ DOMAIN,surge.mitsea.com
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,surge-activation.com
 
-# > TikTok
-DOMAIN-SUFFIX,byteoversea.com
-DOMAIN-SUFFIX,ibytedtos.com
-DOMAIN-SUFFIX,ipstatp.com
-DOMAIN-SUFFIX,muscdn.com
-DOMAIN-SUFFIX,musical.ly
-DOMAIN-SUFFIX,tik-tokapi.com
-DOMAIN-SUFFIX,tiktok.com
-DOMAIN-SUFFIX,tiktokv.com
-DOMAIN-KEYWORD,tiktokcdn
-
 # > Twitch
 DOMAIN-SUFFIX,ext-twitch.tv
 DOMAIN-SUFFIX,jtvnw.net
@@ -95,18 +71,7 @@ DOMAIN-SUFFIX,vine.co
 DOMAIN-KEYWORD,twitter
 
 # > Wikimedia // 维基
-DOMAIN-SUFFIX,mediawiki.org
-DOMAIN-SUFFIX,wikibooks.org
-DOMAIN-SUFFIX,wikidata.org
-DOMAIN-SUFFIX,wikileaks.org
-DOMAIN-SUFFIX,wikimedia.org
-DOMAIN-SUFFIX,wikinews.org
 DOMAIN-SUFFIX,wikipedia.org
-DOMAIN-SUFFIX,wikiquote.org
-DOMAIN-SUFFIX,wikisource.org
-DOMAIN-SUFFIX,wikiversity.org
-DOMAIN-SUFFIX,wikivoyage.org
-DOMAIN-SUFFIX,wiktionary.org
 
 # > Other // ABCDEFGHIJKLMNOPQRSTUVWXYZ
 DOMAIN,disney.api.edge.bamgrid.com

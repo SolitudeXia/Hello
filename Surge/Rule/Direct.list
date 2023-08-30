@@ -43,13 +43,18 @@ DOMAIN-SUFFIX,paypal-mktg.com
 DOMAIN-SUFFIX,paypalobjects.com
 
 # > For Myself
-DOMAIN,dayone.app
 DOMAIN,coolshell.cn
+DOMAIN,dayone.app
 DOMAIN,fileball.app
 DOMAIN,guozh.net
 DOMAIN,iyideng.net
+DOMAIN,lc.liuguogy.com
+DOMAIN,meta.appinn.net // 小众软件
+DOMAIN,r3.o.lencr.org
 DOMAIN,stayfork.app
 DOMAIN,www.daniao.org
+DOMAIN,www.dute.org // 工具箱
+DOMAIN,xteko.com
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,authy.com
 DOMAIN-SUFFIX,bandswatch.it

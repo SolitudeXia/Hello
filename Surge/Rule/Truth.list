@@ -18,22 +18,17 @@ DOMAIN,embyplus.org
 DOMAIN,public.emby.ws
 
 # RSS
-DOMAIN,assets.matters.news
+DOMAIN,blog.rongxin.moe
 DOMAIN,blog.skk.moe
-DOMAIN,geekplux.com
-DOMAIN,jim-nielsen.com
-DOMAIN,jinbo123.com
+DOMAIN,feeds.feedburner.com
 DOMAIN,limboy.me
 DOMAIN,quoth.win
 DOMAIN,sogola.eth.limo
 DOMAIN,weekly.tw93.fun
+DOMAIN,www.jinbo123.com
 DOMAIN,yishi.io
 DOMAIN,zu1k.com
 #
 DOMAIN-SUFFIX,rsshub.app
 
 # IPTV
-DOMAIN,hidra.live
-DOMAIN,ktpremium.com
-DOMAIN,onrev.xyz
-DOMAIN,qthgotneqov.tvla.xyz

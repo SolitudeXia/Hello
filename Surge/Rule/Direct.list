@@ -42,6 +42,13 @@ DOMAIN-SUFFIX,paypal.me
 DOMAIN-SUFFIX,paypal-mktg.com
 DOMAIN-SUFFIX,paypalobjects.com
 
+# > Spark
+DOMAIN-SUFFIX,amplitude.com
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,hockeyapp.net
+DOMAIN-SUFFIX,readdle.com
+DOMAIN-SUFFIX,smartmailcloud.com
+
 # > For Myself
 DOMAIN,coolshell.cn
 DOMAIN,dayone.app

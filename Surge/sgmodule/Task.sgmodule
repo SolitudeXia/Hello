@@ -23,7 +23,7 @@
 账号同步 = type=cron,cronexp="0 23 10,20 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/jd/ql_sync_box.js,script-update-interval=0,timeout=60
 帐户检测 = type=cron,cronexp="0 24 10,20 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/jd/jd_cookie_search.js,script-update-interval=0,timeout=60
 # > Gist备份+恢复
-#数据备份 = type=cron,cronexp="0 25 20 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/dompling/Script/master/gist/backup.js,script-update-interval=0,timeout=60
+数据备份 = type=cron,cronexp="0 25 20 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/dompling/Script/master/gist/backup.js,script-update-interval=0,timeout=60
 #数据恢复 = type=cron,cronexp="0 26 20 1 * ?",wake-system=1,script-path=https://raw.githubusercontent.com/dompling/Script/master/gist/restore.js,script-update-interval=0,timeout=60
 # > 威锋论坛
 威锋论坛 = type=cron,cronexp="0 7 6 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/weifeng.js,script-update-interval=0,timeout=30

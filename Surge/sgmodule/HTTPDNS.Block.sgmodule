@@ -19,6 +19,8 @@ DOMAIN,httpdns.bilivideo.com,REJECT
 # > JD
 DOMAIN,dns.jd.com,REJECT
 IP-CIDR,101.124.19.122/32,REJECT,no-resolve
+# > Meituan
+DOMAIN,httpdns.meituan.com,REJECT
 # > Weibo
 DOMAIN,dns.weibo.cn,REJECT
 IP-CIDR,39.97.128.148/32,REJECT,no-resolve
@@ -31,8 +33,6 @@ IP-CIDR,42.187.182.106/32,REJECT,no-resolve
 IP-CIDR,42.187.182.123/32,REJECT,no-resolve
 IP-CIDR,42.187.184.154/32,REJECT,no-resolve
 IP-CIDR,123.151.54.50/32,REJECT,no-resolve
-# > Zhihu
-IP-CIDR,118.89.204.198/23,REJECT,no-resolve
 
 [URL Rewrite]
 # > Alipay
@@ -66,8 +66,6 @@ IP-CIDR,118.89.204.198/23,REJECT,no-resolve
 ^https?:\/\/dns\.weixin\.qq\.com\.cn\/cgi-bin\/micromsg-bin\/newgetdns - reject
 ^https?:\/\/short\.weixin\.qq\.com\/cgi-bin\/micromsg-bin\/getcdndns - reject
 ^https?:\/\/hkextshort\.weixin\.qq\.com\/cgi-bin\/micromsg-bin\/getcdndns - reject
-# > Zhihu
-^http:\/\/103\.41\.167\.237\/v2\/resolv - reject
 
 [MITM]
-hostname = %APPEND% 119.29.29.29, amdc.alipay.com, amdc-sibling.alipay.com.cn, dns.jd.com
+hostname = %APPEND% amdc.alipay.com, amdc-sibling.alipay.com.cn, dns.jd.com

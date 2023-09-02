@@ -99,6 +99,10 @@ DOMAIN-SUFFIX,yammerusercontent.com
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,microsoft
 
+# > Onekey
+DOMAIN-SUFFIX,onekey.so
+DOMAIN-SUFFIX,onekey-asset.com
+
 # > PayPal
 DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,paypal.me

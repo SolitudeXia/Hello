@@ -32,8 +32,8 @@ DOMAIN-SUFFIX,crocs.com
 DOMAIN-SUFFIX,lego.com
 DOMAIN-SUFFIX,mschf.com
 DOMAIN-SUFFIX,newbalance.com
-#DOMAIN-SUFFIX,onekey.so
-#DOMAIN-SUFFIX,onekey-asset.com // onekey
+DOMAIN-SUFFIX,onekey.so
+DOMAIN-SUFFIX,onekey-asset.com // onekey
 DOMAIN-SUFFIX,padandquill.com
 DOMAIN-SUFFIX,rocketsshop.com
 DOMAIN-SUFFIX,store.nba.com

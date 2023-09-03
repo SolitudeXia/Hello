@@ -167,13 +167,13 @@ payload:
   - DOMAIN-SUFFIX,steamchina.com
   
   # > 自用
+  - DOMAIN,daniao.org
+  - DOMAIN,guozh.net
+  - DOMAIN,iyideng.net
   - DOMAIN-SUFFIX,1password.com
   - DOMAIN-SUFFIX,bandswatch.it
-  - DOMAIN-SUFFIX,daniao.org
   - DOMAIN-SUFFIX,greasyfork.org
-  - DOMAIN-SUFFIX,guozh.net
   - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,iyideng.net
   - DOMAIN-SUFFIX,morss.it
   - DOMAIN-SUFFIX,owenyoung.com
   - DOMAIN-SUFFIX,oyunfor.com

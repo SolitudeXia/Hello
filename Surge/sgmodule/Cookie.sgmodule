@@ -8,7 +8,7 @@
 # > 哔哩哔哩 app获取
 B站cookie = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/domain\?,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/BiliBili.js,script-update-interval=-1
 # > 阿里云盘 app获取
-阿里云盘cookie = type=http-response,pattern=https:\/\/auth.aliyundrive.com\/v2\/account\/token,requires-body=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js,script-update-interval=-1
+阿里云盘cookie = type=http-response,pattern=https:\/\/auth.alipan.com\/v2\/account\/token,requires-body=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js,script-update-interval=-1
 # > 什么值得买 app获取
 什么值得买cookie = type=http-request,pattern=^https?:\/\/user-api\.smzdm\.com\/checkin$,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js,script-update-interval=-1
 # > 美团 app获取
@@ -46,4 +46,4 @@ Bing积分cookie = type=http-request,pattern=https:\/\/rewards\.bing\.com,script
 建行生活cookie = type=http-request,pattern=^https:\/\/yunbusiness\.ccb\.com\/clp_coupon\/txCtrl\?txcode=A3341A040,requires-body=1,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% m.weibo.cn, app.bilibili.com, auth.aliyundrive.com, user-api.smzdm.com, i.meituan.com, mall.meituan.com, mobile.ximalaya.com, e.189.cn, open.e.189.cn, ms.jr.jd.com, me-api.jd.com, rewards.bing.com, club.yili.com, my.ruanmei.com, api.wfdata.club, cdn.jegotrip.com.cn, app.jegotrip.com.cn, apph5.manmanbuy.com, sytgate.jslife.com.cn, yunbusiness.ccb.com
+hostname = %APPEND% m.weibo.cn, app.bilibili.com, auth.alipan.com, user-api.smzdm.com, i.meituan.com, mall.meituan.com, mobile.ximalaya.com, e.189.cn, open.e.189.cn, ms.jr.jd.com, me-api.jd.com, rewards.bing.com, club.yili.com, my.ruanmei.com, api.wfdata.club, cdn.jegotrip.com.cn, app.jegotrip.com.cn, apph5.manmanbuy.com, sytgate.jslife.com.cn, yunbusiness.ccb.com

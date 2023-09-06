@@ -53,6 +53,8 @@ Weibo = type=http-response,pattern=^https:\/\/wbapp\.uve\.weibo\.com\/wbapplua\/
 Weibo = type=http-request,pattern=^https:\/\/weibo\.cn\/sinaurl\?(.*&)?(u|toasturl|goto)=,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/noRedirect.js,script-update-interval=-1
 Weibo = type=http-request,pattern=^https:\/\/shop\.sc\.weibo\.com\/h5\/jump\/error\?(.*&)?url=,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/noRedirect.js,script-update-interval=-1
 Weibo = type=http-response,pattern=^https:\/\/(sinaurl|t)\.cn\/,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/noRedirect.js,script-update-interval=-1
+# > 会员图标
+Weibo = type=http-response,pattern=^https:\/\/new\.vip\.weibo\.cn\/aj\/appicon\/list\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% api.weibo.cn, *.uve.weibo.com, card.weibo.com, weibo.com, weibo.cn, shop.sc.weibo.com, t.cn, sinaurl.cn
+hostname = %APPEND% *.weibo.cn, *.weibo.com, sinaurl.cn, t.cn weibo.cn

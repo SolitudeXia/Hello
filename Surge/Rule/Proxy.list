@@ -50,11 +50,6 @@ DOMAIN-SUFFIX,hockeyapp.net
 DOMAIN-SUFFIX,readdle.com
 DOMAIN-SUFFIX,smartmailcloud.com
 
-# > Spotify
-DOMAIN-SUFFIX,pscdn.co
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-KEYWORD,spotify
-
 # > Surge
 DOMAIN,surge.mitsea.com
 DOMAIN-SUFFIX,nssurge.com

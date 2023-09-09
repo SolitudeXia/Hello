@@ -94,11 +94,6 @@ payload:
   - DOMAIN-SUFFIX,redditmedia.com
   - DOMAIN-SUFFIX,redditstatic.com
   
-  # > Spotify
-  - DOMAIN-SUFFIX,pscdn.co
-  - DOMAIN-SUFFIX,scdn.co
-  - DOMAIN-KEYWORD,spotify
-  
   # > Surge
   - DOMAIN,surge.mitsea.com
   - DOMAIN-SUFFIX,nssurge.com

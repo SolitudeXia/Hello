@@ -74,6 +74,7 @@ DOMAIN-SUFFIX,vine.co
 DOMAIN-KEYWORD,twitter
 
 # > Wikimedia // 维基
+DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikipedia.org
 
 # > Other // ABCDEFGHIJKLMNOPQRSTUVWXYZ
@@ -159,6 +160,7 @@ DOMAIN-SUFFIX,theguardian.com // 卫报
 DOMAIN-SUFFIX,theideviceblog.com
 DOMAIN-SUFFIX,theinitium.com
 DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,virustotal.com
 DOMAIN-SUFFIX,voachinese.com // 美国之音
 DOMAIN-SUFFIX,wallhaven.cc
 DOMAIN-SUFFIX,wanqu.co

@@ -47,6 +47,8 @@ payload:
   - DOMAIN-KEYWORD,blogspot
   - DOMAIN-KEYWORD,gmail
   - DOMAIN-KEYWORD,google
+  - IP-CIDR,74.125.0.0/16,no-resolve
+  - IP-CIDR,173.194.0.0/16,no-resolve
   
   # > YouTube
   - DOMAIN-SUFFIX,youtu.be

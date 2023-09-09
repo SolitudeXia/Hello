@@ -47,11 +47,9 @@ IT之家 = type=cron,cronexp="0 9 12 * * ?",wake-system=1,script-path=https://ra
 顺丰速运 = type=cron,cronexp="0 10 12 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js,script-update-interval=0,timeout=30
 # > 切换会话
 #切换会话 = type=cron,cronexp="0 11 11 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js,script-update-interval=0,timeout=60
-# > 慢慢买
-#慢慢买 = type=cron,cronexp="0 11 12 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js,script-update-interval=0,timeout=30
 # > 高德地图
-高德地图 = type=cron,cronexp="0 12 12 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js,script-update-interval=0,timeout=60
+高德地图 = type=cron,cronexp="0 11 12 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js,script-update-interval=0,timeout=60
 # > 捷停车
-捷停车 = type=cron,cronexp="0 13 12 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jparking_sign.js,script-update-interval=0,timeout=30
+捷停车 = type=cron,cronexp="0 12 12 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jparking_sign.js,script-update-interval=0,timeout=30
 # > 建行生活
-建行生活 = type=cron,cronexp="0 14 12 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js,script-update-interval=0,timeout=60
+建行生活 = type=cron,cronexp="0 13 12 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js,script-update-interval=0,timeout=60

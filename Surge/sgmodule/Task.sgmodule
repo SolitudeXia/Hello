@@ -26,7 +26,7 @@
 数据备份 = type=cron,cronexp="0 23 21 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/dompling/Script/master/gist/backup.js,script-update-interval=0,timeout=60
 #数据恢复 = type=cron,cronexp="0 24 21 1 * ?",wake-system=1,script-path=https://raw.githubusercontent.com/dompling/Script/master/gist/restore.js,script-update-interval=0,timeout=60
 # > 威锋论坛
-威锋论坛 = type=cron,cronexp="0 7 12 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/weifeng.js,script-update-interval=0,timeout=30
+威锋论坛 = type=cron,cronexp="0 7 14 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/weifeng.js,script-update-interval=0,timeout=30
 # > 京东资产变动
 京东资产变动 = type=cron,cronexp="0 23 22 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/jd_bean_change.js,script-update-interval=0,timeout=60
 # > 取关京东店铺商品
@@ -35,21 +35,21 @@
 汇率监控 = type=cron,cronexp="0 30 19 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js,script-update-interval=0,timeout=60
 # > 每日一言
 每日一言 = type=cron,cronexp="7 7 7 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/One.js,script-update-interval=0,timeout=30
-# > Bing积分
-Bing积分 = type=cron,cronexp="0 9 9 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js,script-update-interval=0,timeout=500
 # > 伊利乳品
-伊利乳品 = type=cron,cronexp="0 8 12 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.js,script-update-interval=0,timeout=30
+伊利乳品 = type=cron,cronexp="0 8 14 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.js,script-update-interval=0,timeout=30
 # > IT之家
-IT之家 = type=cron,cronexp="0 9 12 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ithome/ithome.js,script-update-interval=0,timeout=30
+IT之家 = type=cron,cronexp="0 9 14 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ithome/ithome.js,script-update-interval=0,timeout=30
 # > 哔哩哔哩番剧监控
 番剧监控 = type=cron,cronexp="0 30 10 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/bangumiMonitor.js,script-update-interval=0,timeout=60
 # > 顺丰速运
-顺丰速运 = type=cron,cronexp="0 10 12 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js,script-update-interval=0,timeout=30
+顺丰速运 = type=cron,cronexp="0 10 14 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js,script-update-interval=0,timeout=30
 # > 切换会话
 #切换会话 = type=cron,cronexp="0 11 11 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js,script-update-interval=0,timeout=60
 # > 高德地图
-高德地图 = type=cron,cronexp="0 11 12 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js,script-update-interval=0,timeout=60
+高德地图 = type=cron,cronexp="0 11 14 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js,script-update-interval=0,timeout=60
 # > 捷停车
-捷停车 = type=cron,cronexp="0 12 12 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jparking_sign.js,script-update-interval=0,timeout=30
+捷停车 = type=cron,cronexp="0 12 14 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jparking_sign.js,script-update-interval=0,timeout=30
 # > 建行生活
-建行生活 = type=cron,cronexp="0 13 12 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js,script-update-interval=0,timeout=60
+建行生活 = type=cron,cronexp="0 13 14 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js,script-update-interval=0,timeout=60
+# > Bing积分
+Bing积分 = type=cron,cronexp="0 14 14 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js,script-update-interval=0,timeout=500

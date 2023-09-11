@@ -167,7 +167,8 @@ payload:
   - DOMAIN-SUFFIX,steamchina.com
   
   # > 自用
-  - DOMAIN,static.iyzipay.com
+  - DOMAIN-SUFFIX,iyzipay.com
+  - DOMAIN-SUFFIX,oyunfor.com
   - DOMAIN,daniao.org
   - DOMAIN,guozh.net
   - DOMAIN,iyideng.net
@@ -179,7 +180,6 @@ payload:
   - DOMAIN-SUFFIX,identrust.com
   - DOMAIN-SUFFIX,morss.it
   - DOMAIN-SUFFIX,owenyoung.com
-  - DOMAIN-SUFFIX,oyunfor.com
   - DOMAIN-SUFFIX,tampermonkey.net
   - DOMAIN-SUFFIX,transrush.com
   

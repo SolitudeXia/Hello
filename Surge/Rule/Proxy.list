@@ -78,9 +78,12 @@ DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikipedia.org
 
 # > Other // ABCDEFGHIJKLMNOPQRSTUVWXYZ
+DOMAIN,basicappleguy.com
 DOMAIN,disney.api.edge.bamgrid.com
 DOMAIN,gallery.scriptable.app
+DOMAIN,images.squarespace-cdn.com // basicappleguy相关
 DOMAIN,miaona.info
+DOMAIN,static1.squarespace.com // basicappleguy相关
 DOMAIN,sub-store.vercel.app // sub-store
 DOMAIN,www.linking.vision
 DOMAIN,www.safe-in-cloud.com

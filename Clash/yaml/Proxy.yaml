@@ -143,12 +143,16 @@ payload:
   - DOMAIN-SUFFIX,wiktionary.org
   
   # > Other
+  - DOMAIN,basicappleguy.com
+  - DOMAIN,images.squarespace-cdn.com
+  - DOMAIN,static1.squarespace.com
+  #
+  - DOMAIN,hengshu.org
   - DOMAIN,www.safe-in-cloud.com
   - DOMAIN,zhaojiaren.club
   - DOMAIN-SUFFIX,91porn.com
   - DOMAIN-SUFFIX,adtidy.org
   - DOMAIN-SUFFIX,afreecatv.com
-  - DOMAIN-SUFFIX,basicappleguy.com
   - DOMAIN-SUFFIX,brave.com
   - DOMAIN-SUFFIX,deepl.com
   - DOMAIN-SUFFIX,duckduckgo.com

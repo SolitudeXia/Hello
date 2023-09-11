@@ -167,8 +167,10 @@ payload:
   - DOMAIN-SUFFIX,steamchina.com
   
   # > 自用
+  - DOMAIN,ws.mgmtekno.com
   - DOMAIN-SUFFIX,iyzipay.com
   - DOMAIN-SUFFIX,oyunfor.com
+  #
   - DOMAIN,daniao.org
   - DOMAIN,guozh.net
   - DOMAIN,iyideng.net

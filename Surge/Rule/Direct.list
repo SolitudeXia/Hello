@@ -320,8 +320,10 @@ DOMAIN-SUFFIX,yun-hl.3g.qq.com
 # ------
 
 # > For Myself
+DOMAIN,book-searcher.eu.org
 DOMAIN,coolshell.cn
 DOMAIN,dayone.app
+DOMAIN,firewood.news // 积薪
 DOMAIN,guozh.net
 DOMAIN,iyideng.net
 DOMAIN,lc.liuguogy.com

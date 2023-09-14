@@ -18,10 +18,12 @@ DOMAIN,embyplus.org
 DOMAIN,public.emby.ws
 
 # RSS
+DOMAIN,blog.dejavu.moe
 DOMAIN,blog.rongxin.moe
 DOMAIN,blog.skk.moe
 DOMAIN,feeds.feedburner.com
 DOMAIN,limboy.me
+DOMAIN,nyan.im
 DOMAIN,quoth.win
 DOMAIN,sogola.eth.limo
 DOMAIN,weekly.tw93.fun

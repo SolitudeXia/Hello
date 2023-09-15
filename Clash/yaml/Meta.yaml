@@ -2,6 +2,7 @@ payload:
   # > Facebook
   - DOMAIN-SUFFIX,fb.com
   - DOMAIN-SUFFIX,fb.me
+  - DOMAIN-SUFFIX,fbsbx.com
   - DOMAIN-KEYWORD,facebook
   - DOMAIN-KEYWORD,fbcdn
   

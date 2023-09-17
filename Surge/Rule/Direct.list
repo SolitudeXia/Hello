@@ -77,6 +77,7 @@ IP-CIDR,129.226.3.47/32,no-resolve
 IP-CIDR,129.226.107.244/32,no-resolve
 IP-CIDR,150.109.3.9/32,no-resolve
 IP-CIDR,162.62.163.63/32,no-resolve
+IP-CIDR,203.205.234.132/32,no-resolve
 
 # > For Myself
 DOMAIN,book-searcher.eu.org
@@ -110,3 +111,6 @@ DOMAIN-SUFFIX,typeform.com
 DOMAIN-SUFFIX,williamlong.info
 DOMAIN-SUFFIX,wired.com
 DOMAIN-SUFFIX,wise.com
+IP-CIDR,17.248.226.7/32,no-resolve
+IP-CIDR,43.156.255.184/32,no-resolve
+IP-CIDR,43.156.223.202/32,no-resolve

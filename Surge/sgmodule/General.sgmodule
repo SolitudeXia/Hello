@@ -13,4 +13,4 @@ always-real-ip = *.lan, cable.auth.com, *.srv.nintendo.net, *.stun.playstation.n
 
 [MitM]
 # 不可MitM也不应该被打断连接的域名
-hostname = %INSERT% -gateway.icloud.com, -weather-data.apple.com, -buy.itunes.apple.com, -pan.baidu.com
+hostname = %INSERT% -gateway.icloud.com, -weather-data.apple.com, -buy.itunes.apple.com

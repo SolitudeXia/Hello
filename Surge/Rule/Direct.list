@@ -78,6 +78,7 @@ IP-CIDR,162.62.163.63/32,no-resolve
 DOMAIN,book-searcher.eu.org
 DOMAIN,coolshell.cn
 DOMAIN,dayone.app
+DOMAIN,files.catbox.moe
 DOMAIN,firewood.news // 积薪
 DOMAIN,guozh.net
 DOMAIN,iyideng.net
@@ -97,6 +98,7 @@ DOMAIN-SUFFIX,fileball.app
 DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,imarkr.com
 DOMAIN-SUFFIX,owenyoung.com // 沉浸式翻译
+DOMAIN-SUFFIX,oyunfor.com
 DOMAIN-SUFFIX,qiyoujiage.com
 DOMAIN-SUFFIX,rarbgmirror.org
 DOMAIN-SUFFIX,revenuecat.com

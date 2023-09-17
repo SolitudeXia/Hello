@@ -1,3 +1,34 @@
+# > Alibaba
+DOMAIN-SUFFIX,acjs.aliyun.com
+DOMAIN-SUFFIX,adash-c.m.taobao.com
+DOMAIN-SUFFIX,adash-c.ut.taobao.com
+DOMAIN-SUFFIX,adashx4yt.m.taobao.com
+DOMAIN-SUFFIX,adashxgc.ut.taobao.com
+DOMAIN-SUFFIX,afp.alicdn.com
+DOMAIN-SUFFIX,ai.m.taobao.com
+DOMAIN-SUFFIX,alipaylog.com
+DOMAIN-SUFFIX,atanx.alicdn.com
+DOMAIN-SUFFIX,atanx2.alicdn.com
+DOMAIN-SUFFIX,fav.simba.taobao.com
+DOMAIN-SUFFIX,g.click.taobao.com
+DOMAIN-SUFFIX,g.tbcdn.cn
+DOMAIN-SUFFIX,gma.alicdn.com
+DOMAIN-SUFFIX,gtmsdd.alicdn.com
+DOMAIN-SUFFIX,hydra.alibaba.com
+DOMAIN-SUFFIX,m.simba.taobao.com
+DOMAIN-SUFFIX,pindao.huoban.taobao.com
+DOMAIN-SUFFIX,re.m.taobao.com
+DOMAIN-SUFFIX,redirect.simba.taobao.com
+DOMAIN-SUFFIX,rj.m.taobao.com
+DOMAIN-SUFFIX,sdkinit.taobao.com
+DOMAIN-SUFFIX,show.re.taobao.com
+DOMAIN-SUFFIX,simaba.m.taobao.com
+DOMAIN-SUFFIX,simaba.taobao.com
+DOMAIN-SUFFIX,srd.simba.taobao.com
+DOMAIN-SUFFIX,strip.taobaocdn.com
+DOMAIN-SUFFIX,tns.simba.taobao.com
+DOMAIN-SUFFIX,tyh.taobao.com
+
 # > Apple
 DOMAIN,api-adservices.apple.com
 DOMAIN,app-site-association.cdn-apple.com // Safari 防跳转
@@ -16,14 +47,26 @@ DOMAIN,ad.cyapi.cn
 # > ChatGPT
 DOMAIN,o33249.ingest.sentry.io
 
-# > Foreca & Google
-DOMAIN,adservice.google.com
-DOMAIN,googleads.g.doubleclick-cn.net
-DOMAIN,googleads.g.doubleclick.net
-DOMAIN,pagead2.googlesyndication.com
-DOMAIN,pubads.g.doubleclick.net
-DOMAIN,www.googleadservices.com
-DOMAIN-KEYWORD,adservice.google.com.
+# > Google
+DOMAIN-SUFFIX,admob.com
+DOMAIN-SUFFIX,ads.gmodules.com
+DOMAIN-SUFFIX,ads.google.com
+DOMAIN-SUFFIX,adservice.google.com
+DOMAIN-SUFFIX,afd.l.google.com
+DOMAIN-SUFFIX,badad.googleplex.com
+DOMAIN-SUFFIX,csi.gstatic.com
+DOMAIN-SUFFIX,doubleclick.com
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googleadsserving.cn
+DOMAIN-SUFFIX,googlecommerce.com
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,mobileads.google.com
+DOMAIN-SUFFIX,pagead-tpc.l.google.com
+DOMAIN-SUFFIX,pagead.google.com
+DOMAIN-SUFFIX,pagead.l.google.com
+DOMAIN-SUFFIX,service.urchin.com
 
 # > 高德地图
 DOMAIN,amap-aos-info-nogw.amap.com
@@ -37,6 +80,9 @@ DOMAIN,open.e.kuaishou.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
+
+# > 京东
+DOMAIN-SUFFIX,jdqd.jd.com
 
 # > 美团
 DOMAIN,al-log.d.meituan.net
@@ -53,12 +99,11 @@ DOMAIN-SUFFIX,umeng.cn
 DOMAIN-SUFFIX,umeng.com
 DOMAIN-SUFFIX,umengcloud.com
 
-# > 微博 (开屏广告)
-DOMAIN,adstrategy.biz.weibo.com
-DOMAIN,kadmimage.biz.weibo.com
-DOMAIN,sdkaction.biz.weibo.com
-DOMAIN,sdkclick.biz.weibo.com
-DOMAIN,sdkmonitor.biz.weibo.com
+# > 小红书
+DOMAIN,ads-img-qc.xhscdn.com
+DOMAIN,ads-video-al.xhscdn.com
+DOMAIN,ads-video-qc.xhscdn.com
+DOMAIN,t-ads.xiaohongshu.com
 
 # > 云闪付 开屏广告
 DOMAIN,ads.95516.com

@@ -82,6 +82,7 @@ DOMAIN,basicappleguy.com
 DOMAIN,blog.yitianshijie.net // 一天世界
 DOMAIN,disney.api.edge.bamgrid.com
 DOMAIN,gallery.scriptable.app
+DOMAIN,hezu.wiki // 合租
 DOMAIN,images.squarespace-cdn.com // basicappleguy相关
 DOMAIN,libgen.li
 DOMAIN,miaona.info
@@ -116,6 +117,7 @@ DOMAIN-SUFFIX,disneyplus.com // Disney
 DOMAIN-SUFFIX,duckduckgo.com
 DOMAIN-SUFFIX,duolingo.com
 DOMAIN-SUFFIX,e-hentai.org // E站
+DOMAIN-SUFFIX,endel.io
 DOMAIN-SUFFIX,figma.com
 DOMAIN-SUFFIX,fox.com
 DOMAIN-SUFFIX,foxnews.com

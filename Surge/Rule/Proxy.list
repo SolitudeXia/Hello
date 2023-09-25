@@ -86,6 +86,8 @@ DOMAIN,hezu.wiki // 合租
 DOMAIN,images.squarespace-cdn.com // basicappleguy相关
 DOMAIN,libgen.li
 DOMAIN,miaona.info
+DOMAIN,paste.ee
+DOMAIN,paste.gg
 DOMAIN,static1.squarespace.com // basicappleguy相关
 DOMAIN,sub-store.vercel.app // sub-store
 DOMAIN,www.linking.vision
@@ -147,7 +149,6 @@ DOMAIN-SUFFIX,nyt.com // 纽约时报
 DOMAIN-SUFFIX,nytimes.com // 纽约时报
 DOMAIN-SUFFIX,okx.com // 欧易
 DOMAIN-SUFFIX,overflow.design //图标集
-DOMAIN-SUFFIX,paste.gg
 DOMAIN-SUFFIX,pepcn.com // 壹页单章
 DOMAIN-SUFFIX,producthunt.com
 DOMAIN-SUFFIX,quantumult.app

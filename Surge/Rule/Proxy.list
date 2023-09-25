@@ -181,5 +181,6 @@ DOMAIN-SUFFIX,yahoo.com // 雅虎
 DOMAIN-SUFFIX,zaobao.com // 联合早报
 DOMAIN-SUFFIX,zaobao.com.sg // 联合早报
 DOMAIN-SUFFIX,zhiboz.com // 直播吧
+DOMAIN-KEYWORD,github
 IP-CIDR,1.0.0.1/32,no-resolve
 IP-CIDR,8.8.4.4/32,no-resolve

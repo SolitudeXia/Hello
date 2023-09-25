@@ -148,6 +148,8 @@ payload:
   - DOMAIN,static1.squarespace.com
   #
   - DOMAIN,hengshu.org
+  - DOMAIN,paste.ee
+  - DOMAIN,paste.gg
   - DOMAIN,www.safe-in-cloud.com
   - DOMAIN,zhaojiaren.club
   - DOMAIN-SUFFIX,91porn.com

@@ -78,6 +78,7 @@ DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikipedia.org
 
 # > Other // ABCDEFGHIJKLMNOPQRSTUVWXYZ
+DOMAIN,api.themoviedb.org // infuse
 DOMAIN,basicappleguy.com
 DOMAIN,blog.yitianshijie.net // 一天世界
 DOMAIN,disney.api.edge.bamgrid.com
@@ -103,6 +104,7 @@ DOMAIN-SUFFIX,appagg.com
 DOMAIN-SUFFIX,appleinsider.com
 DOMAIN-SUFFIX,appraven.net
 DOMAIN-SUFFIX,arc.net
+DOMAIN-SUFFIX,bloomberg.com
 DOMAIN-SUFFIX,blueseamusics.com
 DOMAIN-SUFFIX,buzzing.cc
 DOMAIN-SUFFIX,chinadigitaltimes.net // 中国数字时代

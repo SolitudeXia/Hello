@@ -87,9 +87,11 @@ DOMAIN,dayone.app
 DOMAIN,files.catbox.moe
 DOMAIN,firewood.news // 积薪
 DOMAIN,guozh.net
+DOMAIN,image.tmdb.org // infuse
 DOMAIN,iyideng.net
 DOMAIN,lc.liuguogy.com
 DOMAIN,meta.appinn.net // 小众软件
+DOMAIN,movie-api.infuse.im // infuse
 DOMAIN,r3.o.lencr.org
 DOMAIN,stayfork.app
 DOMAIN,www.daniao.org
@@ -109,6 +111,7 @@ DOMAIN-SUFFIX,oyunfor.com
 DOMAIN-SUFFIX,qiyoujiage.com
 DOMAIN-SUFFIX,rarbgmirror.org
 DOMAIN-SUFFIX,revenuecat.com
+DOMAIN-SUFFIX,trakt.tv
 DOMAIN-SUFFIX,typeform.com
 DOMAIN-SUFFIX,williamlong.info
 DOMAIN-SUFFIX,wired.com

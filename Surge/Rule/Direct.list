@@ -97,6 +97,7 @@ DOMAIN,iyideng.net
 DOMAIN,lc.liuguogy.com
 DOMAIN,meta.appinn.net // 小众软件
 DOMAIN,movie-api.infuse.im // infuse
+DOMAIN,onekey.zendesk.com
 DOMAIN,r3.o.lencr.org
 DOMAIN,stayfork.app
 DOMAIN,www.daniao.org
@@ -105,6 +106,7 @@ DOMAIN,xteko.com
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,authy.com
 DOMAIN-SUFFIX,bandswatch.it
+DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,data.nba.com
 DOMAIN-SUFFIX,dochub.wiki
 DOMAIN-SUFFIX,fileball.app

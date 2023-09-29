@@ -109,7 +109,7 @@ DOMAIN-SUFFIX,blueseamusics.com
 DOMAIN-SUFFIX,buzzing.cc
 DOMAIN-SUFFIX,chinadigitaltimes.net // 中国数字时代
 DOMAIN-SUFFIX,chron.com
-DOMAIN-SUFFIX,cloudfront.net
+#DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,coingecko.com
 DOMAIN-SUFFIX,craft.do
 DOMAIN-SUFFIX,cryptomator.org

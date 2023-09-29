@@ -37,6 +37,11 @@ DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,onedrive
 
+# > OKX
+DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,oklink.com
+DOMAIN-SUFFIX,okx.com
+
 # > PayPal
 DOMAIN-SUFFIX,paypal.com
 DOMAIN-SUFFIX,paypal.me

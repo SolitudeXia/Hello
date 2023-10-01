@@ -86,6 +86,7 @@ IP-CIDR,162.62.163.63/32,no-resolve
 IP-CIDR,203.205.234.132/32,no-resolve
 
 # > For Myself
+DOMAIN,api.onekeycn.com
 DOMAIN,book-searcher.eu.org
 DOMAIN,coolshell.cn
 DOMAIN,dayone.app
@@ -98,6 +99,7 @@ DOMAIN,lc.liuguogy.com
 DOMAIN,meta.appinn.net // 小众软件
 DOMAIN,movie-api.infuse.im // infuse
 DOMAIN,onekey.zendesk.com
+DOMAIN,polygonscan.com
 DOMAIN,r3.o.lencr.org
 DOMAIN,stayfork.app
 DOMAIN,www.daniao.org
@@ -113,6 +115,7 @@ DOMAIN-SUFFIX,fileball.app
 DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,imarkr.com
 DOMAIN-SUFFIX,iyzipay.com // 土区礼品卡支付
+DOMAIN-SUFFIX,onekey-asset.com
 DOMAIN-SUFFIX,owenyoung.com // 沉浸式翻译
 DOMAIN-SUFFIX,oyunfor.com
 DOMAIN-SUFFIX,qiyoujiage.com

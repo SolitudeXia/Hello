@@ -58,6 +58,7 @@ DOMAIN,al-log.d.meituan.net
 DOMAIN,babel-statistics-android.d.meituan.net
 DOMAIN,maplocatesdksnapshot.d.meituan.net
 DOMAIN,metrics-picture.d.meituan.net
+DOMAIN,ntp.nasa.gov
 DOMAIN,route-stats.d.meituan.net
 
 # > 什么值得买

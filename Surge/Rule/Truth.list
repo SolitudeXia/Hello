@@ -37,7 +37,3 @@ DOMAIN,zu1k.com
 DOMAIN-SUFFIX,rsshub.app
 
 # IPTV
-DOMAIN,svtv.xyz
-DOMAIN,lb20.enlasnubes.xyz
-IP-CIDR,51.81.67.131/32,no-resolve
-IP-CIDR,206.72.200.2/32,no-resolve

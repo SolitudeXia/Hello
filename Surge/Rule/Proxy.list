@@ -86,6 +86,7 @@ DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikipedia.org
 
 # > Other // ABCDEFGHIJKLMNOPQRSTUVWXYZ
+DOMAIN,api.onesignal.com
 DOMAIN,api.themoviedb.org // infuse
 DOMAIN,basicappleguy.com
 DOMAIN,blog.yitianshijie.net // 一天世界
@@ -93,6 +94,7 @@ DOMAIN,disney.api.edge.bamgrid.com
 DOMAIN,gallery.scriptable.app
 DOMAIN,hezu.wiki // 合租
 DOMAIN,images.squarespace-cdn.com // basicappleguy相关
+DOMAIN,iphone8.vip // 小良更新器
 DOMAIN,libgen.li
 DOMAIN,miaona.info
 DOMAIN,paste.ee

@@ -127,3 +127,4 @@ DOMAIN-SUFFIX,wise.com
 IP-CIDR,17.248.226.7/32,no-resolve
 IP-CIDR,43.156.255.184/32,no-resolve
 IP-CIDR,43.156.223.202/32,no-resolve
+IP-CIDR,170.254.172.10/32,no-resolve

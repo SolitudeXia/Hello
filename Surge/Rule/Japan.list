@@ -1,3 +1,11 @@
+# > NBA
+DOMAIN,cdn.nba.com
+DOMAIN,data.nba.com
+DOMAIN,global.nba.com
+DOMAIN,nba.com
+DOMAIN,store.nba.com
+DOMAIN,www.nba.com
+
 # > pixiv
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pixiv.org

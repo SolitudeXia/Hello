@@ -39,6 +39,12 @@ DOMAIN-SUFFIX,cloudflarestream.com
 DOMAIN-SUFFIX,every1dns.net
 DOMAIN-SUFFIX,workers.dev
 
+# > NBA
+DOMAIN,cdn.nba.com
+DOMAIN,data.nba.com
+DOMAIN,global.nba.com
+DOMAIN,store.nba.com
+
 # > OpenAi
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,auth0.com
@@ -64,7 +70,6 @@ DOMAIN-SUFFIX,newbalance.com
 DOMAIN-SUFFIX,onekey.so
 DOMAIN-SUFFIX,padandquill.com
 DOMAIN-SUFFIX,rocketsshop.com
-DOMAIN-SUFFIX,store.nba.com
 DOMAIN-SUFFIX,ultramobile.com // paygo
 DOMAIN-SUFFIX,walletconnect.com
 DOMAIN-SUFFIX,yubico.com

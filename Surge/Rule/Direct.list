@@ -41,12 +41,6 @@ DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,oklink.com
 DOMAIN-SUFFIX,okx.com
 
-# > PayPal
-DOMAIN-SUFFIX,paypal.com
-DOMAIN-SUFFIX,paypal.me
-DOMAIN-SUFFIX,paypal-mktg.com
-DOMAIN-SUFFIX,paypalobjects.com
-
 # > Wechat
 DOMAIN,dl.wechat.com
 DOMAIN,sgfindershort.wechat.com
@@ -123,6 +117,7 @@ DOMAIN-SUFFIX,typeform.com
 DOMAIN-SUFFIX,williamlong.info
 DOMAIN-SUFFIX,wired.com
 DOMAIN-SUFFIX,wise.com
+DOMAIN-KEYWORD,paypal
 IP-CIDR,17.248.226.7/32,no-resolve
 IP-CIDR,43.156.255.184/32,no-resolve
 IP-CIDR,43.156.223.202/32,no-resolve

@@ -39,14 +39,6 @@ DOMAIN-SUFFIX,cloudflarestream.com
 DOMAIN-SUFFIX,every1dns.net
 DOMAIN-SUFFIX,workers.dev
 
-# > NBA
-DOMAIN,cdn.nba.com
-DOMAIN,data.nba.com
-DOMAIN,global.nba.com
-DOMAIN,nba.com
-DOMAIN,store.nba.com
-DOMAIN,www.nba.com
-
 # > OpenAi
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,auth0.com

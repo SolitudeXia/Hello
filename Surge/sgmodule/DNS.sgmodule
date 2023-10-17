@@ -82,7 +82,7 @@ upos-sz-upcdnbd??.bilivideo.com = server:180.76.76.76 // BiliBili upos视频服�
 upos-sz-upcdntx.bilivideo.com = server:119.29.29.29 // BiliBili upos视频服务器（腾讯云）
 
 # > PayPal
-*.paypal.com = server:https://cloudflare-dns.com/dns-query
-*.paypal.me = server:https://cloudflare-dns.com/dns-query
-*.paypal-mktg.com = server:https://cloudflare-dns.com/dns-query
-*.paypalobjects.com = server:https://cloudflare-dns.com/dns-query
+*.paypal.com = server:https://dns.alidns.com/dns-query
+*.paypal.me = server:https://dns.alidns.com/dns-query
+*.paypal-mktg.com = server:https://dns.alidns.com/dns-query
+*.paypalobjects.com = server:https://dns.alidns.com/dns-query

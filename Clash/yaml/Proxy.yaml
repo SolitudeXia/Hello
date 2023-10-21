@@ -12,31 +12,6 @@ payload:
   - DOMAIN-SUFFIX,adguard.com
   - DOMAIN-SUFFIX,adguard.org
   
-  # > Amazon
-  - DOMAIN,atv-ps.amazon.com
-  - DOMAIN,avodmp4s3ww-a.akamaihd.net
-  - DOMAIN,d1v5ir2lpwr8os.cloudfront.net
-  - DOMAIN,d1xfray82862hr.cloudfront.net
-  - DOMAIN,d22qjgkvxw22r6.cloudfront.net
-  - DOMAIN,d25xi40x97liuc.cloudfront.net
-  - DOMAIN,d27xxe7juh1us6.cloudfront.net
-  - DOMAIN,d3196yreox78o9.cloudfront.net
-  - DOMAIN,dmqdd6hw24ucf.cloudfront.net
-  - DOMAIN,ktpx.amazon.com
-  - DOMAIN-SUFFIX,aboutamazon.com
-  - DOMAIN-SUFFIX,aiv-cdn.net
-  - DOMAIN-SUFFIX,aiv-delivery.net
-  - DOMAIN-SUFFIX,amazon.com
-  - DOMAIN-SUFFIX,amazon.jobs
-  - DOMAIN-SUFFIX,amazonaws.com
-  - DOMAIN-SUFFIX,amazontools.com
-  - DOMAIN-SUFFIX,amazonuniversity.jobs
-  - DOMAIN-SUFFIX,amazonvideo.com
-  - DOMAIN-SUFFIX,media-amazon.com
-  - DOMAIN-SUFFIX,pv-cdn.net
-  - DOMAIN-SUFFIX,seattlespheres.com
-  - DOMAIN-KEYWORD,avoddashs
-  
   # > BBC
   - DOMAIN-SUFFIX,bbc.co
   - DOMAIN-SUFFIX,bbc.com
@@ -54,6 +29,13 @@ payload:
   # > Espn
   - DOMAIN-SUFFIX,espn.com
   - DOMAIN-SUFFIX,espn.net
+
+  # > Facebook
+  - DOMAIN-SUFFIX,fb.com
+  - DOMAIN-SUFFIX,fb.me
+  - DOMAIN-SUFFIX,fbsbx.com
+  - DOMAIN-KEYWORD,facebook
+  - DOMAIN-KEYWORD,fbcdn
   
   # > GitLab
   - DOMAIN-SUFFIX,gitlab-static.net
@@ -61,9 +43,17 @@ payload:
   - DOMAIN-SUFFIX,gitlab.io
   - DOMAIN-SUFFIX,gitlab.net
 
+  # > Instagram
+  - DOMAIN-SUFFIX,instagr.am
+  - DOMAIN-KEYWORD,instagram
+
   # > Mastodon //长毛象
   - DOMAIN-SUFFIX,mastodon.social
   - DOMAIN-SUFFIX,m.cmx.im
+
+  # > Nintendo
+  - DOMAIN-SUFFIX,nintendo.com
+  - DOMAIN-SUFFIX,nintendo.net
   
   # > Notion
   - DOMAIN-SUFFIX,notion-static.com
@@ -81,6 +71,11 @@ payload:
   - DOMAIN-SUFFIX,shotwithgeforce.com
   - DOMAIN-SUFFIX,tegrazone.co
   - DOMAIN-SUFFIX,tegrazone.com
+
+  # > pixiv
+  - DOMAIN-SUFFIX,pixiv.net
+  - DOMAIN-SUFFIX,pixiv.org
+  - DOMAIN-SUFFIX,pximg.net
   
   # > Pornhub
   - DOMAIN-SUFFIX,phncdn.com
@@ -175,4 +170,3 @@ payload:
   - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,you.com
   - DOMAIN-SUFFIX,zhiboz.com
-  - DOMAIN-KEYWORD,github

@@ -32,11 +32,22 @@ DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,dropboxusercontent.com
 
+# > Facebook
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-KEYWORD,facebook
+DOMAIN-KEYWORD,fbcdn
+
 # > GitLab
 DOMAIN-SUFFIX,gitlab-static.net
 DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,gitlab.io
 DOMAIN-SUFFIX,gitlab.net
+
+# > Instagram
+DOMAIN-SUFFIX,instagr.am
+DOMAIN-KEYWORD,instagram
 
 # > Mastodon // 长毛象
 DOMAIN-SUFFIX,mastodon.social
@@ -235,6 +246,5 @@ DOMAIN-SUFFIX,yahoo.com // 雅虎
 DOMAIN-SUFFIX,zaobao.com // 联合早报
 DOMAIN-SUFFIX,zaobao.com.sg // 联合早报
 DOMAIN-SUFFIX,zhiboz.com // 直播吧
-DOMAIN-KEYWORD,github
 IP-CIDR,1.0.0.1/32,no-resolve
 IP-CIDR,8.8.4.4/32,no-resolve

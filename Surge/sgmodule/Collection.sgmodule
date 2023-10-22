@@ -12,7 +12,7 @@ URL-REGEX,^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders,REJECT
 # > 百度云盘
 URL-REGEX,^https?:\/\/pan\.baidu\.com\/(act\/(api\/activityentry|v2\/(bchannel|welfare)\/list)|rest\/2\.0\/pcs\/ad),REJECT
 # > 彩云 移除赏叶地图
-^https:\/\/wrapper\.cyapi\.cn\/v1\/activity\?,REJECT
+URL-REGEX,^https:\/\/wrapper\.cyapi\.cn\/v1\/activity\?,REJECT
 # > 得物 去开屏
 URL-REGEX,^https:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement,REJECT
 # > 京东 去广告

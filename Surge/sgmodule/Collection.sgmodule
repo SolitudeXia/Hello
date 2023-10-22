@@ -11,8 +11,6 @@ force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net
 URL-REGEX,^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders,REJECT
 # > 百度云盘
 URL-REGEX,^https?:\/\/pan\.baidu\.com\/(act\/(api\/activityentry|v2\/(bchannel|welfare)\/list)|rest\/2\.0\/pcs\/ad),REJECT
-# > 彩云 移除赏叶地图
-URL-REGEX,^https:\/\/wrapper\.cyapi\.cn\/v1\/activity\?,REJECT
 # > 得物 去开屏
 URL-REGEX,^https:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement,REJECT
 # > 京东 去广告
@@ -56,4 +54,4 @@ Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,requires-body=1,max
 公众号广告 = type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,requires-body=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/BlockAds.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% app.dewu.com, api.m.jd.com, m.360buyimg.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, flowplus.meituan.net, s3plus.meituan.net, wallet.95516.com, az1mbasecc.bas.cmbchina.com, intellicc.bas.cmbchina.com, portal.zjzwfw.gov.cn, ad.12306.cn, *api.adguard.*, api.alipan.com, member.alipan.com, pan.baidu.com, boxjs.com, boxjs.net, wrapper.cyapi.cn, biz.cyapi.cn, m.douban.com, github.com:443, raw.githubusercontent.com:443, sub.store, mp.weixin.qq.com
+hostname = %APPEND% app.dewu.com, api.m.jd.com, m.360buyimg.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, flowplus.meituan.net, s3plus.meituan.net, wallet.95516.com, az1mbasecc.bas.cmbchina.com, intellicc.bas.cmbchina.com, portal.zjzwfw.gov.cn, ad.12306.cn, *api.adguard.*, api.alipan.com, member.alipan.com, pan.baidu.com, boxjs.com, boxjs.net, biz.cyapi.cn, m.douban.com, github.com:443, raw.githubusercontent.com:443, sub.store, mp.weixin.qq.com

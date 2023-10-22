@@ -11,6 +11,8 @@ force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net
 URL-REGEX,^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders,REJECT
 # > 百度云盘
 URL-REGEX,^https?:\/\/pan\.baidu\.com\/(act\/(api\/activityentry|v2\/(bchannel|welfare)\/list)|rest\/2\.0\/pcs\/ad),REJECT
+# > 彩云 移除赏叶地图
+^https:\/\/wrapper\.cyapi\.cn\/v1\/activity\?,REJECT
 # > 得物 去开屏
 URL-REGEX,^https:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement,REJECT
 # > 京东 去广告
@@ -29,10 +31,6 @@ URL-REGEX,^https:\/\/wallet\.95516\.com\/s\/wl\/icon\/long,REJECT
 URL-REGEX,^https?:\/\/(az1mbasecc|intellicc)\.bas\.cmbchina\.com\/Edge\/api\/mlife\.(clientface|intelli)\.(clientservice|render)\.api\.(advertiseService|render)\/(preCacheAdvertiseSec|getDynamicDataSec),REJECT
 # > 浙里办 去开屏
 URL-REGEX,^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,REJECT
-
-[Map Local]
-# > 移除赏叶地图
-^https:\/\/wrapper\.cyapi\.cn\/v1\/activity\? date="https://raw.githubusercontent.com/RuCu6/QuanX/main/Mocks/caiyun.json"
 
 [Script]
 # > 12306 开屏广告

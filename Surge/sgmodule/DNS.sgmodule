@@ -70,9 +70,3 @@ tplinklogin.net = server:syslib // TP-Link Router
 *.baiduyundns.* = server:180.76.76.76 // 百度云DNS
 *.bdydns.* = server:180.76.76.76 // 百度云 DNS
 *.bdycdn.* = server:180.76.76.76 // 百度云 CDN
-
-# > PayPal
-*.paypal.com = server:223.5.5.5
-*.paypal.me = server:223.5.5.5
-*.paypal-mktg.com = server:223.5.5.5
-*.paypalobjects.com = server:223.5.5.5

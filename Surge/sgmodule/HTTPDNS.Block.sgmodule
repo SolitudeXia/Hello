@@ -2,7 +2,7 @@
 #!desc=阻止常见的 HTTPDNS 服务器
 
 [General]
-force-http-engine-hosts = %APPEND% dns.weixin.qq.com:8080, dns.weixin.qq.com:443
+force-http-engine-hosts = %APPEND% dns.weixin.qq.com:8080
 
 [Rule]
 # > Alibaba

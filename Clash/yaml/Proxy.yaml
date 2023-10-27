@@ -169,6 +169,7 @@ payload:
   - DOMAIN-SUFFIX,emojipedia.org
   - DOMAIN-SUFFIX,figma.com
   - DOMAIN-SUFFIX,gravatar.com
+  - DOMAIN-SUFFIX,greasyfork.org
   - DOMAIN-SUFFIX,immersivetranslate.com
   - DOMAIN-SUFFIX,javbus.com
   - DOMAIN-SUFFIX,macrumors.com

@@ -6,7 +6,7 @@
 # > 微博推送 登陆 https://m.weibo.cn 获取
 #微博cookie = type=http-request,pattern=^https:\/\/m\.weibo\.cn\/feed\/,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js,script-update-interval=-1
 # > 哔哩哔哩 app获取
-B站cookie = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/domain\?,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/BiliBili.js,script-update-interval=-1
+#B站cookie = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/domain\?,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/BiliBili.js,script-update-interval=-1
 # > 阿里云盘 app获取
 阿里云盘cookie = type=http-response,pattern=https:\/\/auth.alipan.com\/v2\/account\/token,requires-body=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js,script-update-interval=-1
 # > 什么值得买 app获取

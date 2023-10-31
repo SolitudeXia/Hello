@@ -3,10 +3,8 @@
 #!system=ios
 
 [Script]
-# > 微博推送 登陆 https://m.weibo.cn 获取
-#微博cookie = type=http-request,pattern=^https:\/\/m\.weibo\.cn\/feed\/,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/Weibo/Weibo.js,script-update-interval=-1
 # > 哔哩哔哩 app获取
-#B站cookie = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/domain\?,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/BiliBili.js,script-update-interval=-1
+B站cookie = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/domain\?,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/BiliBili.js,script-update-interval=-1
 # > 阿里云盘 app获取
 阿里云盘cookie = type=http-response,pattern=https:\/\/auth.alipan.com\/v2\/account\/token,requires-body=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js,script-update-interval=-1
 # > 什么值得买 app获取
@@ -25,25 +23,12 @@
 Bing积分cookie = type=http-request,pattern=https:\/\/rewards\.bing\.com,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js,script-update-interval=-1
 # > 伊利乳品 小程序
 伊利乳品cookie = type=http-request,pattern=https:\/\/club\.yili\.com\/MALLIFChe\/MCSWSIAPI\.asmx\/Call,requires-body=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.cookie.js,script-update-interval=-1
-# > IT之家 app获取
-#IT之家cookie = type=http-request,pattern=^https:\/\/my\.ruanmei\.com\/api\/usersign\/getsigninfo?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ithome/ithome.cookie.js,script-update-interval=-1,debug=true
 # > 哔哩哔哩番剧监控 app获取
 番剧监控cookie = type=http-request,pattern=https?:\/\/app.bilibili.com\/x\/v2\/space\/bangumi,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bilibili/bangumiMonitor.js,script-update-interval=-1
-# > 威锋 APP获取
-#威锋cookie = type=http-request,pattern=^https?:\/\/api.wfdata.club\/v1\/auth\/signin,requires-body=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.cookie.js,script-update-interval=-1
-# > 顺丰速运 app获取
-#顺丰速运cookie = type=http-request,pattern=^https:\/\/ccsp-egmas.sf-express.com\/cx-app-member\/member\/app\/user\/universalSign,requires-body=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js,script-update-interval=-1
-# > 无忧行 app获取
-#Cookie1 = type=http-response,pattern=https:\/\/app\.jegotrip\.com\.cn\/api\/service\/v1\/mission\/sign\/querySign\?token=,requires-body=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jegotrip.cookie.js,script-update-interval=-1
-#Cookie2 = type=http-response,pattern=https:\/\/cdn\.jegotrip\.com\.cn\/static\/missioncenter\/config\.js,requires-body=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/jegotrip.cookie.js,script-update-interval=-1
-# > 慢慢买
-#慢慢买cookie = type=http-request,pattern=^https?:\/\/apph5\.manmanbuy\.com\/taolijin\/(login.aspx|logserver.aspx),requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js,script-update-interval=-1
 # > 高德地图 app获取
 高德地图cookie = type=http-response,pattern=^https:\/\/m5(-zb)?\.amap\.com\/ws\/yuece\/(act|openapi)\/(activity\/current\/)?query,requires-body=1,script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js,script-update-interval=-1
-# > 捷停车 app获取
-捷停车cookie = type=http-request,pattern=^https:\/\/sytgate\.jslife\.com\.cn\/core-gateway\/order\/carno\/pay\/info,requires-body=1,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jparking_sign.js,script-update-interval=-1
 # > 建行生活 app获取 
 建行生活cookie = type=http-request,pattern=^https:\/\/yunbusiness\.ccb\.com\/clp_coupon\/txCtrl\?txcode=(A3341A040|A3341A038),requires-body=1,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% m.weibo.cn, app.bilibili.com, auth.alipan.com, user-api.smzdm.com, i.meituan.com, mall.meituan.com, mobile.ximalaya.com, e.189.cn, open.e.189.cn, ms.jr.jd.com, me-api.jd.com, rewards.bing.com, club.yili.com, my.ruanmei.com, api.wfdata.club, cdn.jegotrip.com.cn, app.jegotrip.com.cn, apph5.manmanbuy.com, sytgate.jslife.com.cn, yunbusiness.ccb.com
+hostname = %APPEND% app.bilibili.com, auth.alipan.com, user-api.smzdm.com, i.meituan.com, mall.meituan.com, mobile.ximalaya.com, e.189.cn, open.e.189.cn, ms.jr.jd.com, me-api.jd.com, rewards.bing.com, club.yili.com, yunbusiness.ccb.com

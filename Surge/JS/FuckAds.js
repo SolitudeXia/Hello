@@ -13,7 +13,8 @@ if (body) {
           for (let floor of obj.floors) {
             // orderIdFloor我的订单 keyToolsFloor浏览记录 newWalletIdFloor我的钱包 iconToolFloor底部工具栏
             const items = [
-              "bigSaleFloor",
+              "bigSaleFloor", // 双十一
+              "buyOften", // 常买常逛
               "newAttentionCard", // 关注的频道
               "newBigSaleFloor", // 双十一
               "noticeFloor", // 顶部横幅
@@ -26,6 +27,10 @@ if (body) {
                 // 弹窗
                 if (floor?.data?.commonPopup) {
                   delete floor.data.commonPopup;
+                }
+                // 弹窗
+                if (floor?.data?.commonPopup_dynamic) {
+                  delete floor.data.commonPopup_dynamic;
                 }
                 // 底部会员续费横幅
                 if (floor?.data?.commonTips?.length > 0) {
@@ -104,13 +109,18 @@ if (body) {
                     item.enable4G = "false";
                     item.coldStart = "false";
                     item.waitTime = "0";
-                    item.imgUrl = "";
                     item.startTime = "5364633600000";
                     item.endTime = "5364719999000";
                     item.gmtStart = "2140-01-01 00:00:00";
                     item.gmtEnd = "2140-01-01 23:59:59";
                     item.gmtStartMs = "5364633600000";
                     item.gmtEndMs = "5364719999000";
+                    if (item?.imgUrl) {
+                      item.imgUrl = ""
+                    }
+                    if (item?.videoUrl) {
+                      item.videoUrl = "";
+                    }
                   }
                 }
               }

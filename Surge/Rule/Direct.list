@@ -20,9 +20,8 @@ DOMAIN-SUFFIX,mzstatic.com
 IP-CIDR,17.0.0.0/8,no-resolve
 
 # > Microsoft
-#DOMAIN,cn.bing.com
-#DOMAIN,rewards.bing.com
 DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bingapis.com
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,live.net

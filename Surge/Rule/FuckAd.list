@@ -1,10 +1,13 @@
+# > 阿里巴巴
+DOMAIN,ossgw.alicdn.com
+DOMAIN,ems.youku.com
+DOMAIN,hudong.alicdn.com
+DOMAIN-SUFFIX,ut.taobao.com
+
 # > Apple
 DOMAIN,api-adservices.apple.com
 DOMAIN,app-site-association.cdn-apple.com // Safari 防跳转
 DOMAIN-SUFFIX,iadsdk.apple.com
-
-# > 百度网盘
-DOMAIN,mobads.baidu.com
 
 # > 哔哩哔哩
 DOMAIN,mall.bilibili.com
@@ -16,42 +19,19 @@ DOMAIN,ad.cyapi.cn
 # > ChatGPT
 DOMAIN,o33249.ingest.sentry.io
 
-# > Google
-DOMAIN-SUFFIX,admob.com
-DOMAIN-SUFFIX,ads.gmodules.com
-DOMAIN-SUFFIX,ads.google.com
-DOMAIN-SUFFIX,adservice.google.com
-DOMAIN-SUFFIX,afd.l.google.com
-DOMAIN-SUFFIX,badad.googleplex.com
-DOMAIN-SUFFIX,csi.gstatic.com
-DOMAIN-SUFFIX,doubleclick.com
-DOMAIN-SUFFIX,doubleclick.net
-DOMAIN-SUFFIX,google-analytics.com
-DOMAIN-SUFFIX,googleadservices.com
-DOMAIN-SUFFIX,googleadsserving.cn
-DOMAIN-SUFFIX,googlecommerce.com
-DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,mobileads.google.com
-DOMAIN-SUFFIX,pagead-tpc.l.google.com
-DOMAIN-SUFFIX,pagead.google.com
-DOMAIN-SUFFIX,pagead.l.google.com
-DOMAIN-SUFFIX,service.urchin.com
-
 # > 高德地图
 DOMAIN,amap-aos-info-nogw.amap.com
 DOMAIN,awaken.amap.com
 DOMAIN,free-aos-cdn-image.amap.com
 
 # > 广告联盟
+DOMAIN,i.snssdk.com
 DOMAIN,is.snssdk.com
 DOMAIN,mi.gdt.qq.com
 DOMAIN,open.e.kuaishou.com
-DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
-DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
-DOMAIN-SUFFIX,pangolin-sdk-toutiao1.com
-
-# > 京东
-DOMAIN-SUFFIX,jdqd.jd.com
+DOMAIN-KEYWORD,pangolin-sdk-toutiao
+DOMAIN-KEYWORD,pangolin.snssdk.com
+DOMAIN-KEYWORD,pglstatp-toutiao
 
 # > 美团
 DOMAIN,al-log.d.meituan.net
@@ -101,7 +81,6 @@ DOMAIN,sdk.iad-05.braze.com
 DOMAIN,sdk-open-phone.getui.com
 DOMAIN,sdk.open.talk.gepush.com
 DOMAIN,sdk.open.talk.getui.com
-DOMAIN,sf3-fe-tos.pglstatp-toutiao.com
 DOMAIN,tnc3-alisc1.zijieapi.com
 DOMAIN-SUFFIX,adjust.com
 DOMAIN-SUFFIX,appcashier.kfc.com.cn

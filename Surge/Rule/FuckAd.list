@@ -25,12 +25,10 @@ DOMAIN,awaken.amap.com
 DOMAIN,free-aos-cdn-image.amap.com
 
 # > 广告联盟
-DOMAIN,i.snssdk.com
-DOMAIN,is.snssdk.com
 DOMAIN,mi.gdt.qq.com
 DOMAIN,open.e.kuaishou.com
+DOMAIN-SUFFIX,snssdk.com
 DOMAIN-KEYWORD,pangolin-sdk-toutiao
-DOMAIN-KEYWORD,pangolin.snssdk.com
 DOMAIN-KEYWORD,pglstatp-toutiao
 
 # > 美团

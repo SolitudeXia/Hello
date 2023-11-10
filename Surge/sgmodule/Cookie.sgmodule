@@ -25,5 +25,8 @@ Bing积分cookie = type=http-request,pattern=https:\/\/rewards\.bing\.com,script
 音乐磁场cookie = type=http-request,pattern=https:\/\/www.hifini.com\/my.htm,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/hifini/hifiniSign.js,script-update-interval=-1
 # > 托迈酷客
 托迈酷客cookie = type=http-request,pattern=^https:\/\/apis\.folidaymall\.com\/online\/capi\/uc\/getCount,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/ThomasCook.js,script-update-interval=-1
+# > 慢慢买
+慢慢买cookie = type=http-request,pattern=^https?:\/\/apph5\.manmanbuy\.com\/taolijin\/(login.aspx|logserver.aspx),requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js,script-update-interval=-1
+
 [MITM]
-hostname = %APPEND% app.bilibili.com, user-api.smzdm.com, mall.meituan.com, mobile.ximalaya.com, e.189.cn, open.e.189.cn, ms.jr.jd.com, me-api.jd.com, rewards.bing.com, club.yili.com, www.hifini.com, apis.folidaymall.com
+hostname = %APPEND% app.bilibili.com, user-api.smzdm.com, mall.meituan.com, mobile.ximalaya.com, e.189.cn, open.e.189.cn, ms.jr.jd.com, me-api.jd.com, rewards.bing.com, club.yili.com, www.hifini.com, apis.folidaymall.com, apph5.manmanbuy.com

@@ -91,8 +91,8 @@ switch (isResponse) {
       console.log(`京东-开屏广告, 出现异常: ` + error);
     }
     break;
-  case /^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=welcomeHome/.test(url):
     // 京东-首页配置
+  case /^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=welcomeHome/.test(url):
     try {
       let obj = JSON.parse(body);
       // 首页 图层列表

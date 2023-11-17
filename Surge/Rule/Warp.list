@@ -47,7 +47,6 @@ DOMAIN-SUFFIX,onestore.ms
 DOMAIN-SUFFIX,skype.com
 
 # > OpenAi
-DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,auth0.com
 #DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,client-api.arkoselabs.com

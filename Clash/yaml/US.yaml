@@ -1,7 +1,12 @@
 payload:
+  - DOMAIN-SUFFIX,audiomack.com
   - DOMAIN-SUFFIX,crocs.com
-  - DOMAIN-SUFFIX,ebay.com
   - DOMAIN-SUFFIX,lego.com
+  - DOMAIN-SUFFIX,mschf.com
+  - DOMAIN-SUFFIX,newbalance.com
+  - DOMAIN-SUFFIX,onekey.so
   - DOMAIN-SUFFIX,padandquill.com
+  - DOMAIN-SUFFIX,rocketsshop.com
   - DOMAIN-SUFFIX,ultramobile.com
+  - DOMAIN-SUFFIX,walletconnect.com
   - DOMAIN-SUFFIX,yubico.com

@@ -35,4 +35,4 @@ HiFiNi = type=cron,cronexp="0 11 7 * * ?",wake-system=1,script-path=https://raw.
 # > 托迈酷客
 托迈酷客 = type=cron,cronexp="0 12 7 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/ThomasCook.js,script-update-interval=0,timeout=60
 # > Bing积分
-Bing积分 = type=cron,cronexp="0 30 9,11 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js,script-update-interval=0,timeout=500
+Bing积分 = type=cron,cronexp="0 30 10 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js,script-update-interval=0,timeout=500

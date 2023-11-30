@@ -1,32 +1,3 @@
-# ---(Apple)---
-DOMAIN,amp-api.podcasts.apple.com // Podcasts
-DOMAIN,beta.music.apple.com // Apple Music Web
-DOMAIN,books.itunes.apple.com // iBooks Store download
-DOMAIN,lookup-api.apple.com // Look Up
-DOMAIN,radio.itunes.apple.com // Apple Music Radio
-DOMAIN-SUFFIX,appsto.re // Apple URL Shortener
-DOMAIN-SUFFIX,smoot.apple.cn // Spotlight
-DOMAIN-SUFFIX,smoot.apple.com
-# > Web Preview
-DOMAIN,apps.apple.com
-DOMAIN,books.apple.com
-DOMAIN,itunes.apple.com
-DOMAIN,tv.apple.com
-# > News
-DOMAIN,gateway.icloud.com
-DOMAIN,news-assets.apple.com
-DOMAIN,news-client.apple.com
-DOMAIN,news-client-search.apple.com
-DOMAIN,news-edge.apple.com
-DOMAIN,news-events.apple.com
-DOMAIN,apple.comscoreresearch.com
-DOMAIN-SUFFIX,apple.news
-# > TestFlight
-DOMAIN,testflight.apple.com
-#
-DOMAIN-SUFFIX,digicert.com
-# ------
-
 # > Cloudflare
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cloudflare.net
@@ -38,13 +9,6 @@ DOMAIN-SUFFIX,cloudflaressl.com
 DOMAIN-SUFFIX,cloudflarestream.com
 DOMAIN-SUFFIX,every1dns.net
 DOMAIN-SUFFIX,workers.dev
-
-# > Microsoft
-DOMAIN-SUFFIX,appcenter.ms
-DOMAIN-SUFFIX,azure.com
-DOMAIN-SUFFIX,msn.com
-DOMAIN-SUFFIX,onestore.ms
-DOMAIN-SUFFIX,skype.com
 
 # > OpenAi
 DOMAIN-SUFFIX,auth0.com

@@ -42,6 +42,13 @@ DOMAIN-SUFFIX,mastodon.social
 DOMAIN-SUFFIX,m.cmx.im
 DOMAIN-SUFFIX,neodb.social
 
+# > Microsoft
+DOMAIN-SUFFIX,appcenter.ms
+DOMAIN-SUFFIX,azure.com
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,onestore.ms
+DOMAIN-SUFFIX,skype.com
+
 # > NBA
 DOMAIN,cdn.nba.com
 DOMAIN,data.nba.com

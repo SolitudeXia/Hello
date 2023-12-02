@@ -9,10 +9,6 @@ DOMAIN,api-adservices.apple.com
 DOMAIN,app-site-association.cdn-apple.com // Safari 防跳转
 DOMAIN-SUFFIX,iadsdk.apple.com
 
-# > 哔哩哔哩
-DOMAIN,mall.bilibili.com
-DOMAIN,passport.bilibili.com
-
 # > 彩云天气
 DOMAIN,ad.cyapi.cn
 

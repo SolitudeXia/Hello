@@ -77,7 +77,6 @@ IP-CIDR,162.62.163.63/32,no-resolve
 DOMAIN,api.onekeycn.com
 DOMAIN,book-searcher.eu.org
 DOMAIN,coolshell.cn
-DOMAIN,dayone.app
 DOMAIN,files.catbox.moe
 DOMAIN,firewood.news // 积薪
 DOMAIN,guozh.net
@@ -89,6 +88,7 @@ DOMAIN,onekey.zendesk.com
 DOMAIN,polygonscan.com
 DOMAIN,r3.o.lencr.org
 DOMAIN,stayfork.app
+DOMAIN,workers.fileball.app
 DOMAIN,www.daniao.org
 DOMAIN,www.dute.org // 工具箱
 DOMAIN-SUFFIX,1password.com
@@ -96,6 +96,7 @@ DOMAIN-SUFFIX,authy.com
 DOMAIN-SUFFIX,bandswatch.it
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,dochub.wiki
+DOMAIN-SUFFIX,embyplus.org // 纸片人
 DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,imarkr.com
 DOMAIN-SUFFIX,iyzipay.com // 土区礼品卡支付
@@ -109,7 +110,6 @@ DOMAIN-SUFFIX,trakt.tv
 DOMAIN-SUFFIX,typeform.com
 DOMAIN-SUFFIX,williamlong.info
 DOMAIN-SUFFIX,wired.com
-DOMAIN-SUFFIX,wise.com
 DOMAIN-KEYWORD,paypal
 IP-CIDR,17.248.226.7/32,no-resolve
 IP-CIDR,43.156.255.184/32,no-resolve

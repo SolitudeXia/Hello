@@ -37,7 +37,7 @@ DOMAIN-SUFFIX,gitlab.net
 DOMAIN-SUFFIX,instagr.am
 DOMAIN-KEYWORD,instagram
 
-# > Mastodon // 长毛象
+# > Mastodon
 DOMAIN-SUFFIX,mastodon.social
 DOMAIN-SUFFIX,m.cmx.im
 DOMAIN-SUFFIX,neodb.social
@@ -48,14 +48,6 @@ DOMAIN-SUFFIX,azure.com
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,onestore.ms
 DOMAIN-SUFFIX,skype.com
-
-# > NBA
-DOMAIN,cdn.nba.com
-DOMAIN,data.nba.com
-DOMAIN,global.nba.com
-DOMAIN,nba.com
-DOMAIN,store.nba.com
-DOMAIN,www.nba.com
 
 # > Notion
 DOMAIN,http-inputs-notion.splunkcloud.com
@@ -186,6 +178,7 @@ DOMAIN-SUFFIX,lemmy.world
 DOMAIN-SUFFIX,lwk.ffmm.com // 明德影像
 DOMAIN-SUFFIX,macrumors.com
 DOMAIN-SUFFIX,macstories.net
+DOMAIN-SUFFIX,nba.com
 DOMAIN-SUFFIX,netflix.com // Netflix
 DOMAIN-SUFFIX,news.un.org // 联合国
 DOMAIN-SUFFIX,nikkei.com // 日经新闻
@@ -223,9 +216,9 @@ DOMAIN-SUFFIX,wireguard.com
 DOMAIN-SUFFIX,wp.com
 DOMAIN-SUFFIX,wsj.com // 华尔街日报
 DOMAIN-SUFFIX,wsj.net // 华尔街日报
+DOMAIN-SUFFIX,xvideos.com
 DOMAIN-SUFFIX,yahoo.com // 雅虎
 DOMAIN-SUFFIX,zaobao.com // 联合早报
-DOMAIN-SUFFIX,zaobao.com.sg // 联合早报
 DOMAIN-SUFFIX,zhiboz.com // 直播吧
 IP-CIDR,1.0.0.1/32,no-resolve
 IP-CIDR,8.8.4.4/32,no-resolve

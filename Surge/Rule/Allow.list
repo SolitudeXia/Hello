@@ -6,10 +6,9 @@ DOMAIN,update.googleapis.com
 DOMAIN-SUFFIX,blog.google // Google Blog
 DOMAIN-SUFFIX,crl.pki.goog
 DOMAIN-SUFFIX,ocsp.pki.goog
-# >> Firebase Cloud Messaging
+# Firebase Cloud Messaging
 DOMAIN-SUFFIX,mtalk.google.com
-# ------
 
-# > Other
+# ---(Other)---
 DOMAIN,app.adjust.com
 DOMAIN,app.appsflyer.com

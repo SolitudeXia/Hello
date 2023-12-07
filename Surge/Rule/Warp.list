@@ -1,4 +1,4 @@
-# > Cloudflare
+# ---(Cloudflare)---
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cloudflare.net
 DOMAIN-SUFFIX,cloudflare-dns.com
@@ -10,7 +10,7 @@ DOMAIN-SUFFIX,cloudflarestream.com
 DOMAIN-SUFFIX,every1dns.net
 DOMAIN-SUFFIX,workers.dev
 
-# > OpenAi
+# ---(OpenAi)---
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,events.statsigapi.net

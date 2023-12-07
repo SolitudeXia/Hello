@@ -1,4 +1,4 @@
-# > Apple
+# ---(Apple)---
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,akadns.net
 DOMAIN-SUFFIX,apple-cloudkit.com
@@ -19,7 +19,7 @@ DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
 IP-CIDR,17.0.0.0/8,no-resolve
 
-# > Microsoft
+# ---(Microsoft)---
 DOMAIN-SUFFIX,azureedge.net
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bingapis.com
@@ -36,12 +36,12 @@ DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,onedrive
 
-# > OKX
+# ---(OKX)---
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,oklink.com
 DOMAIN-SUFFIX,okx.com
 
-# > Wechat
+# ---(Wechat)---
 DOMAIN,dl.wechat.com
 DOMAIN,sgfindershort.wechat.com
 DOMAIN,sgilinkshort.wechat.com
@@ -73,7 +73,7 @@ IP-CIDR,129.226.107.244/32,no-resolve
 IP-CIDR,129.226.3.47/32,no-resolve
 IP-CIDR,162.62.163.63/32,no-resolve
 
-# > For Myself
+# ---(Other)---
 DOMAIN,api.onekeycn.com
 DOMAIN,book-searcher.eu.org
 DOMAIN,coolshell.cn

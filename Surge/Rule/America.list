@@ -7,12 +7,12 @@ DOMAIN,radio.itunes.apple.com // Apple Music Radio
 DOMAIN-SUFFIX,appsto.re // Apple URL Shortener
 DOMAIN-SUFFIX,smoot.apple.cn // Spotlight
 DOMAIN-SUFFIX,smoot.apple.com
-# > Web Preview
+# Web Preview
 DOMAIN,apps.apple.com
 DOMAIN,books.apple.com
 DOMAIN,itunes.apple.com
 DOMAIN,tv.apple.com
-# > News
+# News
 DOMAIN,gateway.icloud.com
 DOMAIN,news-assets.apple.com
 DOMAIN,news-client.apple.com
@@ -21,12 +21,12 @@ DOMAIN,news-edge.apple.com
 DOMAIN,news-events.apple.com
 DOMAIN,apple.comscoreresearch.com
 DOMAIN-SUFFIX,apple.news
-# > TestFlight
+# TestFlight
 DOMAIN,testflight.apple.com
 #
 DOMAIN-SUFFIX,digicert.com
-# ------
 
+# ---(Other)---
 DOMAIN-SUFFIX,audiomack.com // AudioMack
 DOMAIN-SUFFIX,crocs.com
 DOMAIN-SUFFIX,lego.com

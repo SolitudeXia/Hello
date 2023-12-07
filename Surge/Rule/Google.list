@@ -1,3 +1,4 @@
+# ---(Google)---
 DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,goo.gl
@@ -12,8 +13,7 @@ DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
 IP-CIDR,74.125.0.0/16,no-resolve
 IP-CIDR,173.194.0.0/16,no-resolve
-
-# >> YouTube
+# YouTube
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com

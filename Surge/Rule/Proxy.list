@@ -1,4 +1,4 @@
-# > 9to5
+# ---(9to5)---
 DOMAIN-SUFFIX,9to5google.com
 DOMAIN-SUFFIX,9to5mac.com
 DOMAIN-SUFFIX,9to5terminal.com
@@ -7,7 +7,7 @@ DOMAIN-SUFFIX,dronedj.com
 DOMAIN-SUFFIX,electrek.co
 DOMAIN-SUFFIX,spaceexplored.com
 
-# > Discord
+# ---(Discord)---
 DOMAIN-SUFFIX,discord.co
 DOMAIN-SUFFIX,discord.com
 DOMAIN-SUFFIX,discord.gg
@@ -15,41 +15,41 @@ DOMAIN-SUFFIX,discord.media
 DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discordapp.net
 
-# > Dropbox
+# ---(Dropbox)---
 DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,dropboxusercontent.com
 
-# > Facebook
+# ---(Facebook)---
 DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,fb.me
 DOMAIN-SUFFIX,fbsbx.com
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
 
-# > GitLab
+# ---(GitLab)---
 DOMAIN-SUFFIX,gitlab-static.net
 DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,gitlab.io
 DOMAIN-SUFFIX,gitlab.net
 
-# > Instagram
+# ---(Instagram)---
 DOMAIN-SUFFIX,instagr.am
 DOMAIN-KEYWORD,instagram
 
-# > Mastodon
+# ---(Mastodon)---
 DOMAIN-SUFFIX,mastodon.social
 DOMAIN-SUFFIX,m.cmx.im
 DOMAIN-SUFFIX,neodb.social
 
-# > Microsoft
+# ---(Microsoft)---
 DOMAIN-SUFFIX,appcenter.ms
 DOMAIN-SUFFIX,azure.com
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,onestore.ms
 DOMAIN-SUFFIX,skype.com
 
-# > Notion
+# ---(Notion)---
 DOMAIN,http-inputs-notion.splunkcloud.com
 DOMAIN-SUFFIX,notion-static.com
 DOMAIN-SUFFIX,notion.com
@@ -57,43 +57,43 @@ DOMAIN-SUFFIX,notion.new
 DOMAIN-SUFFIX,notion.site
 DOMAIN-SUFFIX,notion.so
 
-# > pixiv
+# ---(pixiv)---
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pixiv.org
 DOMAIN-SUFFIX,pximg.net
 
-# > Pornhub
+# ---(Pornhub)---
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,phprcdn.com
 DOMAIN-SUFFIX,pornhub.com
 DOMAIN-SUFFIX,pornhubpremium.com
 
-# > Reddit
+# ---(Reddit)---
 DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditstatic.com
 
-# > Spark
+# ---(Spark)---
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,firebaseio.com
 DOMAIN-SUFFIX,hockeyapp.net
 DOMAIN-SUFFIX,readdle.com
 DOMAIN-SUFFIX,smartmailcloud.com
 
-# > Surge
+# ---(Surge)---
 DOMAIN,surge.mitsea.com
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,surge-activation.com
 
-# > Twitch
+# ---(Twitch)---
 DOMAIN-SUFFIX,ext-twitch.tv
 DOMAIN-SUFFIX,jtvnw.net
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,twitchcdn.net
 DOMAIN-KEYWORD,ttvnw
 
-# > Twitter
+# ---(Twitter)---
 DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,t.co
@@ -104,11 +104,11 @@ DOMAIN-SUFFIX,twitpic.com
 DOMAIN-SUFFIX,vine.co
 DOMAIN-KEYWORD,twitter
 
-# > Wikimedia // 维基
+# ---(Wikimedia)---
 DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikipedia.org
 
-# > Other // ABCDEFGHIJKLMNOPQRSTUVWXYZ
+# ---(Other)---
 DOMAIN,api.onesignal.com
 DOMAIN,api.themoviedb.org // infuse
 DOMAIN,basicappleguy.com

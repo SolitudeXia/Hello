@@ -4,7 +4,7 @@
 
 [Map Local]
 # > 惊喜弹窗
-^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/surprisebox\/(get_style\?|open\?|submit_action$) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/surprisebox\/(get_style|open|submit_action) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 ^https:\/\/www\.xiaohongshu\.com\/api\/marketing\/box\/trigger\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 # > 信息流
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v3\/note\/guide\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"

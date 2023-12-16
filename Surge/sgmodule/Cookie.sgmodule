@@ -13,8 +13,6 @@ B站cookie = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/resour
 喜马拉雅cookie = type=http-request,pattern=^https?:\/\/mobile\.ximalaya\.com\/app-skin-service\/skin\/,script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/xmlySign.js,script-update-interval=-1
 # > 中国电信 网页获取
 中国电信cookie = type=http-request,pattern=^https:\/\/(e\.189\.cn\/store\/user|open\.e\.189\.cn\/api\/logbox\/oauth2\/loginSubmit\.do),script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/get_10000_cookie.js,script-update-interval=-1
-# > Bing积分
-Bing积分cookie = type=http-request,pattern=https:\/\/rewards\.bing\.com,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/bing/bingPoint.js,script-update-interval=-1
 # > 伊利乳品 小程序
 伊利乳品cookie = type=http-request,pattern=https:\/\/club\.yili\.com\/MALLIFChe\/MCSWSIAPI\.asmx\/Call,requires-body=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.cookie.js,script-update-interval=-1
 # > 高德地图 app获取
@@ -25,4 +23,4 @@ Bing积分cookie = type=http-request,pattern=https:\/\/rewards\.bing\.com,script
 托迈酷客cookie = type=http-request,pattern=^https:\/\/apis\.folidaymall\.com\/online\/capi\/uc\/getCount,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/ThomasCook.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% app.bilibili.com, user-api.smzdm.com, mall.meituan.com, mobile.ximalaya.com, e.189.cn, open.e.189.cn, rewards.bing.com, club.yili.com, www.hifini.com, apis.folidaymall.com
+hostname = %APPEND% app.bilibili.com, user-api.smzdm.com, mall.meituan.com, mobile.ximalaya.com, e.189.cn, open.e.189.cn, club.yili.com, www.hifini.com, apis.folidaymall.com

@@ -17,10 +17,8 @@ B站cookie = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/resour
 伊利乳品cookie = type=http-request,pattern=https:\/\/club\.yili\.com\/MALLIFChe\/MCSWSIAPI\.asmx\/Call,requires-body=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.cookie.js,script-update-interval=-1
 # > 高德地图 app获取
 高德地图cookie = type=http-response,pattern=^https:\/\/m5(-zb)?\.amap\.com\/ws\/yuece\/(act|openapi)\/(activity\/current\/)?query,requires-body=1,script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js,script-update-interval=-1
-# > HiFiNi
-音乐磁场cookie = type=http-request,pattern=https:\/\/www.hifini.com\/my.htm,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/hifini/hifiniSign.js,script-update-interval=-1
 # > 托迈酷客
 托迈酷客cookie = type=http-request,pattern=^https:\/\/apis\.folidaymall\.com\/online\/capi\/uc\/getCount,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/ThomasCook.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% app.bilibili.com, user-api.smzdm.com, mall.meituan.com, mobile.ximalaya.com, e.189.cn, open.e.189.cn, club.yili.com, www.hifini.com, apis.folidaymall.com
+hostname = %APPEND% app.bilibili.com, user-api.smzdm.com, mall.meituan.com, mobile.ximalaya.com, e.189.cn, open.e.189.cn, club.yili.com, apis.folidaymall.com

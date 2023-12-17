@@ -18,8 +18,6 @@ URL-REGEX,^https:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/custom_v2\/wxapp,REJECT
 # > 美团 去广告
 URL-REGEX,^https:\/\/flowplus\.meituan\.net\/v1\/mss_\w+\/linglong\/\d+\.jpg$,REJECT
 URL-REGEX,^https:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-alita)\/\w+\.zip$,REJECT
-# > 招行掌上生活
-URL-REGEX,^https?:\/\/(az1mbasecc|intellicc)\.bas\.cmbchina\.com\/Edge\/api\/mlife\.(clientface|intelli)\.(clientservice|render|adrender)\.api\.(advertiseService|render|AdWork)\/(preCacheAdvertiseSec|getDynamicDataSec|getAdsBySlotId),REJECT
 # > 浙里办 去开屏
 URL-REGEX,^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,REJECT
 
@@ -50,4 +48,4 @@ Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,requires-body=1,max
 淘宝净化 = type=http-response,pattern=^https:\/\/poplayer\.template\.alibaba\.com\/\w+\.json,requires-body=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/FuckAds.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% app.dewu.com, api.m.jd.com, m.360buyimg.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, flowplus.meituan.net, s3plus.meituan.net, az1mbasecc.bas.cmbchina.com, intellicc.bas.cmbchina.com, portal.zjzwfw.gov.cn, ad.12306.cn, api.alipan.com, member.alipan.com, guide-acs.m.taobao.com, poplayer.template.alibaba.com, boxjs.com, boxjs.net, biz.cyapi.cn, m.douban.com, github.com:443, raw.githubusercontent.com:443, sub.store
+hostname = %APPEND% app.dewu.com, api.m.jd.com, m.360buyimg.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, flowplus.meituan.net, s3plus.meituan.net, portal.zjzwfw.gov.cn, ad.12306.cn, api.alipan.com, member.alipan.com, guide-acs.m.taobao.com, poplayer.template.alibaba.com, boxjs.com, boxjs.net, biz.cyapi.cn, m.douban.com, github.com:443, raw.githubusercontent.com:443, sub.store

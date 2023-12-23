@@ -3,11 +3,9 @@
 
 [Script]
 # > 开屏
-smzdm_开屏 = type=http-response,pattern=^https:\/\/app-api\.smzdm\.com\/util\/loading,requires-body=1,script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js,script-update-interval=-1
+smzdm_开屏 = type=http-response,pattern=^https:\/\/app-api\.smzdm\.com\/util\/(loading|update),requires-body=1,script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js,script-update-interval=-1
 # > 好价
 smzdm_好价 = type=http-response,pattern=^https:\/\/haojia-api\.smzdm\.com\/home\/list,requires-body=1,script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js,script-update-interval=-1
-# > 1
-smzdm_1 = type=http-response,pattern=^https:\/\/app-api\.smzdm\.com\/util\/update,requires-body=1,script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js,script-update-interval=-1
 # > 首页
 smzdm_首页 = type=http-response,pattern=^https:\/\/homepage-api\.smzdm\.com\/v3\/home,requires-body=1,script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js,script-update-interval=-1
 # > 会员

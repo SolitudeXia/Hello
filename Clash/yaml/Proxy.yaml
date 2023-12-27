@@ -32,14 +32,6 @@ payload:
   - DOMAIN-SUFFIX,cloudflarestream.com
   - DOMAIN-SUFFIX,every1dns.net
   - DOMAIN-SUFFIX,workers.dev
-
-  # > Discord
-  - DOMAIN-SUFFIX,discord.co
-  - DOMAIN-SUFFIX,discord.com
-  - DOMAIN-SUFFIX,discord.gg
-  - DOMAIN-SUFFIX,discord.media
-  - DOMAIN-SUFFIX,discordapp.com
-  - DOMAIN-SUFFIX,discordapp.net
   
   # > Dropbox
   - DOMAIN-SUFFIX,dropbox.com

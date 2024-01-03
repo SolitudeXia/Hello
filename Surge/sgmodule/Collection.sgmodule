@@ -31,8 +31,8 @@ URL-REGEX,^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,R
 # > 12306 开屏广告
 12306 = type=http-request,pattern=^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList,requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/12306.js,script-update-interval=-1
 # > 阿里云盘净化
-云盘净化 = type=http-response,pattern=^https:\/\/api\.alipan\.com\/apps\/v2\/users\/home\/(news|widgets),requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js,script-update-interval=-1
-云盘净化 = type=http-response,pattern=^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js,script-update-interval=-1
+云盘净化_1 = type=http-response,pattern=^https:\/\/api\.alipan\.com\/apps\/v2\/users\/home\/(news|widgets),requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js,script-update-interval=-1
+云盘净化_2 = type=http-response,pattern=^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js,script-update-interval=-1
 # > BoxJs
 BoxJs = type=http-request,pattern=^https?:\/\/(.+\.)?boxjs\.(com|net),requires-body=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js,timeout=120,script-update-interval=0
 # > 彩云天气
@@ -48,8 +48,8 @@ BoxJs = type=http-request,pattern=^https?:\/\/(.+\.)?boxjs\.(com|net),requires-b
 # > Sub-Store
 Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,requires-body=1,max-size=0,script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store.min.js,timeout=120,script-update-interval=-1
 # > 淘宝净化
-淘宝净化 = type=http-response,pattern=^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(cloudvideo\.video\.query|wireless\.home\.splash\.awesome\.get),requires-body=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/FuckAds.js,script-update-interval=-1
-淘宝净化 = type=http-response,pattern=^https:\/\/poplayer\.template\.alibaba\.com\/\w+\.json,requires-body=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/FuckAds.js,script-update-interval=-1
+淘宝净化_1 = type=http-response,pattern=^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(cloudvideo\.video\.query|wireless\.home\.splash\.awesome\.get),requires-body=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/FuckAds.js,script-update-interval=-1
+淘宝净化_2 = type=http-response,pattern=^https:\/\/poplayer\.template\.alibaba\.com\/\w+\.json,requires-body=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/FuckAds.js,script-update-interval=-1
 
 [MITM]
 hostname = %APPEND% app.dewu.com, api.m.jd.com, m.360buyimg.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, flowplus.meituan.net, s3plus.meituan.net, portal.zjzwfw.gov.cn, ad.12306.cn, api.alipan.com, member.alipan.com, guide-acs.m.taobao.com, poplayer.template.alibaba.com, boxjs.com, boxjs.net, biz.cyapi.cn, wrapper.cyapi.cn, m.douban.com, github.com:443, raw.githubusercontent.com:443, sub.store

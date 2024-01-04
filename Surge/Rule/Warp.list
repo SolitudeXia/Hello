@@ -1,15 +1,3 @@
-# ---(Cloudflare)---
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,cloudflare.net
-DOMAIN-SUFFIX,cloudflare-dns.com
-DOMAIN-SUFFIX,cloudflareclient.com
-DOMAIN-SUFFIX,cloudflareinsights.com
-DOMAIN-SUFFIX,cloudflareresolve.com
-DOMAIN-SUFFIX,cloudflaressl.com
-DOMAIN-SUFFIX,cloudflarestream.com
-DOMAIN-SUFFIX,every1dns.net
-DOMAIN-SUFFIX,workers.dev
-
 # ---(OpenAi)---
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,client-api.arkoselabs.com

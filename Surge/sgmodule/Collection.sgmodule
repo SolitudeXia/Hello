@@ -7,14 +7,8 @@
 force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net
 
 [Rule]
-# > 阿里云盘净化
-URL-REGEX,^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders,REJECT
 # > 得物 去开屏
 URL-REGEX,^https:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement,REJECT
-# > 肯德基微信小程序 去广告
-URL-REGEX,^https:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/(coupon|activity),REJECT
-URL-REGEX,^https:\/\/dynamicad\.kfc\.com\.cn\/api,REJECT
-URL-REGEX,^https:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/custom_v2\/wxapp,REJECT
 # > 美团 去广告
 URL-REGEX,^https:\/\/flowplus\.meituan\.net\/v1\/mss_\w+\/linglong\/\d+\.jpg$,REJECT
 URL-REGEX,^https:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-alita)\/\w+\.zip$,REJECT
@@ -24,22 +18,14 @@ URL-REGEX,^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,R
 [Map Local]
 # > 京东 去广告
 ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-# > 彩云天气
-^https:\/\/biz\.cyapi\.cn\/p\/v1\/entries\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-^https:\/\/starplucker\.cyapi\.cn\/v3\/operation\/homefeatures\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 [Script]
 # > 12306 开屏广告
 12306 = type=http-request,pattern=^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList,requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/12306.js,script-update-interval=-1
-# > 阿里云盘净化
-云盘净化_1 = type=http-response,pattern=^https:\/\/api\.alipan\.com\/apps\/v2\/users\/home\/(news|widgets),requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js,script-update-interval=-1
-云盘净化_2 = type=http-response,pattern=^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js,script-update-interval=-1
 # > BoxJs
 BoxJs = type=http-request,pattern=^https?:\/\/(.+\.)?boxjs\.(com|net),requires-body=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js,timeout=120,script-update-interval=0
 # > 彩云天气
 彩云解锁 = type=http-response,pattern=^https:\/\/biz\.cyapi\.cn\/(p\/v1\/vip_info|v2\/user),requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caiyun.js,script-update-interval=-1
-彩云推广 = type=http-response,pattern=^https:\/\/wrapper\.cyapi\.cn\/v1\/activity\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caiyun.js,script-update-interval=-1
-彩云其他 = type=http-response,pattern=^https:\/\/wrapper\.cyapi\.cn\/v1\/(nafp\/origin_images|satellite)\?,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caiyun.js,script-update-interval=-1
 # > 豆瓣电影 搜索
 豆瓣电影 = type=http-response,pattern=^https://m.douban.com/movie/subject/.+,requires-body=1,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/Douban.js,script-update-interval=-1
 # > 京东净化
@@ -53,4 +39,4 @@ Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,requires-body=1,max
 淘宝净化_2 = type=http-response,pattern=^https:\/\/poplayer\.template\.alibaba\.com\/\w+\.json,requires-body=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/FuckAds.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% app.dewu.com, api.m.jd.com, m.360buyimg.com, orders.kfc.com.cn, dynamicad.kfc.com.cn, res.kfc.com.cn, flowplus.meituan.net, s3plus.meituan.net, portal.zjzwfw.gov.cn, ad.12306.cn, api.alipan.com, member.alipan.com, guide-acs.m.taobao.com, poplayer.template.alibaba.com, boxjs.com, boxjs.net, *.cyapi.cn, m.douban.com, github.com:443, raw.githubusercontent.com:443, sub.store
+hostname = %APPEND% app.dewu.com, api.m.jd.com, flowplus.meituan.net, s3plus.meituan.net, portal.zjzwfw.gov.cn, ad.12306.cn, guide-acs.m.taobao.com, poplayer.template.alibaba.com, boxjs.com, boxjs.net, biz.cyapi.cn, m.douban.com, github.com:443, raw.githubusercontent.com:443, sub.store

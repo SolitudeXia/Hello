@@ -34,7 +34,7 @@ Weibo_2 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/groups\/allgr
 # > 详情页 超话,评论区,看图界面,个人主页,我的页面,信息流,商品橱窗,视频流,视频号,话题卡片
 Weibo_3 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/(cardlist|page)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,script-update-interval=-1
 Weibo_4 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/comments\/build_comments\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,script-update-interval=-1
-Weibo_5 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/(container\/asyn|flowlist)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,script-update-interval=-1
+Weibo_5 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/(container\/asyn|flowlist|flowpage)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,script-update-interval=-1
 Weibo_6 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/friendships\/(create|destroy)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,script-update-interval=-1
 Weibo_7 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/profile\/(container_timeline|dealatt|me|userinfo)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,script-update-interval=-1
 Weibo_8 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/statuses\/(container_timeline(_hot|_topic|_topicpage|_unread)?|unread_hot_timeline)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js,script-update-interval=-1

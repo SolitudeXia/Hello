@@ -177,6 +177,7 @@ payload:
   - DOMAIN,www.dute.org
   - DOMAIN-SUFFIX,1password.com
   - DOMAIN-SUFFIX,bandswatch.it
+  - DOMAIN-SUFFIX,greasyfork.org
   - DOMAIN-SUFFIX,identrust.com
   - DOMAIN-SUFFIX,morss.it
   - DOMAIN-SUFFIX,owenyoung.com

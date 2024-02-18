@@ -19,17 +19,6 @@ DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
 IP-CIDR,17.0.0.0/8,no-resolve
 
-# ---(Google CN)---
-DOMAIN,clientservices.googleapis.com
-DOMAIN,dl.google.com
-DOMAIN,dl.l.google.com
-DOMAIN,update.googleapis.com
-DOMAIN-SUFFIX,blog.google // Google Blog
-DOMAIN-SUFFIX,crl.pki.goog
-DOMAIN-SUFFIX,ocsp.pki.goog
-# Firebase Cloud Messaging
-DOMAIN-SUFFIX,mtalk.google.com
-
 # ---(Microsoft)---
 DOMAIN-SUFFIX,azureedge.net
 DOMAIN-SUFFIX,bing.com
@@ -86,7 +75,6 @@ IP-CIDR,162.62.163.63/32,no-resolve
 
 # ---(Other)---
 DOMAIN,api.onekeycn.com
-DOMAIN,book-searcher.eu.org
 DOMAIN,coolshell.cn
 DOMAIN,files.catbox.moe
 DOMAIN,firewood.news // 积薪
@@ -97,7 +85,6 @@ DOMAIN,meta.appinn.net // 小众软件
 DOMAIN,movie-api.infuse.im // infuse
 DOMAIN,onekey.zendesk.com
 DOMAIN,polygonscan.com
-DOMAIN,r3.o.lencr.org
 DOMAIN,stayfork.app
 DOMAIN,workers.fileball.app
 DOMAIN,www.daniao.org

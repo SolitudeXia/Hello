@@ -19,6 +19,17 @@ DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
 IP-CIDR,17.0.0.0/8,no-resolve
 
+# ---(Google CN)---
+DOMAIN,clientservices.googleapis.com
+DOMAIN,dl.google.com
+DOMAIN,dl.l.google.com
+DOMAIN,update.googleapis.com
+DOMAIN-SUFFIX,blog.google // Google Blog
+DOMAIN-SUFFIX,crl.pki.goog
+DOMAIN-SUFFIX,ocsp.pki.goog
+# Firebase Cloud Messaging
+DOMAIN-SUFFIX,mtalk.google.com
+
 # ---(Microsoft)---
 DOMAIN-SUFFIX,azureedge.net
 DOMAIN-SUFFIX,bing.com

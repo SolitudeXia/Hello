@@ -103,17 +103,6 @@ payload:
   - DOMAIN,surge.mitsea.com
   - DOMAIN-SUFFIX,nssurge.com
   - DOMAIN-SUFFIX,surge-activation.com
-
-  # > TikTok
-  - DOMAIN-SUFFIX,byteoversea.com
-  - DOMAIN-SUFFIX,ibytedtos.com
-  - DOMAIN-SUFFIX,ipstatp.com
-  - DOMAIN-SUFFIX,muscdn.com
-  - DOMAIN-SUFFIX,musical.ly
-  - DOMAIN-SUFFIX,tik-tokapi.com
-  - DOMAIN-SUFFIX,tiktok.com
-  - DOMAIN-SUFFIX,tiktokv.com
-  - DOMAIN-KEYWORD,tiktokcdn
   
   # > Twitch
   - DOMAIN-SUFFIX,ext-twitch.tv
@@ -171,7 +160,6 @@ payload:
   - DOMAIN-SUFFIX,immersivetranslate.com
   - DOMAIN-SUFFIX,javbus.com
   - DOMAIN-SUFFIX,macrumors.com
-  - DOMAIN-SUFFIX,miaona.cyou
   - DOMAIN-SUFFIX,proton.me
   - DOMAIN-SUFFIX,public-dns.info
   - DOMAIN-SUFFIX,substack.com

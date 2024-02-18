@@ -1,9 +1,0 @@
-payload: 
-  # > Nintendo
-  - DOMAIN-SUFFIX,nintendo.com
-  - DOMAIN-SUFFIX,nintendo.net
-  
-  # > pixiv
-  - DOMAIN-SUFFIX,pixiv.net
-  - DOMAIN-SUFFIX,pixiv.org
-  - DOMAIN-SUFFIX,pximg.net

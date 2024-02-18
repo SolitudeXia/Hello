@@ -17,8 +17,8 @@ let userDaysName2 = $.getdata('@DaysMatter.userDaysName2')
 let userDaysData = $.getjson('@DaysMatter.userDaysData', {'list': []}) // 备用变量
 let defaultDaysData =
     [{'date': '2024-2-17', 'name': '生日🎂'},
-    {'date': '2023-5-20', 'name': '老爸生日🎂'},
-    {'date': '2024-1-29', 'name': '老妈生日🎂'}] // 内置假日
+    {'date': '', 'name': '老爸生日🎂'},
+    {'date': '', 'name': '老妈生日🎂'}] // 内置假日
 
 let tnow = new Date()
 let tnowf = tnow.getFullYear() + "-" + (tnow.getMonth() + 1) + "-" + tnow.getDate()

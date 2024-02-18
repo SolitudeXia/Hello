@@ -30,8 +30,6 @@ payload:
   - DOMAIN-SUFFIX,cloudflareresolve.com
   - DOMAIN-SUFFIX,cloudflaressl.com
   - DOMAIN-SUFFIX,cloudflarestream.com
-  - DOMAIN-SUFFIX,every1dns.net
-  - DOMAIN-SUFFIX,workers.dev
   
   # > Dropbox
   - DOMAIN-SUFFIX,dropbox.com

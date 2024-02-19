@@ -10,9 +10,7 @@ DOMAIN,httpdns-sc.aliyuncs.com
 IP-CIDR,203.107.1.0/24,no-resolve
 
 # ---(Apple)---
-DOMAIN,api-adservices.apple.com
 DOMAIN,app-site-association.cdn-apple.com // Safari 防跳转
-DOMAIN-SUFFIX,iadsdk.apple.com
 
 # ---(哔哩哔哩)---
 DOMAIN,httpdns.bilivideo.com

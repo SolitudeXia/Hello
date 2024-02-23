@@ -35,6 +35,8 @@ Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,requires-body=1,max
 # > 淘宝净化
 淘宝净化_1 = type=http-response,pattern=^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(cloudvideo\.video\.query|wireless\.home\.splash\.awesome\.get),requires-body=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/FuckAds.js,script-update-interval=-1
 淘宝净化_2 = type=http-response,pattern=^https:\/\/poplayer\.template\.alibaba\.com\/\w+\.json,requires-body=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/FuckAds.js,script-update-interval=-1
+# > TestFlight 账户管理
+TestFlight = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/,requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js,timeout=120,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% app.dewu.com, api.m.jd.com, flowplus.meituan.net, s3plus.meituan.net, portal.zjzwfw.gov.cn, ad.12306.cn, guide-acs.m.taobao.com, poplayer.template.alibaba.com, boxjs.com, boxjs.net, m.douban.com, github.com:443, raw.githubusercontent.com:443, sub.store
+hostname = %APPEND% app.dewu.com, api.m.jd.com, flowplus.meituan.net, s3plus.meituan.net, portal.zjzwfw.gov.cn, ad.12306.cn, guide-acs.m.taobao.com, poplayer.template.alibaba.com, boxjs.com, boxjs.net, m.douban.com, github.com:443, raw.githubusercontent.com:443, sub.store, testflight.apple.com

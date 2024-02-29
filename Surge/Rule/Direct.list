@@ -23,6 +23,7 @@ IP-CIDR,17.0.0.0/8,no-resolve
 DOMAIN-SUFFIX,azureedge.net
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bingapis.com
+DOMAIN-SUFFIX,hotmail.com
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,live.net
 DOMAIN-SUFFIX,msauth.net

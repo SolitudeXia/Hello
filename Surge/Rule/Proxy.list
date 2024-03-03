@@ -49,6 +49,10 @@ DOMAIN-SUFFIX,notion.new
 DOMAIN-SUFFIX,notion.site
 DOMAIN-SUFFIX,notion.so
 
+# ---(OP.GG)---
+DOMAIN-SUFFIX,op.gg
+DOMAIN-KEYWORD,opgg
+
 # ---(pixiv)---
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pixiv.org

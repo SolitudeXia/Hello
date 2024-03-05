@@ -4,13 +4,14 @@ const url = $request.url;
 const header = $request.headers;
 const opt12306 = header["Operation-Type"] || header["operation-type"];
 const ua = header["User-Agent"] || header["user-agent"];
+const isQuanX = typeof $task !== "undefined";
 
 if (url.includes("/amdc/mobileDispatch")) {
   if (
     ua.includes("AMapiPhone") || // 高德地图
     ua.includes("Cainiao4iPhone") || // 菜鸟
   ) {
-    if ('undefined' !== typeof $task) {
+    if (isQuanX) {
       $done({ status: "HTTP/1.1 404 Not Found" });
     } else {
       $done();
@@ -35,7 +36,7 @@ if (url.includes("/amdc/mobileDispatch")) {
     // "com.cars.otsmobile.newHomePageRefresh",
     // "com.cars.otsmobile.travelPage.initData", // 出行服务
   ];
-  if ('undefined' !== typeof $task) {
+  if (isQuanX) {
     if (list12306?.includes(opt12306)) {
       $done({ status: "HTTP/1.1 404 Not Found" });
     } else {

@@ -3,7 +3,7 @@
 #!system=ios
 
 [Script]
-# > 我的页面 解锁1080P高码率,4K画质,皮肤推送
+# > 解锁1080P高码率、4K画质
 画质解锁 = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/account\/(mine|myinfo)\?,requires-body=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/bilibili.js,script-update-interval=-1
 # > 装扮DIY
 皮肤装扮 = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\?,requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/dev/bili-suit-diy.js,script-update-interval=-1

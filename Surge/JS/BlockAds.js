@@ -10,7 +10,7 @@ if (url.includes("/amdc/mobileDispatch")) {
     ua.includes("AMapiPhone") || // 高德地图
     ua.includes("Cainiao4iPhone") || // 菜鸟
   ) {
-    if (typeof $task !== "undefined") {
+    if ('undefined' !== typeof $task) {
       $done({ status: "HTTP/1.1 404 Not Found" });
     } else {
       $done();
@@ -35,7 +35,7 @@ if (url.includes("/amdc/mobileDispatch")) {
     // "com.cars.otsmobile.newHomePageRefresh",
     // "com.cars.otsmobile.travelPage.initData", // 出行服务
   ];
-  if (typeof $task !== "undefined") {
+  if ('undefined' !== typeof $task) {
     if (list12306?.includes(opt12306)) {
       $done({ status: "HTTP/1.1 404 Not Found" });
     } else {

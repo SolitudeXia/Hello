@@ -1,27 +1,41 @@
 #!name=高德地图
-#!desc=修改自kokoryh
-
-[URL Rewrite]
-# > 通用广告请求
-URL-REGEX,^https?:\/\/m5\.amap\.com\/ws\/asa\/ads_attribution,REJECT
+#!desc=修改自RuCu6 kokoryh
 
 [Map Local]
-# > 搜索框 | 左下天气
-^https?:\/\/m5\.amap\.com\/ws\/(shield\/scene\/recommend|valueadded\/weather) data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
-# > Tip请求
-^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page-(assets|location)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
+# > 导航详情页,路线规划,地点详情页,搜索详情页,导航结束页
+^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/card-service-(car-end|route-plan)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/shield\/search\/new_hotword\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/tips_adv\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/oss\.amap\.com\/ws\/banner\/lists\/\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+# > 首页,推广卡片,红点角标,右上角动图,搜索框热词,左下角天气,消息横幅
+^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page-(assets|location)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/(mapapi\/hint_text\/offline_data|message\/notice\/list|shield\/search\/new_hotword)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/shield\/scene\/recommend\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/m5\.amap\.com\/ws\/valueadded\/weather\/v2\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull_mp\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
+# > 打车页,红点角标,弹窗,天气图标,推广卡片
+^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(order\/car\/king_toolbox_car_bubble|tips\/onscene_visual_optimization)\? data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-dict.json"
 
 [Script]
-# > 搜索框热词 | 附近页面 | 我的页面 | 首页右中
-Amap = type=http-response,pattern=^https?:\/\/m5\.amap\.com\/ws\/shield\/(search\/(new_hotword|nearbyrec_smart)|dsp\/profile\/index\/nodefaas|frogserver\/aocs\/updatable),requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/amap.js,script-update-interval=-1
-# > 开屏广告 | 首页底部 | 底栏角标
-Amap = type=http-response,pattern=^https?:\/\/m5\.amap\.com\/ws\/(valueadded\/alimama\/splash_screen|faas\/amap-navigation\/main-page|message\/notice\/list),requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/amap.js,script-update-interval=-1
-# > 打车页面
-Amap = type=http-response,pattern=^https?:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource,requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/amap.js,script-update-interval=-1
-# > 首页顶部横幅
-Amap = type=http-response,pattern=^https?:\/\/sns\.amap\.com\/ws\/msgbox\/pull,requires-body=1,script-path=https://raw.githubusercontent.com/kokoryh/Script/master/js/amap.js,script-update-interval=-1
-# > Other
-Amap = type=http-response,pattern=^http:\/\/amdc\.m\.taobao\.com,requires-body=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/BlockAds.js,script-update-interval=-1
-
+# > 导航详情页,路线规划,地点详情页,搜索详情页,导航结束页
+Amap_1 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/perception\/drive\/(routeInfo|routePlan)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,script-update-interval=-1
+Amap_2 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search\/(common\/coupon\/info|poi\/detail)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,script-update-interval=-1
+Amap_3 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search_business\/process\/marketingOperationStructured\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,script-update-interval=-1
+Amap_4 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/(homepage|mps|search\/sp|sug|tips_operation_location)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,script-update-interval=-1
+# > 首页,推广卡片,红点角标,右上角动图,搜索框热词,左下角天气,消息横幅
+Amap_5 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/(card-service-plan-home|main-page)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,script-update-interval=-1
+Amap_6 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable\/1\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,script-update-interval=-1
+# > 我的页面,推广卡片
+Amap_7 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,script-update-interval=-1
+# > 附近页
+Amap_8 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search\/nearbyrec_smart\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,script-update-interval=-1
+# > 开屏广告
+Amap_9 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,script-update-interval=-1
+# > 打车页,红点角标,弹窗,天气图标,推广卡片
+Amap_10 = type=http-response,pattern=^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(car\/order\/content_info|order_web\/friendly_information)\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,script-update-interval=-1
+Amap_11 = type=http-response,pattern=^https:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource(\/home)?\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,script-update-interval=-1
+Amap_12 = type=http-response,pattern=^https:\/\/m5-zb\.amap\.com\/ws\/sharedtrip\/taxi\/order_detail_car_tips\?,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js,script-update-interval=-1
+# > 其他
+Amap_other = type=http-response,pattern=^http:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch$,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/BlockAds.js,script-update-interval=-1
 [MITM]
-hostname = %APPEND% m5*.amap.com, sns.amap.com
+hostname = %APPEND% m5.amap.com, m5-zb.amap.com, oss.amap.com, sns.amap.com

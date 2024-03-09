@@ -60,6 +60,7 @@ payload:
   # > Mastodon //长毛象
   - DOMAIN-SUFFIX,mastodon.social
   - DOMAIN-SUFFIX,m.cmx.im
+  - DOMAIN-SUFFIX,neodb.social
 
   # > Nintendo
   - DOMAIN-SUFFIX,nintendo.com
@@ -152,7 +153,6 @@ payload:
   - DOMAIN-SUFFIX,adtidy.org
   - DOMAIN-SUFFIX,afreecatv.com
   - DOMAIN-SUFFIX,brave.com
-  - DOMAIN-SUFFIX,deepl.com
   - DOMAIN-SUFFIX,duckduckgo.com
   - DOMAIN-SUFFIX,emojipedia.org
   - DOMAIN-SUFFIX,figma.com

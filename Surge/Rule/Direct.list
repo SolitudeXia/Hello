@@ -83,7 +83,6 @@ DOMAIN,api.authy.com
 DOMAIN,api.revenuecat.com
 DOMAIN,embyplus.org // 纸片人
 DOMAIN,firewood.news // 积薪
-DOMAIN,greasyfork.org
 DOMAIN,guozh.net // 老郭种树
 DOMAIN,iyideng.net // 一灯不是和尚
 DOMAIN,meta.appinn.net // 小众软件
@@ -96,6 +95,7 @@ DOMAIN,www.dute.org // 工具箱
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,gitee.com
+DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,oyunfor.com
 DOMAIN-KEYWORD,paypal
 IP-CIDR,17.248.226.7/32,no-resolve

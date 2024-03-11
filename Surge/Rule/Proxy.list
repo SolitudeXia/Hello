@@ -82,7 +82,6 @@ DOMAIN,miaona.info
 DOMAIN,nom.telemetrydeck.com // working-copy
 DOMAIN,paste.gg
 DOMAIN,pepcn.com // 壹页单章
-DOMAIN,sleazyfork.org
 DOMAIN,sub-store.vercel.app // sub-store
 DOMAIN,workingcopy.app
 DOMAIN,www.linking.vision // 聊经思想空间
@@ -94,12 +93,14 @@ DOMAIN-SUFFIX,coingecko.com
 DOMAIN-SUFFIX,disneyplus.com // Disney
 DOMAIN-SUFFIX,duckduckgo.com
 DOMAIN-SUFFIX,giffgaff.com
+DOMAIN-SUFFIX,immersivetranslate.com // 沉浸式翻译
 DOMAIN-SUFFIX,javbus.com // javbus
 DOMAIN-SUFFIX,macrumors.com
 DOMAIN-SUFFIX,nba.com
 DOMAIN-SUFFIX,netflix.com // Netflix
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,okx.com // 欧易
+DOMAIN-SUFFIX,sleazyfork.org
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,wallhaven.cc
 DOMAIN-SUFFIX,wanqu.co // 湾区日报

@@ -141,6 +141,7 @@ payload:
   - DOMAIN-SUFFIX,1password.com
   - DOMAIN-SUFFIX,bandswatch.it
   - DOMAIN-SUFFIX,deepl.com
+  - DOMAIN-SUFFIX,gitee.com
   - DOMAIN-SUFFIX,greasyfork.org
   - DOMAIN-SUFFIX,identrust.com
   - DOMAIN-SUFFIX,morss.it

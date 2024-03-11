@@ -1,29 +1,12 @@
 # ---(Apple)---
-DOMAIN-SUFFIX,appsto.re // Apple URL Shortener
 DOMAIN-SUFFIX,smoot.apple.cn // Spotlight
 DOMAIN-SUFFIX,smoot.apple.com
 # TestFlight
 DOMAIN,testflight.apple.com
-#
-DOMAIN-SUFFIX,digicert.com
-
-# ---(Cloudflare)---
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,cloudflare.net
-DOMAIN-SUFFIX,cloudflare-dns.com
-DOMAIN-SUFFIX,cloudflareclient.com
-DOMAIN-SUFFIX,cloudflareinsights.com
-DOMAIN-SUFFIX,cloudflareresolve.com
-DOMAIN-SUFFIX,cloudflaressl.com
-DOMAIN-SUFFIX,cloudflarestream.com
 
 # ---(Other)---
-DOMAIN-SUFFIX,crocs.com
-DOMAIN-SUFFIX,lego.com
-DOMAIN-SUFFIX,mschf.com
-DOMAIN-SUFFIX,onekey.so
-DOMAIN-SUFFIX,padandquill.com
-DOMAIN-SUFFIX,rocketsshop.com
-DOMAIN-SUFFIX,ultramobile.com // paygo
-DOMAIN-SUFFIX,walletconnect.com
-DOMAIN-SUFFIX,yubico.com
+DOMAIN,crocs.com
+DOMAIN,lego.com
+DOMAIN,mschf.com
+DOMAIN,rocketsshop.com
+DOMAIN,yubico.com

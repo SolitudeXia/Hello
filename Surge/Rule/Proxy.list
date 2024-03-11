@@ -160,8 +160,6 @@ DOMAIN-SUFFIX,imgur.io
 DOMAIN-SUFFIX,immersivetranslate.com
 DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,javbus.com // javbus
-DOMAIN-SUFFIX,jsdelivr.com
-DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,lemmy.world
 DOMAIN-SUFFIX,lwk.ffmm.com // 明德影像
 DOMAIN-SUFFIX,macrumors.com
@@ -178,10 +176,8 @@ DOMAIN-SUFFIX,obsidian.md
 DOMAIN-SUFFIX,overflow.design //图标集
 DOMAIN-SUFFIX,pepcn.com // 壹页单章
 DOMAIN-SUFFIX,producthunt.com
-DOMAIN-SUFFIX,quantumult.app
 DOMAIN-SUFFIX,rfa.org // 自由亚洲
 DOMAIN-SUFFIX,rfi.fr // 法国国际广播电台
-DOMAIN-SUFFIX,secureshellfish.app
 DOMAIN-SUFFIX,signal.org
 DOMAIN-SUFFIX,sleazyfork.org
 DOMAIN-SUFFIX,speedtest.cn
@@ -208,5 +204,6 @@ DOMAIN-SUFFIX,xvideos.com
 DOMAIN-SUFFIX,yahoo.com // 雅虎
 DOMAIN-SUFFIX,zaobao.com // 联合早报
 DOMAIN-SUFFIX,zhiboz.com // 直播吧
+DOMAIN-KEYWORD,github
 IP-CIDR,1.0.0.1/32,no-resolve
 IP-CIDR,8.8.4.4/32,no-resolve

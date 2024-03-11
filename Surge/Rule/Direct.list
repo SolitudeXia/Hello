@@ -42,6 +42,10 @@ DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,oklink.com
 DOMAIN-SUFFIX,okx.com
 
+# ---(Onekey)---
+DOMAIN,api.onekeycn.com
+DOMAIN-SUFFIX,onekey-asset.com
+
 # ---(Wechat)---
 DOMAIN,dl.wechat.com
 DOMAIN,sgfindershort.wechat.com
@@ -75,15 +79,10 @@ IP-CIDR,129.226.3.47/32,no-resolve
 IP-CIDR,162.62.163.63/32,no-resolve
 
 # ---(Other)---
-DOMAIN,api.onekeycn.com
-DOMAIN,coolshell.cn
-DOMAIN,files.catbox.moe
 DOMAIN,firewood.news // 积薪
 DOMAIN,guozh.net
-DOMAIN,image.tmdb.org // infuse
 DOMAIN,iyideng.net
 DOMAIN,meta.appinn.net // 小众软件
-DOMAIN,movie-api.infuse.im // infuse
 DOMAIN,mtalk.google.com
 DOMAIN,onekey.zendesk.com
 DOMAIN,polygonscan.com
@@ -92,25 +91,17 @@ DOMAIN,www.daniao.org
 DOMAIN,www.dute.org // 工具箱
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,authy.com
-DOMAIN-SUFFIX,bandswatch.it
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,dochub.wiki
 DOMAIN-SUFFIX,embyplus.org // 纸片人
 DOMAIN-SUFFIX,gitee.com
 DOMAIN-SUFFIX,greasyfork.org
-DOMAIN-SUFFIX,imarkr.com
 DOMAIN-SUFFIX,iyzipay.com // 土区礼品卡支付
-DOMAIN-SUFFIX,onekey-asset.com
 DOMAIN-SUFFIX,owenyoung.com // 沉浸式翻译
 DOMAIN-SUFFIX,oyunfor.com
 DOMAIN-SUFFIX,qiyoujiage.com
-DOMAIN-SUFFIX,rarbgmirror.org
-DOMAIN-SUFFIX,revenuecat.com
-DOMAIN-SUFFIX,trakt.tv
-DOMAIN-SUFFIX,typeform.com
 DOMAIN-SUFFIX,williamlong.info
-DOMAIN-SUFFIX,wired.com
 DOMAIN-KEYWORD,paypal
 IP-CIDR,17.248.226.7/32,no-resolve
 IP-CIDR,43.156.223.202/32,no-resolve

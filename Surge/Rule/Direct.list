@@ -92,8 +92,12 @@ DOMAIN,workers.fileball.app
 DOMAIN,williamlong.info // 月光博客
 DOMAIN,www.daniao.org
 DOMAIN,www.dute.org // 工具箱
+DOMAIN,www.imarkr.com // Honye
+DOMAIN,xteko.com // JsBox
 DOMAIN-SUFFIX,1password.com
+DOMAIN-SUFFIX,cloudfront.net // ?
 DOMAIN-SUFFIX,deepl.com
+DOMAIN-SUFFIX,endel.io // Endel
 DOMAIN-SUFFIX,gitee.com
 DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,oyunfor.com

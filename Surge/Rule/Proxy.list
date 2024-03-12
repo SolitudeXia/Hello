@@ -49,6 +49,10 @@ DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditstatic.com
 
+# ---(Surge)---
+DOMAIN,www.surge-activation.com
+DOMAIN-SUFFIX,nssurge.com
+
 # ---(Twitter)---
 DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,pscp.tv
@@ -89,6 +93,7 @@ DOMAIN,www.safe-in-cloud.com
 DOMAIN,www.zhiboz.com // 直播吧
 DOMAIN-SUFFIX,91porn.com // 91
 DOMAIN-SUFFIX,afreecatv.com
+DOMAIN-SUFFIX,amazonaws.com // Amazon
 DOMAIN-SUFFIX,coingecko.com
 DOMAIN-SUFFIX,disneyplus.com // Disney
 DOMAIN-SUFFIX,duckduckgo.com
@@ -98,13 +103,13 @@ DOMAIN-SUFFIX,javbus.com // javbus
 DOMAIN-SUFFIX,macrumors.com
 DOMAIN-SUFFIX,nba.com
 DOMAIN-SUFFIX,netflix.com // Netflix
-DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,okx.com // 欧易
 DOMAIN-SUFFIX,sleazyfork.org
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,wallhaven.cc
 DOMAIN-SUFFIX,wanqu.co // 湾区日报
 DOMAIN-SUFFIX,xvideos.com
+DOMAIN-SUFFIX,yahoo.com // 雅虎
 DOMAIN-KEYWORD,github
 IP-CIDR,1.0.0.1/32,no-resolve
 IP-CIDR,8.8.4.4/32,no-resolve

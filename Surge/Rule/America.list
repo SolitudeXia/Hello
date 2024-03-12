@@ -5,9 +5,9 @@ DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN,testflight.apple.com
 
 # ---(Other)---
-DOMAIN,crocs.com
-DOMAIN,lego.com
 DOMAIN,mschf.com
 DOMAIN,rocketsshop.com
-DOMAIN,yubico.com
+DOMAIN-SUFFIX,crocs.com
+DOMAIN-SUFFIX,lego.com
 DOMAIN-SUFFIX,onekey.so
+DOMAIN-SUFFIX,yubico.com

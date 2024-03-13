@@ -14,8 +14,8 @@
 # > Gist备份+恢复
 数据备份 = type=cron,cronexp="0 30 21 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/dompling/Script/master/gist/backup.js,script-update-interval=0,timeout=60
 #数据恢复 = type=cron,cronexp="0 24 21 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/dompling/Script/master/gist/restore.js,script-update-interval=0,timeout=60
-# > 威锋论坛
-威锋论坛 = type=cron,cronexp="0 4 7 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/weifeng.js,script-update-interval=0,timeout=30
+# > 喜马拉雅
+喜马拉雅 = type=cron,cronexp="0 4 7 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/xmlySign.js,script-update-interval=0,timeout=60
 # > 伊利乳品
 伊利乳品 = type=cron,cronexp="0 5 7 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.js,script-update-interval=0,timeout=30
 # > IT之家

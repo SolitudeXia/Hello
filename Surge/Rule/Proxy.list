@@ -1,3 +1,9 @@
+# ---(Apple)---
+DOMAIN-SUFFIX,smoot.apple.cn // Spotlight
+DOMAIN-SUFFIX,smoot.apple.com
+# TestFlight
+DOMAIN,testflight.apple.com
+
 # ---(Facebook)---
 DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,fb.me

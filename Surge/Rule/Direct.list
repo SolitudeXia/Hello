@@ -41,6 +41,8 @@ DOMAIN-KEYWORD,onedrive
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,oklink.com
 DOMAIN-SUFFIX,okx.com
+#
+DOMAIN,api2.amplitude.com
 
 # ---(Onekey)---
 DOMAIN,asset.onekey-asset.com

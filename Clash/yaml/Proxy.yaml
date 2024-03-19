@@ -109,4 +109,4 @@ payload:
   - DOMAIN-SUFFIX,v2ex.com
   - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,you.com
-  - DOMAIN-SUFFIX,zhiboz.com
+  - DOMAIN-KEYWORD,github

@@ -1,10 +1,7 @@
 payload:
+  - DOMAIN,mschf.com
+  - DOMAIN,rocketsshop.com
   - DOMAIN-SUFFIX,crocs.com
   - DOMAIN-SUFFIX,lego.com
-  - DOMAIN-SUFFIX,mschf.com
   - DOMAIN-SUFFIX,onekey.so
-  - DOMAIN-SUFFIX,padandquill.com
-  - DOMAIN-SUFFIX,rocketsshop.com
-  - DOMAIN-SUFFIX,ultramobile.com
-  - DOMAIN-SUFFIX,walletconnect.com
   - DOMAIN-SUFFIX,yubico.com

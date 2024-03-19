@@ -14,7 +14,6 @@ DOMAIN,ad.cyapi.cn
 
 # ---(高德地图)---
 DOMAIN,amap-aos-info-nogw.amap.com
-DOMAIN,free-aos-cdn-image.amap.com
 
 # ---(广告联盟)---
 DOMAIN,i.snssdk.com

@@ -84,6 +84,7 @@ IP-CIDR,162.62.163.63/32,no-resolve
 DOMAIN,api.authy.com
 DOMAIN,api.revenuecat.com
 DOMAIN,embyplus.org // 纸片人
+DOMAIN,excess.duolingo.com // 多邻国
 DOMAIN,firewood.news // 积薪
 DOMAIN,guozh.net // 老郭种树
 DOMAIN,iyideng.net // 一灯不是和尚

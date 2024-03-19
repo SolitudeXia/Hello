@@ -1,44 +1,7 @@
 payload:
-  # > 9to5
-  - DOMAIN-SUFFIX,9to5google.com
-  - DOMAIN-SUFFIX,9to5mac.com
-  - DOMAIN-SUFFIX,9to5terminal.com
-  - DOMAIN-SUFFIX,9to5toys.com
-  - DOMAIN-SUFFIX,dronedj.com
-  - DOMAIN-SUFFIX,electrek.co
-  - DOMAIN-SUFFIX,spaceexplored.com
-  
   # > Adguard
   - DOMAIN-SUFFIX,adguard.com
   - DOMAIN-SUFFIX,adguard.org
-  
-  # > BBC
-  - DOMAIN-SUFFIX,bbc.co
-  - DOMAIN-SUFFIX,bbc.com
-
-  # > Bloomberg
-  - DOMAIN-SUFFIX,bloomberg.cn
-  - DOMAIN-SUFFIX,bloomberg.com
-  - DOMAIN-SUFFIX,bloombergview.com
-
-  # > Cloudflare
-  - DOMAIN-SUFFIX,cloudflare.com
-  - DOMAIN-SUFFIX,cloudflare.net
-  - DOMAIN-SUFFIX,cloudflare-dns.com
-  - DOMAIN-SUFFIX,cloudflareclient.com
-  - DOMAIN-SUFFIX,cloudflareinsights.com
-  - DOMAIN-SUFFIX,cloudflareresolve.com
-  - DOMAIN-SUFFIX,cloudflaressl.com
-  - DOMAIN-SUFFIX,cloudflarestream.com
-  
-  # > Dropbox
-  - DOMAIN-SUFFIX,dropbox.com
-  - DOMAIN-SUFFIX,dropboxapi.com
-  - DOMAIN-SUFFIX,dropboxusercontent.com
-
-  # > Espn
-  - DOMAIN-SUFFIX,espn.com
-  - DOMAIN-SUFFIX,espn.net
 
   # > Facebook
   - DOMAIN-SUFFIX,fb.com
@@ -61,10 +24,6 @@ payload:
   - DOMAIN-SUFFIX,mastodon.social
   - DOMAIN-SUFFIX,m.cmx.im
   - DOMAIN-SUFFIX,neodb.social
-
-  # > Nintendo
-  - DOMAIN-SUFFIX,nintendo.com
-  - DOMAIN-SUFFIX,nintendo.net
   
   # > Notion
   - DOMAIN-SUFFIX,notion-static.com
@@ -101,9 +60,8 @@ payload:
   - DOMAIN-SUFFIX,redditstatic.com
   
   # > Surge
-  - DOMAIN,surge.mitsea.com
+  - DOMAIN,www.surge-activation.com
   - DOMAIN-SUFFIX,nssurge.com
-  - DOMAIN-SUFFIX,surge-activation.com
   
   # > Twitch
   - DOMAIN-SUFFIX,ext-twitch.tv
@@ -125,18 +83,8 @@ payload:
   - DOMAIN-KEYWORD,twitter
   
   # > Wikimedia //维基
-  - DOMAIN-SUFFIX,mediawiki.org
-  - DOMAIN-SUFFIX,wikibooks.org
-  - DOMAIN-SUFFIX,wikidata.org
-  - DOMAIN-SUFFIX,wikileaks.org
   - DOMAIN-SUFFIX,wikimedia.org
-  - DOMAIN-SUFFIX,wikinews.org
   - DOMAIN-SUFFIX,wikipedia.org
-  - DOMAIN-SUFFIX,wikiquote.org
-  - DOMAIN-SUFFIX,wikisource.org
-  - DOMAIN-SUFFIX,wikiversity.org
-  - DOMAIN-SUFFIX,wikivoyage.org
-  - DOMAIN-SUFFIX,wiktionary.org
   
   # > Other
   - DOMAIN,basicappleguy.com
@@ -148,21 +96,14 @@ payload:
   - DOMAIN,paste.gg
   - DOMAIN,www.btnull.org
   - DOMAIN,www.safe-in-cloud.com
+  - DOMAIN,www.zhiboz.com
   - DOMAIN,zhaojiaren.club
   - DOMAIN-SUFFIX,91porn.com
-  - DOMAIN-SUFFIX,adtidy.org
   - DOMAIN-SUFFIX,afreecatv.com
-  - DOMAIN-SUFFIX,brave.com
   - DOMAIN-SUFFIX,duckduckgo.com
-  - DOMAIN-SUFFIX,emojipedia.org
-  - DOMAIN-SUFFIX,figma.com
-  - DOMAIN-SUFFIX,gravatar.com
   - DOMAIN-SUFFIX,immersivetranslate.com
   - DOMAIN-SUFFIX,javbus.com
   - DOMAIN-SUFFIX,macrumors.com
-  - DOMAIN-SUFFIX,proton.me
-  - DOMAIN-SUFFIX,public-dns.info
-  - DOMAIN-SUFFIX,substack.com
   - DOMAIN-SUFFIX,sleazyfork.org
   - DOMAIN-SUFFIX,wallhaven.cc
   - DOMAIN-SUFFIX,v2ex.com

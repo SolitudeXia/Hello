@@ -129,23 +129,15 @@ payload:
   - DOMAIN-SUFFIX,gputechconf.cn
   - DOMAIN-SUFFIX,nvidia.cn
   
-  # > 自用
-  - DOMAIN-SUFFIX,iyzipay.com
-  - DOMAIN-SUFFIX,oyunfor.com
-  #
+  # > Other
   - DOMAIN,daniao.org
   - DOMAIN,guozh.net
   - DOMAIN,iyideng.net
   - DOMAIN,www.ahhhhfs.com
   - DOMAIN,www.dute.org
   - DOMAIN-SUFFIX,1password.com
-  - DOMAIN-SUFFIX,bandswatch.it
   - DOMAIN-SUFFIX,deepl.com
   - DOMAIN-SUFFIX,gitee.com
   - DOMAIN-SUFFIX,greasyfork.org
-  - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,morss.it
-  - DOMAIN-SUFFIX,owenyoung.com
   - DOMAIN-SUFFIX,tampermonkey.net
-  - DOMAIN-SUFFIX,transrush.com
   

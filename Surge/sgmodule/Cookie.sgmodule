@@ -20,7 +20,7 @@ B站cookie = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/resour
 # > 托迈酷客
 托迈酷客cookie = type=http-request,pattern=^https:\/\/apis\.folidaymall\.com\/online\/capi\/uc\/getCount,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/ThomasCook.js,script-update-interval=-1
 # > 顺丰速运 app获取
-#顺丰速运cookie = type=http-request,pattern=^https:\/\/ccsp-egmas.sf-express.com\/cx-app-member\/member\/app\/user\/universalSign,requires-body=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js,script-update-interval=-1
+顺丰速运cookie = type=http-request,pattern=^https:\/\/ccsp-egmas.sf-express.com\/cx-app-member\/member\/app\/user\/universalSign,requires-body=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js,script-update-interval=-1
 
 [MITM]
 hostname = %APPEND% user-api.smzdm.com, mall.meituan.com, mobile.ximalaya.com, e.189.cn, open.e.189.cn, club.yili.com, apis.folidaymall.com, ccsp-egmas.sf-express.com

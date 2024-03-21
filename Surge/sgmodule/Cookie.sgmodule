@@ -3,8 +3,8 @@
 #!system=ios
 
 [Script]
-# > 哔哩哔哩 app获取
-B站cookie = type=http-request,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/domain\?,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/BiliBili.js,script-update-interval=-1
+# > 哔哩哔哩 web获取
+B站cookie = type=http-request,pattern=^https?:\/\/m.bilibili.com/$,script-path=https://raw.githubusercontent.com/ClydeTime/Surge/main/Script/Task/BiliBili.js,script-update-interval=-1
 # > 什么值得买 app获取
 什么值得买cookie = type=http-request,pattern=^https?:\/\/user-api\.smzdm\.com\/checkin$,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_daily.js,script-update-interval=-1
 # > 美团买菜

@@ -23,4 +23,4 @@ B站cookie = type=http-request,pattern=^https?:\/\/m.bilibili.com/$,script-path=
 顺丰速运cookie = type=http-request,pattern=^https:\/\/ccsp-egmas.sf-express.com\/cx-app-member\/member\/app\/user\/universalSign,requires-body=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% user-api.smzdm.com, mall.meituan.com, mobile.ximalaya.com, e.189.cn, open.e.189.cn, club.yili.com, apis.folidaymall.com, ccsp-egmas.sf-express.com
+hostname = %APPEND% m.bilibili.com, user-api.smzdm.com, mall.meituan.com, mobile.ximalaya.com, e.189.cn, open.e.189.cn, club.yili.com, apis.folidaymall.com, ccsp-egmas.sf-express.com

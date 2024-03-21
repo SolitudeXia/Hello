@@ -24,3 +24,5 @@ IT之家 = type=cron,cronexp="0 6 7 * * ?",wake-system=1,script-path=https://raw
 高德地图 = type=cron,cronexp="0 7 7 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js,script-update-interval=0,timeout=60
 # > 托迈酷客
 托迈酷客 = type=cron,cronexp="0 8 7 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/ThomasCook.js,script-update-interval=0,timeout=60
+# > 顺丰速运
+顺丰速运 = type=cron,cronexp="0 9 7 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js,script-update-interval=0,timeout=30

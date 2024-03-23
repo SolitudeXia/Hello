@@ -1,4 +1,5 @@
 # ---(Cloudflare)---
+DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cloudflare-dns.com
 
 # ---(Rule)---

@@ -7,6 +7,15 @@ DOMAIN-SUFFIX,smoot.apple.com
 # TestFlight
 DOMAIN,testflight.apple.com
 
+# ---(America)---
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,mschf.com
+DOMAIN,rocketsshop.com
+DOMAIN-SUFFIX,crocs.com
+DOMAIN-SUFFIX,lego.com
+DOMAIN-SUFFIX,onekey.so
+DOMAIN-SUFFIX,yubico.com
+
 # ---(Spotify)---
 DOMAIN-SUFFIX,pscdn.co
 DOMAIN-SUFFIX,scdn.co
@@ -21,8 +30,6 @@ DOMAIN,pub3.emby.wtf
 # 卷毛鼠
 DOMAIN,jms1.emby.pro
 DOMAIN,cf.jmsooo.com
-# Cc
-DOMAIN,cc.coemn.com
 
 # ---(RSS)---
 DOMAIN,home.wangjianshuo.com // 王建硕

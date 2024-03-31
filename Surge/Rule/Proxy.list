@@ -1,8 +1,3 @@
-# ---(Dropbox)---
-DOMAIN-SUFFIX,dropbox.com
-DOMAIN-SUFFIX,dropboxapi.com
-DOMAIN-SUFFIX,dropboxusercontent.com
-
 # ---(Facebook)---
 DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,fb.me

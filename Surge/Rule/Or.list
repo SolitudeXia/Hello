@@ -4,8 +4,6 @@ DOMAIN,bag.itunes.apple.com
 DOMAIN,bookkeeper.itunes.apple.com
 DOMAIN-SUFFIX,smoot.apple.cn // Spotlight
 DOMAIN-SUFFIX,smoot.apple.com
-# TestFlight
-DOMAIN,testflight.apple.com
 
 # ---(America)---
 DOMAIN,generativelanguage.googleapis.com

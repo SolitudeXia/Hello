@@ -6,6 +6,28 @@ payload:
   - DOMAIN-SUFFIX,discord.media
   - DOMAIN-SUFFIX,discordapp.com
   - DOMAIN-SUFFIX,discordapp.net
+
+  # > Facebook
+  - DOMAIN-SUFFIX,fb.com
+  - DOMAIN-SUFFIX,fb.me
+  - DOMAIN-SUFFIX,fbsbx.com
+  - DOMAIN-KEYWORD,facebook
+  - DOMAIN-KEYWORD,fbcdn
+
+  # > Instagram
+  - DOMAIN-SUFFIX,instagr.am
+  - DOMAIN-KEYWORD,instagram
+
+  # > Mastodon //长毛象
+  - DOMAIN-SUFFIX,mastodon.social
+  - DOMAIN-SUFFIX,m.cmx.im
+  - DOMAIN-SUFFIX,neodb.social
+
+  # > Reddit
+  - DOMAIN-SUFFIX,redd.it
+  - DOMAIN-SUFFIX,reddit.com
+  - DOMAIN-SUFFIX,redditmedia.com
+  - DOMAIN-SUFFIX,redditstatic.com
   
   # > Telegram
   - DOMAIN-SUFFIX,t.me
@@ -16,3 +38,16 @@ payload:
   - IP-CIDR,91.108.0.0/16,no-resolve
   - IP-CIDR,109.239.140.0/24,no-resolve
   - IP-CIDR,149.154.160.0/20,no-resolve
+
+  # > Twitter
+  - DOMAIN-SUFFIX,periscope.tv
+  - DOMAIN-SUFFIX,pscp.tv
+  - DOMAIN-SUFFIX,t.co
+  - DOMAIN-SUFFIX,twimg.co
+  - DOMAIN-SUFFIX,twimg.com
+  - DOMAIN-SUFFIX,twimg.org
+  - DOMAIN-SUFFIX,twitpic.com
+  - DOMAIN-SUFFIX,vine.co
+  - DOMAIN-SUFFIX,x.com
+  - DOMAIN-KEYWORD,twitter
+  

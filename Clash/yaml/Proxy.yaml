@@ -2,28 +2,12 @@ payload:
   # > Adguard
   - DOMAIN-SUFFIX,adguard.com
   - DOMAIN-SUFFIX,adguard.org
-
-  # > Facebook
-  - DOMAIN-SUFFIX,fb.com
-  - DOMAIN-SUFFIX,fb.me
-  - DOMAIN-SUFFIX,fbsbx.com
-  - DOMAIN-KEYWORD,facebook
-  - DOMAIN-KEYWORD,fbcdn
   
   # > GitLab
   - DOMAIN-SUFFIX,gitlab-static.net
   - DOMAIN-SUFFIX,gitlab.com
   - DOMAIN-SUFFIX,gitlab.io
   - DOMAIN-SUFFIX,gitlab.net
-
-  # > Instagram
-  - DOMAIN-SUFFIX,instagr.am
-  - DOMAIN-KEYWORD,instagram
-
-  # > Mastodon //长毛象
-  - DOMAIN-SUFFIX,mastodon.social
-  - DOMAIN-SUFFIX,m.cmx.im
-  - DOMAIN-SUFFIX,neodb.social
   
   # > Notion
   - DOMAIN-SUFFIX,notion-static.com
@@ -52,12 +36,6 @@ payload:
   - DOMAIN-SUFFIX,phprcdn.com
   - DOMAIN-SUFFIX,pornhub.com
   - DOMAIN-SUFFIX,pornhubpremium.com
-
-  # > Reddit
-  - DOMAIN-SUFFIX,redd.it
-  - DOMAIN-SUFFIX,reddit.com
-  - DOMAIN-SUFFIX,redditmedia.com
-  - DOMAIN-SUFFIX,redditstatic.com
   
   # > Surge
   - DOMAIN,www.surge-activation.com
@@ -69,18 +47,6 @@ payload:
   - DOMAIN-SUFFIX,twitch.tv
   - DOMAIN-SUFFIX,twitchcdn.net
   - DOMAIN-KEYWORD,ttvnw
-
-  # > Twitter
-  - DOMAIN-SUFFIX,periscope.tv
-  - DOMAIN-SUFFIX,pscp.tv
-  - DOMAIN-SUFFIX,t.co
-  - DOMAIN-SUFFIX,twimg.co
-  - DOMAIN-SUFFIX,twimg.com
-  - DOMAIN-SUFFIX,twimg.org
-  - DOMAIN-SUFFIX,twitpic.com
-  - DOMAIN-SUFFIX,vine.co
-  - DOMAIN-SUFFIX,x.com
-  - DOMAIN-KEYWORD,twitter
   
   # > Wikimedia //维基
   - DOMAIN-SUFFIX,wikimedia.org

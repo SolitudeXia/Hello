@@ -1,24 +1,8 @@
-# ---(Facebook)---
-DOMAIN-SUFFIX,fb.com
-DOMAIN-SUFFIX,fb.me
-DOMAIN-SUFFIX,fbsbx.com
-DOMAIN-KEYWORD,facebook
-DOMAIN-KEYWORD,fbcdn
-
 # ---(GitLab)---
 DOMAIN-SUFFIX,gitlab-static.net
 DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,gitlab.io
 DOMAIN-SUFFIX,gitlab.net
-
-# ---(Instagram)---
-DOMAIN-SUFFIX,instagr.am
-DOMAIN-KEYWORD,instagram
-
-# ---(Mastodon)---
-DOMAIN-SUFFIX,mastodon.social
-DOMAIN-SUFFIX,m.cmx.im
-DOMAIN-SUFFIX,neodb.social
 
 # ---(Microsoft)---
 DOMAIN-SUFFIX,appcenter.ms
@@ -43,27 +27,9 @@ DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pixiv.org
 DOMAIN-SUFFIX,pximg.net
 
-# ---(Reddit)---
-DOMAIN-SUFFIX,redd.it
-DOMAIN-SUFFIX,reddit.com
-DOMAIN-SUFFIX,redditmedia.com
-DOMAIN-SUFFIX,redditstatic.com
-
 # ---(Surge)---
 DOMAIN,www.surge-activation.com
 DOMAIN-SUFFIX,nssurge.com
-
-# ---(Twitter)---
-DOMAIN-SUFFIX,periscope.tv
-DOMAIN-SUFFIX,pscp.tv
-DOMAIN-SUFFIX,t.co
-DOMAIN-SUFFIX,twimg.co
-DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,twimg.org
-DOMAIN-SUFFIX,twitpic.com
-DOMAIN-SUFFIX,vine.co
-DOMAIN-SUFFIX,x.com
-DOMAIN-KEYWORD,twitter
 
 # ---(Wikimedia)---
 DOMAIN-SUFFIX,wikimedia.org

@@ -13,6 +13,10 @@ DOMAIN-SUFFIX,fbsbx.com
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
 
+# ---(Friendly)---
+DOMAIN,api.friendly.io
+DOMAIN,friendly.st-panel-api.com
+
 # ---(Instagram)---
 DOMAIN-SUFFIX,instagr.am
 DOMAIN-KEYWORD,instagram

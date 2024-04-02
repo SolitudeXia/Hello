@@ -1,3 +1,7 @@
+# ---(Friendly)---
+DOMAIN,api.friendly.io
+DOMAIN,friendly.st-panel-api.com
+
 # ---(GitLab)---
 DOMAIN-SUFFIX,gitlab-static.net
 DOMAIN-SUFFIX,gitlab.com

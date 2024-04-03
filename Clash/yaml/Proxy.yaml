@@ -64,8 +64,10 @@ payload:
   - DOMAIN,www.safe-in-cloud.com
   - DOMAIN,www.zhiboz.com
   - DOMAIN,zhaojiaren.club
+  - DOMAIN-SUFFIX,1password.com
   - DOMAIN-SUFFIX,91porn.com
   - DOMAIN-SUFFIX,afreecatv.com
+  - DOMAIN-SUFFIX,deepl.com
   - DOMAIN-SUFFIX,duckduckgo.com
   - DOMAIN-SUFFIX,immersivetranslate.com
   - DOMAIN-SUFFIX,javbus.com

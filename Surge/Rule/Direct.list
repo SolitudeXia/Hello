@@ -40,8 +40,6 @@ DOMAIN-KEYWORD,onedrive
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,oklink.com
 DOMAIN-SUFFIX,okx.com
-#
-DOMAIN,api2.amplitude.com
 
 # ---(Onekey)---
 DOMAIN,asset.onekey-asset.com
@@ -83,13 +81,11 @@ IP-CIDR,162.62.163.63/32,no-resolve
 DOMAIN,api.authy.com
 DOMAIN,api.revenuecat.com
 DOMAIN,embyplus.org // 纸片人
-DOMAIN,excess.duolingo.com // 多邻国
 DOMAIN,firewood.news // 积薪
 DOMAIN,guozh.net // 老郭种树
 DOMAIN,iyideng.net // 一灯不是和尚
 DOMAIN,meta.appinn.net // 小众软件
 DOMAIN,mtalk.google.com
-DOMAIN,polygonscan.com // 链
 DOMAIN,workers.fileball.app
 DOMAIN,williamlong.info // 月光博客
 DOMAIN,www.daniao.org
@@ -97,15 +93,13 @@ DOMAIN,www.dute.org // 工具箱
 DOMAIN,www.imarkr.com // Honye
 DOMAIN,www.touchbits.com // 订阅通
 DOMAIN,xteko.com // JsBox
-DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,cloudfront.net // ?
 DOMAIN-SUFFIX,deepl.com
+DOMAIN-SUFFIX,duolingo.com // 多邻国
 DOMAIN-SUFFIX,endel.io // Endel
 DOMAIN-SUFFIX,gitee.com
 DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,oyunfor.com
-DOMAIN-SUFFIX,tmdb.org
-DOMAIN-SUFFIX,trakt.tv
 DOMAIN-KEYWORD,paypal
 IP-CIDR,17.248.226.7/32,no-resolve
 IP-CIDR,43.156.223.202/32,no-resolve

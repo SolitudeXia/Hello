@@ -58,12 +58,14 @@ DOMAIN,nom.telemetrydeck.com // working-copy
 DOMAIN,paste.ee
 DOMAIN,paste.gg
 DOMAIN,pepcn.com // 壹页单章
+DOMAIN,polygonscan.com // 链
 DOMAIN,sub-store.vercel.app // sub-store
 DOMAIN,testflight.apple.com // TestFlight
 DOMAIN,workingcopy.app
 DOMAIN,www.linking.vision // 聊经思想空间
 DOMAIN,www.safe-in-cloud.com
 DOMAIN,www.zhiboz.com // 直播吧
+DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,91porn.com // 91
 DOMAIN-SUFFIX,afreecatv.com
 DOMAIN-SUFFIX,amazonaws.com // Amazon
@@ -71,15 +73,17 @@ DOMAIN-SUFFIX,bing.com // Bing
 DOMAIN-SUFFIX,coingecko.com
 DOMAIN-SUFFIX,disneyplus.com // Disney
 DOMAIN-SUFFIX,duckduckgo.com
+DOMAIN-SUFFIX,filmnoir.app // FilmNoir
 DOMAIN-SUFFIX,giffgaff.com
 DOMAIN-SUFFIX,immersivetranslate.com // 沉浸式翻译
 DOMAIN-SUFFIX,javbus.com // javbus
 DOMAIN-SUFFIX,macrumors.com
 DOMAIN-SUFFIX,nba.com
 DOMAIN-SUFFIX,netflix.com // Netflix
-DOMAIN-SUFFIX,okx.com // 欧易
 DOMAIN-SUFFIX,sleazyfork.org
 DOMAIN-SUFFIX,speedtest.cn // 模块测落地
+DOMAIN-SUFFIX,tmdb.org
+DOMAIN-SUFFIX,trakt.tv
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,wallhaven.cc
 DOMAIN-SUFFIX,wanqu.co // 湾区日报

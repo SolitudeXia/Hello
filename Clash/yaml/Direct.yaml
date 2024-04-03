@@ -31,12 +31,6 @@ payload:
   - DOMAIN-SUFFIX,obsidian.com
   - DOMAIN-SUFFIX,obsidian.md
   
-  # > PayPal
-  - DOMAIN-SUFFIX,paypal.com
-  - DOMAIN-SUFFIX,paypal.me
-  - DOMAIN-SUFFIX,paypal-mktg.com
-  - DOMAIN-SUFFIX,paypalobjects.com
-  
   # ---(Microsoft)---
   # > Microsoft
   - DOMAIN-SUFFIX,aadrm.com
@@ -139,9 +133,8 @@ payload:
   - DOMAIN,iyideng.net
   - DOMAIN,www.ahhhhfs.com
   - DOMAIN,www.dute.org
-  - DOMAIN-SUFFIX,1password.com
-  - DOMAIN-SUFFIX,deepl.com
   - DOMAIN-SUFFIX,gitee.com
   - DOMAIN-SUFFIX,greasyfork.org
   - DOMAIN-SUFFIX,tampermonkey.net
+  - DOMAIN-KEYWORD,paypal
   

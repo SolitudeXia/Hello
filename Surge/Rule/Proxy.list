@@ -1,3 +1,8 @@
+# ---(Apple)---
+DOMAIN,testflight.apple.com // TestFlight
+DOMAIN-SUFFIX,smoot.apple.cn // Spotlight
+DOMAIN-SUFFIX,smoot.apple.com
+
 # ---(Friendly)---
 DOMAIN,api.friendly.io
 DOMAIN,friendly.st-panel-api.com
@@ -60,7 +65,6 @@ DOMAIN,paste.gg
 DOMAIN,pepcn.com // 壹页单章
 DOMAIN,polygonscan.com // 链
 DOMAIN,sub-store.vercel.app // sub-store
-DOMAIN,testflight.apple.com // TestFlight
 DOMAIN,workingcopy.app
 DOMAIN,www.linking.vision // 聊经思想空间
 DOMAIN,www.safe-in-cloud.com

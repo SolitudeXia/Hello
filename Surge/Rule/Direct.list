@@ -100,6 +100,7 @@ DOMAIN-SUFFIX,endel.io // Endel
 DOMAIN-SUFFIX,gitee.com
 DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,oyunfor.com
+DOMAIN-SUFFIX,sentry.io // cdn?
 DOMAIN-KEYWORD,paypal
 IP-CIDR,17.248.226.7/32,no-resolve
 IP-CIDR,43.156.223.202/32,no-resolve

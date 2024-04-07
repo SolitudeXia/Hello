@@ -3,6 +3,11 @@ DOMAIN,testflight.apple.com // TestFlight
 DOMAIN-SUFFIX,smoot.apple.cn // Spotlight
 DOMAIN-SUFFIX,smoot.apple.com
 
+# ---(Dropbox)---
+DOMAIN-SUFFIX,dropbox.com
+DOMAIN-SUFFIX,dropboxapi.com
+DOMAIN-SUFFIX,dropboxusercontent.com
+
 # ---(Friendly)---
 DOMAIN,api.friendly.io
 DOMAIN,friendly.st-panel-api.com

@@ -36,8 +36,8 @@ BoxJs = type=http-request,pattern=^https?:\/\/(.+\.)?boxjs\.(com|net),requires-b
 # > Sub-Store
 Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,requires-body=1,max-size=0,script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store.min.js,timeout=120,script-update-interval=-1
 # > 淘宝净化
-淘宝净化_1 = type=http-response,pattern=^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(cloudvideo\.video\.query|wireless\.home\.splash\.awesome\.get),requires-body=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/FuckAds.js,script-update-interval=-1
-淘宝净化_2 = type=http-response,pattern=^https:\/\/poplayer\.template\.alibaba\.com\/\w+\.json,requires-body=1,script-path=https://raw.githubusercontent.com/stardustXHJie/Hello/main/Surge/JS/FuckAds.js,script-update-interval=-1
+淘宝净化_1 = type=http-response,pattern=^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(cloudvideo\.video\.query|wireless\.home\.splash\.awesome\.get),requires-body=1,script-path=https://raw.githubusercontent.com/SolitudeXia/Hello/main/Surge/JS/FuckAds.js,script-update-interval=-1
+淘宝净化_2 = type=http-response,pattern=^https:\/\/poplayer\.template\.alibaba\.com\/\w+\.json,requires-body=1,script-path=https://raw.githubusercontent.com/SolitudeXia/Hello/main/Surge/JS/FuckAds.js,script-update-interval=-1
 
 [MITM]
 hostname = %APPEND% api.alipan.com, member.alipan.com, app.dewu.com, api.m.jd.com, flowplus.meituan.net, s3plus.meituan.net, portal.zjzwfw.gov.cn, ad.12306.cn, boxjs.com, boxjs.net, sub.store, guide-acs.m.taobao.com, poplayer.template.alibaba.com

@@ -2,6 +2,11 @@ payload:
   # > Adguard
   - DOMAIN-SUFFIX,adguard.com
   - DOMAIN-SUFFIX,adguard.org
+
+  # > Dropbox
+  - DOMAIN-SUFFIX,dropbox.com
+  - DOMAIN-SUFFIX,dropboxapi.com
+  - DOMAIN-SUFFIX,dropboxusercontent.com
   
   # > GitLab
   - DOMAIN-SUFFIX,gitlab-static.net

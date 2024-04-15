@@ -9,8 +9,12 @@ DOMAIN,mschf.com
 DOMAIN,rocketsshop.com
 DOMAIN-SUFFIX,crocs.com
 DOMAIN-SUFFIX,lego.com
-DOMAIN-SUFFIX,onekey.so
 DOMAIN-SUFFIX,yubico.com
+
+# ---(Onekey)---
+DOMAIN,asset.onekey-asset.com
+DOMAIN,onekey.zendesk.com
+DOMAIN-SUFFIX,onekey.so
 
 # ---(Spotify)---
 DOMAIN-SUFFIX,pscdn.co
@@ -28,11 +32,9 @@ DOMAIN,jms1.emby.pro
 DOMAIN,cf.jmsooo.com
 
 # ---(RSS)---
-DOMAIN,home.wangjianshuo.com // 王建硕
 DOMAIN,liuyandong.com // 栋哥的赛博空间
 DOMAIN-SUFFIX,macin.org // Macin
 DOMAIN,weekly.tw93.fun // 潮流周刊
-DOMAIN,weiwuhui.com // 扯氮集
 DOMAIN,whyes.org // whyes 的博客
 DOMAIN,wise.readwise.io // readwise
 DOMAIN-SUFFIX,yuhang.ch // 陈昱行博客

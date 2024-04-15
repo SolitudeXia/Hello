@@ -17,7 +17,6 @@ DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
-IP-CIDR,17.0.0.0/8,no-resolve
 
 # ---(Microsoft)---
 DOMAIN-SUFFIX,azureedge.net
@@ -35,15 +34,6 @@ DOMAIN-SUFFIX,windows.net
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,onedrive
-
-# ---(OKX)---
-DOMAIN-SUFFIX,okex.com
-DOMAIN-SUFFIX,oklink.com
-DOMAIN-SUFFIX,okx.com
-
-# ---(Onekey)---
-DOMAIN,asset.onekey-asset.com
-DOMAIN,onekey.zendesk.com
 
 # ---(Wechat)---
 DOMAIN,dl.wechat.com
@@ -80,12 +70,14 @@ IP-CIDR,162.62.163.63/32,no-resolve
 # ---(Other)---
 DOMAIN,api.authy.com
 DOMAIN,api.revenuecat.com
+DOMAIN,awavenue.top // 秋风广告
 DOMAIN,embyplus.org // 纸片人
 DOMAIN,firewood.news // 积薪
 DOMAIN,guozh.net // 老郭种树
 DOMAIN,iyideng.net // 一灯不是和尚
 DOMAIN,meta.appinn.net // 小众软件
 DOMAIN,mtalk.google.com
+DOMAIN,pythoncat.top // 潮流周刊
 DOMAIN,workers.fileball.app
 DOMAIN,williamlong.info // 月光博客
 DOMAIN,www.daniao.org
@@ -106,4 +98,5 @@ IP-CIDR,17.248.226.7/32,no-resolve
 IP-CIDR,43.156.223.202/32,no-resolve
 IP-CIDR,43.156.255.184/32,no-resolve
 IP-CIDR,43.160.144.10/32,no-resolve
+IP-CIDR,43.160.144.24/32,no-resolve
 IP-CIDR,170.254.172.10/32,no-resolve

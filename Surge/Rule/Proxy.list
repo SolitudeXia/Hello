@@ -32,6 +32,11 @@ DOMAIN-SUFFIX,notion.new
 DOMAIN-SUFFIX,notion.site
 DOMAIN-SUFFIX,notion.so
 
+# ---(OKX)---
+DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,oklink.com
+DOMAIN-SUFFIX,okx.com
+
 # ---(OP.GG)---
 DOMAIN-SUFFIX,op.gg
 DOMAIN-KEYWORD,opgg
@@ -53,6 +58,7 @@ DOMAIN-SUFFIX,wikipedia.org
 DOMAIN,api.themoviedb.org // infuse
 DOMAIN,appraven.net
 DOMAIN,basicappleguy.com
+DOMAIN,blog.shuziyimin.org // 数字移民
 DOMAIN,blog.yitianshijie.net // 一天世界
 DOMAIN,chinadigitaltimes.net // 中国数字时代
 DOMAIN,disney.api.edge.bamgrid.com
@@ -78,6 +84,7 @@ DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,91porn.com // 91
 DOMAIN-SUFFIX,afreecatv.com
 DOMAIN-SUFFIX,amazonaws.com // Amazon
+DOMAIN-SUFFIX,amplitude.com // 欧易
 DOMAIN-SUFFIX,bing.com // Bing
 DOMAIN-SUFFIX,coingecko.com
 DOMAIN-SUFFIX,disneyplus.com // Disney

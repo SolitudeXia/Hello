@@ -2,42 +2,52 @@
 DOMAIN,testflight.apple.com // TestFlight
 DOMAIN-SUFFIX,smoot.apple.cn // Spotlight
 DOMAIN-SUFFIX,smoot.apple.com
+
 # ---(Dropbox)---
 DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,dropboxusercontent.com
+
 # ---(Friendly)---
 DOMAIN,api.friendly.io
 DOMAIN,friendly.st-panel-api.com
+
 # ---(Microsoft)---
 DOMAIN-SUFFIX,appcenter.ms
 DOMAIN-SUFFIX,azure.com
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,onestore.ms
 DOMAIN-SUFFIX,skype.com
+
 # ---(Notion)---
 DOMAIN-SUFFIX,notion-static.com
 DOMAIN-SUFFIX,notion.com
 DOMAIN-SUFFIX,notion.new
 DOMAIN-SUFFIX,notion.site
 DOMAIN-SUFFIX,notion.so
+
 # ---(OKX)---
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,oklink.com
 DOMAIN-SUFFIX,okx.com
+
 # ---(OP.GG)---
 DOMAIN-SUFFIX,op.gg
 DOMAIN-KEYWORD,opgg
-# ---(pixiv)---
+
+# ---(Pixiv)---
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pixiv.org
 DOMAIN-SUFFIX,pximg.net
+
 # ---(Surge)---
 DOMAIN,www.surge-activation.com
 DOMAIN-SUFFIX,nssurge.com
+
 # ---(Wikimedia)---
 DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikipedia.org
+
 # ---(Other)---
 DOMAIN,api.themoviedb.org // infuse
 DOMAIN,appraven.net

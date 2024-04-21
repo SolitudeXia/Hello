@@ -41,6 +41,13 @@ DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,onedrive
 
+# ---(Oracle)---
+DOMAIN-SUFFIX,oracle.com
+DOMAIN-SUFFIX,oraclecloud.com
+DOMAIN-SUFFIX,oracleinfinity.io
+# Server
+IP-CIDR,193.123.61.95/32,no-resolve
+
 # ---(Wechat)---
 DOMAIN,dl.wechat.com
 DOMAIN,sgfindershort.wechat.com
@@ -107,4 +114,3 @@ IP-CIDR,43.160.144.13/32,no-resolve
 IP-CIDR,43.160.144.21/32,no-resolve
 IP-CIDR,43.160.144.24/32,no-resolve
 IP-CIDR,170.254.172.10/32,no-resolve
-IP-CIDR,193.123.61.95/32,no-resolve // 甲骨文

@@ -1,7 +1,6 @@
 # ---(Cloudflare)---
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cloudflare-dns.com
-
 # ---(Rule)---
 OR,((AND,((DOMAIN,smtp.gmail.com), (DEST-PORT,465))), (AND,((DOMAIN,imap.gmail.com), (DEST-PORT,993)))) // gmail
 AND,((DOMAIN,github.com), (DEST-PORT,22)) // github

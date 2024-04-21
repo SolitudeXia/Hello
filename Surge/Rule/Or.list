@@ -2,7 +2,6 @@
 DOMAIN,amp-api.podcasts.apple.com
 DOMAIN,bag.itunes.apple.com
 DOMAIN,bookkeeper.itunes.apple.com
-
 # ---(America)---
 DOMAIN,generativelanguage.googleapis.com
 DOMAIN,mschf.com
@@ -10,18 +9,15 @@ DOMAIN,rocketsshop.com
 DOMAIN-SUFFIX,crocs.com
 DOMAIN-SUFFIX,lego.com
 DOMAIN-SUFFIX,yubico.com
-
 # ---(Onekey)---
 DOMAIN,asset.onekey-asset.com
 DOMAIN,onekey.zendesk.com
 DOMAIN-SUFFIX,onekey.so
-
 # ---(Spotify)---
 DOMAIN-SUFFIX,pscdn.co
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,spoti.fi
 DOMAIN-KEYWORD,spotify
-
 # ---(Emby)---
 # 终点站
 DOMAIN,pub1.emby.wtf
@@ -30,15 +26,9 @@ DOMAIN,pub3.emby.wtf
 # 卷毛鼠
 DOMAIN,jms1.emby.pro
 DOMAIN,cf.jmsooo.com
-
 # ---(RSS)---
 DOMAIN,liuyandong.com // 栋哥的赛博空间
 DOMAIN-SUFFIX,macin.org // Macin
 DOMAIN,weekly.tw93.fun // 潮流周刊
-DOMAIN,whyes.org // whyes 的博客
-DOMAIN,wise.readwise.io // readwise
+DOMAIN,whyes.org // whyes的博客
 DOMAIN-SUFFIX,yuhang.ch // 陈昱行博客
-
-# ---(IPTV)---
-IP-CIDR,50.7.238.114/32,no-resolve
-IP-CIDR,198.16.100.90/32,no-resolve

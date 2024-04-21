@@ -5,26 +5,30 @@ DOMAIN-SUFFIX,discord.gg
 DOMAIN-SUFFIX,discord.media
 DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discordapp.net
+
 # ---(Facebook)---
 DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,fb.me
 DOMAIN-SUFFIX,fbsbx.com
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
+
 # ---(Instagram)---
 DOMAIN-SUFFIX,instagr.am
 DOMAIN-KEYWORD,instagram
+
 # ---(Mastodon)---
 DOMAIN-SUFFIX,mastodon.social
 DOMAIN-SUFFIX,m.cmx.im
 DOMAIN-SUFFIX,neodb.social
+
 # ---(Reddit)---
 DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditstatic.com
+
 # ---(Telegram)---
-DOMAIN,api.swiftgram.app // Swiftgram
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegra.ph
@@ -33,6 +37,9 @@ DOMAIN-KEYWORD,telegram
 IP-CIDR,91.108.0.0/16,no-resolve
 IP-CIDR,109.239.140.0/24,no-resolve
 IP-CIDR,149.154.160.0/20,no-resolve
+#
+DOMAIN,api.swiftgram.app
+
 # ---(Twitter)---
 DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,pscp.tv

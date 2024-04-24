@@ -14,19 +14,13 @@ URL-REGEX,^https:\/\/member\.alipan\.com\/v2\/activity\/sign_in_luckyBottle,REJE
 URL-REGEX,^https:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement,REJECT
 # > 京东 去广告
 URL-REGEX,^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend[06]),REJECT
-# > 美团 去广告
-URL-REGEX,^https:\/\/flowplus\.meituan\.net\/v1\/mss_\w+\/linglong\/\d+\.jpg,REJECT
-URL-REGEX,^https:\/\/s3plus\.meituan\.net\/ocean-blk-index\/index\/blk_conf_73\.json,REJECT
-URL-REGEX,^https:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-alita)\/\w+\.zip$,REJECT
 # > 浙里办 去开屏
 URL-REGEX,^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,REJECT
 
 [Script]
-# > 12306
-12306开屏 = type=http-request,pattern=^https:\/\/ad\.12306\.cn\/ad\/ser\/getAdList$,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/12306.js,script-update-interval=-1
 # > 阿里云盘净化
-云盘净化_1 = type=http-response,pattern=^https:\/\/api\.alipan\.com\/apps\/v2\/users\/home\/(news|widgets),requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js,script-update-interval=-1
-云盘净化_2 = type=http-response,pattern=^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js,script-update-interval=-1
+云盘净化I = type=http-response,pattern=^https:\/\/api\.alipan\.com\/apps\/v2\/users\/home\/(news|widgets),requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js,script-update-interval=-1
+云盘净化II = type=http-response,pattern=^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list,requires-body=1,script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/adrive.js,script-update-interval=-1
 # > BoxJs
 BoxJs = type=http-request,pattern=^https?:\/\/(.+\.)?boxjs\.(com|net),requires-body=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js,timeout=120,script-update-interval=0
 # > 京东净化
@@ -35,4 +29,4 @@ BoxJs = type=http-request,pattern=^https?:\/\/(.+\.)?boxjs\.(com|net),requires-b
 Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,requires-body=1,max-size=0,script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store.min.js,timeout=120,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% api.alipan.com, member.alipan.com, app.dewu.com, api.m.jd.com, flowplus.meituan.net, s3plus.meituan.net, portal.zjzwfw.gov.cn, ad.12306.cn, boxjs.com, boxjs.net, sub.store
+hostname = %APPEND% api.alipan.com, member.alipan.com, app.dewu.com, api.m.jd.com, portal.zjzwfw.gov.cn, boxjs.com, boxjs.net, sub.store

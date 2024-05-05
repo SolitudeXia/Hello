@@ -46,7 +46,7 @@ DOMAIN-SUFFIX,oracle.com
 DOMAIN-SUFFIX,oraclecloud.com
 DOMAIN-SUFFIX,oracleinfinity.io
 # Server
-IP-CIDR,141.144.205.194/32,no-resolve
+IP-CIDR,84.235.163.236/32,no-resolve
 
 # ---(Wechat)---
 DOMAIN,dl.wechat.com

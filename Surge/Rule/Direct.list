@@ -46,7 +46,7 @@ DOMAIN-SUFFIX,oracle.com
 DOMAIN-SUFFIX,oraclecloud.com
 DOMAIN-SUFFIX,oracleinfinity.io
 # Server
-IP-CIDR,84.235.163.236/32,no-resolve
+IP-CIDR,84.235.160.135/32,no-resolve
 
 # ---(Wechat)---
 DOMAIN,dl.wechat.com
@@ -69,12 +69,14 @@ DOMAIN,www.imarkr.com // Honye
 DOMAIN,www.touchbits.com // 订阅通
 DOMAIN,www.zhiboz.com // 直播吧
 DOMAIN,xteko.com // JsBox
+DOMAIN-SUFFIX,005277.xyz
 DOMAIN-SUFFIX,cloudfront.net // ?
 DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,duolingo.com // 多邻国
 DOMAIN-SUFFIX,endel.io // Endel
 DOMAIN-SUFFIX,gitee.com
 DOMAIN-SUFFIX,greasyfork.org
+DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,oyunfor.com
 DOMAIN-SUFFIX,sentry.io // cdn?
 DOMAIN-KEYWORD,paypal

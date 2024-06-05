@@ -52,6 +52,7 @@ IP-CIDR,84.235.160.135/32,no-resolve
 DOMAIN,dl.wechat.com
 
 # ---(Other)---
+DOMAIN,anotherdayu.com
 DOMAIN,api.revenuecat.com
 DOMAIN,awavenue.top // 秋风广告
 DOMAIN,embyplus.org // 纸片人

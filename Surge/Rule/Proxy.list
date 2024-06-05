@@ -1,3 +1,7 @@
+# ---(1password)---
+DOMAIN-SUFFIX,1password.com
+DOMAIN-SUFFIX,1passwordservices.com
+
 # ---(Apple)---
 DOMAIN,testflight.apple.com // TestFlight
 DOMAIN-SUFFIX,smoot.apple.cn // Spotlight
@@ -54,6 +58,7 @@ DOMAIN,appraven.net
 DOMAIN,basicappleguy.com
 DOMAIN,blog.shuziyimin.org // 数字移民
 DOMAIN,blog.yitianshijie.net // 一天世界
+DOMAIN,boxjs.vercel.app
 DOMAIN,chinadigitaltimes.net // 中国数字时代
 DOMAIN,disney.api.edge.bamgrid.com
 DOMAIN,gallery.scriptable.app
@@ -76,7 +81,6 @@ DOMAIN,vps789.com // 全球主机测速平台
 DOMAIN,workingcopy.app
 DOMAIN,www.linking.vision // 聊经思想空间
 DOMAIN,www.safe-in-cloud.com
-DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,91porn.com // 91
 DOMAIN-SUFFIX,afreecatv.com
 DOMAIN-SUFFIX,amazonaws.com // Amazon
@@ -93,6 +97,7 @@ DOMAIN-SUFFIX,javbus.com // javbus
 DOMAIN-SUFFIX,macrumors.com
 DOMAIN-SUFFIX,nba.com
 DOMAIN-SUFFIX,netflix.com // Netflix
+DOMAIN-SUFFIX,nytimes.com // 纽约时报
 DOMAIN-SUFFIX,sleazyfork.org
 DOMAIN-SUFFIX,speedtest.cn // 模块测落地
 DOMAIN-SUFFIX,tmdb.org

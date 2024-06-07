@@ -10,11 +10,6 @@ DOMAIN-SUFFIX,crocs.com
 DOMAIN-SUFFIX,lego.com
 DOMAIN-SUFFIX,yubico.com
 
-# ---(Squad Busters)---
-DOMAIN-SUFFIX,squadbustersgame.com
-DOMAIN-SUFFIX,supercell.com
-DOMAIN-SUFFIX,usercentrics.eu
-
 # ---(Onekey)---
 DOMAIN,asset.onekey-asset.com
 DOMAIN,onekey.zendesk.com

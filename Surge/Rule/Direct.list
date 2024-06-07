@@ -18,6 +18,11 @@ DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
 
+# ---(Squad Busters)---
+DOMAIN-SUFFIX,squadbustersgame.com
+DOMAIN-SUFFIX,supercell.com
+DOMAIN-SUFFIX,usercentrics.eu
+
 # ---(GitLab)---
 DOMAIN-SUFFIX,gitlab-static.net
 DOMAIN-SUFFIX,gitlab.com

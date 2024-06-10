@@ -18,6 +18,11 @@ DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
 
+# ---(CDN)---
+DOMAIN,cdn.branch.io
+DOMAIN-SUFFIX,jsdelivr.net
+DOMAIN-SUFFIX,sentry.io
+
 # ---(Squad Busters)---
 DOMAIN-SUFFIX,squadbustersgame.com
 DOMAIN-SUFFIX,supercell.com
@@ -65,7 +70,6 @@ DOMAIN,firewood.news // 积薪
 DOMAIN,guozh.net // 老郭种树
 DOMAIN,iyideng.net // 一灯不是和尚
 DOMAIN,meta.appinn.net // 小众软件
-DOMAIN,mtalk.google.com
 DOMAIN,pythoncat.top // 豌豆花下猫
 DOMAIN,workers.fileball.app
 DOMAIN,williamlong.info // 月光博客
@@ -76,13 +80,10 @@ DOMAIN,www.touchbits.com // 订阅通
 DOMAIN,www.zhiboz.com // 直播吧
 DOMAIN,xteko.com // JsBox
 DOMAIN-SUFFIX,005277.xyz
-DOMAIN-SUFFIX,cloudfront.net // ?
 DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,duolingo.com // 多邻国
 DOMAIN-SUFFIX,endel.io // Endel
 DOMAIN-SUFFIX,gitee.com
 DOMAIN-SUFFIX,greasyfork.org
-DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,oyunfor.com
-DOMAIN-SUFFIX,sentry.io // cdn?
 DOMAIN-KEYWORD,paypal

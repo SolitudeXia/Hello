@@ -84,7 +84,6 @@ DOMAIN,www.safe-in-cloud.com
 DOMAIN-SUFFIX,91porn.com // 91
 DOMAIN-SUFFIX,afreecatv.com
 DOMAIN-SUFFIX,amazonaws.com // Amazon
-DOMAIN-SUFFIX,amplitude.com // 欧易
 DOMAIN-SUFFIX,bing.com // Bing
 DOMAIN-SUFFIX,coingecko.com
 DOMAIN-SUFFIX,disneyplus.com // Disney
@@ -97,6 +96,7 @@ DOMAIN-SUFFIX,javbus.com // javbus
 DOMAIN-SUFFIX,macrumors.com
 DOMAIN-SUFFIX,nba.com
 DOMAIN-SUFFIX,netflix.com // Netflix
+DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,nytimes.com // 纽约时报
 DOMAIN-SUFFIX,sleazyfork.org
 DOMAIN-SUFFIX,speedtest.cn // 模块测落地

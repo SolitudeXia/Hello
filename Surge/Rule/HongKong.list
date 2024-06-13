@@ -1,0 +1,19 @@
+# ---(Apple)---
+DOMAIN,amp-api.podcasts.apple.com
+DOMAIN,bag.itunes.apple.com
+DOMAIN,bookkeeper.itunes.apple.com
+
+# ---(Spotify)---
+DOMAIN-SUFFIX,pscdn.co
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,spoti.fi
+DOMAIN-KEYWORD,spotify
+
+# ---(Emby)---
+# 终点站
+DOMAIN,pub1.emby.wtf
+DOMAIN,pub2.emby.wtf
+DOMAIN,pub3.emby.wtf
+# 卷毛鼠
+DOMAIN,jms1.emby.pro
+DOMAIN,cf.jmsooo.com

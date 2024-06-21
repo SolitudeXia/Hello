@@ -60,6 +60,7 @@ IP-CIDR,84.235.160.135/32,no-resolve
 
 # ---(Wechat)---
 DOMAIN,dl.wechat.com
+DOMAIN-SUFFIX,wx.qq.com
 
 # ---(Other)---
 DOMAIN,anotherdayu.com
@@ -80,6 +81,8 @@ DOMAIN,www.touchbits.com // 订阅通
 DOMAIN,www.zhiboz.com // 直播吧
 DOMAIN,xteko.com // JsBox
 DOMAIN-SUFFIX,005277.xyz
+DOMAIN-SUFFIX,appsflyersdk.com
+DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,duolingo.com // 多邻国
 DOMAIN-SUFFIX,endel.io // Endel

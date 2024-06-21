@@ -1,6 +1,7 @@
 # ---(Cloudflare)---
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cloudflare.net
+DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflareinsights.com
 
 # ---(Rule)---

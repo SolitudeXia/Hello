@@ -66,7 +66,6 @@ DOMAIN-SUFFIX,wikipedia.org
 DOMAIN,api.themoviedb.org // infuse
 DOMAIN,appraven.net
 DOMAIN,basicappleguy.com
-DOMAIN,blog.shuziyimin.org // 数字移民
 DOMAIN,blog.yitianshijie.net // 一天世界
 DOMAIN,boxjs.vercel.app
 DOMAIN,chinadigitaltimes.net // 中国数字时代
@@ -95,6 +94,7 @@ DOMAIN-SUFFIX,91porn.com // 91
 DOMAIN-SUFFIX,afreecatv.com
 DOMAIN-SUFFIX,amazonaws.com // Amazon
 DOMAIN-SUFFIX,bing.com // Bing
+DOMAIN-SUFFIX,clashroyaleapp.com // 皇室战争
 DOMAIN-SUFFIX,coingecko.com
 DOMAIN-SUFFIX,disneyplus.com // Disney
 DOMAIN-SUFFIX,docker.com
@@ -108,6 +108,7 @@ DOMAIN-SUFFIX,nba.com
 DOMAIN-SUFFIX,netflix.com // Netflix
 DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,nytimes.com // 纽约时报
+DOMAIN-SUFFIX,royaleapi.com
 DOMAIN-SUFFIX,sleazyfork.org
 DOMAIN-SUFFIX,speedtest.cn // 模块测落地
 DOMAIN-SUFFIX,tmdb.org

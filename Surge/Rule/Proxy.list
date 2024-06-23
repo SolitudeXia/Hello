@@ -58,6 +58,13 @@ DOMAIN-SUFFIX,yuhang.ch // 陈昱行博客
 DOMAIN,www.surge-activation.com
 DOMAIN-SUFFIX,nssurge.com
 
+# ---(Twitch)---
+DOMAIN-SUFFIX,jtvnw.net
+DOMAIN-SUFFIX,live-video.net
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,twitchcdn.net
+DOMAIN-KEYWORD,ttvnw
+
 # ---(Wikimedia)---
 DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikipedia.org

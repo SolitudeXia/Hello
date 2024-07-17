@@ -33,11 +33,6 @@ DOMAIN-SUFFIX,notion.new
 DOMAIN-SUFFIX,notion.site
 DOMAIN-SUFFIX,notion.so
 
-# ---(OKX)---
-DOMAIN-SUFFIX,okex.com
-DOMAIN-SUFFIX,oklink.com
-DOMAIN-SUFFIX,okx.com
-
 # ---(OP.GG)---
 DOMAIN-SUFFIX,op.gg
 DOMAIN-KEYWORD,opgg
@@ -101,6 +96,7 @@ DOMAIN-SUFFIX,91porn.com // 91
 DOMAIN-SUFFIX,afreecatv.com
 DOMAIN-SUFFIX,amazonaws.com // Amazon
 DOMAIN-SUFFIX,bing.com // Bing
+DOMAIN-SUFFIX,bwh81.net // 搬瓦工
 DOMAIN-SUFFIX,clashroyaleapp.com // 皇室战争
 DOMAIN-SUFFIX,coingecko.com
 DOMAIN-SUFFIX,disneyplus.com // Disney
@@ -119,6 +115,7 @@ DOMAIN-SUFFIX,royaleapi.com
 DOMAIN-SUFFIX,sleazyfork.org
 DOMAIN-SUFFIX,speedtest.cn // 模块测落地
 DOMAIN-SUFFIX,tmdb.org
+DOMAIN-SUFFIX,tradingview.com
 DOMAIN-SUFFIX,trakt.tv
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,wallhaven.cc

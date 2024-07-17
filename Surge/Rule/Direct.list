@@ -23,7 +23,8 @@ DOMAIN,cdn.branch.io
 DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,sentry.io
 
-# ---(Squad Busters)---
+# ---(Supercell)---
+DOMAIN-SUFFIX,clashroyale.com
 DOMAIN-SUFFIX,squadbustersgame.com
 DOMAIN-SUFFIX,supercell.com
 DOMAIN-SUFFIX,usercentrics.eu

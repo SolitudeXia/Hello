@@ -10,6 +10,10 @@ DOMAIN,testflight.apple.com // TestFlight
 DOMAIN-SUFFIX,smoot.apple.cn // Spotlight
 DOMAIN-SUFFIX,smoot.apple.com
 
+# ---(Supercell)---
+DOMAIN-SUFFIX,clashroyaleapp.com
+DOMAIN-SUFFIX,royaleapi.com
+
 # ---(Dropbox)---
 DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxapi.com
@@ -84,8 +88,6 @@ DOMAIN,nom.telemetrydeck.com // working-copy
 DOMAIN,paste.ee
 DOMAIN,paste.gg
 DOMAIN,pepcn.com // 壹页单章
-DOMAIN,polygonscan.com // 链
-DOMAIN,scriptore.imarkr.com
 DOMAIN,secureshellfish.app // SSH File
 DOMAIN,sub-store.vercel.app // sub-store
 DOMAIN,vps789.com // 全球主机测速平台
@@ -97,21 +99,20 @@ DOMAIN-SUFFIX,afreecatv.com
 DOMAIN-SUFFIX,amazonaws.com // Amazon
 DOMAIN-SUFFIX,bing.com // Bing
 DOMAIN-SUFFIX,bwh81.net // 搬瓦工
-DOMAIN-SUFFIX,clashroyaleapp.com // 皇室战争
 DOMAIN-SUFFIX,coingecko.com
 DOMAIN-SUFFIX,disneyplus.com // Disney
+DOMAIN-SUFFIX,dmit.io
 DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,duckduckgo.com
 DOMAIN-SUFFIX,filmnoir.app // FilmNoir
 DOMAIN-SUFFIX,giffgaff.com
-DOMAIN-SUFFIX,immersivetranslate.com // 沉浸式翻译
+DOMAIN-SUFFIX,imarkr.com
 DOMAIN-SUFFIX,javbus.com // javbus
 DOMAIN-SUFFIX,macrumors.com
 DOMAIN-SUFFIX,nba.com
 DOMAIN-SUFFIX,netflix.com // Netflix
 DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,nytimes.com // 纽约时报
-DOMAIN-SUFFIX,royaleapi.com
 DOMAIN-SUFFIX,sleazyfork.org
 DOMAIN-SUFFIX,speedtest.cn // 模块测落地
 DOMAIN-SUFFIX,tmdb.org

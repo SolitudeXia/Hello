@@ -1,9 +1,3 @@
-# ---(Spotify)---
-DOMAIN-SUFFIX,pscdn.co
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,spoti.fi
-DOMAIN-KEYWORD,spotify
-
 # ---(OKX)---
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,oklink.com

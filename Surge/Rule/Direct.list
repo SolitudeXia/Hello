@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
+IP-CIDR,17.0.0.0/8,no-resolve
 
 # ---(CDN)---
 DOMAIN,cdn.branch.io
@@ -54,8 +55,10 @@ IP-CIDR,84.235.160.135/32,no-resolve
 # ---(Wechat)---
 DOMAIN,dl.wechat.com
 DOMAIN-SUFFIX,servicewechat.com
+IP-CIDR,43.160.144.10/32,no-resolve
 IP-CIDR,43.160.144.21/32,no-resolve
 IP-CIDR,43.160.144.24/32,no-resolve
+IP-CIDR,101.32.133.53/32,no-resolve
 
 # ---(Other)---
 DOMAIN,anotherdayu.com

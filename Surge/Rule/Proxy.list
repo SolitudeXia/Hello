@@ -37,6 +37,11 @@ DOMAIN-SUFFIX,notion.new
 DOMAIN-SUFFIX,notion.site
 DOMAIN-SUFFIX,notion.so
 
+# ---(OKX)---
+DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,oklink.com
+DOMAIN-SUFFIX,okx.com
+
 # ---(OP.GG)---
 DOMAIN-SUFFIX,op.gg
 DOMAIN-KEYWORD,opgg
@@ -48,9 +53,9 @@ DOMAIN-SUFFIX,pximg.net
 
 # ---(RSS)---
 DOMAIN,liuyandong.com // 栋哥的赛博空间
-DOMAIN-SUFFIX,macin.org // Macin
 DOMAIN,weekly.tw93.fun // 潮流周刊
 DOMAIN,whyes.org // whyes的博客
+DOMAIN-SUFFIX,macin.org // Macin
 DOMAIN-SUFFIX,yuhang.ch // 陈昱行博客
 
 # ---(Surge)---
@@ -106,6 +111,7 @@ DOMAIN-SUFFIX,dmit.io
 DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,duckduckgo.com
 DOMAIN-SUFFIX,filmnoir.app // FilmNoir
+DOMAIN-SUFFIX,follow.is // Follow
 DOMAIN-SUFFIX,giffgaff.com
 DOMAIN-SUFFIX,imarkr.com
 DOMAIN-SUFFIX,javbus.com // javbus

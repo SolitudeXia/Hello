@@ -9,6 +9,8 @@ force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net
 [Rule]
 # > 得物 去开屏
 URL-REGEX,^https:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement,REJECT
+# > 京东 去广告
+URL-REGEX,^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend[06]),REJECT
 # > 浙里办 去开屏
 URL-REGEX,^https:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic,REJECT
 

@@ -3,10 +3,6 @@
 #!system=ios
 
 [Script]
-# > 美团买菜
-美团买菜cookie = type=http-request,pattern=^https?:\/\/mall\.meituan\.com\/api\/c\/mallcoin\/checkIn\/queryTaskListInfoV.\?,script-path=https://raw.githubusercontent.com/JoJoJotarou/myScript/master/script/meituan/mall.meituan.cookie.js,script-update-interval=-1
-# > 喜马拉雅 app获取
-喜马拉雅cookie = type=http-request,pattern=^https?:\/\/mobile\.ximalaya\.com\/app-skin-service\/skin\/,script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/xmlySign.js,script-update-interval=-1
 # > 中国电信 网页获取
 中国电信cookie = type=http-request,pattern=^https:\/\/e\.dlife\.cn\/user\/loginMiddle,requires-body=1,script-path=https://raw.githubusercontent.com/dompling/Script/master/10000/index.js,script-update-interval=-1
 # > 伊利乳品 小程序
@@ -17,4 +13,4 @@
 顺丰速运cookie = type=http-request,pattern=^https:\/\/ccsp-egmas.sf-express.com\/cx-app-member\/member\/app\/user\/universalSign,requires-body=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% mall.meituan.com, mobile.ximalaya.com, e.dlife.cn, club.yili.com, apis.folidaymall.com, ccsp-egmas.sf-express.com
+hostname = %APPEND% e.dlife.cn, club.yili.com, apis.folidaymall.com, ccsp-egmas.sf-express.com

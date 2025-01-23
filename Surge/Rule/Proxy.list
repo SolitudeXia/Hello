@@ -18,6 +18,7 @@ DOMAIN-SUFFIX,royaleapi.com
 DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,dropboxusercontent.com
+DOMAIN-SUFFIX,getdropbox.com
 
 # ---(Friendly)---
 DOMAIN,api.friendly.io
@@ -79,6 +80,7 @@ DOMAIN,appraven.net
 DOMAIN,basicappleguy.com
 DOMAIN,blog.yitianshijie.net // 一天世界
 DOMAIN,boxjs.vercel.app
+DOMAIN,btcdayu.gitbook.io // Dayu
 DOMAIN,chinadigitaltimes.net // 中国数字时代
 DOMAIN,disney.api.edge.bamgrid.com
 DOMAIN,gallery.scriptable.app
@@ -106,13 +108,16 @@ DOMAIN-SUFFIX,bing.com // Bing
 DOMAIN-SUFFIX,bloomberg.com // 彭博社
 DOMAIN-SUFFIX,bwh81.net // 搬瓦工
 DOMAIN-SUFFIX,coingecko.com
+DOMAIN-SUFFIX,dexscreener.com
 DOMAIN-SUFFIX,disneyplus.com // Disney
 DOMAIN-SUFFIX,dmit.io
 DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,duckduckgo.com
 DOMAIN-SUFFIX,filmnoir.app // FilmNoir
 DOMAIN-SUFFIX,follow.is // Follow
+DOMAIN-SUFFIX,foxnews.com
 DOMAIN-SUFFIX,giffgaff.com
+DOMAIN-SUFFIX,gmgn.mobi
 DOMAIN-SUFFIX,imarkr.com
 DOMAIN-SUFFIX,javbus.com // javbus
 DOMAIN-SUFFIX,macrumors.com

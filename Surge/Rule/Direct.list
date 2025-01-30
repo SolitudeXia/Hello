@@ -61,7 +61,10 @@ IP-CIDR,84.235.160.135/32,no-resolve
 
 # ---(Wechat)---
 DOMAIN,dl.wechat.com
+DOMAIN,sglong.wechat.com
 DOMAIN,sgshort.wechat.com
+DOMAIN,sgminorshort.wechat.com
+DOMAIN,sgilinklong.wechat.com
 DOMAIN-SUFFIX,servicewechat.com
 IP-CIDR,43.156.222.1/24,no-resolve
 IP-CIDR,43.160.144.1/24,no-resolve

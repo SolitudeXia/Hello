@@ -42,6 +42,7 @@ DOMAIN-SUFFIX,notion.so
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,oklink.com
 DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,okx-dns.com
 
 # ---(OP.GG)---
 DOMAIN-SUFFIX,op.gg
@@ -132,6 +133,7 @@ DOMAIN-SUFFIX,tmdb.org
 DOMAIN-SUFFIX,tradingview.com
 DOMAIN-SUFFIX,trakt.tv
 DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,walletconnect.com
 DOMAIN-SUFFIX,wallhaven.cc
 DOMAIN-SUFFIX,wanqu.co // 湾区日报
 DOMAIN-SUFFIX,xsnvshen.com // 秀色女神

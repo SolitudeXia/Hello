@@ -21,6 +21,7 @@ IP-CIDR,17.0.0.0/8,no-resolve
 
 # ---(Supercell)---
 DOMAIN-SUFFIX,clashroyale.com
+DOMAIN-SUFFIX,squadbustersgame.com
 DOMAIN-SUFFIX,supercell.com
 DOMAIN-SUFFIX,usercentrics.eu
 

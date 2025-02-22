@@ -138,7 +138,6 @@ payload:
   - DOMAIN-SUFFIX,nvidia.cn
   
   # > Other
-  - DOMAIN,cdn.jsdelivr.net
   - DOMAIN,daniao.org
   - DOMAIN,guozh.net
   - DOMAIN,iyideng.net
@@ -147,7 +146,6 @@ payload:
   - DOMAIN-SUFFIX,005277.xyz
   - DOMAIN-SUFFIX,duolingo.com
   - DOMAIN-SUFFIX,gitee.com
-  - DOMAIN-SUFFIX,greasyfork.org
   - DOMAIN-SUFFIX,imazing.com
   - DOMAIN-SUFFIX,tampermonkey.net
   - DOMAIN-KEYWORD,paypal

@@ -23,7 +23,6 @@ IP-CIDR,17.0.0.0/8,no-resolve
 DOMAIN-SUFFIX,clashroyale.com
 DOMAIN-SUFFIX,squadbustersgame.com
 DOMAIN-SUFFIX,supercell.com
-DOMAIN-SUFFIX,usercentrics.eu
 
 # ---(Microsoft)---
 DOMAIN-SUFFIX,azureedge.net
@@ -49,6 +48,9 @@ DOMAIN-SUFFIX,oracleinfinity.io
 # Server
 IP-CIDR,84.235.160.135/32,no-resolve
 
+# ---(Wechat)---
+DOMAIN,dl.wechat.com
+
 # ---(Other)---
 DOMAIN,anotherdayu.com
 DOMAIN,awavenue.top // 秋风广告
@@ -64,7 +66,6 @@ DOMAIN,www.touchbits.com // 订阅通
 DOMAIN,www.zhiboz.com // 直播吧
 DOMAIN,xteko.com // JsBox
 DOMAIN-SUFFIX,005277.xyz
-DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,duolingo.com // 多邻国
 DOMAIN-SUFFIX,endel.io // Endel

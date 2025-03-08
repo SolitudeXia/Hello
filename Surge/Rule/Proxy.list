@@ -24,6 +24,11 @@ DOMAIN-SUFFIX,getdropbox.com
 DOMAIN,api.friendly.io
 DOMAIN,friendly.st-panel-api.com
 
+# ---(GMGN)---
+DOMAIN,gmgn-fiat-api.wenmoon.cc
+DOMAIN-SUFFIX,gmgn.ai
+DOMAIN-SUFFIX,gmgn.mobi
+
 # ---(Microsoft)---
 DOMAIN-SUFFIX,appcenter.ms
 DOMAIN-SUFFIX,azure.com
@@ -56,6 +61,7 @@ DOMAIN-SUFFIX,pximg.net
 DOMAIN,liuyandong.com // 栋哥的赛博空间
 DOMAIN,weekly.tw93.fun // 潮流周刊
 DOMAIN,whyes.org // whyes的博客
+DOMAIN-SUFFIX,godruoyi.com // 连波的闲谈杂鱼
 DOMAIN-SUFFIX,macin.org // Macin
 DOMAIN-SUFFIX,pseudoyu.com // Pseudoyu
 DOMAIN-SUFFIX,yuhang.ch // 陈昱行博客
@@ -95,11 +101,11 @@ DOMAIN,paste.gg
 DOMAIN,pepcn.com // 壹页单章
 DOMAIN,secureshellfish.app // SSH File
 DOMAIN,sub-store.vercel.app // sub-store
-DOMAIN,theclues.pro
 DOMAIN,vps789.com // 全球主机测速平台
 DOMAIN,workingcopy.app
 DOMAIN,www.linking.vision // 聊经思想空间
 DOMAIN-SUFFIX,91porn.com // 91
+DOMAIN-SUFFIX,adguard.org
 DOMAIN-SUFFIX,afreecatv.com
 DOMAIN-SUFFIX,amazonaws.com // Amazon
 DOMAIN-SUFFIX,bing.com // Bing
@@ -112,12 +118,12 @@ DOMAIN-SUFFIX,disneyplus.com // Disney
 DOMAIN-SUFFIX,dmit.io
 DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,duckduckgo.com
+DOMAIN-SUFFIX,fc2ppvdb.com
 DOMAIN-SUFFIX,filmnoir.app // FilmNoir
 DOMAIN-SUFFIX,follow.is // Follow
 DOMAIN-SUFFIX,foxnews.com
 DOMAIN-SUFFIX,giffgaff.com
-DOMAIN-SUFFIX,gmgn.ai
-DOMAIN-SUFFIX,gmgn.mobi
+DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,imarkr.com
 DOMAIN-SUFFIX,javbus.com // javbus
 DOMAIN-SUFFIX,macrumors.com

@@ -34,6 +34,11 @@ payload:
   - DOMAIN-SUFFIX,shotwithgeforce.com
   - DOMAIN-SUFFIX,tegrazone.co
   - DOMAIN-SUFFIX,tegrazone.com
+  
+  # > OKX
+  - DOMAIN-SUFFIX,okex.com
+  - DOMAIN-SUFFIX,oklink.com
+  - DOMAIN-SUFFIX,okx.com
 
   # > pixiv
   - DOMAIN-SUFFIX,pixiv.net
@@ -68,6 +73,7 @@ payload:
   #
   - DOMAIN,blog.misaka.rest
   - DOMAIN,btdig.com
+  - DOMAIN,guozh.net
   - DOMAIN,hengshu.org
   - DOMAIN,miaona.org
   - DOMAIN,paste.ee

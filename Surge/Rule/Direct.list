@@ -19,10 +19,9 @@ DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
 IP-CIDR,17.0.0.0/8,no-resolve
 
-# ---(Supercell)---
-DOMAIN-SUFFIX,clashroyale.com
-DOMAIN-SUFFIX,squadbustersgame.com
-DOMAIN-SUFFIX,supercell.com
+# ---(CDN)---
+DOMAIN,cdn.staticfile.org // Staticfile
+DOMAIN-SUFFIX,cloudfront.net // AWS
 
 # ---(Microsoft)---
 DOMAIN-SUFFIX,azureedge.net
@@ -48,6 +47,11 @@ DOMAIN-SUFFIX,oracleinfinity.io
 # Server
 IP-CIDR,84.235.160.135/32,no-resolve
 
+# ---(Supercell)---
+DOMAIN-SUFFIX,clashroyale.com
+DOMAIN-SUFFIX,squadbustersgame.com
+DOMAIN-SUFFIX,supercell.com
+
 # ---(Wechat)---
 DOMAIN,dl.wechat.com
 
@@ -57,7 +61,6 @@ DOMAIN,awavenue.top // 秋风广告
 DOMAIN,guozh.net // 老郭种树
 DOMAIN,iyideng.net // 一灯不是和尚
 DOMAIN,meta.appinn.net // 小众软件
-DOMAIN,pythoncat.top // 豌豆花下猫
 DOMAIN,workers.fileball.app
 DOMAIN,williamlong.info // 月光博客
 DOMAIN,www.daniao.org
@@ -67,7 +70,6 @@ DOMAIN,www.zhiboz.com // 直播吧
 DOMAIN,xteko.com // JsBox
 DOMAIN-SUFFIX,005277.xyz
 DOMAIN-SUFFIX,deepl.com
-DOMAIN-SUFFIX,duolingo.com // 多邻国
 DOMAIN-SUFFIX,endel.io // Endel
 DOMAIN-SUFFIX,gitee.com
 DOMAIN-SUFFIX,oyunfor.com

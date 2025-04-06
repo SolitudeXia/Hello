@@ -40,25 +40,20 @@ DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,onedrive
 
-# ---(Oracle)---
-DOMAIN-SUFFIX,oracle.com
-DOMAIN-SUFFIX,oraclecloud.com
-DOMAIN-SUFFIX,oracleinfinity.io
-# Server
-IP-CIDR,84.235.160.135/32,no-resolve
-
 # ---(Supercell)---
 DOMAIN-SUFFIX,clashroyale.com
 DOMAIN-SUFFIX,squadbustersgame.com
 DOMAIN-SUFFIX,supercell.com
+#
+DOMAIN-SUFFIX,usercentrics.eu
 
 # ---(Wechat)---
 DOMAIN,dl.wechat.com
+DOMAIN-SUFFIX,weixin.qq.com
 
 # ---(Other)---
 DOMAIN,anotherdayu.com
 DOMAIN,awavenue.top // 秋风广告
-DOMAIN,guozh.net // 老郭种树
 DOMAIN,iyideng.net // 一灯不是和尚
 DOMAIN,meta.appinn.net // 小众软件
 DOMAIN,workers.fileball.app
@@ -75,3 +70,4 @@ DOMAIN-SUFFIX,gitee.com
 DOMAIN-SUFFIX,oyunfor.com
 DOMAIN-SUFFIX,threema.ch
 DOMAIN-KEYWORD,paypal
+IP-CIDR,141.148.229.140/32,no-resolve // Oracle

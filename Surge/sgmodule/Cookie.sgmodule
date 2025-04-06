@@ -11,6 +11,8 @@
 复游会cookie = type=http-request,pattern=^https:\/\/apis\.folidaymall\.com\/online\/capi\/uc\/getCount,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/ThomasCook.js,script-update-interval=-1
 # > 顺丰速运 app获取
 顺丰速运cookie = type=http-request,pattern=^https:\/\/ccsp-egmas.sf-express.com\/cx-app-member\/member\/app\/user\/universalSign,requires-body=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js,script-update-interval=-1
+# > 中国广电 小程序获取
+中国广电cookie = type=http-request,pattern=https://wx.10099.com.cn/contact-web/api/busi/qryUserInfo,requires-body=1,script-path=https://github.com/wuhuhuuuu/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% e.dlife.cn, club.yili.com, apis.folidaymall.com, ccsp-egmas.sf-express.com
+hostname = %APPEND% e.dlife.cn, club.yili.com, apis.folidaymall.com, ccsp-egmas.sf-express.com, wx.10099.com.cn

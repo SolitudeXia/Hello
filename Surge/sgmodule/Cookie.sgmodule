@@ -7,12 +7,10 @@
 中国电信cookie = type=http-request,pattern=^https:\/\/e\.dlife\.cn\/user\/loginMiddle,requires-body=1,script-path=https://raw.githubusercontent.com/dompling/Script/master/10000/index.js,script-update-interval=-1
 # > 伊利乳品 小程序
 伊利乳品cookie = type=http-request,pattern=https:\/\/club\.yili\.com\/MALLIFChe\/MCSWSIAPI\.asmx\/Call,requires-body=1,script-path=https://raw.githubusercontent.com/id77/QuantumultX/master/task/yiLi.cookie.js,script-update-interval=-1
-# > 复游会
-复游会cookie = type=http-request,pattern=^https:\/\/apis\.folidaymall\.com\/online\/capi\/uc\/getCount,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/ThomasCook.js,script-update-interval=-1
 # > 顺丰速运 app获取
 顺丰速运cookie = type=http-request,pattern=^https:\/\/ccsp-egmas.sf-express.com\/cx-app-member\/member\/app\/user\/universalSign,requires-body=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js,script-update-interval=-1
-# > 中国广电 小程序获取
-中国广电cookie = type=http-request,pattern=https://wx.10099.com.cn/contact-web/api/busi/qryUserInfo,requires-body=1,script-path=https://github.com/wuhuhuuuu/study/raw/main/Scripts/ChinaBroadnet/ChinaBroadnet.cookie.js,script-update-interval=-1
+# > 中国联通 app获取
+中国联通cookie = type=http-request,pattern=https:\/\/m\.client\.10010\.com\/(.*)\/smartwisdomCommon,requires-body=1,script-path=https://raw.githubusercontent.com/dompling/Script/master/10010/index.js,script-update-interval=-1
 
 [MITM]
-hostname = %APPEND% e.dlife.cn, club.yili.com, apis.folidaymall.com, ccsp-egmas.sf-express.com, wx.10099.com.cn
+hostname = %APPEND% e.dlife.cn, club.yili.com, ccsp-egmas.sf-express.com, m.client.10010.com

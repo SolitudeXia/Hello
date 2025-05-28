@@ -22,6 +22,7 @@ IP-CIDR,17.0.0.0/8,no-resolve
 # ---(CDN)---
 DOMAIN,cdn.staticfile.org // Staticfile
 DOMAIN-SUFFIX,cloudfront.net // AWS
+DOMAIN-SUFFIX,jsdelivr.net
 
 # ---(Microsoft)---
 DOMAIN-SUFFIX,azureedge.net
@@ -57,14 +58,12 @@ DOMAIN,awavenue.top // 秋风广告
 DOMAIN,meta.appinn.net // 小众软件
 DOMAIN,workers.fileball.app
 DOMAIN,www.daniao.org
-DOMAIN,www.dute.org // 工具箱
-DOMAIN,www.touchbits.com // 订阅通
 DOMAIN,www.zhiboz.com // 直播吧
 DOMAIN,xteko.com // JsBox
 DOMAIN-SUFFIX,005277.xyz
 DOMAIN-SUFFIX,deepl.com
-DOMAIN-SUFFIX,endel.io // Endel
 DOMAIN-SUFFIX,gitee.com
 DOMAIN-SUFFIX,oyunfor.com
 DOMAIN-KEYWORD,paypal
+IP-CIDR,104.194.70.218/32,no-resolve // 搬瓦工
 IP-CIDR,141.148.229.140/32,no-resolve // Oracle

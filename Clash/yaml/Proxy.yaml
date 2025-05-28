@@ -7,16 +7,63 @@ payload:
   - DOMAIN-SUFFIX,adguard.com
   - DOMAIN-SUFFIX,adguard.org
 
+  # > Discord
+  - DOMAIN-SUFFIX,discord.co
+  - DOMAIN-SUFFIX,discord.com
+  - DOMAIN-SUFFIX,discord.gg
+  - DOMAIN-SUFFIX,discord.media
+  - DOMAIN-SUFFIX,discordapp.com
+  - DOMAIN-SUFFIX,discordapp.net
+  #
+  - DOMAIN-SUFFIX,betterdiscord.app
+
   # > Dropbox
   - DOMAIN-SUFFIX,dropbox.com
   - DOMAIN-SUFFIX,dropboxapi.com
   - DOMAIN-SUFFIX,dropboxusercontent.com
+
+  # > Facebook
+  - DOMAIN-SUFFIX,fb.com
+  - DOMAIN-SUFFIX,fb.me
+  - DOMAIN-SUFFIX,fbsbx.com
+  - DOMAIN-KEYWORD,facebook
+  - DOMAIN-KEYWORD,fbcdn
   
   # > GitLab
   - DOMAIN-SUFFIX,gitlab-static.net
   - DOMAIN-SUFFIX,gitlab.com
   - DOMAIN-SUFFIX,gitlab.io
   - DOMAIN-SUFFIX,gitlab.net
+
+  # > Google
+  - DOMAIN-SUFFIX,g.co
+  - DOMAIN-SUFFIX,ggpht.com
+  - DOMAIN-SUFFIX,goo.gl
+  - DOMAIN-SUFFIX,gstatic.cn
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,gvt0.com
+  - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN-SUFFIX,gvt3.com
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+  - DOMAIN-KEYWORD,gmail
+  - DOMAIN-KEYWORD,google
+  - IP-CIDR,74.125.0.0/16,no-resolve
+  - IP-CIDR,173.194.0.0/16,no-resolve
+  # YouTube
+  - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-SUFFIX,yt.be
+  - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-KEYWORD,youtube
+
+  # > Instagram
+  - DOMAIN-SUFFIX,instagr.am
+  - DOMAIN-KEYWORD,instagram
+
+  # > Mastodon //长毛象
+  - DOMAIN-SUFFIX,mastodon.social
+  - DOMAIN-SUFFIX,m.cmx.im
+  - DOMAIN-SUFFIX,neodb.social
   
   # > Notion
   - DOMAIN-SUFFIX,notion-static.com
@@ -40,6 +87,22 @@ payload:
   - DOMAIN-SUFFIX,oklink.com
   - DOMAIN-SUFFIX,okx.com
 
+  # > OpenAi
+  - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,challenges.cloudflare.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,identrust.com
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-KEYWORD,openai
+
   # > pixiv
   - DOMAIN-SUFFIX,pixiv.net
   - DOMAIN-SUFFIX,pixiv.org
@@ -50,6 +113,18 @@ payload:
   - DOMAIN-SUFFIX,phprcdn.com
   - DOMAIN-SUFFIX,pornhub.com
   - DOMAIN-SUFFIX,pornhubpremium.com
+
+  # > Reddit
+  - DOMAIN-SUFFIX,redd.it
+  - DOMAIN-SUFFIX,reddit.com
+  - DOMAIN-SUFFIX,redditmedia.com
+  - DOMAIN-SUFFIX,redditstatic.com
+
+  # > Spotify
+  - DOMAIN-SUFFIX,pscdn.co
+  - DOMAIN-SUFFIX,scdn.co
+  - DOMAIN-SUFFIX,spoti.fi
+  - DOMAIN-KEYWORD,spotify
   
   # > Surge
   - DOMAIN,www.surge-activation.com
@@ -61,6 +136,18 @@ payload:
   - DOMAIN-SUFFIX,twitch.tv
   - DOMAIN-SUFFIX,twitchcdn.net
   - DOMAIN-KEYWORD,ttvnw
+
+  # > Twitter
+  - DOMAIN-SUFFIX,periscope.tv
+  - DOMAIN-SUFFIX,pscp.tv
+  - DOMAIN-SUFFIX,t.co
+  - DOMAIN-SUFFIX,twimg.co
+  - DOMAIN-SUFFIX,twimg.com
+  - DOMAIN-SUFFIX,twimg.org
+  - DOMAIN-SUFFIX,twitpic.com
+  - DOMAIN-SUFFIX,vine.co
+  - DOMAIN-SUFFIX,x.com
+  - DOMAIN-KEYWORD,twitter
   
   # > Wikimedia //维基
   - DOMAIN-SUFFIX,wikimedia.org
@@ -95,6 +182,7 @@ payload:
   - DOMAIN-SUFFIX,dexscreener.com
   - DOMAIN-SUFFIX,duckduckgo.com
   - DOMAIN-SUFFIX,follow.is
+  - DOMAIN-SUFFIX,geckoterminal.com
   - DOMAIN-SUFFIX,gmgn.ai
   - DOMAIN-SUFFIX,greasyfork.org
   - DOMAIN-SUFFIX,gying.net
@@ -106,6 +194,7 @@ payload:
   - DOMAIN-SUFFIX,nodeseek.com
   - DOMAIN-SUFFIX,royaleapi.com
   - DOMAIN-SUFFIX,sleazyfork.org
+  - DOMAIN-SUFFIX,stacksocial.com
   - DOMAIN-SUFFIX,t66y.com
   - DOMAIN-SUFFIX,tradingview.com
   - DOMAIN-SUFFIX,trakt.tv
@@ -113,4 +202,5 @@ payload:
   - DOMAIN-SUFFIX,wallhaven.cc
   - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,you.com
+  - DOMAIN-SUFFIX,yubico.com
   - DOMAIN-KEYWORD,github

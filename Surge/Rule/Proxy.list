@@ -41,15 +41,6 @@ DOMAIN-SUFFIX,fbsbx.com
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
 
-# ---(Friendly)---
-DOMAIN,api.friendly.io
-DOMAIN,friendly.st-panel-api.com
-
-# ---(GMGN)---
-DOMAIN,gmgn-fiat-api.wenmoon.cc
-DOMAIN-SUFFIX,gmgn.ai
-DOMAIN-SUFFIX,gmgn.mobi
-
 # ---(Google)---
 DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,ggpht.com
@@ -114,10 +105,6 @@ DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-KEYWORD,openai
-
-# ---(OP.GG)---
-DOMAIN-SUFFIX,op.gg
-DOMAIN-KEYWORD,opgg
 
 # ---(Pixiv)---
 DOMAIN-SUFFIX,pixiv.net
@@ -211,7 +198,6 @@ DOMAIN-SUFFIX,iphone8.vip // 小良更新器
 DOMAIN-SUFFIX,javbus.com // javbus
 DOMAIN-SUFFIX,macrumors.com
 DOMAIN-SUFFIX,medium.com
-DOMAIN-SUFFIX,missav.com // missav
 DOMAIN-SUFFIX,nba.com
 DOMAIN-SUFFIX,netflix.com // Netflix
 DOMAIN-SUFFIX,nodeseek.com

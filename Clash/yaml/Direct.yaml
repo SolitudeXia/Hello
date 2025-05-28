@@ -145,7 +145,10 @@ payload:
   - DOMAIN-SUFFIX,005277.xyz
   - DOMAIN-SUFFIX,duolingo.com
   - DOMAIN-SUFFIX,gitee.com
+  - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,imazing.com
   - DOMAIN-SUFFIX,tampermonkey.net
   - DOMAIN-KEYWORD,paypal
-  - IP-CIDR,84.235.160.135/32,no-resolve
+  - IP-CIDR,104.194.70.218/32,no-resolve
+  - IP-CIDR,141.148.229.140/32,no-resolve
+  

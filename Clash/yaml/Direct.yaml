@@ -150,6 +150,5 @@ payload:
   - DOMAIN-SUFFIX,tampermonkey.net
   - DOMAIN-KEYWORD,paypal
   - IP-CIDR,104.194.70.218/32,no-resolve
-  - IP-CIDR,134.98.148.113/32,no-resolve
-  - IP-CIDR,141.148.229.140/32,no-resolve
+  - IP-CIDR,158.178.156.41/32,no-resolve
   

@@ -10,10 +10,6 @@ DOMAIN,testflight.apple.com // TestFlight
 DOMAIN-SUFFIX,smoot.apple.cn // Spotlight
 DOMAIN-SUFFIX,smoot.apple.com
 
-# ---(Clash Royale)---
-DOMAIN-SUFFIX,clashroyaleapp.com
-DOMAIN-SUFFIX,royaleapi.com
-
 # ---(Cloudflare)---
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cloudflare.net
@@ -121,6 +117,15 @@ DOMAIN-SUFFIX,redditstatic.com
 # ---(RSS)---
 DOMAIN,www.kawabangga.com // 卡瓦邦噶
 DOMAIN-SUFFIX,pseudoyu.com // Pseudoyu
+
+# ---(Supercell)---
+DOMAIN-SUFFIX,supercell.com
+# Clash Royale
+DOMAIN-SUFFIX,clashroyale.com
+DOMAIN-SUFFIX,clashroyaleapp.com
+DOMAIN-SUFFIX,royaleapi.com
+# Squad Busters
+DOMAIN-SUFFIX,squadbustersgame.com
 
 # ---(Surge)---
 DOMAIN,www.surge-activation.com

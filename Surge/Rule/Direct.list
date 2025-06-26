@@ -41,13 +41,6 @@ DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,onedrive
 
-# ---(Supercell)---
-DOMAIN-SUFFIX,clashroyale.com
-DOMAIN-SUFFIX,squadbustersgame.com
-DOMAIN-SUFFIX,supercell.com
-#
-DOMAIN-SUFFIX,usercentrics.eu
-
 # ---(Wechat)---
 DOMAIN,dl.wechat.com
 DOMAIN-SUFFIX,weixin.qq.com

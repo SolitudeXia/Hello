@@ -169,4 +169,4 @@ payload:
   - DOMAIN-SUFFIX,wallhaven.cc
   - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,yubico.com
-  - DOMAIN-KEYWORD,github#123
+  - DOMAIN-KEYWORD,github

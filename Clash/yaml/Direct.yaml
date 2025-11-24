@@ -18,24 +18,6 @@ payload:
   - DOMAIN-SUFFIX,itunes.com
   - DOMAIN-SUFFIX,me.com
   - DOMAIN-SUFFIX,mzstatic.com
-
-  # > Google CN
-  - DOMAIN,clientservices.googleapis.com
-  - DOMAIN,dl.google.com
-  - DOMAIN,dl.l.google.com
-  - DOMAIN,update.googleapis.com
-  - DOMAIN-SUFFIX,blog.google
-  - DOMAIN-SUFFIX,crl.pki.goog
-  - DOMAIN-SUFFIX,ocsp.pki.goog
-  - DOMAIN-SUFFIX,mtalk.google.com
-  
-  # > Logitech
-  - DOMAIN-SUFFIX,logi.com
-  - DOMAIN-SUFFIX,logicoolg.com
-  - DOMAIN-SUFFIX,logitech.biz
-  - DOMAIN-SUFFIX,logitech.com
-  - DOMAIN-SUFFIX,logitech.io
-  - DOMAIN-SUFFIX,logitechg.com
   
   # > Obsidian
   - DOMAIN-SUFFIX,obsidian.com
@@ -132,23 +114,12 @@ payload:
   - DOMAIN-KEYWORD,skydrive
   # ------
   
-  # > Nvidia
-  - DOMAIN-SUFFIX,geforce.cn
-  - DOMAIN-SUFFIX,gputechconf.cn
-  - DOMAIN-SUFFIX,nvidia.cn
-  
   # > Other
-  - DOMAIN,daniao.org
-  - DOMAIN,iyideng.net
-  - DOMAIN,www.ahhhhfs.com
-  - DOMAIN,www.dute.org
   - DOMAIN-SUFFIX,005277.xyz
-  - DOMAIN-SUFFIX,duolingo.com
   - DOMAIN-SUFFIX,gitee.com
-  - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,imazing.com
   - DOMAIN-SUFFIX,tampermonkey.net
   - DOMAIN-KEYWORD,paypal
-  - IP-CIDR,104.194.70.218/32,no-resolve
-  - IP-CIDR,158.178.156.41/32,no-resolve
+  - IP-CIDR,104.194.70.218/32,no-resolve#搬瓦工
+  - IP-CIDR,158.178.156.41/32,no-resolve#Oracle
   

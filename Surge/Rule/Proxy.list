@@ -124,8 +124,6 @@ DOMAIN-SUFFIX,supercell.com
 DOMAIN-SUFFIX,clashroyale.com
 DOMAIN-SUFFIX,clashroyaleapp.com
 DOMAIN-SUFFIX,royaleapi.com
-# Squad Busters
-DOMAIN-SUFFIX,squadbustersgame.com
 
 # ---(Surge)---
 DOMAIN,www.surge-activation.com
@@ -168,11 +166,7 @@ DOMAIN,guozh.net // 老郭种树
 DOMAIN,lc.liuguogy.com // Erots
 DOMAIN,miaona.info
 DOMAIN,nom.telemetrydeck.com // working-copy
-DOMAIN,paste.ee
-DOMAIN,paste.gg
 DOMAIN,pepcn.com // 壹页单章
-DOMAIN,secureshellfish.app // SSH File
-DOMAIN,sub-store.vercel.app // sub-store
 DOMAIN,workingcopy.app
 DOMAIN-SUFFIX,423down.com
 DOMAIN-SUFFIX,91porn.com // 91
@@ -199,7 +193,6 @@ DOMAIN-SUFFIX,giffgaff.com
 DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,imarkr.com
 DOMAIN-SUFFIX,ip-api.com
-DOMAIN-SUFFIX,iphone8.vip // 小良更新器
 DOMAIN-SUFFIX,javbus.com // javbus
 DOMAIN-SUFFIX,macrumors.com
 DOMAIN-SUFFIX,medium.com

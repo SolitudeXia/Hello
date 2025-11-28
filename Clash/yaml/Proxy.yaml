@@ -6,7 +6,13 @@ payload:
   # > Adguard
   - DOMAIN-SUFFIX,adguard.com
   - DOMAIN-SUFFIX,adguard.org
-
+  
+  # > Cloudflare
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,cloudflare.net
+  - DOMAIN-SUFFIX,cloudflare-dns.com
+  - DOMAIN-SUFFIX,cloudflareinsights.com
+  
   # > Discord
   - DOMAIN-SUFFIX,discord.co
   - DOMAIN-SUFFIX,discord.com
@@ -28,6 +34,10 @@ payload:
   - DOMAIN-SUFFIX,fbsbx.com
   - DOMAIN-KEYWORD,facebook
   - DOMAIN-KEYWORD,fbcdn
+  
+  # > Firefox
+  - DOMAIN-SUFFIX,firefox.com
+  - DOMAIN-SUFFIX,mozilla.com
   
   # > GitLab
   - DOMAIN-SUFFIX,gitlab-static.net
@@ -108,6 +118,7 @@ payload:
   - DOMAIN-SUFFIX,redd.it
   - DOMAIN-SUFFIX,reddit.com
   - DOMAIN-SUFFIX,redditmedia.com
+  - DOMAIN-SUFFIX,redditspace.com
   - DOMAIN-SUFFIX,redditstatic.com
 
   # > Spotify

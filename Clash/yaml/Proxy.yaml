@@ -38,6 +38,8 @@ payload:
   # > Firefox
   - DOMAIN-SUFFIX,firefox.com
   - DOMAIN-SUFFIX,mozilla.com
+  - DOMAIN-SUFFIX,mozilla.net
+  - DOMAIN-SUFFIX,mozilla.org
   
   # > GitLab
   - DOMAIN-SUFFIX,gitlab-static.net
@@ -159,6 +161,7 @@ payload:
   - DOMAIN,zhaojiaren.club
   - DOMAIN-SUFFIX,91porn.com
   - DOMAIN-SUFFIX,afreecatv.com
+  - DOMAIN-SUFFIX,bellroy.com
   - DOMAIN-SUFFIX,coingecko.com
   - DOMAIN-SUFFIX,coinmarketcap.com
   - DOMAIN-SUFFIX,deepl.com
@@ -172,6 +175,7 @@ payload:
   - DOMAIN-SUFFIX,javbus.com
   - DOMAIN-SUFFIX,macrumors.com
   - DOMAIN-SUFFIX,nodeseek.com
+  - DOMAIN-SUFFIX,nodeimage.com
   - DOMAIN-SUFFIX,royaleapi.com
   - DOMAIN-SUFFIX,sleazyfork.org
   - DOMAIN-SUFFIX,tradingview.com

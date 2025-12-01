@@ -157,8 +157,6 @@ payload:
   - DOMAIN-SUFFIX,wikipedia.org
   
   # > Other
-  - DOMAIN,www.zhiboz.com
-  - DOMAIN,zhaojiaren.club
   - DOMAIN-SUFFIX,91porn.com
   - DOMAIN-SUFFIX,afreecatv.com
   - DOMAIN-SUFFIX,bellroy.com

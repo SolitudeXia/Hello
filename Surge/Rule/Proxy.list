@@ -156,22 +156,13 @@ DOMAIN-SUFFIX,wikipedia.org
 DOMAIN,api.themoviedb.org
 DOMAIN,appraven.net
 DOMAIN,basicappleguy.com
-DOMAIN,blog.yitianshijie.net // 一天世界
 DOMAIN,boxjs.vercel.app
-DOMAIN,btcdayu.gitbook.io // Dayu
-DOMAIN,chinadigitaltimes.net // 中国数字时代
 DOMAIN,disney.api.edge.bamgrid.com
 DOMAIN,gallery.scriptable.app
-DOMAIN,guozh.net // 老郭种树
-DOMAIN,lc.liuguogy.com // Erots
-DOMAIN,miaona.info
-DOMAIN,nom.telemetrydeck.com // working-copy
-DOMAIN,pepcn.com // 壹页单章
-DOMAIN,workingcopy.app
+DOMAIN,miaona.org
 DOMAIN-SUFFIX,423down.com
 DOMAIN-SUFFIX,91porn.com // 91
 DOMAIN-SUFFIX,adguard.org
-DOMAIN-SUFFIX,afreecatv.com
 DOMAIN-SUFFIX,amazonaws.com // Amazon
 DOMAIN-SUFFIX,arkm.com
 DOMAIN-SUFFIX,bing.com // Bing
@@ -186,12 +177,10 @@ DOMAIN-SUFFIX,disneyplus.com // Disney
 DOMAIN-SUFFIX,dmit.io
 DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,duckduckgo.com
-DOMAIN-SUFFIX,fc2ppvdb.com
 DOMAIN-SUFFIX,follow.is // Follow
 DOMAIN-SUFFIX,foxnews.com
 DOMAIN-SUFFIX,giffgaff.com
 DOMAIN-SUFFIX,greasyfork.org
-DOMAIN-SUFFIX,imarkr.com
 DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,javbus.com // javbus
 DOMAIN-SUFFIX,macrumors.com

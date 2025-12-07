@@ -170,11 +170,14 @@ payload:
   - DOMAIN-SUFFIX,follow.is
   - DOMAIN-SUFFIX,gmgn.ai
   - DOMAIN-SUFFIX,greasyfork.org
+  - DOMAIN-SUFFIX,gying.net
   - DOMAIN-SUFFIX,javbus.com
   - DOMAIN-SUFFIX,macrumors.com
   - DOMAIN-SUFFIX,nodeseek.com
   - DOMAIN-SUFFIX,nodeimage.com
+  - DOMAIN-SUFFIX,polymarket.com
   - DOMAIN-SUFFIX,royaleapi.com
+  - DOMAIN-SUFFIX,seedhub.cc
   - DOMAIN-SUFFIX,sleazyfork.org
   - DOMAIN-SUFFIX,tradingview.com
   - DOMAIN-SUFFIX,trakt.tv

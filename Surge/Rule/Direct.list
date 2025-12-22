@@ -124,5 +124,6 @@ DOMAIN-SUFFIX,005277.xyz
 DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,gitee.com
 DOMAIN-KEYWORD,paypal
-IP-CIDR,104.194.70.218/32,no-resolve // 搬瓦工
+IP-CIDR,69.63.200.6/32,no-resolve // DMIT
+IP-CIDR,104.194.70.218/32,no-resolve // BWH
 IP-CIDR,158.178.156.41/32,no-resolve // Oracle

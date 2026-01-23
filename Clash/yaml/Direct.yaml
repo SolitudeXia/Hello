@@ -114,6 +114,4 @@ payload:
   - DOMAIN-SUFFIX,imazing.com
   - DOMAIN-SUFFIX,tampermonkey.net
   - DOMAIN-KEYWORD,paypal
-  - IP-CIDR,69.63.200.6/32,no-resolve
-  - IP-CIDR,104.194.70.218/32,no-resolve
-  - IP-CIDR,158.178.156.41/32,no-resolve
+  

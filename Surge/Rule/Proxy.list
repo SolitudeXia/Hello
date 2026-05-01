@@ -52,6 +52,7 @@ DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
 IP-CIDR,74.125.0.0/16,no-resolve
 IP-CIDR,173.194.0.0/16,no-resolve
+IP-CIDR,216.239.36.145/32,no-resolve // voice
 # YouTube
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be

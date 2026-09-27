@@ -1,4 +1,8 @@
 payload:
+  # > 1password
+  - DOMAIN-SUFFIX,1password.com
+  - DOMAIN-SUFFIX,1passwordusercontent.com
+  
   # > Adguard
   - DOMAIN-SUFFIX,adguard.com
   - DOMAIN-SUFFIX,adguard.org
@@ -168,7 +172,6 @@ payload:
   - DOMAIN-SUFFIX,wikipedia.org
   
   # > Other
-  - DOMAIN-SUFFIX,1password.com
   - DOMAIN-SUFFIX,91porn.com
   - DOMAIN-SUFFIX,afreecatv.com
   - DOMAIN-SUFFIX,bellroy.com

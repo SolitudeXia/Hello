@@ -123,6 +123,7 @@ DOMAIN,www.zhiboz.com // 直播吧
 DOMAIN-SUFFIX,005277.xyz
 DOMAIN-SUFFIX,deepl.com
 DOMAIN-SUFFIX,gitee.com
+DOMAIN-SUFFIX,hsbc.com.hk // 汇丰银行
 DOMAIN-KEYWORD,paypal
 IP-CIDR,69.63.200.6/32,no-resolve // DMIT
 IP-CIDR,104.194.70.218/32,no-resolve // BWH

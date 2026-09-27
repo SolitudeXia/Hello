@@ -1,17 +1,8 @@
-payload:  
-  # > Obsidian
-  - DOMAIN-SUFFIX,obsidian.com
-  - DOMAIN-SUFFIX,obsidian.md
-  
-  # > Microsoft
-  - DOMAIN-SUFFIX,bing.com
-  - DOMAIN-SUFFIX,outlook.com
-  
+payload:
   # > Other
   - DOMAIN,www.zhiboz.com
   - DOMAIN-SUFFIX,312351.xyz
   - DOMAIN-SUFFIX,gitee.com
-  - DOMAIN-SUFFIX,imazing.com
   - DOMAIN-SUFFIX,tampermonkey.net
   - DOMAIN-KEYWORD,paypal
   

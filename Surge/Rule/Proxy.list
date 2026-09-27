@@ -2,14 +2,6 @@
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,1passwordservices.com
 
-# ---(Apple)---
-DOMAIN,amp-api.podcasts.apple.com
-DOMAIN,bag.itunes.apple.com
-DOMAIN,bookkeeper.itunes.apple.com
-DOMAIN,testflight.apple.com // TestFlight
-DOMAIN-SUFFIX,smoot.apple.cn // Spotlight
-DOMAIN-SUFFIX,smoot.apple.com
-
 # ---(Cloudflare)---
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cloudflare.net
@@ -68,12 +60,9 @@ DOMAIN-SUFFIX,mastodon.social
 DOMAIN-SUFFIX,m.cmx.im
 DOMAIN-SUFFIX,neodb.social
 
-# ---(Microsoft)---
-DOMAIN-SUFFIX,appcenter.ms
-DOMAIN-SUFFIX,azure.com
-DOMAIN-SUFFIX,msn.com
-DOMAIN-SUFFIX,onestore.ms
-DOMAIN-SUFFIX,skype.com
+# ---(Nodeseek)---
+DOMAIN-SUFFIX,nodeimage.com
+DOMAIN-SUFFIX,nodeseek.com
 
 # ---(Notion)---
 DOMAIN-SUFFIX,notion-static.com
@@ -88,19 +77,7 @@ DOMAIN-SUFFIX,oklink.com
 DOMAIN-KEYWORD,okx
 
 # ---(OpenAi)---
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,client-api.arkoselabs.com
-DOMAIN-SUFFIX,events.statsigapi.net
-DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,stripe.com
 DOMAIN-KEYWORD,openai
 
 # ---(Pixiv)---
@@ -131,20 +108,20 @@ DOMAIN,www.surge-activation.com
 DOMAIN-SUFFIX,nssurge.com
 
 # ---(Telegram)---
-DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,tx.me
-DOMAIN-SUFFIX,tg.dev
-DOMAIN-SUFFIX,legra.ph
+DOMAIN-SUFFIX,cdn-telegram.org
 DOMAIN-SUFFIX,graph.org
+DOMAIN-SUFFIX,legra.ph
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telega.one
 DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,telesco.pe
-DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegram.dog
+DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,telegram.space
-DOMAIN-SUFFIX,cdn-telegram.org
+DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,tg.dev
+DOMAIN-SUFFIX,tx.me
 IP-CIDR,91.105.192.0/23,no-resolve
 IP-CIDR,91.108.4.0/22,no-resolve
 IP-CIDR,91.108.8.0/21,no-resolve
@@ -179,54 +156,31 @@ DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikipedia.org
 
 # ---(Other)---
-DOMAIN,api.themoviedb.org
 DOMAIN,appraven.net
 DOMAIN,basicappleguy.com
 DOMAIN,boxjs.vercel.app
-DOMAIN,disney.api.edge.bamgrid.com
 DOMAIN,gallery.scriptable.app
-DOMAIN-SUFFIX,423down.com
-DOMAIN-SUFFIX,91porn.com // 91
 DOMAIN-SUFFIX,adguard.org
 DOMAIN-SUFFIX,amazonaws.com // Amazon
-DOMAIN-SUFFIX,arkm.com
-DOMAIN-SUFFIX,bing.com // Bing
 DOMAIN-SUFFIX,bloomberg.com // 彭博社
 DOMAIN-SUFFIX,bwh81.net // 搬瓦工
-DOMAIN-SUFFIX,chain.fm
 DOMAIN-SUFFIX,coingecko.com
-DOMAIN-SUFFIX,coinmarketcap.com
-DOMAIN-SUFFIX,debank.com
 DOMAIN-SUFFIX,dexscreener.com
-DOMAIN-SUFFIX,disneyplus.com // Disney
 DOMAIN-SUFFIX,dmit.io
 DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,duckduckgo.com
-DOMAIN-SUFFIX,foxnews.com
+DOMAIN-SUFFIX,foxnews.com // Fox
 DOMAIN-SUFFIX,giffgaff.com
 DOMAIN-SUFFIX,greasyfork.org
-DOMAIN-SUFFIX,ip-api.com
-DOMAIN-SUFFIX,javbus.com // javbus
 DOMAIN-SUFFIX,macrumors.com
 DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,nba.com
 DOMAIN-SUFFIX,netflix.com // Netflix
-DOMAIN-SUFFIX,nodeimage.com
-DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,nytimes.com // 纽约时报
 DOMAIN-SUFFIX,schwab.com // 嘉信理财
-DOMAIN-SUFFIX,sleazyfork.org
-DOMAIN-SUFFIX,speedtest.cn // 模块测落地
-DOMAIN-SUFFIX,tmdb.org
 DOMAIN-SUFFIX,tradingview.com
 DOMAIN-SUFFIX,trakt.tv
 DOMAIN-SUFFIX,v2ex.com
-DOMAIN-SUFFIX,walletconnect.com
-DOMAIN-SUFFIX,walletconnect.org
-DOMAIN-SUFFIX,wallhaven.cc
-DOMAIN-SUFFIX,wanqu.co // 湾区日报
-DOMAIN-SUFFIX,xsnvshen.com // 秀色女神
-DOMAIN-SUFFIX,xvideos.com
 DOMAIN-SUFFIX,yahoo.com // 雅虎
 DOMAIN-SUFFIX,yubico.com
 DOMAIN-KEYWORD,github

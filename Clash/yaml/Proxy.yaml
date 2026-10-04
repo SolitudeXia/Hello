@@ -168,6 +168,10 @@ payload:
   - DOMAIN-SUFFIX,x.com
   - DOMAIN-KEYWORD,twitter
   
+  # > V2ex
+  - DOMAIN-SUFFIX,v2ex.co
+  - DOMAIN-SUFFIX,v2ex.com
+  
   # > Wikimedia //维基
   - DOMAIN-SUFFIX,wikimedia.org
   - DOMAIN-SUFFIX,wikipedia.org
@@ -187,13 +191,13 @@ payload:
   - DOMAIN-SUFFIX,greasyfork.org
   - DOMAIN-SUFFIX,javbus.com
   - DOMAIN-SUFFIX,macrumors.com
+  - DOMAIN-SUFFIX,oyunfor.com
   - DOMAIN-SUFFIX,polymarket.com
   - DOMAIN-SUFFIX,royaleapi.com
   - DOMAIN-SUFFIX,seedhub.cc
   - DOMAIN-SUFFIX,sleazyfork.org
   - DOMAIN-SUFFIX,supercell.com
   - DOMAIN-SUFFIX,tradingview.com
-  - DOMAIN-SUFFIX,v2ex.com
   - DOMAIN-SUFFIX,wallhaven.cc
   - DOMAIN-SUFFIX,yahoo.com
   - DOMAIN-SUFFIX,yubico.com

@@ -2,9 +2,9 @@
 #!desc=自用
 #!system=ios
 
-#[General]
+[General]
 # > BoxJs
-#force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net
+force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net
 
 [Body Rewrite]
 # > 浙里办
@@ -18,9 +18,9 @@ http-response-jq ^https?:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectSt
 # > 得物
 ^https?:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement - reject
 
-#[Script]
+[Script]
 # > BoxJs
-#BoxJs = type=http-request,pattern=^https?:\/\/(.+\.)?boxjs\.(com|net),requires-body=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js,timeout=120,script-update-interval=0
+BoxJs = type=http-request,pattern=^https?:\/\/(.+\.)?boxjs\.(com|net),requires-body=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js,timeout=120,script-update-interval=0
 
-#[MITM]
-#hostname = %APPEND% portal.zjzwfw.gov.cn, boxjs.com, boxjs.net
+[MITM]
+hostname = %APPEND% portal.zjzwfw.gov.cn, boxjs.com, boxjs.net

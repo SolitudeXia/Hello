@@ -26,6 +26,10 @@ payload:
   - DOMAIN-SUFFIX,discordapp.net
   #
   - DOMAIN-SUFFIX,betterdiscord.app
+  
+  # > Docker
+  - DOMAIN-SUFFIX,docker.com
+  - DOMAIN-SUFFIX,dockerstatic.com
 
   # > Dropbox
   - DOMAIN-SUFFIX,dropbox.com
@@ -170,8 +174,10 @@ payload:
   - DOMAIN-SUFFIX,polymarket.com
   - DOMAIN-SUFFIX,royaleapi.com
   - DOMAIN-SUFFIX,seedhub.cc
+  - DOMAIN-SUFFIX,sehuatang.org
   - DOMAIN-SUFFIX,sleazyfork.org
   - DOMAIN-SUFFIX,supercell.com
+  - DOMAIN-SUFFIX,t66y.com
   - DOMAIN-SUFFIX,tradingview.com
   - DOMAIN-SUFFIX,wallhaven.cc
   - DOMAIN-SUFFIX,yahoo.com

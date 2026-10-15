@@ -6,4 +6,4 @@
 # > 顺丰速运
 顺丰速运 = type=cron,cronexp="0 0 12 * * ?",wake-system=1,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js,script-update-interval=0,timeout=30
 # > Boxjs 数据备份
-数据备份 = type=cron,cronexp="0 0 0 1 * ?",wake-system=1,script-path=https://raw.githubusercontent.com/dompling/Script/master/gist/backup.js,script-update-interval=0,timeout=60
+#数据备份 = type=cron,cronexp="0 0 0 1 * ?",wake-system=1,script-path=https://raw.githubusercontent.com/dompling/Script/master/gist/backup.js,script-update-interval=0,timeout=60
